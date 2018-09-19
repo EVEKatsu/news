@@ -745,7 +745,7 @@ table {
 table th,
 table td {
     position: relative;
-    padding: 0.5em;
+    padding: 0.5em 0.0em;
     line-height: 0.95em;
     text-align: left;
     border: 1px solid #e5e4e1

@@ -4,7 +4,7 @@
     <p class="nav-label">Menu</p>
     <ul>
       {% for title, ic, link in MENUITEMS %}
-          <li><a href="{{ link }}" role="presentation"><i class="ic {{ ic }}"></i> {{ title }}</a></li>
+          <li><a href="{{ link }}" role="presentation" target="_blank"><i class="ic {{ ic }}"></i> {{ title }}</a></li>
       {% endfor %}
 
       {% if DISPLAY_PAGES_ON_MENU %}
@@ -20,7 +20,7 @@
       {% endif %}
 
       {% for name,link in SOCIAL if name in ['rss', 'rss-square', 'feed'] %}
-        <li class="nav-rss"><a href="{{ link }}"><i class="ic ic-rss"></i> Feed</a></li>
+        <li class="nav-rss"><a href="{{ link }}" target="_blank"><i class="ic ic-rss"></i> Feed</a></li>
       {% endfor %}
     </ul>
   </div>
