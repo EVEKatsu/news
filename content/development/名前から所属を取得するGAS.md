@@ -72,7 +72,7 @@ Google Driveにアクセスします。
 
 ![名前から所属を取得するGAS-10]({filename}/images/名前から所属を取得するGAS-10.jpg)
 許可する権限を確認します。  
-このスクリプトで必要な権限は次の3です。
+このスクリプトで必要な権限は次の3つです。
 
 #### Google ドライブのスプレッドシートの表示と管理
 シートにデータの書き込みをします。
@@ -80,7 +80,9 @@ Google Driveにアクセスします。
 使用しているメソッド例：[Range.setValue](https://developers.google.com/apps-script/reference/spreadsheet/range#setValue(Object))
 
 #### 自分がいないときにこのアプリケーションを実行できるようにします
-Google Apps Scriptは5分以上のスクリプトを走らすことができません、その壁を超えるためにトリガー登録をして何回かに分けてバックグラウンドで実行します。
+Google Apps Scriptは5分以上のスクリプトを走らすことができません。
+
+その壁を超えるためにトリガー登録をして何回かに分けてバックグラウンドで実行します。
 
 これをすることで大量のデータを処理する時にブラウザやPCを終了しても大丈夫になります。
 
@@ -89,12 +91,12 @@ Google Apps Scriptは5分以上のスクリプトを走らすことができま�
 #### 外部サービスへの接続
 Eve WhoのAPIからコーポレーションやアライアンスの情報を取得するのに使います。
 
-使用しているメソッド霊：[JSON.parse](https://developers.google.com/apps-script/guides/services/external#work_with_json)
+使用しているメソッド例：[JSON.parse](https://developers.google.com/apps-script/guides/services/external#work_with_json)
 
 ### おわり
 以上でスクリプトが走り始めます。先程も言ったようにGoogle Apps Scriptは5分以上の処理ができないので、トリガーに登録をして小分けで処理を行います。
 
-実行をしてもすぐには始まらないかもしれませんが、1-2分ぐらい待ってたら動き始めます。ブラウザやPCを閉じてても勝手に実行するので問題ありません。
+実行してもすぐには始まらないかもしれませんが、1-2分ぐらい待ってたら動き始めます。ブラウザやPCを閉じてても勝手に実行するので問題ありません。
 
 ### アイデアを募集中
 いぶかつでは面白そうなアイデアを募集しています。

@@ -183,20 +183,21 @@ Google Driveにアクセスします。</p>
 『このアプリは確認されていません』と出るので『詳細』をクリックして『無題のプロジェクト（安全でないページ）に移動』をクリック。</p>
 <p><img alt="名前から所属を取得するGAS-10" src="https://evekatsu.github.io/news/images/名前から所属を取得するGAS-10.jpg">
 許可する権限を確認します。<br>
-このスクリプトで必要な権限は次の3です。</p>
+このスクリプトで必要な権限は次の3つです。</p>
 <h4>Google ドライブのスプレッドシートの表示と管理</h4>
 <p>シートにデータの書き込みをします。</p>
 <p>使用しているメソッド例：<a href="https://developers.google.com/apps-script/reference/spreadsheet/range#setValue(Object)">Range.setValue</a></p>
 <h4>自分がいないときにこのアプリケーションを実行できるようにします</h4>
-<p>Google Apps Scriptは5分以上のスクリプトを走らすことができません、その壁を超えるためにトリガー登録をして何回かに分けてバックグラウンドで実行します。</p>
+<p>Google Apps Scriptは5分以上のスクリプトを走らすことができません。</p>
+<p>その壁を超えるためにトリガー登録をして何回かに分けてバックグラウンドで実行します。</p>
 <p>これをすることで大量のデータを処理する時にブラウザやPCを終了しても大丈夫になります。</p>
 <p>使用しているメソッド例: <a href="https://developers.google.com/apps-script/reference/script/script-app#newtriggerfunctionname">ScriptApp.newTrigger</a></p>
 <h4>外部サービスへの接続</h4>
 <p>Eve WhoのAPIからコーポレーションやアライアンスの情報を取得するのに使います。</p>
-<p>使用しているメソッド霊：<a href="https://developers.google.com/apps-script/guides/services/external#work_with_json">JSON.parse</a></p>
+<p>使用しているメソッド例：<a href="https://developers.google.com/apps-script/guides/services/external#work_with_json">JSON.parse</a></p>
 <h3>おわり</h3>
 <p>以上でスクリプトが走り始めます。先程も言ったようにGoogle Apps Scriptは5分以上の処理ができないので、トリガーに登録をして小分けで処理を行います。</p>
-<p>実行をしてもすぐには始まらないかもしれませんが、1-2分ぐらい待ってたら動き始めます。ブラウザやPCを閉じてても勝手に実行するので問題ありません。</p>
+<p>実行してもすぐには始まらないかもしれませんが、1-2分ぐらい待ってたら動き始めます。ブラウザやPCを閉じてても勝手に実行するので問題ありません。</p>
 <h3>アイデアを募集中</h3>
 <p>いぶかつでは面白そうなアイデアを募集しています。</p>
 <p>ビジネスとしての取引は行いません。ですので以下の条件でもオッケーだよという方で何かCOOLなことを思いついた人はTwitter or Discordの方にお願います！</p>
