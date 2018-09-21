@@ -20,6 +20,7 @@
       <link href="feeds/all.atom.xml" type="application/atom+xml" rel="alternate" title="いぶかつ☆にゅーす Full Atom Feed" />
 
   <link href="https://evekatsu.github.io/news/theme/css/style.css" type="text/css" rel="stylesheet" />
+  <link href="https://evekatsu.github.io/news/theme/css/jquery.fancybox.min.css" type="text/css" rel="stylesheet" />
 
   <!-- Code highlight color scheme -->
       <link href="https://evekatsu.github.io/news/theme/css/code_blocks/github.css" rel="stylesheet">
@@ -93,7 +94,7 @@
         <div class="inner">
             <a href="https://evekatsu.github.io/news/author/administrator.html" rel="bookmark">
                 <h2 class="post-title">
-                    Administrator (1)
+                    Administrator (2)
                 </h2>
             </a>
         </div>
@@ -122,6 +123,24 @@
   </section>
 
   <script type="text/javascript" src="https://evekatsu.github.io/news/theme/js/script.js"></script>
-  
+
+
+  <script type="text/javascript" src="https://evekatsu.github.io/news/theme/js/jquery.fancybox.min.js"></script>
+  <script>
+    var images = document.getElementsByTagName("img");
+    for (var i = 0; i < images.length; i++) {
+        if (!images[i].parentNode || images[i].parentNode.tagName.toLowerCase() !== "p") {
+          continue;
+        }
+
+        if (!images[i].parentNode.parentNode || images[i].parentNode.parentNode.className.toLowerCase() !== "post-content") {
+          continue;
+        }
+
+        images[i].outerHTML = '<a href="' + images[i].src + '" data-fancybox="gallery"><img src="' + images[i].src + '" alt="' + images[i].alt + '" /></a>'
+    }
+
+    $('[data-fancybox]').fancybox();
+  </script>
 </body>
 </html>

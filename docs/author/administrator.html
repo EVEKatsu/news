@@ -20,6 +20,7 @@
       <link href="feeds/all.atom.xml" type="application/atom+xml" rel="alternate" title="いぶかつ☆にゅーす Full Atom Feed" />
 
   <link href="https://evekatsu.github.io/news/theme/css/style.css" type="text/css" rel="stylesheet" />
+  <link href="https://evekatsu.github.io/news/theme/css/jquery.fancybox.min.css" type="text/css" rel="stylesheet" />
 
   <!-- Code highlight color scheme -->
       <link href="https://evekatsu.github.io/news/theme/css/code_blocks/github.css" rel="stylesheet">
@@ -123,6 +124,24 @@
         <article class="post">
         <div class="inner">
             <header class="post-header">         
+                <h2 class="post-title"><a href="https://evekatsu.github.io/news/名前から所属を取得するGAS.html" rel="bookmark" title="Permalink to 名前から所属を取得するGAS">名前から所属を取得するGAS</a>
+                </h2>
+                <span class="post-meta">
+                        <a href="https://evekatsu.github.io/news/author/administrator.html">Administrator</a>
+                     | <time datetime="2018年09月21日">2018年09月21日</time>
+                </span>
+                <div class="clear"></div>
+            </header>
+                <section class="post-excerpt">
+                    <p>
+                        とあるネクロフィリア（死体愛好者）から「死体を管理するのにキャラクター名だけだと不便だからコーポレーション名やアライアンス名を取得できないか？」と頼まれたので作ってみました。 gas-find-affiliations.gs Googleスプレッドシートでキャラクター名のリストから、その所属をEve WhoのAPIから取得するGoogle Apps Scriptです。 完成図としては上記のような感じになります。次にこの形に持っていく手順を説明します。 リストの作り方...
+                    </p>
+                </section>
+            </div>
+        </article>
+        <article class="post">
+        <div class="inner">
+            <header class="post-header">         
                 <h2 class="post-title"><a href="https://evekatsu.github.io/news/ロードマップっぽいもの.html" rel="bookmark" title="Permalink to ロードマップっぽいもの">ロードマップっぽいもの</a>
                 </h2>
                 <span class="post-meta">
@@ -161,6 +180,24 @@
   </section>
 
   <script type="text/javascript" src="https://evekatsu.github.io/news/theme/js/script.js"></script>
-  
+
+
+  <script type="text/javascript" src="https://evekatsu.github.io/news/theme/js/jquery.fancybox.min.js"></script>
+  <script>
+    var images = document.getElementsByTagName("img");
+    for (var i = 0; i < images.length; i++) {
+        if (!images[i].parentNode || images[i].parentNode.tagName.toLowerCase() !== "p") {
+          continue;
+        }
+
+        if (!images[i].parentNode.parentNode || images[i].parentNode.parentNode.className.toLowerCase() !== "post-content") {
+          continue;
+        }
+
+        images[i].outerHTML = '<a href="' + images[i].src + '" data-fancybox="gallery"><img src="' + images[i].src + '" alt="' + images[i].alt + '" /></a>'
+    }
+
+    $('[data-fancybox]').fancybox();
+  </script>
 </body>
 </html>

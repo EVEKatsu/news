@@ -54,6 +54,7 @@
   {% endfor %}
 
   <link href="{{ SITEURL }}/{{ THEME_STATIC_DIR }}/css/style.css" type="text/css" rel="stylesheet" />
+  <link href="{{ SITEURL }}/{{ THEME_STATIC_DIR }}/css/jquery.fancybox.min.css" type="text/css" rel="stylesheet" />
 
   <!-- Code highlight color scheme -->
   {% if COLOR_SCHEME_CSS %}
@@ -143,7 +144,7 @@
   </section>
 
   <script type="text/javascript" src="{{ SITEURL }}/{{ THEME_STATIC_DIR }}/js/script.js"></script>
-  
+
   {% if JS_OVERRIDE %}
     <!-- Script specified by the user -->
     {% for js in JS_OVERRIDE %}
@@ -152,5 +153,23 @@
   {% endif %}
   {% include 'partials/analytics.js' %}
   {% include 'partials/disqus.js' %}
+
+  <script type="text/javascript" src="{{ SITEURL }}/{{ THEME_STATIC_DIR }}/js/jquery.fancybox.min.js"></script>
+  <script>
+    var images = document.getElementsByTagName("img");
+    for (var i = 0; i < images.length; i++) {
+        if (!images[i].parentNode || images[i].parentNode.tagName.toLowerCase() !== "p") {
+          continue;
+        }
+
+        if (!images[i].parentNode.parentNode || images[i].parentNode.parentNode.className.toLowerCase() !== "post-content") {
+          continue;
+        }
+
+        images[i].outerHTML = '<a href="' + images[i].src + '" data-fancybox="gallery"><img src="' + images[i].src + '" alt="' + images[i].alt + '" /></a>'
+    }
+
+    $('[data-fancybox]').fancybox();
+  </script>
 </body>
 </html>
