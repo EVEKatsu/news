@@ -18,7 +18,7 @@ Googleスプレッドシートでキャラクター名のリストから、そ�
 
 ### リストの作り方
 ![名前から所属を取得するGAS-2]({filename}/images/名前から所属を取得するGAS-2.jpg)
-私が知ってる限りではゲーム内からキャラクターのリストを作る方法2つあります。
+私が知ってる限りではゲーム内からキャラクター名のリストを作る方法は2つあります。
 
 1つ目は、チャットのメンバー一覧のところにマウスのフォーカスを合わせてCtrl+A → Ctrl+Cでキャラクター名の一覧がコピーができます。
 
@@ -36,7 +36,7 @@ Googleスプレッドシートでキャラクター名のリストから、そ�
 
 そしてアイテムの表示をListに変更し、Name以外を全てHide（非表示）にします。
 
-その状態でCtrl+A → Ctrl+Cでキャラクター名の一覧がコピーできます。そして同じようにスプレッドシートに貼り付けます。
+その状態でCtrl+A → Ctrl+Cでキャラクター名の一覧がコピーできます。そして同じようにCtrl-Vでスプレッドシートに貼り付けます。
 
 
 ### スクリプトの実行
@@ -50,9 +50,9 @@ Google Driveにアクセスします。
 ①ツール → ②スクリプトエディタ
 
 ![名前から所属を取得するGAS-7]({filename}/images/名前から所属を取得するGAS-7.jpg)
-[このリンクのスクリプトをCtrl+A → Ctrl+C](https://gist.githubusercontent.com/EVEKatsu/9242e577e17a2eac6a7a0f29557887ae/raw/c7bdbc01c942543f64d9b0adc58161cdc5da50ab/gas-find-affiliations.gs)  
+[GistからスクリプトをCtrl+A → Ctrl+C](https://gist.githubusercontent.com/EVEKatsu/9242e577e17a2eac6a7a0f29557887ae/raw/c7bdbc01c942543f64d9b0adc58161cdc5da50ab/gas-find-affiliations.gs)  
 
-『コード.gs』のエディタ画面にCtrl+V（貼り付け）をして①ファイル → ②全てを保存します。
+『コード.gs』のエディタ画面にCtrl+V（貼り付け）をして①ファイル → ②全てを保存。
 
 『プロジェクト名の編集』頭囲画面が出るので『OK』をクリック。スクリプトエディタを閉じます。
 

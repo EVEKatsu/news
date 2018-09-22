@@ -148,7 +148,7 @@
 完成図としては上記のような感じになります。次にこの形に持っていく手順を説明します。</p>
 <h3>リストの作り方</h3>
 <p><img alt="名前から所属を取得するGAS-2" src="https://evekatsu.github.io/news/images/名前から所属を取得するGAS-2.jpg">
-私が知ってる限りではゲーム内からキャラクターのリストを作る方法2つあります。</p>
+私が知ってる限りではゲーム内からキャラクター名のリストを作る方法は2つあります。</p>
 <p>1つ目は、チャットのメンバー一覧のところにマウスのフォーカスを合わせてCtrl+A → Ctrl+Cでキャラクター名の一覧がコピーができます。</p>
 <p><img alt="名前から所属を取得するGAS-3" src="https://evekatsu.github.io/news/images/名前から所属を取得するGAS-3.jpg">
 次にスプレットシートを開いてCtrl-Vで貼り付けが出来ます。</p>
@@ -158,7 +158,7 @@
 <p>とりあえず、今回は仕方ないので適当なモジュールを例にします。</p>
 <p>死体はアイテムなので、そのリストを作りたい場合はまず死体のみをStation Container等にいれます。</p>
 <p>そしてアイテムの表示をListに変更し、Name以外を全てHide（非表示）にします。</p>
-<p>その状態でCtrl+A → Ctrl+Cでキャラクター名の一覧がコピーできます。そして同じようにスプレッドシートに貼り付けます。</p>
+<p>その状態でCtrl+A → Ctrl+Cでキャラクター名の一覧がコピーできます。そして同じようにCtrl-Vでスプレッドシートに貼り付けます。</p>
 <h3>スクリプトの実行</h3>
 <p><a href="https://drive.google.com/drive/my-drive">https://drive.google.com/drive/my-drive</a><br>
 Google Driveにアクセスします。</p>
@@ -167,8 +167,8 @@ Google Driveにアクセスします。</p>
 <p><img alt="名前から所属を取得するGAS-6" src="https://evekatsu.github.io/news/images/名前から所属を取得するGAS-6.jpg">
 ①ツール → ②スクリプトエディタ</p>
 <p><img alt="名前から所属を取得するGAS-7" src="https://evekatsu.github.io/news/images/名前から所属を取得するGAS-7.jpg">
-<a href="https://gist.githubusercontent.com/EVEKatsu/9242e577e17a2eac6a7a0f29557887ae/raw/c7bdbc01c942543f64d9b0adc58161cdc5da50ab/gas-find-affiliations.gs">このリンクのスクリプトをCtrl+A → Ctrl+C</a>  </p>
-<p>『コード.gs』のエディタ画面にCtrl+V（貼り付け）をして①ファイル → ②全てを保存します。</p>
+<a href="https://gist.githubusercontent.com/EVEKatsu/9242e577e17a2eac6a7a0f29557887ae/raw/c7bdbc01c942543f64d9b0adc58161cdc5da50ab/gas-find-affiliations.gs">GistからスクリプトをCtrl+A → Ctrl+C</a>  </p>
+<p>『コード.gs』のエディタ画面にCtrl+V（貼り付け）をして①ファイル → ②全てを保存。</p>
 <p>『プロジェクト名の編集』頭囲画面が出るので『OK』をクリック。スクリプトエディタを閉じます。</p>
 <p><img alt="名前から所属を取得するGAS-8" src="https://evekatsu.github.io/news/images/名前から所属を取得するGAS-8.jpg">
 ①ブラウザの『再読み込み』をクリック。<br>
