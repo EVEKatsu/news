@@ -107,11 +107,3 @@ Eve WhoのAPIからコーポレーションやアライアンスの情報を取�
 1. 金銭のやり取りはしない（寄付は大歓迎です☆）
 1. 実際に作るかどうかは気分次第
 1. 締切などの期日は設けない
-
-
-### 技術的なお問い合わせや質問など
-Discord: [EVE Japanese IT](https://t.co/lTtTmpOgy8)  
-Twitter: [@evekatsu](https://twitter.com/evekatsu)  
-
-こちらのほうにお願いします。  
-Twitterの方はフォロー外にDMを解放しています。

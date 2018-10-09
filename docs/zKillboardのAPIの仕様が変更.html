@@ -7,7 +7,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
 
 
-  <title>ロードマップっぽいもの</title>
+  <title>zKillboardのAPIの仕様が変更</title>
 
 
   <meta name="HandheldFriendly" content="True" />
@@ -38,13 +38,14 @@
   <![endif]-->
 
 
-    <link href="https://evekatsu.github.io/news/ロードマップっぽいもの.html" rel="canonical" />
+    <link href="https://evekatsu.github.io/news/zKillboardのAPIの仕様が変更.html" rel="canonical" />
 
-        <meta name="description" content="記事の自動生成や広告の掲載など、色々とHackしやすくするためにTumblrの方から移転しました。 これだけだと1文で記事が終わってしまうので、今後のいぶかつ☆ぷろじぇくのロードマップっぽいのを雑に書いていきます。 広告システムの構築...">
+        <meta name="description" content="zKillboardのAPIの仕様が変更されたらしいです。 コミットログとしてはおそらくここです。 "implemented zkb only data for api, and upped limit to 1000 per call"...">
 
         <meta name="author" content="Administrator">
 
-        <meta name="tags" content="Colum">
+        <meta name="tags" content="Development">
+        <meta name="tags" content="zKillboard">
 
         <meta property="og:locale" content="" />
     <meta property="og:site_name" content="いぶかつ☆にゅーす" />
@@ -56,20 +57,20 @@
 
   <meta property="og:type" content="article">
             <meta property="article:author" content="https://evekatsu.github.io/news/author/administrator.html">
-  <meta property="og:url" content="https://evekatsu.github.io/news/ロードマップっぽいもの.html">
-  <meta property="og:title" content="ロードマップっぽいもの">
-  <meta property="article:published_time" content="2018-09-12 00:00:00+09:00">
-            <meta property="og:description" content="記事の自動生成や広告の掲載など、色々とHackしやすくするためにTumblrの方から移転しました。 これだけだと1文で記事が終わってしまうので、今後のいぶかつ☆ぷろじぇくのロードマップっぽいのを雑に書いていきます。 広告システムの構築...">
+  <meta property="og:url" content="https://evekatsu.github.io/news/zKillboardのAPIの仕様が変更.html">
+  <meta property="og:title" content="zKillboardのAPIの仕様が変更">
+  <meta property="article:published_time" content="2018-10-09 00:00:00+09:00">
+            <meta property="og:description" content="zKillboardのAPIの仕様が変更されたらしいです。 コミットログとしてはおそらくここです。 "implemented zkb only data for api, and upped limit to 1000 per call"...">
 
             <meta property="og:image" content="https://evekatsu.github.io/news/theme/images/post-bg.jpg">
         <meta name="twitter:card" content="summary_large_image">
         <meta name="twitter:site" content="@evekatsu">
-        <meta name="twitter:title" content="ロードマップっぽいもの">
-        <meta name="twitter:url" content="https://evekatsu.github.io/news/ロードマップっぽいもの.html">
+        <meta name="twitter:title" content="zKillboardのAPIの仕様が変更">
+        <meta name="twitter:url" content="https://evekatsu.github.io/news/zKillboardのAPIの仕様が変更.html">
 
             <meta name="twitter:image:src" content="https://evekatsu.github.io/news/theme/images/post-bg.jpg">
 
-            <meta name="twitter:description" content="記事の自動生成や広告の掲載など、色々とHackしやすくするためにTumblrの方から移転しました。 これだけだと1文で記事が終わってしまうので、今後のいぶかつ☆ぷろじぇくのロードマップっぽいのを雑に書いていきます。 広告システムの構築...">
+            <meta name="twitter:description" content="zKillboardのAPIの仕様が変更されたらしいです。 コミットログとしてはおそらくここです。 "implemented zkb only data for api, and upped limit to 1000 per call"...">
 
   <link rel="shortcut icon" href="https://evekatsu.github.io/news/favicon.jpg" type="image/jpg" />
 </head>
@@ -107,11 +108,11 @@
             <a class="menu-button"><i class="ic ic-menu"></i> Menu</a>
           </span>
         </nav>
-        <h1 class="post-title">ロードマップっぽいもの</h1>
+        <h1 class="post-title">zKillboardのAPIの仕様が変更</h1>
         <!-- TODO : Proper class for headline -->
         <span class="post-meta">
                 <a href="https://evekatsu.github.io/news/author/administrator.html">Administrator</a>
-            | <time datetime="2018年09月12日">2018年09月12日</time>
+            | <time datetime="2018年10月09日">2018年10月09日</time>
         </span>
         <!-- TODO : Modified check -->
         
@@ -139,26 +140,19 @@
         <article class="post">
         <div class="inner">
             <section class="post-content">
-                <p>記事の自動生成や広告の掲載など、色々とHackしやすくするために<a href="https://evekatsu-news.tumblr.com/">Tumblr</a>の方から移転しました。</p>
-<p>これだけだと1文で記事が終わってしまうので、今後のいぶかつ☆ぷろじぇくのロードマップっぽいのを雑に書いていきます。</p>
-<h3>広告システムの構築</h3>
-<p>コミュニティの活性化のため、活動資金を確保したいと計画しています。今後、様々なサービスを展開していき、そこに広告を掲載していきます。</p>
-<p>仕組みとしては広告を掲載する前の月にゲーム内でオークションの契約を出し、それを落札した方の広告を掲載する形です。</p>
-<p>今のところはサンプルとして仮に作ったバナーやオススメのPvP動画をランダムに表示していますが、ここを落札者と打ち合わせし、自由な広告スペースとして使えるようにします。</p>
-<h3>PvPランキング上位者に賞金</h3>
-<p>PvPの活性化のために毎月集計しているランキングの上位者には賞金を出したいと思っております。</p>
-<p>PvPには色々な評価軸があると思います。そこで毎月ランキングを集計する時期に<strong>『今月はどのランキングに賞金を出すか』</strong>みたいなアンケートをTwitterでするのも面白いかも。</p>
-<p>賞金額についてはお財布と相談という形なので決まったらお知らせします。</p>
-<p>確定ではありませんが、1位300M, 2位150M, 3位50Mで合計500Mぐらいかなと思っています。</p>
-<p>その月のお財布がきつそうだったら急に下がったり、広告が高額で落札されたりすると急に上がったりするかもです笑笑</p>
-<h3>Community Chest（共同募金）の設立</h3>
-<p>広く寄付を募集する場所を用意し、コミュニティの貢献に繋がる活動をしている個人・団体を援助する仕組みを作ります。</p>
-<p>募金の透明性を確保するためAPIを使用しWalletの情報を取得して、誰もが現在の募金の状況を確認できるようにします。</p>
-<p>この共同募金の援助する対象は<strong>『特定のAlliances or Corporationsのためではなくコミュニティ全体の利益になる活動』</strong>です。</p>
-<h3>世界に羽ばたくサービスへ</h3>
-<p>日本コミュニティで培ったノウハウを活かし、最初はImpeirumコミュニティ向けにブラッシュアップしてサービスの提供を行う。</p>
-<p>そして、いずれ世界中のプレイヤーが利用するようなサービスにしていく。</p>
-<h1>こんな感じを予定しています。今後もよろしくお願いします。</h1>
+                <p>zKillboardのAPIの仕様が変更されたらしいです。
+コミットログとしてはおそらく<a href="https://github.com/zKillboard/zKillboard/commit/169720443705889271b7d2f3b7615fd8ca664e2d#diff-0ad34309a6116364bfa9a5dc98135334">ここ</a>です。<br>
+"implemented zkb only data for api, and upped limit to 1000 per call"</p>
+<p><img alt="zKillboardのAPIの仕様が変更-1" src="https://evekatsu.github.io/news/images/zKillboardのAPIの仕様が変更-1.jpg">
+<a href="https://github.com/zKillboard/zKillboard/wiki/API-(Killmails)">ドキュメントの方</a>にも既に追記されてます。</p>
+<p>/zkbOnly/ (This is now applied to all requests as for 2018-10-02)<br>
+「2018年10月2日からはzKillboardのAPIは自分達の方で算出したデータしか出力しません。」</p>
+<h3>これからはどうするの？</h3>
+<p>どうやら結構前からキルメールの詳細は<a href="https://esi.evetech.net/latest/#!/Killmails/get_killmails_killmail_id_killmail_hash">ESIからでも取れてた</a>らしいので、これを使います。</p>
+<p>まずは、いつものようにzKillboardの方から取得したい<a href="https://zkillboard.com/api/characterID/96224663/">キルメール一覧のJSON</a>を取得します。</p>
+<p>以前はここにもキルメールの詳細もあったんですが、今はありません（zKillboardが独自に算出しているPointsやAwox, Solo
+の判定はzkbの項目にあります）</p>
+<p>次にkillmail_idとhashの値を使って、ESIから<a href="https://esi.evetech.net/latest/killmails/72564671/4a4f18302c78d090082754003d7c5a0d486459e1/">キルメールの詳細</a>を取得する感じっぽいです。</p>
                 <hr>
                 <h3>お問い合わせや質問など</h3>
                 <p>
@@ -173,20 +167,20 @@
 
             <section class="post-info">
                 <div class="post-share">
-                    <a class="twitter" href="https://twitter.com/share?text=ロードマップっぽいもの&amp;url=https://evekatsu.github.io/news/ロードマップっぽいもの.html" onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;">
+                    <a class="twitter" href="https://twitter.com/share?text=zKillboardのAPIの仕様が変更&amp;url=https://evekatsu.github.io/news/zKillboardのAPIの仕様が変更.html" onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;">
                     <i class="ic ic-twitter"></i><span class="hidden">Twitter</span>
                     </a>
-                    <a class="facebook" href="https://www.facebook.com/sharer/sharer.php?u=https://evekatsu.github.io/news/ロードマップっぽいもの.html" onclick="window.open(this.href, 'facebook-share','width=580,height=296');return false;">
+                    <a class="facebook" href="https://www.facebook.com/sharer/sharer.php?u=https://evekatsu.github.io/news/zKillboardのAPIの仕様が変更.html" onclick="window.open(this.href, 'facebook-share','width=580,height=296');return false;">
                     <i class="ic ic-facebook"></i><span class="hidden">Facebook</span>
                     </a>
-                    <a class="googleplus" href="https://plus.google.com/share?url=https://evekatsu.github.io/news/ロードマップっぽいもの.html" onclick="window.open(this.href, 'google-plus-share', 'width=490,height=530');return false;">
+                    <a class="googleplus" href="https://plus.google.com/share?url=https://evekatsu.github.io/news/zKillboardのAPIの仕様が変更.html" onclick="window.open(this.href, 'google-plus-share', 'width=490,height=530');return false;">
                     <i class="ic ic-googleplus"></i><span class="hidden">Google+</span>
                     </a>
                     <div class="clear"></div>
                 </div>
 
                 <aside class="post-tags">
-<a href="https://evekatsu.github.io/news/tag/colum.html">Colum</a>                </aside>
+<a href="https://evekatsu.github.io/news/tag/development.html">Development</a><a href="https://evekatsu.github.io/news/tag/zkillboard.html">zKillboard</a>                </aside>
 
                 <div class="clear"></div>
 

@@ -370,6 +370,16 @@
 <br />
 毎月10日にその前の月のキルメールを集計します。<br>
 来月もよろしくお願いします。</p>
+                <hr>
+                <h3>お問い合わせや質問など</h3>
+                <p>
+                    Discord: <a href="https://t.co/lTtTmpOgy8">EVE Japanese IT</a><br>
+                    Twitter: <a href="https://twitter.com/evekatsu">@evekatsu</a>
+                </p><p>
+                    IT系に興味がある人はぜひDiscordの方に遊びにきてみてください。<br>
+                    また、面白いアイデアも随時募集しています！<br>
+                    Twitterの方はフォロー外にDMを解放しています。
+                </p>
             </section>
 
             <section class="post-info">
@@ -435,6 +445,13 @@
     }
 
     $('[data-fancybox]').fancybox();
-  </script>
+
+    var links = document.links;
+    for (var i = 0; i < links.length; i++) {
+      if (links[i].hostname != window.location.hostname) {
+        links[i].target = '_blank';
+      }
+    }
+</script>
 </body>
 </html>

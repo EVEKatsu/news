@@ -97,7 +97,7 @@
     </article>
     <article class="post">
       <div class="inner">
-        <a href="https://evekatsu.github.io/news/tag/development.html">Development</a> (1)
+        <a href="https://evekatsu.github.io/news/tag/development.html">Development</a> (2)
       </div>
     </article>
     <article class="post">
@@ -108,6 +108,11 @@
     <article class="post">
       <div class="inner">
         <a href="https://evekatsu.github.io/news/tag/ranking.html">Ranking</a> (1)
+      </div>
+    </article>
+    <article class="post">
+      <div class="inner">
+        <a href="https://evekatsu.github.io/news/tag/zkillboard.html">zKillboard</a> (1)
       </div>
     </article>
       <!-- TODO : Body class -->
@@ -142,6 +147,13 @@
     }
 
     $('[data-fancybox]').fancybox();
-  </script>
+
+    var links = document.links;
+    for (var i = 0; i < links.length; i++) {
+      if (links[i].hostname != window.location.hostname) {
+        links[i].target = '_blank';
+      }
+    }
+</script>
 </body>
 </html>

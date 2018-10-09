@@ -207,11 +207,16 @@ Google Driveにアクセスします。</p>
 <li>実際に作るかどうかは気分次第</li>
 <li>締切などの期日は設けない</li>
 </ol>
-<h3>技術的なお問い合わせや質問など</h3>
-<p>Discord: <a href="https://t.co/lTtTmpOgy8">EVE Japanese IT</a><br>
-Twitter: <a href="https://twitter.com/evekatsu">@evekatsu</a>  </p>
-<p>こちらのほうにお願いします。<br>
-Twitterの方はフォロー外にDMを解放しています。</p>
+                <hr>
+                <h3>お問い合わせや質問など</h3>
+                <p>
+                    Discord: <a href="https://t.co/lTtTmpOgy8">EVE Japanese IT</a><br>
+                    Twitter: <a href="https://twitter.com/evekatsu">@evekatsu</a>
+                </p><p>
+                    IT系に興味がある人はぜひDiscordの方に遊びにきてみてください。<br>
+                    また、面白いアイデアも随時募集しています！<br>
+                    Twitterの方はフォロー外にDMを解放しています。
+                </p>
             </section>
 
             <section class="post-info">
@@ -277,6 +282,13 @@ Twitterの方はフォロー外にDMを解放しています。</p>
     }
 
     $('[data-fancybox]').fancybox();
-  </script>
+
+    var links = document.links;
+    for (var i = 0; i < links.length; i++) {
+      if (links[i].hostname != window.location.hostname) {
+        links[i].target = '_blank';
+      }
+    }
+</script>
 </body>
 </html>

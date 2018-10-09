@@ -94,7 +94,7 @@
         <div class="inner">
             <a href="https://evekatsu.github.io/news/author/administrator.html" rel="bookmark">
                 <h2 class="post-title">
-                    Administrator (2)
+                    Administrator (3)
                 </h2>
             </a>
         </div>
@@ -141,6 +141,13 @@
     }
 
     $('[data-fancybox]').fancybox();
-  </script>
+
+    var links = document.links;
+    for (var i = 0; i < links.length; i++) {
+      if (links[i].hostname != window.location.hostname) {
+        links[i].target = '_blank';
+      }
+    }
+</script>
 </body>
 </html>
