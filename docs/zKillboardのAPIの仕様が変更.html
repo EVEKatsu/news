@@ -146,13 +146,12 @@
 <p><img alt="zKillboardのAPIの仕様が変更" src="https://evekatsu.github.io/news/images/20181009.jpg">
 <a href="https://github.com/zKillboard/zKillboard/wiki/API-(Killmails)">ドキュメントの方</a>にも既に追記されてます。</p>
 <p>/zkbOnly/ (This is now applied to all requests as for 2018-10-02)<br>
-「2018年10月2日からはzKillboardのAPIは自分達の方で算出したデータしか出力しません。」</p>
+「2018年10月2日からはzKillboardのAPIは自分達の方で算出したデータしか出力しません」</p>
 <h3>これからはどうするの？</h3>
 <p>どうやら結構前からキルメールの詳細は<a href="https://esi.evetech.net/latest/#!/Killmails/get_killmails_killmail_id_killmail_hash">ESIからでも取れてた</a>らしいので、これを使います。</p>
 <p>まずは、いつものようにzKillboardの方から取得したい<a href="https://zkillboard.com/api/characterID/96224663/">キルメール一覧のJSON</a>を取得します。</p>
-<p>以前はここにもキルメールの詳細もあったんですが、今はありません（zKillboardが独自に算出しているPointsやAwox, Solo
-の判定はzkbの項目にあります）</p>
-<p>次にkillmail_idとhashの値を使って、ESIから<a href="https://esi.evetech.net/latest/killmails/72564671/4a4f18302c78d090082754003d7c5a0d486459e1/">キルメールの詳細</a>を取得する感じっぽいです。</p>
+<p>以前はここにもキルメールの詳細もあったんですが、今はありません（zKillboardが独自に算出しているPointsやAwox, Soloの判定はzkbの項目にあります）</p>
+<p>最後にkillmail_idとhashの値を使って、ESIから<a href="https://esi.evetech.net/latest/killmails/72564671/4a4f18302c78d090082754003d7c5a0d486459e1/">キルメールの詳細</a>を取得する感じっぽいです。</p>
                 <hr>
                 <h3>お問い合わせや質問など</h3>
                 <p>

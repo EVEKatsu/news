@@ -11,7 +11,7 @@ zKillboardのAPIの仕様が変更されたらしいです。
 [ドキュメントの方](https://github.com/zKillboard/zKillboard/wiki/API-(Killmails))にも既に追記されてます。
 
 /zkbOnly/ (This is now applied to all requests as for 2018-10-02)  
-「2018年10月2日からはzKillboardのAPIは自分達の方で算出したデータしか出力しません。」
+「2018年10月2日からはzKillboardのAPIは自分達の方で算出したデータしか出力しません」
 
 
 ### これからはどうするの？
@@ -19,8 +19,7 @@ zKillboardのAPIの仕様が変更されたらしいです。
 
 まずは、いつものようにzKillboardの方から取得したい[キルメール一覧のJSON](https://zkillboard.com/api/characterID/96224663/)を取得します。
 
-以前はここにもキルメールの詳細もあったんですが、今はありません（zKillboardが独自に算出しているPointsやAwox, Solo
-の判定はzkbの項目にあります）
+以前はここにもキルメールの詳細もあったんですが、今はありません（zKillboardが独自に算出しているPointsやAwox, Soloの判定はzkbの項目にあります）
 
-次にkillmail_idとhashの値を使って、ESIから[キルメールの詳細](https://esi.evetech.net/latest/killmails/72564671/4a4f18302c78d090082754003d7c5a0d486459e1/)を取得する感じっぽいです。
+最後にkillmail_idとhashの値を使って、ESIから[キルメールの詳細](https://esi.evetech.net/latest/killmails/72564671/4a4f18302c78d090082754003d7c5a0d486459e1/)を取得する感じっぽいです。
 
