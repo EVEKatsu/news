@@ -7,7 +7,7 @@ zKillboardのAPIの仕様が変更されたらしいです。
 コミットログとしてはおそらく[ここ](https://github.com/zKillboard/zKillboard/commit/169720443705889271b7d2f3b7615fd8ca664e2d#diff-0ad34309a6116364bfa9a5dc98135334)です。  
 "implemented zkb only data for api, and upped limit to 1000 per call"
 
-![zKillboardのAPIの仕様が変更-1]({filename}/images/zKillboardのAPIの仕様が変更-1.jpg)
+![zKillboardのAPIの仕様が変更]({filename}/images/20181009.jpg)
 [ドキュメントの方](https://github.com/zKillboard/zKillboard/wiki/API-(Killmails))にも既に追記されてます。
 
 /zkbOnly/ (This is now applied to all requests as for 2018-10-02)  

@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom"><title>いぶかつ☆にゅーす</title><link href="https://evekatsu.github.io/news/" rel="alternate"></link><link href="https://evekatsu.github.io/news/feeds/all.atom.xml" rel="self"></link><id>https://evekatsu.github.io/news/</id><updated>2018-10-09T00:00:00+09:00</updated><entry><title>zKillboardのAPIの仕様が変更</title><link href="https://evekatsu.github.io/news/zKillboard%E3%81%AEAPI%E3%81%AE%E4%BB%95%E6%A7%98%E3%81%8C%E5%A4%89%E6%9B%B4.html" rel="alternate"></link><published>2018-10-09T00:00:00+09:00</published><updated>2018-10-09T00:00:00+09:00</updated><author><name>Administrator</name></author><id>tag:evekatsu.github.io,2018-10-09:/news/zKillboardのAPIの仕様が変更.html</id><summary type="html">&lt;p&gt;zKillboardのAPIの仕様が変更されたらしいです。
 コミットログとしてはおそらく&lt;a href="https://github.com/zKillboard/zKillboard/commit/169720443705889271b7d2f3b7615fd8ca664e2d#diff-0ad34309a6116364bfa9a5dc98135334"&gt;ここ&lt;/a&gt;です。&lt;br&gt;
 "implemented zkb only data for api, and upped limit to 1000 per call"&lt;/p&gt;
-&lt;p&gt;&lt;img alt="zKillboardのAPIの仕様が変更-1" src="https://evekatsu.github.io/news/images/zKillboardのAPIの仕様が変更-1.jpg"&gt;
+&lt;p&gt;&lt;img alt="zKillboardのAPIの仕様が変更" src="https://evekatsu.github.io/news/images/20181009.jpg"&gt;
 &lt;a href="https://github.com/zKillboard/zKillboard/wiki/API-(Killmails)"&gt;ドキュメントの方&lt;/a&gt;にも既に追記されてます。&lt;/p&gt;
 &lt;p&gt;/zkbOnly/ (This is now applied to all requests as for 2018-10-02)&lt;br&gt;
 「2018年10月2日からはzKillboardのAPIは自分達の方で算出したデータしか出力しません。」&lt;/p&gt;
@@ -14,7 +14,7 @@
 &lt;p&gt;次にkillmail_idとhashの値を使って、ESIから&lt;a href="https://esi.evetech.net/latest/killmails/72564671/4a4f18302c78d090082754003d7c5a0d486459e1/"&gt;キルメールの詳細&lt;/a&gt;を取得する感じっぽいです。&lt;/p&gt;</summary><content type="html">&lt;p&gt;zKillboardのAPIの仕様が変更されたらしいです。
 コミットログとしてはおそらく&lt;a href="https://github.com/zKillboard/zKillboard/commit/169720443705889271b7d2f3b7615fd8ca664e2d#diff-0ad34309a6116364bfa9a5dc98135334"&gt;ここ&lt;/a&gt;です。&lt;br&gt;
 "implemented zkb only data for api, and upped limit to 1000 per call"&lt;/p&gt;
-&lt;p&gt;&lt;img alt="zKillboardのAPIの仕様が変更-1" src="https://evekatsu.github.io/news/images/zKillboardのAPIの仕様が変更-1.jpg"&gt;
+&lt;p&gt;&lt;img alt="zKillboardのAPIの仕様が変更" src="https://evekatsu.github.io/news/images/20181009.jpg"&gt;
 &lt;a href="https://github.com/zKillboard/zKillboard/wiki/API-(Killmails)"&gt;ドキュメントの方&lt;/a&gt;にも既に追記されてます。&lt;/p&gt;
 &lt;p&gt;/zkbOnly/ (This is now applied to all requests as for 2018-10-02)&lt;br&gt;
 「2018年10月2日からはzKillboardのAPIは自分達の方で算出したデータしか出力しません。」&lt;/p&gt;
