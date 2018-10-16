@@ -18,7 +18,7 @@ Tags: Ranking
 Author: Bot
 
 今月もお疲れ様でした。  
-[{year}年{month}月の日本人PvPランキングの発表です。](https://evekatsu.github.io/ranking/?date={year}-{month})
+<a href="https://evekatsu.github.io/ranking/?date={year}-{month}" target="_blank">{year}年{month}月の日本人PvPランキングの発表です。</a>
 
 注意事項：これは{date_jp}に集計したものです。それ以降に投稿されたキルメールは集計対象外です。
 
@@ -126,11 +126,11 @@ def main():
     format_dict['date_jp'] = datetime.date.today().strftime('%Y年%m月%d日')
 
     for filter_index, filter_key in enumerate(ranking):
-        ranking_url = base_url + RANKING[filter_key]['query']
-        text = '| | [プレイヤー](%s) | [コーポレーション](%s) | [アライアンス](%s) |\n| ---- | ---- | ---- | ---- |\n' % (
-            ranking_url,
-            ranking_url + '&p=1',
-            ranking_url + '&p=2',
+        ranking_url = '<a href="%s{}" target="_blank">{}</a>' % (base_url + RANKING[filter_key]['query'])
+        text = '| | %s | %s | %s |\n| ---- | ---- | ---- | ---- |\n' % (
+            ranking_url.format('', 'プレイヤー'),
+            ranking_url.format('&p=1', 'コーポレーション'),
+            ranking_url.format('&p=2', 'アライアンス'),
         )
 
         for i in range(5):

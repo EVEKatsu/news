@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom"><title>いぶかつ☆にゅーす - ranking</title><link href="https://evekatsu.github.io/news/" rel="alternate"></link><link href="https://evekatsu.github.io/news/feeds/ranking.atom.xml" rel="self"></link><id>https://evekatsu.github.io/news/</id><updated>2018-10-17T00:00:00+09:00</updated><entry><title>2018年9月のランキング発表</title><link href="https://evekatsu.github.io/news/ranking-2018-9.html" rel="alternate"></link><published>2018-10-17T00:00:00+09:00</published><updated>2018-10-17T00:00:00+09:00</updated><author><name>Bot</name></author><id>tag:evekatsu.github.io,2018-10-17:/news/ranking-2018-9.html</id><summary type="html">&lt;p&gt;今月もお疲れ様でした。&lt;br&gt;
-&lt;a href="https://evekatsu.github.io/ranking/?date=2018-9"&gt;2018年9月の日本人PvPランキングの発表です。&lt;/a&gt;&lt;/p&gt;
+&lt;a href="https://evekatsu.github.io/ranking/?date=2018-9" target="_blank"&gt;2018年9月の日本人PvPランキングの発表です。&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;注意事項：これは2018年10月17日に集計したものです。それ以降に投稿されたキルメールは集計対象外です。&lt;/p&gt;
 &lt;h3&gt;トータル&lt;/h3&gt;
 &lt;p&gt;対象：所属するコーポレーション、アライアンスを攻撃したキルメールを除く全て（キル順）&lt;/p&gt;
@@ -8,9 +8,9 @@
 &lt;thead&gt;
 &lt;tr&gt;
 &lt;th&gt;&lt;/th&gt;
-&lt;th&gt;&lt;a href="https://evekatsu.github.io/ranking/?date=2018-9"&gt;キャラクター&lt;/a&gt;&lt;/th&gt;
-&lt;th&gt;&lt;a href="https://evekatsu.github.io/ranking/?date=2018-9&amp;amp;p=1"&gt;コーポレーション&lt;/a&gt;&lt;/th&gt;
-&lt;th&gt;&lt;a href="https://evekatsu.github.io/ranking/?date=2018-9&amp;amp;p=2"&gt;アライアンス&lt;/a&gt;&lt;/th&gt;
+&lt;th&gt;&lt;a href="https://evekatsu.github.io/ranking/?date=2018-9" target="_blank"&gt;プレイヤー&lt;/a&gt;&lt;/th&gt;
+&lt;th&gt;&lt;a href="https://evekatsu.github.io/ranking/?date=2018-9&amp;p=1" target="_blank"&gt;コーポレーション&lt;/a&gt;&lt;/th&gt;
+&lt;th&gt;&lt;a href="https://evekatsu.github.io/ranking/?date=2018-9&amp;p=2" target="_blank"&gt;アライアンス&lt;/a&gt;&lt;/th&gt;
 &lt;/tr&gt;
 &lt;/thead&gt;
 &lt;tbody&gt;
@@ -53,9 +53,9 @@
 &lt;thead&gt;
 &lt;tr&gt;
 &lt;th&gt;&lt;/th&gt;
-&lt;th&gt;&lt;a href="https://evekatsu.github.io/ranking/?date=2018-9&amp;amp;k=0"&gt;キャラクター&lt;/a&gt;&lt;/th&gt;
-&lt;th&gt;&lt;a href="https://evekatsu.github.io/ranking/?date=2018-9&amp;amp;k=0&amp;amp;p=1"&gt;コーポレーション&lt;/a&gt;&lt;/th&gt;
-&lt;th&gt;&lt;a href="https://evekatsu.github.io/ranking/?date=2018-9&amp;amp;k=0&amp;amp;p=2"&gt;アライアンス&lt;/a&gt;&lt;/th&gt;
+&lt;th&gt;&lt;a href="https://evekatsu.github.io/ranking/?date=2018-9&amp;k=0" target="_blank"&gt;プレイヤー&lt;/a&gt;&lt;/th&gt;
+&lt;th&gt;&lt;a href="https://evekatsu.github.io/ranking/?date=2018-9&amp;k=0&amp;p=1" target="_blank"&gt;コーポレーション&lt;/a&gt;&lt;/th&gt;
+&lt;th&gt;&lt;a href="https://evekatsu.github.io/ranking/?date=2018-9&amp;k=0&amp;p=2" target="_blank"&gt;アライアンス&lt;/a&gt;&lt;/th&gt;
 &lt;/tr&gt;
 &lt;/thead&gt;
 &lt;tbody&gt;
@@ -64,7 +64,7 @@
 &lt;td&gt;&lt;img style="margin: 0px; width: auto; display: inline; vertical-align:middle;" src="https://evekatsu.github.io/data/character/95235307_32.jpg"&gt; Takuya Gogiko&lt;/td&gt;
 &lt;td&gt;&lt;img style="margin: 0px; width: auto; display: inline; vertical-align:middle;" src="https://evekatsu.github.io/data/corporation/306830202_32.png"&gt; TSKRS&lt;/td&gt;
 &lt;td&gt;&lt;img style="margin: 0px; width: auto; display: inline; vertical-align:middle;" src="https://evekatsu.github.io/data/alliance/99006941_32.png"&gt; SGGRN …&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;</summary><content type="html">&lt;p&gt;今月もお疲れ様でした。&lt;br&gt;
-&lt;a href="https://evekatsu.github.io/ranking/?date=2018-9"&gt;2018年9月の日本人PvPランキングの発表です。&lt;/a&gt;&lt;/p&gt;
+&lt;a href="https://evekatsu.github.io/ranking/?date=2018-9" target="_blank"&gt;2018年9月の日本人PvPランキングの発表です。&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;注意事項：これは2018年10月17日に集計したものです。それ以降に投稿されたキルメールは集計対象外です。&lt;/p&gt;
 &lt;h3&gt;トータル&lt;/h3&gt;
 &lt;p&gt;対象：所属するコーポレーション、アライアンスを攻撃したキルメールを除く全て（キル順）&lt;/p&gt;
@@ -72,9 +72,9 @@
 &lt;thead&gt;
 &lt;tr&gt;
 &lt;th&gt;&lt;/th&gt;
-&lt;th&gt;&lt;a href="https://evekatsu.github.io/ranking/?date=2018-9"&gt;キャラクター&lt;/a&gt;&lt;/th&gt;
-&lt;th&gt;&lt;a href="https://evekatsu.github.io/ranking/?date=2018-9&amp;amp;p=1"&gt;コーポレーション&lt;/a&gt;&lt;/th&gt;
-&lt;th&gt;&lt;a href="https://evekatsu.github.io/ranking/?date=2018-9&amp;amp;p=2"&gt;アライアンス&lt;/a&gt;&lt;/th&gt;
+&lt;th&gt;&lt;a href="https://evekatsu.github.io/ranking/?date=2018-9" target="_blank"&gt;プレイヤー&lt;/a&gt;&lt;/th&gt;
+&lt;th&gt;&lt;a href="https://evekatsu.github.io/ranking/?date=2018-9&amp;p=1" target="_blank"&gt;コーポレーション&lt;/a&gt;&lt;/th&gt;
+&lt;th&gt;&lt;a href="https://evekatsu.github.io/ranking/?date=2018-9&amp;p=2" target="_blank"&gt;アライアンス&lt;/a&gt;&lt;/th&gt;
 &lt;/tr&gt;
 &lt;/thead&gt;
 &lt;tbody&gt;
@@ -117,9 +117,9 @@
 &lt;thead&gt;
 &lt;tr&gt;
 &lt;th&gt;&lt;/th&gt;
-&lt;th&gt;&lt;a href="https://evekatsu.github.io/ranking/?date=2018-9&amp;amp;k=0"&gt;キャラクター&lt;/a&gt;&lt;/th&gt;
-&lt;th&gt;&lt;a href="https://evekatsu.github.io/ranking/?date=2018-9&amp;amp;k=0&amp;amp;p=1"&gt;コーポレーション&lt;/a&gt;&lt;/th&gt;
-&lt;th&gt;&lt;a href="https://evekatsu.github.io/ranking/?date=2018-9&amp;amp;k=0&amp;amp;p=2"&gt;アライアンス&lt;/a&gt;&lt;/th&gt;
+&lt;th&gt;&lt;a href="https://evekatsu.github.io/ranking/?date=2018-9&amp;k=0" target="_blank"&gt;プレイヤー&lt;/a&gt;&lt;/th&gt;
+&lt;th&gt;&lt;a href="https://evekatsu.github.io/ranking/?date=2018-9&amp;k=0&amp;p=1" target="_blank"&gt;コーポレーション&lt;/a&gt;&lt;/th&gt;
+&lt;th&gt;&lt;a href="https://evekatsu.github.io/ranking/?date=2018-9&amp;k=0&amp;p=2" target="_blank"&gt;アライアンス&lt;/a&gt;&lt;/th&gt;
 &lt;/tr&gt;
 &lt;/thead&gt;
 &lt;tbody&gt;
@@ -162,9 +162,9 @@
 &lt;thead&gt;
 &lt;tr&gt;
 &lt;th&gt;&lt;/th&gt;
-&lt;th&gt;&lt;a href="https://evekatsu.github.io/ranking/?date=2018-9&amp;amp;k=1"&gt;キャラクター&lt;/a&gt;&lt;/th&gt;
-&lt;th&gt;&lt;a href="https://evekatsu.github.io/ranking/?date=2018-9&amp;amp;k=1&amp;amp;p=1"&gt;コーポレーション&lt;/a&gt;&lt;/th&gt;
-&lt;th&gt;&lt;a href="https://evekatsu.github.io/ranking/?date=2018-9&amp;amp;k=1&amp;amp;p=2"&gt;アライアンス&lt;/a&gt;&lt;/th&gt;
+&lt;th&gt;&lt;a href="https://evekatsu.github.io/ranking/?date=2018-9&amp;k=1" target="_blank"&gt;プレイヤー&lt;/a&gt;&lt;/th&gt;
+&lt;th&gt;&lt;a href="https://evekatsu.github.io/ranking/?date=2018-9&amp;k=1&amp;p=1" target="_blank"&gt;コーポレーション&lt;/a&gt;&lt;/th&gt;
+&lt;th&gt;&lt;a href="https://evekatsu.github.io/ranking/?date=2018-9&amp;k=1&amp;p=2" target="_blank"&gt;アライアンス&lt;/a&gt;&lt;/th&gt;
 &lt;/tr&gt;
 &lt;/thead&gt;
 &lt;tbody&gt;
@@ -207,9 +207,9 @@
 &lt;thead&gt;
 &lt;tr&gt;
 &lt;th&gt;&lt;/th&gt;
-&lt;th&gt;&lt;a href="https://evekatsu.github.io/ranking/?date=2018-9&amp;amp;k=2"&gt;キャラクター&lt;/a&gt;&lt;/th&gt;
-&lt;th&gt;&lt;a href="https://evekatsu.github.io/ranking/?date=2018-9&amp;amp;k=2&amp;amp;p=1"&gt;コーポレーション&lt;/a&gt;&lt;/th&gt;
-&lt;th&gt;&lt;a href="https://evekatsu.github.io/ranking/?date=2018-9&amp;amp;k=2&amp;amp;p=2"&gt;アライアンス&lt;/a&gt;&lt;/th&gt;
+&lt;th&gt;&lt;a href="https://evekatsu.github.io/ranking/?date=2018-9&amp;k=2" target="_blank"&gt;プレイヤー&lt;/a&gt;&lt;/th&gt;
+&lt;th&gt;&lt;a href="https://evekatsu.github.io/ranking/?date=2018-9&amp;k=2&amp;p=1" target="_blank"&gt;コーポレーション&lt;/a&gt;&lt;/th&gt;
+&lt;th&gt;&lt;a href="https://evekatsu.github.io/ranking/?date=2018-9&amp;k=2&amp;p=2" target="_blank"&gt;アライアンス&lt;/a&gt;&lt;/th&gt;
 &lt;/tr&gt;
 &lt;/thead&gt;
 &lt;tbody&gt;
@@ -252,9 +252,9 @@
 &lt;thead&gt;
 &lt;tr&gt;
 &lt;th&gt;&lt;/th&gt;
-&lt;th&gt;&lt;a href="https://evekatsu.github.io/ranking/?date=2018-9&amp;amp;k=3"&gt;キャラクター&lt;/a&gt;&lt;/th&gt;
-&lt;th&gt;&lt;a href="https://evekatsu.github.io/ranking/?date=2018-9&amp;amp;k=3&amp;amp;p=1"&gt;コーポレーション&lt;/a&gt;&lt;/th&gt;
-&lt;th&gt;&lt;a href="https://evekatsu.github.io/ranking/?date=2018-9&amp;amp;k=3&amp;amp;p=2"&gt;アライアンス&lt;/a&gt;&lt;/th&gt;
+&lt;th&gt;&lt;a href="https://evekatsu.github.io/ranking/?date=2018-9&amp;k=3" target="_blank"&gt;プレイヤー&lt;/a&gt;&lt;/th&gt;
+&lt;th&gt;&lt;a href="https://evekatsu.github.io/ranking/?date=2018-9&amp;k=3&amp;p=1" target="_blank"&gt;コーポレーション&lt;/a&gt;&lt;/th&gt;
+&lt;th&gt;&lt;a href="https://evekatsu.github.io/ranking/?date=2018-9&amp;k=3&amp;p=2" target="_blank"&gt;アライアンス&lt;/a&gt;&lt;/th&gt;
 &lt;/tr&gt;
 &lt;/thead&gt;
 &lt;tbody&gt;

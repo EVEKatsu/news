@@ -5,7 +5,7 @@ Tags: Ranking
 Author: Bot
 
 今月もお疲れ様でした。  
-[2018年9月の日本人PvPランキングの発表です。](https://evekatsu.github.io/ranking/?date=2018-9)
+<a href="https://evekatsu.github.io/ranking/?date=2018-9" target="_blank">2018年9月の日本人PvPランキングの発表です。</a>
 
 注意事項：これは2018年10月17日に集計したものです。それ以降に投稿されたキルメールは集計対象外です。
 
@@ -13,7 +13,7 @@ Author: Bot
 ### トータル
 対象：所属するコーポレーション、アライアンスを攻撃したキルメールを除く全て（キル順）
 
-| | [キャラクター](https://evekatsu.github.io/ranking/?date=2018-9) | [コーポレーション](https://evekatsu.github.io/ranking/?date=2018-9&p=1) | [アライアンス](https://evekatsu.github.io/ranking/?date=2018-9&p=2) |
+| | <a href="https://evekatsu.github.io/ranking/?date=2018-9" target="_blank">プレイヤー</a> | <a href="https://evekatsu.github.io/ranking/?date=2018-9&p=1" target="_blank">コーポレーション</a> | <a href="https://evekatsu.github.io/ranking/?date=2018-9&p=2" target="_blank">アライアンス</a> |
 | ---- | ---- | ---- | ---- |
 | 1 | <img style="margin: 0px; width: auto; display: inline; vertical-align:middle;" src="https://evekatsu.github.io/data/character/95799510_32.jpg"> Ouki S | <img style="margin: 0px; width: auto; display: inline; vertical-align:middle;" src="https://evekatsu.github.io/data/corporation/98476559_32.png"> ONCBN | <img style="margin: 0px; width: auto; display: inline; vertical-align:middle;" src="https://evekatsu.github.io/data/alliance/1354830081_32.png"> CONDI | 
 | 2 | <img style="margin: 0px; width: auto; display: inline; vertical-align:middle;" src="https://evekatsu.github.io/data/character/95951870_32.jpg"> Mary Seagal | <img style="margin: 0px; width: auto; display: inline; vertical-align:middle;" src="https://evekatsu.github.io/data/corporation/98418839_32.png"> B-PIX | <img style="margin: 0px; width: auto; display: inline; vertical-align:middle;" src="https://evekatsu.github.io/data/alliance/99006941_32.png"> SGGRN | 
@@ -26,7 +26,7 @@ Author: Bot
 ### ソロ
 対象：キルメールにソロキルのフラグが付いている（ポイント順）
 
-| | [キャラクター](https://evekatsu.github.io/ranking/?date=2018-9&k=0) | [コーポレーション](https://evekatsu.github.io/ranking/?date=2018-9&k=0&p=1) | [アライアンス](https://evekatsu.github.io/ranking/?date=2018-9&k=0&p=2) |
+| | <a href="https://evekatsu.github.io/ranking/?date=2018-9&k=0" target="_blank">プレイヤー</a> | <a href="https://evekatsu.github.io/ranking/?date=2018-9&k=0&p=1" target="_blank">コーポレーション</a> | <a href="https://evekatsu.github.io/ranking/?date=2018-9&k=0&p=2" target="_blank">アライアンス</a> |
 | ---- | ---- | ---- | ---- |
 | 1 | <img style="margin: 0px; width: auto; display: inline; vertical-align:middle;" src="https://evekatsu.github.io/data/character/95235307_32.jpg"> Takuya Gogiko | <img style="margin: 0px; width: auto; display: inline; vertical-align:middle;" src="https://evekatsu.github.io/data/corporation/306830202_32.png"> TSKRS | <img style="margin: 0px; width: auto; display: inline; vertical-align:middle;" src="https://evekatsu.github.io/data/alliance/99006941_32.png"> SGGRN | 
 | 2 | <img style="margin: 0px; width: auto; display: inline; vertical-align:middle;" src="https://evekatsu.github.io/data/character/93531438_32.jpg"> neibis rudus | <img style="margin: 0px; width: auto; display: inline; vertical-align:middle;" src="https://evekatsu.github.io/data/corporation/98418839_32.png"> B-PIX | <img style="margin: 0px; width: auto; display: inline; vertical-align:middle;" src="https://evekatsu.github.io/data/alliance/99004357_32.png"> TUSK. | 
@@ -39,7 +39,7 @@ Author: Bot
 ### スモールギャング
 対象：ポイントが1より上の攻撃に参加した人数が100人未満（ポイント順）
 
-| | [キャラクター](https://evekatsu.github.io/ranking/?date=2018-9&k=1) | [コーポレーション](https://evekatsu.github.io/ranking/?date=2018-9&k=1&p=1) | [アライアンス](https://evekatsu.github.io/ranking/?date=2018-9&k=1&p=2) |
+| | <a href="https://evekatsu.github.io/ranking/?date=2018-9&k=1" target="_blank">プレイヤー</a> | <a href="https://evekatsu.github.io/ranking/?date=2018-9&k=1&p=1" target="_blank">コーポレーション</a> | <a href="https://evekatsu.github.io/ranking/?date=2018-9&k=1&p=2" target="_blank">アライアンス</a> |
 | ---- | ---- | ---- | ---- |
 | 1 | <img style="margin: 0px; width: auto; display: inline; vertical-align:middle;" src="https://evekatsu.github.io/data/character/95235307_32.jpg"> Takuya Gogiko | <img style="margin: 0px; width: auto; display: inline; vertical-align:middle;" src="https://evekatsu.github.io/data/corporation/306830202_32.png"> TSKRS | <img style="margin: 0px; width: auto; display: inline; vertical-align:middle;" src="https://evekatsu.github.io/data/alliance/99004357_32.png"> TUSK. | 
 | 2 | <img style="margin: 0px; width: auto; display: inline; vertical-align:middle;" src="https://evekatsu.github.io/data/character/94500364_32.jpg"> Kentlarquis | <img style="margin: 0px; width: auto; display: inline; vertical-align:middle;" src="https://evekatsu.github.io/data/corporation/98418839_32.png"> B-PIX | <img style="margin: 0px; width: auto; display: inline; vertical-align:middle;" src="https://evekatsu.github.io/data/alliance/99006941_32.png"> SGGRN | 
@@ -52,7 +52,7 @@ Author: Bot
 ### ブローラー
 対象：ポイントが1の攻撃に参加した人数が100人未満（キル順）
 
-| | [キャラクター](https://evekatsu.github.io/ranking/?date=2018-9&k=2) | [コーポレーション](https://evekatsu.github.io/ranking/?date=2018-9&k=2&p=1) | [アライアンス](https://evekatsu.github.io/ranking/?date=2018-9&k=2&p=2) |
+| | <a href="https://evekatsu.github.io/ranking/?date=2018-9&k=2" target="_blank">プレイヤー</a> | <a href="https://evekatsu.github.io/ranking/?date=2018-9&k=2&p=1" target="_blank">コーポレーション</a> | <a href="https://evekatsu.github.io/ranking/?date=2018-9&k=2&p=2" target="_blank">アライアンス</a> |
 | ---- | ---- | ---- | ---- |
 | 1 | <img style="margin: 0px; width: auto; display: inline; vertical-align:middle;" src="https://evekatsu.github.io/data/character/95799510_32.jpg"> Ouki S | <img style="margin: 0px; width: auto; display: inline; vertical-align:middle;" src="https://evekatsu.github.io/data/corporation/98476559_32.png"> ONCBN | <img style="margin: 0px; width: auto; display: inline; vertical-align:middle;" src="https://evekatsu.github.io/data/alliance/1354830081_32.png"> CONDI | 
 | 2 | <img style="margin: 0px; width: auto; display: inline; vertical-align:middle;" src="https://evekatsu.github.io/data/character/2112685569_32.jpg"> Willis Virpio | <img style="margin: 0px; width: auto; display: inline; vertical-align:middle;" src="https://evekatsu.github.io/data/corporation/98418839_32.png"> B-PIX | <img style="margin: 0px; width: auto; display: inline; vertical-align:middle;" src="https://evekatsu.github.io/data/alliance/99001954_32.png"> -000- | 
@@ -65,7 +65,7 @@ Author: Bot
 ### ビッグファイター
 対象：攻撃に参加した人数が100人以上（ISK順）
 
-| | [キャラクター](https://evekatsu.github.io/ranking/?date=2018-9&k=3) | [コーポレーション](https://evekatsu.github.io/ranking/?date=2018-9&k=3&p=1) | [アライアンス](https://evekatsu.github.io/ranking/?date=2018-9&k=3&p=2) |
+| | <a href="https://evekatsu.github.io/ranking/?date=2018-9&k=3" target="_blank">プレイヤー</a> | <a href="https://evekatsu.github.io/ranking/?date=2018-9&k=3&p=1" target="_blank">コーポレーション</a> | <a href="https://evekatsu.github.io/ranking/?date=2018-9&k=3&p=2" target="_blank">アライアンス</a> |
 | ---- | ---- | ---- | ---- |
 | 1 | <img style="margin: 0px; width: auto; display: inline; vertical-align:middle;" src="https://evekatsu.github.io/data/character/95526304_32.jpg"> Winter Lewin | <img style="margin: 0px; width: auto; display: inline; vertical-align:middle;" src="https://evekatsu.github.io/data/corporation/98476559_32.png"> ONCBN | <img style="margin: 0px; width: auto; display: inline; vertical-align:middle;" src="https://evekatsu.github.io/data/alliance/1354830081_32.png"> CONDI | 
 | 2 | <img style="margin: 0px; width: auto; display: inline; vertical-align:middle;" src="https://evekatsu.github.io/data/character/95951870_32.jpg"> Mary Seagal | <img style="margin: 0px; width: auto; display: inline; vertical-align:middle;" src="https://evekatsu.github.io/data/corporation/98418839_32.png"> B-PIX | <img style="margin: 0px; width: auto; display: inline; vertical-align:middle;" src="https://evekatsu.github.io/data/alliance/99006941_32.png"> SGGRN | 
