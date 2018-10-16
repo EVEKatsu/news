@@ -128,9 +128,9 @@ def main():
     for filter_index, filter_key in enumerate(ranking):
         ranking_url = '<a href="%s{}" target="_blank">{}</a>' % (base_url + RANKING[filter_key]['query'])
         text = '| | %s | %s | %s |\n| ---- | ---- | ---- | ---- |\n' % (
-            ranking_url.format('', 'プレイヤー'),
-            ranking_url.format('&p=1', 'コーポレーション'),
-            ranking_url.format('&p=2', 'アライアンス'),
+            ranking_url.format('', 'Player'),
+            ranking_url.format('&p=1', 'Corp'),
+            ranking_url.format('&p=2', 'Ally'),
         )
 
         for i in range(5):
@@ -144,7 +144,7 @@ def main():
                 else:
                     name = players_information[player_key][player_id]['ticker']
                     ext = '.png'
-                text += '<img style="margin: 0px; width: auto; display: inline; vertical-align:middle;" src="https://evekatsu.github.io/data/%s/%s_32%s"> %s | ' % (player_key, player_id, ext, name)
+                text += '<img style="margin: 0px; width: 25px; display: inline; vertical-align:middle;" src="https://evekatsu.github.io/data/%s/%s_32%s"> %s | ' % (player_key, player_id, ext, name)
             text += '\n'
         format_dict[filter_key] = text
 
