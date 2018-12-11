@@ -12,20 +12,20 @@ Tags: Development, Google Apps Script
 Googleスプレッドシートでキャラクター名のリストから、その所属を[Eve Who](https://evewho.com/)のAPIから取得するGoogle Apps Scriptです。
 
 
-![名前から所属を取得するGAS-1]({filename}/images/名前から所属を取得するGAS-1.jpg)
+![名前から所属を取得するGAS-1]({static}/images/名前から所属を取得するGAS/名前から所属を取得するGAS-1.jpg)
 完成図としては上記のような感じになります。次にこの形に持っていく手順を説明します。
 
 
 ### リストの作り方
-![名前から所属を取得するGAS-2]({filename}/images/名前から所属を取得するGAS-2.jpg)
+![名前から所属を取得するGAS-2]({static}/images/名前から所属を取得するGAS/名前から所属を取得するGAS-2.jpg)
 私が知ってる限りではゲーム内からキャラクター名のリストを作る方法は2つあります。
 
 1つ目は、チャットのメンバー一覧のところにマウスのフォーカスを合わせてCtrl+A → Ctrl+Cでキャラクター名の一覧がコピーができます。
 
-![名前から所属を取得するGAS-3]({filename}/images/名前から所属を取得するGAS-3.jpg)
+![名前から所属を取得するGAS-3]({static}/images/名前から所属を取得するGAS/名前から所属を取得するGAS-3.jpg)
 次にスプレットシートを開いてCtrl+Vで貼り付けが出来ます。
 
-![名前から所属を取得するGAS-4]({filename}/images/名前から所属を取得するGAS-4.jpg)
+![名前から所属を取得するGAS-4]({static}/images/名前から所属を取得するGAS/名前から所属を取得するGAS-4.jpg)
 2つ目は、Item hangarからリストを取ってくる方法です。
 
 残念ながら私は死体のコレクションをする趣味はなかったのでテストはできませんでしたが、多分これでも可能なはずです。
@@ -43,34 +43,34 @@ Googleスプレッドシートでキャラクター名のリストから、そ�
 [https://drive.google.com/drive/my-drive](https://drive.google.com/drive/my-drive)  
 Google Driveにアクセスします。
 
-![名前から所属を取得するGAS-5]({filename}/images/名前から所属を取得するGAS-5.jpg)
+![名前から所属を取得するGAS-5]({static}/images/名前から所属を取得するGAS/名前から所属を取得するGAS-5.jpg)
 ①新規 → ②Googleスプレッドシート → ③空白のスプレッドシート
 
-![名前から所属を取得するGAS-6]({filename}/images/名前から所属を取得するGAS-6.jpg)
+![名前から所属を取得するGAS-6]({static}/images/名前から所属を取得するGAS/名前から所属を取得するGAS-6.jpg)
 ①ツール → ②スクリプトエディタ
 
-![名前から所属を取得するGAS-7]({filename}/images/名前から所属を取得するGAS-7.jpg)
+![名前から所属を取得するGAS-7]({static}/images/名前から所属を取得するGAS/名前から所属を取得するGAS-7.jpg)
 [このリンク先のGistからスクリプトをCtrl+A → Ctrl+C](https://gist.githubusercontent.com/EVEKatsu/9242e577e17a2eac6a7a0f29557887ae/raw/c7bdbc01c942543f64d9b0adc58161cdc5da50ab/gas-find-affiliations.gs)  
 
 『コード.gs』のエディタ画面にCtrl+V（貼り付け）をして①ファイル → ②すべてを保存。
 
 『プロジェクト名の編集』という画面が出るので『OK』をクリックして、スクリプトエディタを閉じます。
 
-![名前から所属を取得するGAS-8]({filename}/images/名前から所属を取得するGAS-8.jpg)
+![名前から所属を取得するGAS-8]({static}/images/名前から所属を取得するGAS/名前から所属を取得するGAS-8.jpg)
 ①ブラウザの『再読み込み』をクリック。  
 ↓  
 ②新しくEve Whoというメニューが出るのでTicker On / Offのどちらかを選択します。
 
 TickerのOnとOffの違いは、Tickerを表示するかどうかです。
 
-![名前から所属を取得するGAS-9]({filename}/images/名前から所属を取得するGAS-9.jpg)
+![名前から所属を取得するGAS-9]({static}/images/名前から所属を取得するGAS/名前から所属を取得するGAS-9.jpg)
 『承認が必要』という画面が出るので『続行』  
 ↓  
 『アカウントの選択』で自分のGoogleアカウントを選択  
 ↓  
 『このアプリは確認されていません』と出るので『詳細』をクリックして『無題のプロジェクト（安全でないページ）に移動』をクリック。
 
-![名前から所属を取得するGAS-10]({filename}/images/名前から所属を取得するGAS-10.jpg)
+![名前から所属を取得するGAS-10]({static}/images/名前から所属を取得するGAS/名前から所属を取得するGAS-10.jpg)
 許可する権限を確認します。  
 このスクリプトで必要な権限は次の3つです。
 

@@ -10,6 +10,7 @@ from selenium import webdriver
 from selenium.webdriver.support.ui import WebDriverWait
 from bs4 import BeautifulSoup
 
+COUNTS_PER_RANKING = 10
 
 MARKDOWN = """Title: {title}
 Date: {date}
@@ -62,29 +63,34 @@ RANKING = OrderedDict([
     (
         'total', {
             'query': '',
+            'sort': 'Ships',
         }
     ), (
         'solo', {
-            'query': '&k=0'
+            'query': '&k=0',
+            'sort': 'Points',
         }
     ), (
         'small_gangs', {
             'query': '&k=1',
+            'sort': 'Points',
         }
     ), (
         'brawlers', {
             'query': '&k=2',
+            'sort': 'Ships',
         }
     ), (
         'big_fighters', {
             'query': '&k=3',
+            'sort': 'ISK',
         }
     )
 ])
 
 def main():
     try:
-        with urllib.request.urlopen('https://evekatsu.github.io/data/players_information.json') as url:
+        with urllib.request.urlopen('https://evekatsu.github.io/ranking/2018/11/players_information.json') as url:
             players_information = json.loads(url.read().decode())
     except urllib.error.HTTPError:
         print('Error: players_information.json')
@@ -98,23 +104,29 @@ def main():
 
     driver = webdriver.Chrome()
     for filter_key, filter_values in RANKING.items():
-        ranking[filter_key] = OrderedDict()
+        driver.get(base_url + filter_values['query'])
+        WebDriverWait(driver, 60).until(lambda x: x.find_element_by_tag_name('table'))
 
-        for player_index, player_key in enumerate(['character', 'corporation', 'alliance']):
-            driver.get(base_url + filter_values['query'] + ('&p=%d' % player_index))
-            WebDriverWait(driver, 60).until(lambda x: x.find_element_by_tag_name('table'))
+        driver.find_element_by_class_name('dropdown-toggle').click()
+        driver.find_element_by_xpath("//ul[@class='dropdown-menu']/li[3]/a").click()
+        soup = BeautifulSoup(driver.page_source, 'html.parser')
+        ranking_items = []
 
-            driver.find_element_by_class_name('dropdown-toggle').click()
-            driver.find_element_by_xpath("//ul[@class='dropdown-menu']/li[3]/a").click()
-            soup = BeautifulSoup(driver.page_source, 'html.parser')
+        trs = soup.table.tbody.findAll('tr')
+        for i in range(COUNTS_PER_RANKING):
+            tds = trs[i].findAll('td')
 
-            ranking_ids = []
-            trs = soup.table.tbody.findAll('tr')
-            for i in range(5):
-                tds = trs[i].findAll('td')
-                ranking_ids.append(tds[2].span.string.strip())
+            ranking_item = {}
+            for td_index, td_key in ((2, 'id'), (3, 'Ships(+)'), (4, 'Ships(-)'), (5, 'ISK(+)'), (6, 'ISK(-)'), (7, 'Points(+)'), (8, 'Points(-)')):
+                value = tds[td_index].span.string.strip()
+                if td_index == 5 or td_index == 6:
+                    value = int(value.replace(',', '')) / 1000 / 1000 / 1000
+                    value = str(round(value, 1)) + ' billion'
 
-            ranking[filter_key][player_key] = ranking_ids
+                ranking_item[td_key] = value
+            ranking_items.append(ranking_item)
+
+        ranking[filter_key] = ranking_items
     driver.close()
 
     format_dict = {}
@@ -125,27 +137,29 @@ def main():
     format_dict['date'] = datetime.date.today()
     format_dict['date_jp'] = datetime.date.today().strftime('%Y年%m月%d日')
 
-    for filter_index, filter_key in enumerate(ranking):
-        ranking_url = '<a href="%s{}" target="_blank">{}</a>' % (base_url + RANKING[filter_key]['query'])
-        text = '| | %s | %s | %s |\n| ---- | ---- | ---- | ---- |\n' % (
-            ranking_url.format('', 'Player'),
-            ranking_url.format('&p=1', 'Corp'),
-            ranking_url.format('&p=2', 'Ally'),
+    for filter_key, ranking_items in ranking.items():
+        text =  '| <span class="glyphicon glyphicon-sort-by-attributes-alt"></span> '
+        text += '| %s | %s | %s ' %(
+            '<span class="glyphicon glyphicon-user"></span> Name',
+            '%s <span class="glyphicon glyphicon-plus-sign"></span>' % (RANKING[filter_key]['sort']),
+            '%s <span class="glyphicon glyphicon-minus-sign"></span>' % (RANKING[filter_key]['sort']),
         )
+        text += '| <span class="glyphicon glyphicon-tower"></span> '
+        text += '| <span class="glyphicon glyphicon-star"></span> '
+        text += '|\n| ---- | ---- | ---- | ---- | ---- | ---- |\n'
 
-        for i in range(5):
+        for i, ranking_item in enumerate(ranking_items):
+            character_information = players_information['character'][ranking_item['id']]
+            img_tag = '<img style="margin: 0px; width: 25px; display: inline; vertical-align:middle;" src="https://evekatsu.github.io/data/%s/%s_32%s">'
+
             text += '| %d | ' % (i + 1)
-            for player_key, ranking_ids in ranking[filter_key].items():
-                player_id = ranking_ids[i]
-
-                if player_key == 'character':
-                    name = players_information[player_key][player_id]['name']
-                    ext = '.jpg'
-                else:
-                    name = players_information[player_key][player_id]['ticker']
-                    ext = '.png'
-                text += '<img style="margin: 0px; width: 25px; display: inline; vertical-align:middle;" src="https://evekatsu.github.io/data/%s/%s_32%s"> %s | ' % (player_key, player_id, ext, name)
-            text += '\n'
+            text += ' {} {} | '.format(img_tag % ('character', ranking_item['id'], '.jpg'), character_information['name'])
+            text += ' %s | ' % (ranking_item[RANKING[filter_key]['sort'] + '(+)'])
+            text += ' %s | ' % (ranking_item[RANKING[filter_key]['sort'] + '(-)'])
+            text += ' {} | '.format(img_tag % ('corporation', character_information['corporation_id'], '.png'))
+            if 'alliance_id' in character_information:
+                text += img_tag % ('alliance', character_information['alliance_id'], '.png')
+            text += ' |\n'
         format_dict[filter_key] = text
 
     with open(os.path.join('content', 'ranking', '%s.md' % filename), 'w', encoding='utf-8') as file:
