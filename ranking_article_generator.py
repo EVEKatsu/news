@@ -149,9 +149,9 @@ def main():
     for filter_key, ranking_items in ranking.items():
         text =  '| <span class="glyphicon glyphicon-sort-by-attributes-alt"></span> '
         text += '| %s | %s | %s ' %(
-            '<span style="margin-right: 2px"  class="glyphicon glyphicon-user"></span>Name',
-            '%s<span style="margin-left: 2px" class="glyphicon glyphicon-plus-sign"></span>' % (RANKING[filter_key]['sort']),
-            '%s<span style="margin-left: 2px" class="glyphicon glyphicon-minus-sign"></span>' % (RANKING[filter_key]['sort']),
+            '<span class="glyphicon glyphicon-user"></span>',
+            '<span class="glyphicon glyphicon-plus"></span>',
+            '<span class="glyphicon glyphicon-minus"></span>',
         )
         text += '| <span class="glyphicon glyphicon-tower"></span> '
         text += '| <span class="glyphicon glyphicon-star"></span> '

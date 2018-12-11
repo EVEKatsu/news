@@ -14,7 +14,7 @@ Author: Bot
 
 対象：所属するコーポレーション、アライアンスを攻撃したキルメールを除く全て（キル順）
 
-| <span class="glyphicon glyphicon-sort-by-attributes-alt"></span> | <span style="margin-right: 2px"  class="glyphicon glyphicon-user"></span>Name | Ships<span style="margin-left: 2px" class="glyphicon glyphicon-plus-sign"></span> | Ships<span style="margin-left: 2px" class="glyphicon glyphicon-minus-sign"></span> | <span class="glyphicon glyphicon-tower"></span> | <span class="glyphicon glyphicon-star"></span> |
+| <span class="glyphicon glyphicon-sort-by-attributes-alt"></span> | <span class="glyphicon glyphicon-user"></span> | <span class="glyphicon glyphicon-plus"></span> | <span class="glyphicon glyphicon-minus"></span> | <span class="glyphicon glyphicon-tower"></span> | <span class="glyphicon glyphicon-star"></span> |
 | ---- | ---- | ---- | ---- | ---- | ---- |
 | 1 |  <img style="margin: 0px; width: 25px; display: inline; vertical-align:middle;" src="https://evekatsu.github.io/data/character/95799510_32.jpg"> Ouki S |  563 |  23 |  <img style="margin: 0px; width: 25px; display: inline; vertical-align:middle;" src="https://evekatsu.github.io/data/corporation/98476559_32.png"> | <img style="margin: 0px; width: 25px; display: inline; vertical-align:middle;" src="https://evekatsu.github.io/data/alliance/1354830081_32.png"> |
 | 2 |  <img style="margin: 0px; width: 25px; display: inline; vertical-align:middle;" src="https://evekatsu.github.io/data/character/95951870_32.jpg"> Mary Seagal |  396 |  11 |  <img style="margin: 0px; width: 25px; display: inline; vertical-align:middle;" src="https://evekatsu.github.io/data/corporation/98476559_32.png"> | <img style="margin: 0px; width: 25px; display: inline; vertical-align:middle;" src="https://evekatsu.github.io/data/alliance/1354830081_32.png"> |
@@ -33,7 +33,7 @@ Author: Bot
 
 対象：キルメールにソロキルのフラグが付いている（ポイント順）
 
-| <span class="glyphicon glyphicon-sort-by-attributes-alt"></span> | <span style="margin-right: 2px"  class="glyphicon glyphicon-user"></span>Name | Points<span style="margin-left: 2px" class="glyphicon glyphicon-plus-sign"></span> | Points<span style="margin-left: 2px" class="glyphicon glyphicon-minus-sign"></span> | <span class="glyphicon glyphicon-tower"></span> | <span class="glyphicon glyphicon-star"></span> |
+| <span class="glyphicon glyphicon-sort-by-attributes-alt"></span> | <span class="glyphicon glyphicon-user"></span> | <span class="glyphicon glyphicon-plus"></span> | <span class="glyphicon glyphicon-minus"></span> | <span class="glyphicon glyphicon-tower"></span> | <span class="glyphicon glyphicon-star"></span> |
 | ---- | ---- | ---- | ---- | ---- | ---- |
 | 1 |  <img style="margin: 0px; width: 25px; display: inline; vertical-align:middle;" src="https://evekatsu.github.io/data/character/94500364_32.jpg"> Kentlarquis |  724 |  214 |  <img style="margin: 0px; width: 25px; display: inline; vertical-align:middle;" src="https://evekatsu.github.io/data/corporation/98574865_32.png"> |  |
 | 2 |  <img style="margin: 0px; width: 25px; display: inline; vertical-align:middle;" src="https://evekatsu.github.io/data/character/2114238274_32.jpg"> Furst Bismarck |  390 |  40 |  <img style="margin: 0px; width: 25px; display: inline; vertical-align:middle;" src="https://evekatsu.github.io/data/corporation/98476559_32.png"> | <img style="margin: 0px; width: 25px; display: inline; vertical-align:middle;" src="https://evekatsu.github.io/data/alliance/1354830081_32.png"> |
@@ -52,7 +52,7 @@ Author: Bot
 
 対象：ポイントが1より上の攻撃に参加した人数が100人未満（ポイント順）
 
-| <span class="glyphicon glyphicon-sort-by-attributes-alt"></span> | <span style="margin-right: 2px"  class="glyphicon glyphicon-user"></span>Name | Points<span style="margin-left: 2px" class="glyphicon glyphicon-plus-sign"></span> | Points<span style="margin-left: 2px" class="glyphicon glyphicon-minus-sign"></span> | <span class="glyphicon glyphicon-tower"></span> | <span class="glyphicon glyphicon-star"></span> |
+| <span class="glyphicon glyphicon-sort-by-attributes-alt"></span> | <span class="glyphicon glyphicon-user"></span> | <span class="glyphicon glyphicon-plus"></span> | <span class="glyphicon glyphicon-minus"></span> | <span class="glyphicon glyphicon-tower"></span> | <span class="glyphicon glyphicon-star"></span> |
 | ---- | ---- | ---- | ---- | ---- | ---- |
 | 1 |  <img style="margin: 0px; width: 25px; display: inline; vertical-align:middle;" src="https://evekatsu.github.io/data/character/94500364_32.jpg"> Kentlarquis |  301 |  10 |  <img style="margin: 0px; width: 25px; display: inline; vertical-align:middle;" src="https://evekatsu.github.io/data/corporation/98574865_32.png"> |  |
 | 2 |  <img style="margin: 0px; width: 25px; display: inline; vertical-align:middle;" src="https://evekatsu.github.io/data/character/95526304_32.jpg"> Winter Lewin |  258 |  0 |  <img style="margin: 0px; width: 25px; display: inline; vertical-align:middle;" src="https://evekatsu.github.io/data/corporation/98418839_32.png"> | <img style="margin: 0px; width: 25px; display: inline; vertical-align:middle;" src="https://evekatsu.github.io/data/alliance/99006941_32.png"> |
@@ -71,7 +71,7 @@ Author: Bot
 
 対象：ポイントが1の攻撃に参加した人数が100人未満（キル順）
 
-| <span class="glyphicon glyphicon-sort-by-attributes-alt"></span> | <span style="margin-right: 2px"  class="glyphicon glyphicon-user"></span>Name | Ships<span style="margin-left: 2px" class="glyphicon glyphicon-plus-sign"></span> | Ships<span style="margin-left: 2px" class="glyphicon glyphicon-minus-sign"></span> | <span class="glyphicon glyphicon-tower"></span> | <span class="glyphicon glyphicon-star"></span> |
+| <span class="glyphicon glyphicon-sort-by-attributes-alt"></span> | <span class="glyphicon glyphicon-user"></span> | <span class="glyphicon glyphicon-plus"></span> | <span class="glyphicon glyphicon-minus"></span> | <span class="glyphicon glyphicon-tower"></span> | <span class="glyphicon glyphicon-star"></span> |
 | ---- | ---- | ---- | ---- | ---- | ---- |
 | 1 |  <img style="margin: 0px; width: 25px; display: inline; vertical-align:middle;" src="https://evekatsu.github.io/data/character/95799510_32.jpg"> Ouki S |  553 |  20 |  <img style="margin: 0px; width: 25px; display: inline; vertical-align:middle;" src="https://evekatsu.github.io/data/corporation/98476559_32.png"> | <img style="margin: 0px; width: 25px; display: inline; vertical-align:middle;" src="https://evekatsu.github.io/data/alliance/1354830081_32.png"> |
 | 2 |  <img style="margin: 0px; width: 25px; display: inline; vertical-align:middle;" src="https://evekatsu.github.io/data/character/95951870_32.jpg"> Mary Seagal |  318 |  11 |  <img style="margin: 0px; width: 25px; display: inline; vertical-align:middle;" src="https://evekatsu.github.io/data/corporation/98476559_32.png"> | <img style="margin: 0px; width: 25px; display: inline; vertical-align:middle;" src="https://evekatsu.github.io/data/alliance/1354830081_32.png"> |
@@ -90,7 +90,7 @@ Author: Bot
 
 対象：攻撃に参加した人数が100人以上（ISK順）
 
-| <span class="glyphicon glyphicon-sort-by-attributes-alt"></span> | <span style="margin-right: 2px"  class="glyphicon glyphicon-user"></span>Name | ISK<span style="margin-left: 2px" class="glyphicon glyphicon-plus-sign"></span> | ISK<span style="margin-left: 2px" class="glyphicon glyphicon-minus-sign"></span> | <span class="glyphicon glyphicon-tower"></span> | <span class="glyphicon glyphicon-star"></span> |
+| <span class="glyphicon glyphicon-sort-by-attributes-alt"></span> | <span class="glyphicon glyphicon-user"></span> | <span class="glyphicon glyphicon-plus"></span> | <span class="glyphicon glyphicon-minus"></span> | <span class="glyphicon glyphicon-tower"></span> | <span class="glyphicon glyphicon-star"></span> |
 | ---- | ---- | ---- | ---- | ---- | ---- |
 | 1 |  <img style="margin: 0px; width: 25px; display: inline; vertical-align:middle;" src="https://evekatsu.github.io/data/character/95526304_32.jpg"> Winter Lewin |  560.1b |  0.0b |  <img style="margin: 0px; width: 25px; display: inline; vertical-align:middle;" src="https://evekatsu.github.io/data/corporation/98418839_32.png"> | <img style="margin: 0px; width: 25px; display: inline; vertical-align:middle;" src="https://evekatsu.github.io/data/alliance/99006941_32.png"> |
 | 2 |  <img style="margin: 0px; width: 25px; display: inline; vertical-align:middle;" src="https://evekatsu.github.io/data/character/2112685569_32.jpg"> Willis Virpio |  459.2b |  0.0b |  <img style="margin: 0px; width: 25px; display: inline; vertical-align:middle;" src="https://evekatsu.github.io/data/corporation/98476559_32.png"> | <img style="margin: 0px; width: 25px; display: inline; vertical-align:middle;" src="https://evekatsu.github.io/data/alliance/1354830081_32.png"> |
