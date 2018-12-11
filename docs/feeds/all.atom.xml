@@ -2,7 +2,8 @@
 <feed xmlns="http://www.w3.org/2005/Atom"><title>いぶかつ☆にゅーす</title><link href="https://evekatsu.github.io/news/" rel="alternate"></link><link href="https://evekatsu.github.io/news/feeds/all.atom.xml" rel="self"></link><id>https://evekatsu.github.io/news/</id><updated>2018-12-11T00:00:00+09:00</updated><entry><title>2018年11月のランキング発表</title><link href="https://evekatsu.github.io/news/ranking-2018-11.html" rel="alternate"></link><published>2018-12-11T00:00:00+09:00</published><updated>2018-12-11T00:00:00+09:00</updated><author><name>Bot</name></author><id>tag:evekatsu.github.io,2018-12-11:/news/ranking-2018-11.html</id><summary type="html">&lt;p&gt;今月もお疲れ様でした。&lt;br&gt;
 &lt;a href="https://evekatsu.github.io/ranking/?date=2018-11" target="_blank"&gt;2018年11月の日本人PvPランキングの発表です。&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;注意事項：これは2018年12月11日に集計したものです。それ以降に投稿されたキルメールは集計対象外です。&lt;/p&gt;
-&lt;h3&gt;トータル&lt;/h3&gt;
+&lt;h3&gt;&lt;a href="https://evekatsu.github.io/ranking/?date=2018-11" target="_blank"&gt;トータル&lt;/a&gt;&lt;/h3&gt;
+
 &lt;p&gt;対象：所属するコーポレーション、アライアンスを攻撃したキルメールを除く全て（キル順）&lt;/p&gt;
 &lt;table&gt;
 &lt;thead&gt;
@@ -77,7 +78,8 @@
 &lt;td&gt;&lt;img style="margin: 0px; width: 25px; display: inline; vertical-align:middle;" src="https://evekatsu.github.io/data/character/2112455939_32.jpg"&gt; Oruoru …&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;</summary><content type="html">&lt;p&gt;今月もお疲れ様でした。&lt;br&gt;
 &lt;a href="https://evekatsu.github.io/ranking/?date=2018-11" target="_blank"&gt;2018年11月の日本人PvPランキングの発表です。&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;注意事項：これは2018年12月11日に集計したものです。それ以降に投稿されたキルメールは集計対象外です。&lt;/p&gt;
-&lt;h3&gt;トータル&lt;/h3&gt;
+&lt;h3&gt;&lt;a href="https://evekatsu.github.io/ranking/?date=2018-11" target="_blank"&gt;トータル&lt;/a&gt;&lt;/h3&gt;
+
 &lt;p&gt;対象：所属するコーポレーション、アライアンスを攻撃したキルメールを除く全て（キル順）&lt;/p&gt;
 &lt;table&gt;
 &lt;thead&gt;
@@ -173,8 +175,8 @@
 &lt;/tr&gt;
 &lt;/tbody&gt;
 &lt;/table&gt;
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-&lt;h3&gt;ソロ&lt;/h3&gt;
+&lt;p&gt;&lt;br /&gt;
+&lt;h3&gt;&lt;a href="https://evekatsu.github.io/ranking/?date=2018-11&amp;k=0" target="_blank"&gt;ソロ&lt;/a&gt;&lt;/h3&gt;&lt;/p&gt;
 &lt;p&gt;対象：キルメールにソロキルのフラグが付いている（ポイント順）&lt;/p&gt;
 &lt;table&gt;
 &lt;thead&gt;
@@ -270,8 +272,8 @@
 &lt;/tr&gt;
 &lt;/tbody&gt;
 &lt;/table&gt;
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-&lt;h3&gt;スモールギャング&lt;/h3&gt;
+&lt;p&gt;&lt;br /&gt;
+&lt;h3&gt;&lt;a href="https://evekatsu.github.io/ranking/?date=2018-11&amp;k=1" target="_blank"&gt;スモールギャング&lt;/a&gt;&lt;/h3&gt;&lt;/p&gt;
 &lt;p&gt;対象：ポイントが1より上の攻撃に参加した人数が100人未満（ポイント順）&lt;/p&gt;
 &lt;table&gt;
 &lt;thead&gt;
@@ -367,8 +369,8 @@
 &lt;/tr&gt;
 &lt;/tbody&gt;
 &lt;/table&gt;
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-&lt;h3&gt;ブローラー&lt;/h3&gt;
+&lt;p&gt;&lt;br /&gt;
+&lt;h3&gt;&lt;a href="https://evekatsu.github.io/ranking/?date=2018-11&amp;k=2" target="_blank"&gt;ブローラー&lt;/a&gt;&lt;/h3&gt;&lt;/p&gt;
 &lt;p&gt;対象：ポイントが1の攻撃に参加した人数が100人未満（キル順）&lt;/p&gt;
 &lt;table&gt;
 &lt;thead&gt;
@@ -464,8 +466,8 @@
 &lt;/tr&gt;
 &lt;/tbody&gt;
 &lt;/table&gt;
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-&lt;h3&gt;ビッグファイター&lt;/h3&gt;
+&lt;p&gt;&lt;br /&gt;
+&lt;h3&gt;&lt;a href="https://evekatsu.github.io/ranking/?date=2018-11&amp;k=3" target="_blank"&gt;ビッグファイター&lt;/a&gt;&lt;/h3&gt;&lt;/p&gt;
 &lt;p&gt;対象：攻撃に参加した人数が100人以上（ISK順）&lt;/p&gt;
 &lt;table&gt;
 &lt;thead&gt;
@@ -562,7 +564,6 @@
 &lt;/tbody&gt;
 &lt;/table&gt;
 &lt;p&gt;&lt;br /&gt;
-&lt;br /&gt;
 毎月10日にその前の月のキルメールを集計します。&lt;br&gt;
 来月もよろしくお願いします。&lt;/p&gt;</content><category term="Ranking"></category></entry><entry><title>2018年10月のランキング発表</title><link href="https://evekatsu.github.io/news/ranking-2018-10.html" rel="alternate"></link><published>2018-11-13T00:00:00+09:00</published><updated>2018-11-13T00:00:00+09:00</updated><author><name>Bot</name></author><id>tag:evekatsu.github.io,2018-11-13:/news/ranking-2018-10.html</id><summary type="html">&lt;p&gt;今月もお疲れ様でした。&lt;br&gt;
 &lt;a href="https://evekatsu.github.io/ranking/?date=2018-10" target="_blank"&gt;2018年10月の日本人PvPランキングの発表です。&lt;/a&gt;&lt;/p&gt;

@@ -10,7 +10,8 @@ Author: Bot
 注意事項：これは2018年12月11日に集計したものです。それ以降に投稿されたキルメールは集計対象外です。
 
 
-### トータル
+<h3><a href="https://evekatsu.github.io/ranking/?date=2018-11" target="_blank">トータル</a></h3>
+
 対象：所属するコーポレーション、アライアンスを攻撃したキルメールを除く全て（キル順）
 
 | <span class="glyphicon glyphicon-sort-by-attributes-alt"></span> | <span class="glyphicon glyphicon-user"></span> Name | Ships <span class="glyphicon glyphicon-plus-sign"></span> | Ships <span class="glyphicon glyphicon-minus-sign"></span> | <span class="glyphicon glyphicon-tower"></span> | <span class="glyphicon glyphicon-star"></span> |
@@ -28,7 +29,8 @@ Author: Bot
 
 
 <br />
-### ソロ
+<h3><a href="https://evekatsu.github.io/ranking/?date=2018-11&k=0" target="_blank">ソロ</a></h3>
+
 対象：キルメールにソロキルのフラグが付いている（ポイント順）
 
 | <span class="glyphicon glyphicon-sort-by-attributes-alt"></span> | <span class="glyphicon glyphicon-user"></span> Name | Points <span class="glyphicon glyphicon-plus-sign"></span> | Points <span class="glyphicon glyphicon-minus-sign"></span> | <span class="glyphicon glyphicon-tower"></span> | <span class="glyphicon glyphicon-star"></span> |
@@ -46,7 +48,8 @@ Author: Bot
 
 
 <br />
-### スモールギャング
+<h3><a href="https://evekatsu.github.io/ranking/?date=2018-11&k=1" target="_blank">スモールギャング</a></h3>
+
 対象：ポイントが1より上の攻撃に参加した人数が100人未満（ポイント順）
 
 | <span class="glyphicon glyphicon-sort-by-attributes-alt"></span> | <span class="glyphicon glyphicon-user"></span> Name | Points <span class="glyphicon glyphicon-plus-sign"></span> | Points <span class="glyphicon glyphicon-minus-sign"></span> | <span class="glyphicon glyphicon-tower"></span> | <span class="glyphicon glyphicon-star"></span> |
@@ -64,7 +67,8 @@ Author: Bot
 
 
 <br />
-### ブローラー
+<h3><a href="https://evekatsu.github.io/ranking/?date=2018-11&k=2" target="_blank">ブローラー</a></h3>
+
 対象：ポイントが1の攻撃に参加した人数が100人未満（キル順）
 
 | <span class="glyphicon glyphicon-sort-by-attributes-alt"></span> | <span class="glyphicon glyphicon-user"></span> Name | Ships <span class="glyphicon glyphicon-plus-sign"></span> | Ships <span class="glyphicon glyphicon-minus-sign"></span> | <span class="glyphicon glyphicon-tower"></span> | <span class="glyphicon glyphicon-star"></span> |
@@ -82,7 +86,8 @@ Author: Bot
 
 
 <br />
-### ビッグファイター
+<h3><a href="https://evekatsu.github.io/ranking/?date=2018-11&k=3" target="_blank">ビッグファイター</a></h3>
+
 対象：攻撃に参加した人数が100人以上（ISK順）
 
 | <span class="glyphicon glyphicon-sort-by-attributes-alt"></span> | <span class="glyphicon glyphicon-user"></span> Name | ISK <span class="glyphicon glyphicon-plus-sign"></span> | ISK <span class="glyphicon glyphicon-minus-sign"></span> | <span class="glyphicon glyphicon-tower"></span> | <span class="glyphicon glyphicon-star"></span> |
@@ -99,7 +104,6 @@ Author: Bot
 | 10 |  <img style="margin: 0px; width: 25px; display: inline; vertical-align:middle;" src="https://evekatsu.github.io/data/character/1025850135_32.jpg"> nemure |  227.0 billion |  0.0 billion |  <img style="margin: 0px; width: 25px; display: inline; vertical-align:middle;" src="https://evekatsu.github.io/data/corporation/98476559_32.png"> | <img style="margin: 0px; width: 25px; display: inline; vertical-align:middle;" src="https://evekatsu.github.io/data/alliance/1354830081_32.png"> |
 
 
-<br />
 <br />
 毎月10日にその前の月のキルメールを集計します。  
 来月もよろしくお願いします。

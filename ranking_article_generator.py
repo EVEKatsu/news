@@ -24,36 +24,40 @@ Author: Bot
 注意事項：これは{date_jp}に集計したものです。それ以降に投稿されたキルメールは集計対象外です。
 
 
-### トータル
+{total_header}
+
 対象：所属するコーポレーション、アライアンスを攻撃したキルメールを除く全て（キル順）
 
-{total}
+{total_table}
 
 <br />
-### ソロ
+{solo_header}
+
 対象：キルメールにソロキルのフラグが付いている（ポイント順）
 
-{solo}
+{solo_table}
 
 <br />
-### スモールギャング
+{small_gangs_header}
+
 対象：ポイントが1より上の攻撃に参加した人数が100人未満（ポイント順）
 
-{small_gangs}
+{small_gangs_table}
 
 <br />
-### ブローラー
+{brawlers_header}
+
 対象：ポイントが1の攻撃に参加した人数が100人未満（キル順）
 
-{brawlers}
+{brawlers_table}
 
 <br />
-### ビッグファイター
+{big_fighters_header}
+
 対象：攻撃に参加した人数が100人以上（ISK順）
 
-{big_fighters}
+{big_fighters_table}
 
-<br />
 <br />
 毎月10日にその前の月のキルメールを集計します。  
 来月もよろしくお願いします。
@@ -62,26 +66,31 @@ Author: Bot
 RANKING = OrderedDict([
     (
         'total', {
+            'text': 'トータル',
             'query': '',
             'sort': 'Ships',
         }
     ), (
         'solo', {
+            'text': 'ソロ',
             'query': '&k=0',
             'sort': 'Points',
         }
     ), (
         'small_gangs', {
+            'text': 'スモールギャング',
             'query': '&k=1',
             'sort': 'Points',
         }
     ), (
         'brawlers', {
+            'text': 'ブローラー',
             'query': '&k=2',
             'sort': 'Ships',
         }
     ), (
         'big_fighters', {
+            'text': 'ビッグファイター',
             'query': '&k=3',
             'sort': 'ISK',
         }
@@ -160,7 +169,11 @@ def main():
             if 'alliance_id' in character_information:
                 text += img_tag % ('alliance', character_information['alliance_id'], '.png')
             text += ' |\n'
-        format_dict[filter_key] = text
+        format_dict[filter_key + '_table'] = text
+        format_dict[filter_key + '_header'] = '<h3><a href="%s" target="_blank">%s</a></h3>' % (
+            base_url + RANKING[filter_key]['query'],
+            RANKING[filter_key]['text'],
+        )
 
     with open(os.path.join('content', 'ranking', '%s.md' % filename), 'w', encoding='utf-8') as file:
         file.write(MARKDOWN.format(**format_dict))
