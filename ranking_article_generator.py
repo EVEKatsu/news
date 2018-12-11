@@ -130,7 +130,7 @@ def main():
                 value = tds[td_index].span.string.strip()
                 if td_index == 5 or td_index == 6:
                     value = int(value.replace(',', '')) / 1000 / 1000 / 1000
-                    value = str(round(value, 1)) + ' billion'
+                    value = str(round(value, 1)) + 'b'
 
                 ranking_item[td_key] = value
             ranking_items.append(ranking_item)
