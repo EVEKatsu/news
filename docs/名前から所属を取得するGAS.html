@@ -48,14 +48,6 @@
         <meta name="tags" content="Development">
         <meta name="tags" content="Google Apps Script">
 
-        <meta property="og:locale" content="" />
-    <meta property="og:site_name" content="いぶかつ☆にゅーす" />
-    <meta property="og:type" content="website" />
-    <meta property="og:title" content="いぶかつ☆にゅーす" />
-    <meta property="og:description" content="View the blog." />
-    <meta property="og:url" content="https://evekatsu.github.io/news" />
-      <meta name="og:image" content="https://evekatsu.github.io/news/theme/images/post-bg.jpg">
-
   <meta property="og:type" content="article">
             <meta property="article:author" content="https://evekatsu.github.io/news/author/administrator.html">
   <meta property="og:url" content="https://evekatsu.github.io/news/名前から所属を取得するGAS.html">
@@ -211,7 +203,7 @@ Google Driveにアクセスします。</p>
                 <hr>
                 <h3>お問い合わせや質問など</h3>
                 <p>
-                    Discord: <a href="https://t.co/lTtTmpOgy8">EVE Japanese IT</a><br>
+                    Discord: <a href="https://discord.gg/XK9A348">EVE Japanese IT</a><br>
                     Twitter: <a href="https://twitter.com/evekatsu">@evekatsu</a>
                 </p><p>
                     IT系に興味がある人はぜひDiscordの方に遊びにきてみてください。<br>
@@ -279,7 +271,7 @@ Google Driveにアクセスします。</p>
           continue;
         }
 
-        images[i].outerHTML = '<a href="' + images[i].src + '" data-fancybox="gallery"><img src="' + images[i].src + '" alt="' + images[i].alt + '" /></a>'
+        images[i].outerHTML = '<a href="' + images[i].src + '" data-fancybox="gallery"><img src="' + images[i].src + '" alt="' + images[i].alt + '" style="max-width: 700px" /></a>'
     }
 
     $('[data-fancybox]').fancybox();
