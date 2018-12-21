@@ -17,7 +17,7 @@ Tags: Translation, Imperium News Network, Moomin Amatin
 - Pandemic Legion - PanFamの一翼を担うアライアンス
 - New Eden - 人類が新しく生息している星団(Star Cluster)の名称
 - Highsec - セキュリティステータスが0.5以上のPKが制限された領域
-- Nullsec - セキュリティステータスが0.0以下のユーザーが独自に統治する領域
+- Nullsec - セキュリティステータスが0.0以下のプレイヤーが独自に統治する領域
 - ワームホール - New Edenとは別の場所にある領域。独自のルールがある
 - Cobalt Edge - New Edenの極東にあるNullsecの地域
 - レンター - 本来の持ち主に家賃を払ってNullsecに住んでる人達
