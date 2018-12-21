@@ -14,7 +14,7 @@ Tags: Translation, Imperium News, Moomin Amatin
 - Hard Knocks - ワームホールの王者。日本では『蟹』と呼ばれることもある
 - Hard Knocks Associates - Hard KnocksのNullsecを統治するためのアライアンス
 - PanFam - 北部にあるコアリション(Coalition)
-- Pandemic Legion - PanFamの一角のアライアンス
+- Pandemic Legion - PanFamの一翼を担うアライアンス
 - New Eden - 人類が新しく生息している星団(Star Cluster)の名称
 - Highsec - セキュリティステータスが0.5以上のPKが制限された領域
 - Nullsec - セキュリティステータスが0.0以下のユーザーが独自に統治する領域
