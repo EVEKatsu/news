@@ -1,7 +1,7 @@
 Title: Fort Knocks攻略戦 前編『ワームホールの王者』
 Date: 2018-12-21
 Slug: Fort Knocks攻略戦 前編『ワームホールの王者』
-Tags: Translation, Imperium News, Moomin Amatin
+Tags: Translation, Imperium News Network, Moomin Amatin
 
 
 ## これは翻訳記事です
@@ -12,7 +12,7 @@ Tags: Translation, Imperium News, Moomin Amatin
 
 #### 訳注
 - Hard Knocks - ワームホールの王者。日本では『蟹』と呼ばれることもある
-- Hard Knocks Associates - Hard KnocksのNullsecを統治するためのアライアンス
+- Hard Knocks Associates - Hard KnocksのNullsecを統治するためのアライアンス(Alliance)
 - PanFam - 北部にあるコアリション(Coalition)
 - Pandemic Legion - PanFamの一翼を担うアライアンス
 - New Eden - 人類が新しく生息している星団(Star Cluster)の名称
@@ -33,7 +33,7 @@ Hard Knocksは長年に渡ってワームホールでのトップ集団だ。
 
 彼らは、しばしばNullsecに侵入して影響力を発揮し、ついにはNullsecに自分たちの第二のレンター帝国までもを創り出してしまった。
 
-確かに噂によればHard Knocksは既に高クラスのワームホールのレンター領域を支配しており、一部の人からかなりの反感を買っている。
+確かに噂によればHard Knocksは既に高クラスのワームホールのレンター領域を支配しており、一部の人たちからかなりの反感を買っている。
 
 ---
 
@@ -45,7 +45,7 @@ Hard Knocksにはワームホールコミュニティから憎まれていると
 
 彼らは小さな規模のグループに対して圧倒的な戦力をもってして蹂躙していった。
 
-彼らは普通では手が出ないような高価な艦隊に高スキルポイントのパイロットを搭乗させ、それらをいとも簡単に成し遂げた。
+彼らは普通では手が出せないような高価な艦隊に高スキルポイントのパイロットを搭乗させ、それらをいとも簡単に成し遂げた。
 
 Hard Knocksの侵略するさまはお世辞にも慈悲深いものと言えるものではなかった。
 
@@ -71,7 +71,7 @@ Hard Knocks AssociatesはCobalt Edgeに住んでいる。ここはHighsecへの�
 
 この強固な関係は他のワームホール拠点ともしっかりと確立されていた。
 
-最後に一つ。通常ならばワームホールからの侵略に対して、Nullsecは外部からの侵略を阻止するために団結することになってはいる。
+最後に一つ。通常ならばワームホールからの侵略に対して、Nullsecはそれらを阻止するために団結することになってはいる。
 
 ---
 
@@ -79,7 +79,7 @@ Hard Knocks AssociatesはCobalt Edgeに住んでいる。ここはHighsecへの�
 
 これらの事実はHard Knocksがただの引きこもりではないことをNew Edenの住民に示している。
 
-彼らはゲームでKeepstarを配備した最初のグループだ。
+彼らはゲーム内でKeepstarを配備した最初のグループだ。
 
 これにはワームホールにおける複雑に絡み合った兵站が伴い、多大なる初期投資を以ってして成し遂げた、まさに歴史的な偉業である。
 
