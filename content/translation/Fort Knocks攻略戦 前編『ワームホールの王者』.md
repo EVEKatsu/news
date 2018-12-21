@@ -22,7 +22,7 @@ Tags: Translation, Imperium News, Moomin Amatin
 - Cobalt Edge - New Edenの極東にあるNullsecの地域
 - レンター - 本来の持ち主に家賃を払ってNullsecに住んでる人達
 - Keepstar - とても強い要塞みたいなもの
-- Drone Region Federation(DRF) - ロシア人がメインの連合。ロシア政府によってEVEOnlineに接続できなかった時に蹂躙されて殆ど崩壊した模様
+- Drone Region Federation(DRF) - ロシア人がメインのコアリション。ロシア政府によってEVEOnlineに接続できなかった時に蹂躙されて殆ど崩壊した模様
 
 
 ## ワームホールの王者
