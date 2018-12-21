@@ -16,10 +16,10 @@ Tags: Translation, Imperium News, Moomin Amatin
 - PanFam - 北部にあるコアリション(Coalition)
 - Pandemic Legion - PanFamの一角のアライアンス
 - New Eden - 人類が新しく生息している星団(Star Cluster)の名称
-- Highsec - セキュリティステータスが0.5以上のPKが制限されたシステム
-- Nullsec - セキュリティステータスが0.0以下のユーザーが独自に統治するシステム
+- Highsec - セキュリティステータスが0.5以上のPKが制限された領域
+- Nullsec - セキュリティステータスが0.0以下のユーザーが独自に統治する領域
 - ワームホール - New Edenとは別の場所にある領域。独自のルールがある
-- Cobalt Edge - New Edenの極東にあるNullsecのシステム
+- Cobalt Edge - New Edenの極東にあるNullsecの地域
 - レンター - 本来の持ち主に家賃を払ってNullsecに住んでる人達
 - Keepstar - とても強い要塞みたいなもの
 - Drone Region Federation(DRF) - ロシア人がメインの連合。ロシア政府によってEVEOnlineに接続できなかった時に蹂躙されて殆ど崩壊
