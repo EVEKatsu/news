@@ -59,7 +59,7 @@ Hard Knocksがこれほどまでの略奪をするためには協力者の存在
 
 だがしかし、Hard KnocksはPanFamのワームホール部門でしかなく、Pandemic Legionが好き勝手に動かしているのだろうと示唆されてもいる。
 
-たとえ実際にどんな関係であったとしても、Hard KnocksのNullsecレンタル帝国はDrone Region Federation(DRF)の崩壊によって生み出されたものだ。
+たとえ実際にどんな関係であったとしても、Hard KnocksのNullsecレンター帝国はDrone Region Federation(DRF)の崩壊によって生み出されたものだ。
 
 ![zKillboardのAPIの仕様が変更]({static}/images/Fort Knocks攻略戦 前編『ワームホールの王者』/Fort Knocks攻略戦 前編『ワームホールの王者』-2.jpg)
 
