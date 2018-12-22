@@ -88,6 +88,6 @@ Hard Knocks AssociatesはCobalt Edgeに住んでいる。ここはHighsecへの�
 <br />
 <br />
 
-これは最も初期のKeepstarに与えられた名前である。
+これはこの最も初期のKeepstarに与えられた名前である。
 
 このKeepstarは『富の独占と安全の保障は我々だけに許されたものである』ということを見せつけるものであり、まさに『ワームホールの王者』を象徴するものであった。
