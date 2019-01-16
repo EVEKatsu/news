@@ -102,7 +102,7 @@ def main():
     month = str(int(sys.argv[2]))
 
     try:
-        with urllib.request.urlopen('https://evekatsu.github.io/ranking/%d/%d/players_information.json' % (year, month)) as url:
+        with urllib.request.urlopen('https://evekatsu.github.io/ranking/%s/%s/players_information.json' % (year, month)) as url:
             players_information = json.loads(url.read().decode())
     except urllib.error.HTTPError:
         print('Error: players_information.json')
