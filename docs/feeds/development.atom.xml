@@ -51,7 +51,8 @@
 &lt;p&gt;ログイン認証済みユーザーは各種投稿に高評価をつけることができる、Redditのように高評価順などに並べるなどに利用ができる。&lt;/p&gt;
 &lt;p&gt;低評価は、色々と大人の事情で実装しないほうが皆の幸せだと思ったり。&lt;/p&gt;
 &lt;p&gt;&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
-&lt;p&gt;今のところ予定してるのはこんな感じです！なにかご意見ご要望に関しましてはDiscordかTwitterへお願いします！&lt;/p&gt;</content><category term="Development"></category></entry><entry><title>zKillboardのAPIの仕様が変更</title><link href="https://evekatsu.github.io/news/zKillboard%E3%81%AEAPI%E3%81%AE%E4%BB%95%E6%A7%98%E3%81%8C%E5%A4%89%E6%9B%B4.html" rel="alternate"></link><published>2018-10-09T00:00:00+09:00</published><updated>2018-10-09T00:00:00+09:00</updated><author><name>Administrator</name></author><id>tag:evekatsu.github.io,2018-10-09:/news/zKillboardのAPIの仕様が変更.html</id><summary type="html">&lt;p&gt;zKillboardのAPIの仕様が変更されたらしいです。
+&lt;p&gt;今のところ予定してるのはこんな感じです！&lt;/p&gt;
+&lt;p&gt;なにかご意見ご要望に関しましてはDiscordかTwitterへお願いします！&lt;/p&gt;</content><category term="Development"></category></entry><entry><title>zKillboardのAPIの仕様が変更</title><link href="https://evekatsu.github.io/news/zKillboard%E3%81%AEAPI%E3%81%AE%E4%BB%95%E6%A7%98%E3%81%8C%E5%A4%89%E6%9B%B4.html" rel="alternate"></link><published>2018-10-09T00:00:00+09:00</published><updated>2018-10-09T00:00:00+09:00</updated><author><name>Administrator</name></author><id>tag:evekatsu.github.io,2018-10-09:/news/zKillboardのAPIの仕様が変更.html</id><summary type="html">&lt;p&gt;zKillboardのAPIの仕様が変更されたらしいです。
 コミットログとしてはおそらく&lt;a href="https://github.com/zKillboard/zKillboard/commit/169720443705889271b7d2f3b7615fd8ca664e2d#diff-0ad34309a6116364bfa9a5dc98135334"&gt;ここ&lt;/a&gt;です。&lt;br&gt;
 "implemented zkb only data for api, and upped limit to 1000 per call"&lt;/p&gt;
 &lt;p&gt;&lt;img alt="zKillboardのAPIの仕様が変更" src="https://evekatsu.github.io/news/images/zKillboardのAPIの仕様が変更.jpg"&gt;
