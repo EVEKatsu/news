@@ -1,5 +1,57 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>いぶかつ☆にゅーす - development</title><link href="https://evekatsu.github.io/news/" rel="alternate"></link><link href="https://evekatsu.github.io/news/feeds/development.atom.xml" rel="self"></link><id>https://evekatsu.github.io/news/</id><updated>2018-10-09T00:00:00+09:00</updated><entry><title>zKillboardのAPIの仕様が変更</title><link href="https://evekatsu.github.io/news/zKillboard%E3%81%AEAPI%E3%81%AE%E4%BB%95%E6%A7%98%E3%81%8C%E5%A4%89%E6%9B%B4.html" rel="alternate"></link><published>2018-10-09T00:00:00+09:00</published><updated>2018-10-09T00:00:00+09:00</updated><author><name>Administrator</name></author><id>tag:evekatsu.github.io,2018-10-09:/news/zKillboardのAPIの仕様が変更.html</id><summary type="html">&lt;p&gt;zKillboardのAPIの仕様が変更されたらしいです。
+<feed xmlns="http://www.w3.org/2005/Atom"><title>いぶかつ☆にゅーす - development</title><link href="https://evekatsu.github.io/news/" rel="alternate"></link><link href="https://evekatsu.github.io/news/feeds/development.atom.xml" rel="self"></link><id>https://evekatsu.github.io/news/</id><updated>2019-02-07T00:00:00+09:00</updated><entry><title>おれのかんがえたさいきょうのぽーたるさいと</title><link href="https://evekatsu.github.io/news/%E3%81%8A%E3%82%8C%E3%81%AE%E3%81%8B%E3%82%93%E3%81%8C%E3%81%88%E3%81%9F%E3%81%95%E3%81%84%E3%81%8D%E3%82%87%E3%81%86%E3%81%AE%E3%81%BD%E3%83%BC%E3%81%9F%E3%82%8B%E3%81%95%E3%81%84%E3%81%A8.html" rel="alternate"></link><published>2019-02-07T00:00:00+09:00</published><updated>2019-02-07T00:00:00+09:00</updated><author><name>Administrator</name></author><id>tag:evekatsu.github.io,2019-02-07:/news/おれのかんがえたさいきょうのぽーたるさいと.html</id><summary type="html">&lt;blockquote class="twitter-tweet" data-lang="ja"&gt;&lt;p lang="ja" dir="ltr"&gt;EVE Japan Newsというポータルサイトが閉鎖してしまったっぽいので、代替のサービスの構築を考えています。&lt;br&gt;&lt;br&gt;- ブログの最新情報&lt;br&gt;- Twitterの &lt;a href="https://twitter.com/hashtag/evejapan?src=hash&amp;amp;ref_src=twsrc%5Etfw"&gt;#evejapan&lt;/a&gt; の表示&lt;br&gt;- 最新のランキング&lt;br&gt;&lt;br&gt;とりまこれを予定しています。&lt;br&gt;もし欲しい機能があれば要望をお寄せください！&lt;a href="https://twitter.com/hashtag/evejapan?src=hash&amp;amp;ref_src=twsrc%5Etfw"&gt;#evejapan&lt;/a&gt; &lt;a href="https://twitter.com/hashtag/eveonline?src=hash&amp;amp;ref_src=twsrc%5Etfw"&gt;#eveonline&lt;/a&gt; &lt;a href="https://twitter.com/hashtag/tweetfleet?src=hash&amp;amp;ref_src=twsrc%5Etfw"&gt;#tweetfleet&lt;/a&gt; &lt;a href="https://t.co/jg4NvlRU92"&gt;pic.twitter.com/jg4NvlRU92&lt;/a&gt;&lt;/p&gt;&amp;mdash; いぶかつ☆にゅーす (@evekatsu) &lt;a href="https://twitter.com/evekatsu/status/1092793376154574860?ref_src=twsrc%5Etfw"&gt;2019年2月5日&lt;/a&gt;&lt;/blockquote&gt;
+
+&lt;script async src="https://platform.twitter.com/widgets.js" charset="utf-8"&gt;&lt;/script&gt;
+
+&lt;p&gt;色んな人からヒアリングして、アイデア出しをして構想が固まってきたので、暫定ですが現在どういった感じになりそうかを書いておきます&lt;/p&gt;
+&lt;h1&gt;コンセプト&lt;/h1&gt;
+&lt;p&gt;&lt;br /&gt;&lt;br /&gt;&lt;br /&gt;
+&lt;b style="font-size: 150%"&gt;誰もが参加できるオープンなポータルサイト&lt;/b&gt;
+&lt;br /&gt;&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;h1&gt;ESIによる認証&lt;/h1&gt;
+&lt;p&gt;プレイヤーの非公開情報を要求しないESIを発行してログインをする。&lt;/p&gt;
+&lt;p&gt;サイトの閲覧自体はログインなしでも可能だが、自らが参加したい場合は必ずログインが必要。&lt;/p&gt;
+&lt;p&gt;ALTでの荒らし対策として、管理人による手動BANやアカウント作成してから一定期間が経たないと参加できないなどの対策を取る。&lt;/p&gt;
+&lt;p&gt;そのユーザーがサイトで何らかのアクションを行った場合は全て明記するものとする。&lt;/p&gt;
+&lt;p&gt;例：grieben secoがこのYoutube動画をオススメしています&lt;/p&gt;
+&lt;h1&gt;ブログの最新情報の表示&lt;/h1&gt;
+&lt;p&gt;RSSという仕組みを利用して、ネットの色んなところに散らばっているブログの最新情報を表示する。&lt;/p&gt;
+&lt;p&gt;このRSSというのは特定のURLのことなので、ログイン認証済みのユーザーならば誰でも新しくRSSのURLを追加できる（削除は管理人以外はできない）&lt;/p&gt;
+&lt;h1&gt;オススメ動画の共有&lt;/h1&gt;
+&lt;p&gt;ログイン認証済みユーザーならばYoutubeのURLを投稿すると、それがポータルサイト内に表示されコミュニティで共有することができる（削除は管理人以外はできない）&lt;/p&gt;
+&lt;h1&gt;Twitterのツイートを共有（案１）&lt;/h1&gt;
+&lt;p&gt;ログイン認証済みユーザーならばTwitterのツイートURLを投稿すると …&lt;/p&gt;</summary><content type="html">&lt;blockquote class="twitter-tweet" data-lang="ja"&gt;&lt;p lang="ja" dir="ltr"&gt;EVE Japan Newsというポータルサイトが閉鎖してしまったっぽいので、代替のサービスの構築を考えています。&lt;br&gt;&lt;br&gt;- ブログの最新情報&lt;br&gt;- Twitterの &lt;a href="https://twitter.com/hashtag/evejapan?src=hash&amp;amp;ref_src=twsrc%5Etfw"&gt;#evejapan&lt;/a&gt; の表示&lt;br&gt;- 最新のランキング&lt;br&gt;&lt;br&gt;とりまこれを予定しています。&lt;br&gt;もし欲しい機能があれば要望をお寄せください！&lt;a href="https://twitter.com/hashtag/evejapan?src=hash&amp;amp;ref_src=twsrc%5Etfw"&gt;#evejapan&lt;/a&gt; &lt;a href="https://twitter.com/hashtag/eveonline?src=hash&amp;amp;ref_src=twsrc%5Etfw"&gt;#eveonline&lt;/a&gt; &lt;a href="https://twitter.com/hashtag/tweetfleet?src=hash&amp;amp;ref_src=twsrc%5Etfw"&gt;#tweetfleet&lt;/a&gt; &lt;a href="https://t.co/jg4NvlRU92"&gt;pic.twitter.com/jg4NvlRU92&lt;/a&gt;&lt;/p&gt;&amp;mdash; いぶかつ☆にゅーす (@evekatsu) &lt;a href="https://twitter.com/evekatsu/status/1092793376154574860?ref_src=twsrc%5Etfw"&gt;2019年2月5日&lt;/a&gt;&lt;/blockquote&gt;
+
+&lt;script async src="https://platform.twitter.com/widgets.js" charset="utf-8"&gt;&lt;/script&gt;
+
+&lt;p&gt;色んな人からヒアリングして、アイデア出しをして構想が固まってきたので、暫定ですが現在どういった感じになりそうかを書いておきます&lt;/p&gt;
+&lt;h1&gt;コンセプト&lt;/h1&gt;
+&lt;p&gt;&lt;br /&gt;&lt;br /&gt;&lt;br /&gt;
+&lt;b style="font-size: 150%"&gt;誰もが参加できるオープンなポータルサイト&lt;/b&gt;
+&lt;br /&gt;&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;h1&gt;ESIによる認証&lt;/h1&gt;
+&lt;p&gt;プレイヤーの非公開情報を要求しないESIを発行してログインをする。&lt;/p&gt;
+&lt;p&gt;サイトの閲覧自体はログインなしでも可能だが、自らが参加したい場合は必ずログインが必要。&lt;/p&gt;
+&lt;p&gt;ALTでの荒らし対策として、管理人による手動BANやアカウント作成してから一定期間が経たないと参加できないなどの対策を取る。&lt;/p&gt;
+&lt;p&gt;そのユーザーがサイトで何らかのアクションを行った場合は全て明記するものとする。&lt;/p&gt;
+&lt;p&gt;例：grieben secoがこのYoutube動画をオススメしています&lt;/p&gt;
+&lt;h1&gt;ブログの最新情報の表示&lt;/h1&gt;
+&lt;p&gt;RSSという仕組みを利用して、ネットの色んなところに散らばっているブログの最新情報を表示する。&lt;/p&gt;
+&lt;p&gt;このRSSというのは特定のURLのことなので、ログイン認証済みのユーザーならば誰でも新しくRSSのURLを追加できる（削除は管理人以外はできない）&lt;/p&gt;
+&lt;h1&gt;オススメ動画の共有&lt;/h1&gt;
+&lt;p&gt;ログイン認証済みユーザーならばYoutubeのURLを投稿すると、それがポータルサイト内に表示されコミュニティで共有することができる（削除は管理人以外はできない）&lt;/p&gt;
+&lt;h1&gt;Twitterのツイートを共有（案１）&lt;/h1&gt;
+&lt;p&gt;ログイン認証済みユーザーならばTwitterのツイートURLを投稿すると、それがポータルサイト内に表示されコミュニティで共有することができる（削除は管理人以外はできない）&lt;/p&gt;
+&lt;p&gt;完成イメージとしてはTogetterみたいな感じ。&lt;/p&gt;
+&lt;h1&gt;Twitterのツイートを共有（案２）&lt;/h1&gt;
+&lt;p&gt;能動的に投稿してくれる人が尽きるとコンテンツが止まりかねないことと、新規プレイヤーの捕捉ができないというのはまずいという意見があったので、#evejapanハッシュタグでの自動収集という方法になるかもしれない。&lt;/p&gt;
+&lt;p&gt;できれば両方実装してみて便利そうなものを残す、または使い分けをするなどをしていきたい。&lt;/p&gt;
+&lt;p&gt;bot対策としては管理人による手動管理が楽ではある。基本的にbotを使って#evejapanのハッシュタグを汚しているアカウントは全てBANしていく。&lt;/p&gt;
+&lt;h2&gt;Like機能&lt;/h2&gt;
+&lt;p&gt;ログイン認証済みユーザーは各種投稿に高評価をつけることができる、Redditのように高評価順などに並べるなどに利用ができる。&lt;/p&gt;
+&lt;p&gt;低評価は、色々と大人の事情で実装しないほうが皆の幸せだと思ったり。&lt;/p&gt;
+&lt;p&gt;&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p&gt;今のところ予定してるのはこんな感じです！なにかご意見ご要望に関しましてはDiscordかTwitterへお願いします！&lt;/p&gt;</content><category term="Development"></category></entry><entry><title>zKillboardのAPIの仕様が変更</title><link href="https://evekatsu.github.io/news/zKillboard%E3%81%AEAPI%E3%81%AE%E4%BB%95%E6%A7%98%E3%81%8C%E5%A4%89%E6%9B%B4.html" rel="alternate"></link><published>2018-10-09T00:00:00+09:00</published><updated>2018-10-09T00:00:00+09:00</updated><author><name>Administrator</name></author><id>tag:evekatsu.github.io,2018-10-09:/news/zKillboardのAPIの仕様が変更.html</id><summary type="html">&lt;p&gt;zKillboardのAPIの仕様が変更されたらしいです。
 コミットログとしてはおそらく&lt;a href="https://github.com/zKillboard/zKillboard/commit/169720443705889271b7d2f3b7615fd8ca664e2d#diff-0ad34309a6116364bfa9a5dc98135334"&gt;ここ&lt;/a&gt;です。&lt;br&gt;
 "implemented zkb only data for api, and upped limit to 1000 per call"&lt;/p&gt;
 &lt;p&gt;&lt;img alt="zKillboardのAPIの仕様が変更" src="https://evekatsu.github.io/news/images/zKillboardのAPIの仕様が変更.jpg"&gt;
