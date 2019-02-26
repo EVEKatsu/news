@@ -119,6 +119,24 @@
         <article class="post">
         <div class="inner">
             <header class="post-header">         
+                <h2 class="post-title"><a href="https://evekatsu.github.io/news/ranking-2018-8.html" rel="bookmark" title="Permalink to 2018年8月のランキング発表">2018年8月のランキング発表</a>
+                </h2>
+                <span class="post-meta">
+                        <a href="https://evekatsu.github.io/news/author/bot.html">Bot</a>
+                     | <time datetime="2018年09月19日">2018年09月19日</time>
+                </span>
+                <div class="clear"></div>
+            </header>
+                <section class="post-excerpt">
+                    <p>
+                        今月もお疲れ様でした。 2018年8月の日本人PvPランキングの発表です。 注意事項：これは2018年09月19日に集計したものです。それ以降に投稿されたキルメールは集計対象外です。 トータル 対象：所属するコーポレーション、アライアンスを攻撃したキルメールを除く全て（キル順） 順位 キャラクター コーポレーション アライアンス 1 Ouki S(402) ONCBN(1955) CONDI(1955) 2 mina sat(347) ESPM(765) -000-(1366) 3...
+                    </p>
+                </section>
+            </div>
+        </article>
+        <article class="post">
+        <div class="inner">
+            <header class="post-header">         
                 <h2 class="post-title"><a href="https://evekatsu.github.io/news/ロードマップっぽいもの.html" rel="bookmark" title="Permalink to ロードマップっぽいもの">ロードマップっぽいもの</a>
                 </h2>
                 <span class="post-meta">
@@ -160,6 +178,14 @@
   <script type="text/javascript" src="https://evekatsu.github.io/news/theme/js/script.js"></script>
 
 
+  <style>
+    .center {
+      display: block !important;
+      margin-left: auto !important;
+      margin-right: auto !important;
+      max-width: 700px !important;
+    }
+  </style>
   <script type="text/javascript" src="https://evekatsu.github.io/news/theme/js/jquery.fancybox.min.js"></script>
   <script>
     var images = document.getElementsByTagName("img");
@@ -172,7 +198,7 @@
           continue;
         }
 
-        images[i].outerHTML = '<a href="' + images[i].src + '" data-fancybox="gallery"><img src="' + images[i].src + '" alt="' + images[i].alt + '" style="max-width: 700px" /></a>'
+        images[i].outerHTML = '<a href="' + images[i].src + '" data-fancybox="gallery"><img class="center" src="' + images[i].src + '" alt="' + images[i].alt + '"/></a>'
     }
 
     $('[data-fancybox]').fancybox();

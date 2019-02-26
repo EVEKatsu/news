@@ -94,6 +94,8 @@
   <article class="post">
     <div class="inner">
       <dl>
+          <dt>2019年02月26日</dt>
+          <dd><a href="https://evekatsu.github.io/news/すくらっぷ☆あんど☆すくらっぷ.html">すくらっぷ☆あんど☆すくらっぷ</a></dd>
           <dt>2019年02月20日</dt>
           <dd><a href="https://evekatsu.github.io/news/ranking-2019-1.html">2019年1月のランキング発表</a></dd>
           <dt>2019年02月07日</dt>
@@ -135,6 +137,14 @@
   <script type="text/javascript" src="https://evekatsu.github.io/news/theme/js/script.js"></script>
 
 
+  <style>
+    .center {
+      display: block !important;
+      margin-left: auto !important;
+      margin-right: auto !important;
+      max-width: 700px !important;
+    }
+  </style>
   <script type="text/javascript" src="https://evekatsu.github.io/news/theme/js/jquery.fancybox.min.js"></script>
   <script>
     var images = document.getElementsByTagName("img");
@@ -147,7 +157,7 @@
           continue;
         }
 
-        images[i].outerHTML = '<a href="' + images[i].src + '" data-fancybox="gallery"><img src="' + images[i].src + '" alt="' + images[i].alt + '" style="max-width: 700px" /></a>'
+        images[i].outerHTML = '<a href="' + images[i].src + '" data-fancybox="gallery"><img class="center" src="' + images[i].src + '" alt="' + images[i].alt + '"/></a>'
     }
 
     $('[data-fancybox]').fancybox();

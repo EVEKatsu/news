@@ -225,6 +225,14 @@
   <script type="text/javascript" src="https://evekatsu.github.io/news/theme/js/script.js"></script>
 
 
+  <style>
+    .center {
+      display: block !important;
+      margin-left: auto !important;
+      margin-right: auto !important;
+      max-width: 700px !important;
+    }
+  </style>
   <script type="text/javascript" src="https://evekatsu.github.io/news/theme/js/jquery.fancybox.min.js"></script>
   <script>
     var images = document.getElementsByTagName("img");
@@ -237,7 +245,7 @@
           continue;
         }
 
-        images[i].outerHTML = '<a href="' + images[i].src + '" data-fancybox="gallery"><img src="' + images[i].src + '" alt="' + images[i].alt + '" style="max-width: 700px" /></a>'
+        images[i].outerHTML = '<a href="' + images[i].src + '" data-fancybox="gallery"><img class="center" src="' + images[i].src + '" alt="' + images[i].alt + '"/></a>'
     }
 
     $('[data-fancybox]').fancybox();
