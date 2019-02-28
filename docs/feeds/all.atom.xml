@@ -86,7 +86,7 @@ createdb
 postgres -D /usr/local/var/postgres
 &lt;/pre&gt;
 ターミナルからPostgreSQLを起動します。このコマンドはmacOSで動かす時のもので、Windowsとか他の環境ではどうなのかは分かりません。&lt;/p&gt;
-&lt;p&gt;プロジェクトを走らせてる時は常にPostgreSQLが起動している必要がありますので、これは放置してもう一つ別のターミナルを起動します。&lt;/p&gt;
+&lt;p&gt;プロジェクトを走らせてる時は常にPostgreSQLを起動している必要がありますので、これは放置して別のターミナルを起動します。&lt;/p&gt;
 &lt;p&gt;※もしかしたらWindowsとかではPostgreSQLを常駐できるツールみたいなのがあるかもです。&lt;/p&gt;
 &lt;p&gt;&lt;br /&gt;
 &lt;b style="font-size: 130%"&gt;ターミナルをプロジェクトのパスまで移動します。&lt;/b&gt;
@@ -200,7 +200,8 @@ heroku run python scheduler_by_every_10_minutes.py
 heroku open
 &lt;/pre&gt;
 
-&lt;p&gt;ブラウザが開いてサイトが表示されていればデプロイ成功です。おわり。&lt;/p&gt;
+&lt;p&gt;ブラウザが開いてサイトが表示されていればデプロイ成功です。&lt;/p&gt;
+&lt;p&gt;&lt;b style="font-size: 300%"&gt;おわり&lt;/b&gt;&lt;/p&gt;
 &lt;p&gt;&lt;img alt="新大陸でモンスターを狩ってたらポータルサイトを手伝ってくれる人が現れたので動かす方法について雑に書いてみる-7" src="https://evekatsu.github.io/news/images/新大陸でモンスターを狩ってたらポータルサイトを手伝ってくれる人が現れたので動かす方法について雑に書いてみる/新大陸でモンスターを狩ってたらポータルサイトを手伝ってくれる人が現れたので動かす方法について雑に書いてみる-7.jpg"&gt;&lt;/p&gt;
 &lt;h2&gt;開発環境&lt;/h2&gt;
 &lt;ul&gt;
