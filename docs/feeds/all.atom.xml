@@ -153,7 +153,7 @@ python app.py
 &lt;h2&gt;クラウド上で走らせる&lt;/h2&gt;
 &lt;p&gt;当然ですがローカル環境でサイトを立ち上げてもローカルネットワーク外の人からはアクセスできません。&lt;/p&gt;
 &lt;p&gt;そこで&lt;a href="https://jp.heroku.com/home"&gt;Heroku&lt;/a&gt;というクラウドサービスを使います。&lt;/p&gt;
-&lt;p&gt;ユーザー登録をした後にHerokuに操作するための何らかのツールをインストールしてください。&lt;/p&gt;
+&lt;p&gt;ユーザー登録をした後にHerokuを操作するための何らかのツールをインストールしてください。&lt;/p&gt;
 &lt;p&gt;クレジットカードの登録はしなくてもいいですが、した場合は無料で使える容量が増えます（有料プランに変えない限り支払いは発生しません）&lt;/p&gt;
 &lt;p&gt;次に&lt;a href="https://git-scm.com/"&gt;Git&lt;/a&gt;というソフトウェアをインストールします。&lt;/p&gt;
 &lt;p&gt;gitを使う時は&lt;a href="https://ja.atlassian.com/software/sourcetree"&gt;Sourcetree&lt;/a&gt;というのがオススメです（確かSourcetreeにgitも付属されてたと思います）&lt;/p&gt;
