@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+      <meta charset="utf-8">
+  <meta http-equiv="Content-Type" content="text/html" charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+
+
+  <title>新大陸でモンスターを狩ってたらポータルサイトを手伝ってくれる人が現れたので動かす方法について雑に書いてみる</title>
+
+
+  <meta name="HandheldFriendly" content="True" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="referrer" content="origin" />
+  <meta name="generator" content="Pelican" />
+  <link href="https://evekatsu.github.io/news" rel="canonical" />
+
+  <!-- Feed -->
+      <link href="feeds/all.atom.xml" type="application/atom+xml" rel="alternate" title="いぶかつ☆にゅーす Full Atom Feed" />
+
+  <link href="https://evekatsu.github.io/news/theme/css/style.css" type="text/css" rel="stylesheet" />
+  <link href="https://evekatsu.github.io/news/theme/css/main.css" type="text/css" rel="stylesheet" />
+  <link href="https://evekatsu.github.io/news/theme/css/jquery.fancybox.min.css" type="text/css" rel="stylesheet" />
+
+  <!-- Code highlight color scheme -->
+      <link href="https://evekatsu.github.io/news/theme/css/code_blocks/github.css" rel="stylesheet">
+
+
+  <!-- Custom fonts -->
+  <link href='https://fonts.googleapis.com/css?family=Montserrat:400,300' rel='stylesheet' type='text/css' />
+  <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet" type="text/css" />
+
+  <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+  <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+  <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+    <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+  <![endif]-->
+
+
+    <link href="https://evekatsu.github.io/news/新大陸でモンスターを狩ってたらポータルサイトを手伝ってくれる人が現れたので動かす方法について雑に書いてみる.html" rel="canonical" />
+
+        <meta name="description" content="嬉しいことにDiscordで 「開発者募集してますか？面白そうなのでコントリビュートしたいです」 とおっしゃってくださることが現れまして コントリビュートってのが何なのか分からないですけどマンモスうれぴーです！...">
+
+        <meta name="author" content="Administrator">
+
+        <meta name="tags" content="Development">
+
+  <meta property="og:type" content="article">
+            <meta property="article:author" content="https://evekatsu.github.io/news/author/administrator.html">
+  <meta property="og:url" content="https://evekatsu.github.io/news/新大陸でモンスターを狩ってたらポータルサイトを手伝ってくれる人が現れたので動かす方法について雑に書いてみる.html">
+  <meta property="og:title" content="新大陸でモンスターを狩ってたらポータルサイトを手伝ってくれる人が現れたので動かす方法について雑に書いてみる">
+  <meta property="article:published_time" content="2019-02-28 00:00:00+09:00">
+            <meta property="og:description" content="嬉しいことにDiscordで 「開発者募集してますか？面白そうなのでコントリビュートしたいです」 とおっしゃってくださることが現れまして コントリビュートってのが何なのか分からないですけどマンモスうれぴーです！...">
+
+            <meta property="og:image" content="https://evekatsu.github.io/news/theme/images/post-bg.jpg">
+        <meta name="twitter:card" content="summary_large_image">
+        <meta name="twitter:site" content="@evekatsu">
+        <meta name="twitter:title" content="新大陸でモンスターを狩ってたらポータルサイトを手伝ってくれる人が現れたので動かす方法について雑に書いてみる">
+        <meta name="twitter:url" content="https://evekatsu.github.io/news/新大陸でモンスターを狩ってたらポータルサイトを手伝ってくれる人が現れたので動かす方法について雑に書いてみる.html">
+
+            <meta name="twitter:image:src" content="https://evekatsu.github.io/news/theme/images/post-bg.jpg">
+
+            <meta name="twitter:description" content="嬉しいことにDiscordで 「開発者募集してますか？面白そうなのでコントリビュートしたいです」 とおっしゃってくださることが現れまして コントリビュートってのが何なのか分からないですけどマンモスうれぴーです！...">
+
+  <link rel="shortcut icon" href="https://evekatsu.github.io/news/favicon.jpg" type="image/jpg" />
+</head>
+<!-- TODO : Body class -->
+<body class="home-template">
+
+<nav id="menu">
+  <a class="close-button">Close</a>
+  <div class="nav-wrapper">
+    <p class="nav-label">Menu</p>
+    <ul>
+          <li><a href="https://twitter.com/evekatsu" role="presentation" target="_blank"><i class="ic ic-twitter"></i> Twitter</a></li>
+          <li><a href="https://evekatsu.github.io/ranking/" role="presentation" target="_blank"><i class="ic ic-star"></i> Ranking</a></li>
+          <li><a href="https://github.com/EVEKatsu" role="presentation" target="_blank"><i class="ic ic-link"></i> GitHub</a></li>
+
+
+        <li class="nav-rss"><a href="feeds/all.atom.xml" target="_blank"><i class="ic ic-rss"></i> Feed</a></li>
+    </ul>
+  </div>
+</nav>
+    <!-- Progressbar -->
+    <div class="progress-container">
+        <span class="progress-bar"></span>
+    </div>
+
+    <!-- Page Header -->
+    <!-- Set your background image for this header on the line below. -->
+    <header id="post-header" class="has-cover">
+      <div class="inner">
+        <nav id="navigation">
+            <span id="home-button" class="nav-button">
+                <a class="home-button" href="https://evekatsu.github.io/news" title="Home"><i class="ic ic-arrow-left"></i> Home</a>
+            </span>
+          <span id="menu-button" class="nav-button">
+            <a class="menu-button"><i class="ic ic-menu"></i> Menu</a>
+          </span>
+        </nav>
+        <h1 class="post-title">新大陸でモンスターを狩ってたらポータルサイトを手伝ってくれる人が現れたので動かす方法について雑に書いてみる</h1>
+        <!-- TODO : Proper class for headline -->
+        <span class="post-meta">
+                <a href="https://evekatsu.github.io/news/author/administrator.html">Administrator</a>
+            | <time datetime="2019年02月28日">2019年02月28日</time>
+        </span>
+        <!-- TODO : Modified check -->
+        
+            <div class="post-cover cover" style="background-image: url('https://evekatsu.github.io/news/theme/images/post-bg.jpg')">
+        
+      </div>
+    </header>    
+
+  <section id="wrapper">
+    <a class="hidden-close"></a>
+
+    <!-- Post content -->
+    <main class="content" role="main">
+
+        <!-- Post ad -->
+        <article class="post">
+        <div class="inner">
+            <section class="post-content">
+            <a href="https://evekatsu.github.io/ad/" class="evekatsu-ad" target="_blank"></a>
+            <script src="https://evekatsu.github.io/ad/widget.js"></script>
+            </section>
+        </div>
+        </article>
+
+        <article class="post">
+        <div class="inner">
+            <section class="post-content">
+                <p><img alt="新大陸でモンスターを狩ってたらポータルサイトを手伝ってくれる人が現れたので動かす方法について雑に書いてみる-1" src="https://evekatsu.github.io/news/images/新大陸でモンスターを狩ってたらポータルサイトを手伝ってくれる人が現れたので動かす方法について雑に書いてみる/新大陸でモンスターを狩ってたらポータルサイトを手伝ってくれる人が現れたので動かす方法について雑に書いてみる-1.jpg"></p>
+<p>嬉しいことにDiscordで</p>
+<p><br />
+<b style="font-size: 120%">「開発者募集してますか？面白そうなのでコントリビュートしたいです」</b>
+<br /></p>
+<p>とおっしゃってくださることが現れまして</p>
+<p><br />
+<b style="font-size: 120%">コントリビュートってのが何なのか分からないですけどマンモスうれぴーです！</b>
+<br /></p>
+<p>そんな感じなのでポータルサイトをローカル（手元のパソコン）で動かす方法について簡単に書いていきます。</p>
+<p>これは開発中のプロジェクトを走らせる方法なので、説明は最低限です。</p>
+<p>ある程度ITの知識は必須な記事なのでご了承ください。</p>
+<h2>事前にインストールしておくもの</h2>
+<ul>
+<li><a href="https://www.python.org/downloads/release/python-367/">Python 3.6.7</a></li>
+<li><a href="https://www.postgresql.jp/">PostgreSQL</a></li>
+</ul>
+<p>OSによってインストールの方法は違うと思います。</p>
+<p>そこらへんは各自で調べてください。</p>
+<p>Pythonに関してはHerokuというクラウド環境（後述）で動かしている関係で私が動作確認をしている 3.6.7 のバージョンを選んでください。</p>
+<p>それぞれをインストールした後にターミナル（Windowsでいうところのコマンドプロンプト）を起動して</p>
+<pre>
+python
+pip
+postgres
+createuser
+createdb
+</pre>
+
+<p>このコマンドが叩ければ問題ないです。</p>
+<p>python, pipコマンドはpythonをインストールしたら多分使えます。</p>
+<p>postgres, createdb, createuserコマンドはPostgreSQLをインストールしたら多分使えます。</p>
+<p>もしエラーが出る場合はパスを確認してみたりGoogle先生に聞いてみたりしてください。</p>
+<h2>プロジェクトをダウンロード</h2>
+<p><a href="https://github.com/EVEKatsu/portal-dev">https://github.com/EVEKatsu/portal-dev</a></p>
+<p>このURLを開いて</p>
+<p><img alt="新大陸でモンスターを狩ってたらポータルサイトを手伝ってくれる人が現れたので動かす方法について雑に書いてみる-2" src="https://evekatsu.github.io/news/images/新大陸でモンスターを狩ってたらポータルサイトを手伝ってくれる人が現れたので動かす方法について雑に書いてみる/新大陸でモンスターを狩ってたらポータルサイトを手伝ってくれる人が現れたので動かす方法について雑に書いてみる-2.jpg"></p>
+<p>"Download ZIP"をクリックします。もちろんgit cloneでも構いません。</p>
+<p>ダウンロードしたファイルを解凍して、適当な作業フォルダに移します。</p>
+<h2>ツイッター開発者登録</h2>
+<p><a href="https://developer.twitter.com/en/apps">https://developer.twitter.com/en/apps</a></p>
+<p>ツイッター開発者ページを開きます。ここでツイッターアプリの作成をしてください。</p>
+<p>やり方についてはインターネッツに沢山記事があるので検索してください。</p>
+<p><img alt="新大陸でモンスターを狩ってたらポータルサイトを手伝ってくれる人が現れたので動かす方法について雑に書いてみる-3" src="https://evekatsu.github.io/news/images/新大陸でモンスターを狩ってたらポータルサイトを手伝ってくれる人が現れたので動かす方法について雑に書いてみる/新大陸でモンスターを狩ってたらポータルサイトを手伝ってくれる人が現れたので動かす方法について雑に書いてみる-3.jpg"></p>
+<p>こんな感じでトークンを4つ取得できたら成功です。このトークンは外部に漏洩しないようにしてください（Heroku上で動かす時に入力するのは大丈夫です）</p>
+<h2>データベースの作成と環境変数の設定</h2>
+<p><pre>
+postgres -D /usr/local/var/postgres
+</pre>
+ターミナルからPostgreSQLを起動します。このコマンドはmacOSで動かす時のもので、Windowsとか他の環境ではどうなのかは分かりません。</p>
+<p>プロジェクトを走らせてる時は常にPostgreSQLが起動している必要がありますので、これは放置してもう一つ別のターミナルを起動します。</p>
+<p>※もしかしたらWindowsとかではPostgreSQLを常駐できるツールみたいなのがあるかもです。</p>
+<p><br />
+<b style="font-size: 130%">ターミナルをプロジェクトのパスまで移動します。</b>
+<br /><br /></p>
+<p>これからの作業は全てプロジェクト上のパスで行っています。</p>
+<pre>
+createuser -P ユーザー名
+createdb データベース名 -O ユーザー名
+</pre>
+
+<p>まずはユーザーとデータベースを新しく作成します。名前とパスワードは適当なのでいいです（どうせ手元の環境で遊ぶだけなので）</p>
+<pre>
+# PostgreSQLのURL（Herokuでは自動的に設定される）
+export DATABASE_URL=データベース名
+
+# ツイッターアプリを作成した時に取得できる4つのトークン
+export CONSUMER_KEY=xxxxxxxxxxxxxxx
+export CONSUMER_SECRET=xxxxxxxxxxxxxxx
+export ACCESS_TOKEN_KEY=xxxxxxxxxxxxxxx
+export ACCESS_TOKEN_SECRET= xxxxxxxxxxxxxxx
+
+# デバッグ用のフラグです
+# ローカルでサイトを立ち上げた後に
+# コードを書き換えた時に自動的にリロードしてくれます
+EVEKATSU_DEBUG=true
+</pre>
+
+<p>こんな感じで環境変数を設定します（このサンプルは私が ~/.bash_profile に書いているものです）</p>
+<p>環境変数を設定の仕方が分からない場合はGoogle先生に聞いてください。</p>
+<p><b>postgresql+psycopg2://ユーザー名:ユーザーパスワード@127.0.0.1:5432/データベース名</b></p>
+<p>データベースへのURLはPostgreSQLを通常起動してればこのようになります。もしかしたらホストとポートが違うかもですが各自で確認してください。</p>
+<p>例えばユーザー名が evekatsu パスワードが evepass データベース名が evekatsu-db だとすればDATABASE_URLは</p>
+<p><b>postgresql+psycopg2://evekatsu:evepass@127.0.0.1:5432/evekatsu-db</b></p>
+<p>こんな感じになります。</p>
+<h2>プロジェクト用の環境を構築（任意）</h2>
+<p>※pyenvとvirtualenvで環境を分けている人向けです（環境を分けていない人は関係ありません）</p>
+<pre>
+pyenv virtualenv 3.6.7 evekatsu-portal-dev
+pyenv local evekatsu-portal-dev
+</pre>
+
+<p>私はこんな感じでpyenvを使って環境を分けて開発しています。</p>
+<h2>データベースのマイグレーション</h2>
+<p><pre>
+pip install -r requirements.txt
+python manager.py db upgrade
+</pre></p>
+<p>これでデータベースのテーブルが作成されます。</p>
+<p>PostgreSQLの中身を確認できる人は見てみてください。</p>
+<pre>
+python scheduler_by_every_10_minutes.py
+</pre>
+
+<p>ツイートを収集してデータベースに格納します。</p>
+<pre>
+python app.py
+</pre>
+
+<p>これでWebサーバーが立ち上がります。</p>
+<p><a href="http://localhost:8000">http://localhost:8000</a></p>
+<p>ブラウザでlocalhostにアクセスしたら繋がります。</p>
+<p>環境変数のEVEKATSU_DEBUGをtrueにしていなかった場合のデフォルトのポート番号は<a href="http://localhost:3000">3000</a>だったような気はします（忘れた）</p>
+<p>これでローカル環境でサイトを立ち上げることができました。</p>
+<h2>クラウド上で走らせる</h2>
+<p>当然ですがローカル環境でサイトを立ち上げてもローカルネットワーク外の人からはアクセスできません。</p>
+<p>そこで<a href="https://jp.heroku.com/home">Heroku</a>というクラウドサービスを使います。</p>
+<p>ユーザー登録をした後にHerokuに操作するための何らかのツールをインストールしてください。</p>
+<p>クレジットカードの登録はしなくてもいいですが、した場合は無料で使える容量が増えます（有料プランに変えない限り支払いは発生しません）</p>
+<p>次に<a href="https://git-scm.com/">Git</a>というソフトウェアをインストールします。</p>
+<p>gitを使う時は<a href="https://ja.atlassian.com/software/sourcetree">Sourcetree</a>というのがオススメです（確かSourcetreeにgitも付属されてたと思います）</p>
+<pre>
+heroku
+git
+</pre>
+
+<p>この2つのコマンドが叩ければ大丈夫です</p>
+<pre>
+git init
+git add .
+git commit -m "Test commit"
+heroku create
+heroku addons:create scheduler:standard
+heroku addons:add heroku-postgresql
+git push heroku master
+heroku run python manager.py db upgrade
+</pre>
+
+<p>これでデプロイは終わりです。次にデータベースの構築とツイートを自動取得するスケジューラーの設定をします。</p>
+<p><a href="https://dashboard.heroku.com/apps">https://dashboard.heroku.com/apps</a></p>
+<p>ダッシュボードからアプリ名を選択します。</p>
+<p><img alt="新大陸でモンスターを狩ってたらポータルサイトを手伝ってくれる人が現れたので動かす方法について雑に書いてみる-4" src="https://evekatsu.github.io/news/images/新大陸でモンスターを狩ってたらポータルサイトを手伝ってくれる人が現れたので動かす方法について雑に書いてみる/新大陸でモンスターを狩ってたらポータルサイトを手伝ってくれる人が現れたので動かす方法について雑に書いてみる-4.jpg"></p>
+<p>すると画像のようなページが表示されます。Overviewタブから『Heroku Scheduler』というリンクに飛んでください。</p>
+<p><img alt="新大陸でモンスターを狩ってたらポータルサイトを手伝ってくれる人が現れたので動かす方法について雑に書いてみる-5" src="https://evekatsu.github.io/news/images/新大陸でモンスターを狩ってたらポータルサイトを手伝ってくれる人が現れたので動かす方法について雑に書いてみる/新大陸でモンスターを狩ってたらポータルサイトを手伝ってくれる人が現れたので動かす方法について雑に書いてみる-5.jpg"></p>
+<p>このように定期的に自動でスクリプトを走らせれるように設定ができます。</p>
+<p>・FREQUENCYをEvery 10 minutesに選択<br>
+<b>python scheduler_by_every_10_minutes.py</b></p>
+<p>・FREQUENCYをDailyに選択<br>
+<b>python scheduler_by_daily.py</b></p>
+<p>画像を参考にそれぞれ追加します。</p>
+<p><img alt="新大陸でモンスターを狩ってたらポータルサイトを手伝ってくれる人が現れたので動かす方法について雑に書いてみる-6" src="https://evekatsu.github.io/news/images/新大陸でモンスターを狩ってたらポータルサイトを手伝ってくれる人が現れたので動かす方法について雑に書いてみる/新大陸でモンスターを狩ってたらポータルサイトを手伝ってくれる人が現れたので動かす方法について雑に書いてみる-6.jpg"></p>
+<p>最後にSettingタブからHeroku上での環境変数を設定します。</p>
+<p>DATABASE_URLはHeroku側が追加してくれているのでそのままでOKです。</p>
+<p>ツイッターアプリを動かすために必要な4つのトークンをそれぞれ追加してください。</p>
+<pre>
+heroku run python scheduler_by_every_10_minutes.py
+</pre>
+
+<p>ツイートを収集するスクリプトは自動で走ってくれますが、こちらの任意のタイミングでスクリプトを走らせることもできます。</p>
+<p>今回は動作確認のために1度走らせてみます。</p>
+<pre>
+heroku open
+</pre>
+
+<p>ブラウザが開いてサイトが表示されていればデプロイ成功です。おわり。</p>
+<p><img alt="新大陸でモンスターを狩ってたらポータルサイトを手伝ってくれる人が現れたので動かす方法について雑に書いてみる-7" src="https://evekatsu.github.io/news/images/新大陸でモンスターを狩ってたらポータルサイトを手伝ってくれる人が現れたので動かす方法について雑に書いてみる/新大陸でモンスターを狩ってたらポータルサイトを手伝ってくれる人が現れたので動かす方法について雑に書いてみる-7.jpg"></p>
+<p>なにか質問があれば<a href="https://discord.gg/XK9A348">Discord</a>の方へどうぞ。</p>
+                <hr>
+                <h3>お問い合わせや質問など</h3>
+                <p>
+                    Discord: <a href="https://discord.gg/XK9A348">EVE Japanese IT</a><br>
+                    Twitter: <a href="https://twitter.com/evekatsu">@evekatsu</a>
+                </p><p>
+                    IT系に興味がある人はぜひDiscordの方に遊びにきてみてください。<br>
+                    また、面白いアイデアも随時募集しています！<br>
+                    Twitterの方はフォロー外にDMを解放しています。
+                </p>
+            </section>
+
+            <section class="post-info">
+                <div class="post-share">
+                    <a class="twitter" href="https://twitter.com/share?text=新大陸でモンスターを狩ってたらポータルサイトを手伝ってくれる人が現れたので動かす方法について雑に書いてみる&amp;url=https://evekatsu.github.io/news/新大陸でモンスターを狩ってたらポータルサイトを手伝ってくれる人が現れたので動かす方法について雑に書いてみる.html" onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;">
+                    <i class="ic ic-twitter"></i><span class="hidden">Twitter</span>
+                    </a>
+                    <a class="facebook" href="https://www.facebook.com/sharer/sharer.php?u=https://evekatsu.github.io/news/新大陸でモンスターを狩ってたらポータルサイトを手伝ってくれる人が現れたので動かす方法について雑に書いてみる.html" onclick="window.open(this.href, 'facebook-share','width=580,height=296');return false;">
+                    <i class="ic ic-facebook"></i><span class="hidden">Facebook</span>
+                    </a>
+                    <a class="googleplus" href="https://plus.google.com/share?url=https://evekatsu.github.io/news/新大陸でモンスターを狩ってたらポータルサイトを手伝ってくれる人が現れたので動かす方法について雑に書いてみる.html" onclick="window.open(this.href, 'google-plus-share', 'width=490,height=530');return false;">
+                    <i class="ic ic-googleplus"></i><span class="hidden">Google+</span>
+                    </a>
+                    <div class="clear"></div>
+                </div>
+
+                <aside class="post-tags">
+<a href="https://evekatsu.github.io/news/tag/development.html">Development</a>                </aside>
+
+                <div class="clear"></div>
+
+ 
+
+                </section>
+
+
+                <aside class="post-nav">
+                    <div class="clear"></div>
+                </aside>
+
+            </div>
+        </article>
+    </main>
+      <!-- TODO : Body class -->
+    <div id="body-class" style="display: none;" class=""></div>
+  
+    <footer id="footer">
+      <div class="inner">
+        <section class="credits">
+          <span class="credits-theme">Theme <a href="https://github.com/arulrajnet/attila" rel="nofollow">Attila</a></span>
+          <span class="credits-software">Published with <a href="https://github.com/getpelican/pelican" rel="nofollow">Pelican</a></span>
+        </section>
+      </div>
+    </footer>
+  </section>
+
+  <script type="text/javascript" src="https://evekatsu.github.io/news/theme/js/script.js"></script>
+
+
+  <style>
+    .center {
+      display: block !important;
+      margin-left: auto !important;
+      margin-right: auto !important;
+      max-width: 700px !important;
+    }
+  </style>
+  <script type="text/javascript" src="https://evekatsu.github.io/news/theme/js/jquery.fancybox.min.js"></script>
+  <script>
+    var images = document.getElementsByTagName("img");
+    for (var i = 0; i < images.length; i++) {
+        if (!images[i].parentNode || images[i].parentNode.tagName.toLowerCase() !== "p") {
+          continue;
+        }
+
+        if (!images[i].parentNode.parentNode || images[i].parentNode.parentNode.className.toLowerCase() !== "post-content") {
+          continue;
+        }
+
+        images[i].outerHTML = '<a href="' + images[i].src + '" data-fancybox="gallery"><img class="center" src="' + images[i].src + '" alt="' + images[i].alt + '"/></a>'
+    }
+
+    $('[data-fancybox]').fancybox();
+
+    var links = document.links;
+    for (var i = 0; i < links.length; i++) {
+      if (links[i].hostname != window.location.hostname) {
+        links[i].target = '_blank';
+      }
+    }
+</script>
+</body>
+</html>

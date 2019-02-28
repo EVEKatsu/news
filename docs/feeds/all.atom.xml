@@ -1,5 +1,208 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>いぶかつ☆にゅーす</title><link href="https://evekatsu.github.io/news/" rel="alternate"></link><link href="https://evekatsu.github.io/news/feeds/all.atom.xml" rel="self"></link><id>https://evekatsu.github.io/news/</id><updated>2019-02-27T00:00:00+09:00</updated><entry><title>新大陸でハンターをやってるつもりが実は異世界に転生して誰でもお手軽に参加できるポータルサイトっぽいものが作ってた</title><link href="https://evekatsu.github.io/news/%E6%96%B0%E5%A4%A7%E9%99%B8%E3%81%A7%E3%83%8F%E3%83%B3%E3%82%BF%E3%83%BC%E3%82%92%E3%82%84%E3%81%A3%E3%81%A6%E3%82%8B%E3%81%A4%E3%82%82%E3%82%8A%E3%81%8C%E5%AE%9F%E3%81%AF%E7%95%B0%E4%B8%96%E7%95%8C%E3%81%AB%E8%BB%A2%E7%94%9F%E3%81%97%E3%81%A6%E8%AA%B0%E3%81%A7%E3%82%82%E3%81%8A%E6%89%8B%E8%BB%BD%E3%81%AB%E5%8F%82%E5%8A%A0%E3%81%A7%E3%81%8D%E3%82%8B%E3%83%9D%E3%83%BC%E3%82%BF%E3%83%AB%E3%82%B5%E3%82%A4%E3%83%88%E3%81%A3%E3%81%BD%E3%81%84%E3%82%82%E3%81%AE%E3%81%8C%E4%BD%9C%E3%81%A3%E3%81%A6%E3%81%9F.html" rel="alternate"></link><published>2019-02-27T00:00:00+09:00</published><updated>2019-02-27T00:00:00+09:00</updated><author><name>Administrator</name></author><id>tag:evekatsu.github.io,2019-02-27:/news/新大陸でハンターをやってるつもりが実は異世界に転生して誰でもお手軽に参加できるポータルサイトっぽいものが作ってた.html</id><summary type="html">&lt;p&gt;こんにちはこんばんは。今日も楽しく&lt;/p&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>いぶかつ☆にゅーす</title><link href="https://evekatsu.github.io/news/" rel="alternate"></link><link href="https://evekatsu.github.io/news/feeds/all.atom.xml" rel="self"></link><id>https://evekatsu.github.io/news/</id><updated>2019-02-28T00:00:00+09:00</updated><entry><title>新大陸でモンスターを狩ってたらポータルサイトを手伝ってくれる人が現れたので動かす方法について雑に書いてみる</title><link href="https://evekatsu.github.io/news/%E6%96%B0%E5%A4%A7%E9%99%B8%E3%81%A7%E3%83%A2%E3%83%B3%E3%82%B9%E3%82%BF%E3%83%BC%E3%82%92%E7%8B%A9%E3%81%A3%E3%81%A6%E3%81%9F%E3%82%89%E3%83%9D%E3%83%BC%E3%82%BF%E3%83%AB%E3%82%B5%E3%82%A4%E3%83%88%E3%82%92%E6%89%8B%E4%BC%9D%E3%81%A3%E3%81%A6%E3%81%8F%E3%82%8C%E3%82%8B%E4%BA%BA%E3%81%8C%E7%8F%BE%E3%82%8C%E3%81%9F%E3%81%AE%E3%81%A7%E5%8B%95%E3%81%8B%E3%81%99%E6%96%B9%E6%B3%95%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6%E9%9B%91%E3%81%AB%E6%9B%B8%E3%81%84%E3%81%A6%E3%81%BF%E3%82%8B.html" rel="alternate"></link><published>2019-02-28T00:00:00+09:00</published><updated>2019-02-28T00:00:00+09:00</updated><author><name>Administrator</name></author><id>tag:evekatsu.github.io,2019-02-28:/news/新大陸でモンスターを狩ってたらポータルサイトを手伝ってくれる人が現れたので動かす方法について雑に書いてみる.html</id><summary type="html">&lt;p&gt;&lt;img alt="新大陸でモンスターを狩ってたらポータルサイトを手伝ってくれる人が現れたので動かす方法について雑に書いてみる-1" src="https://evekatsu.github.io/news/images/新大陸でモンスターを狩ってたらポータルサイトを手伝ってくれる人が現れたので動かす方法について雑に書いてみる/新大陸でモンスターを狩ってたらポータルサイトを手伝ってくれる人が現れたので動かす方法について雑に書いてみる-1.jpg"&gt;&lt;/p&gt;
+&lt;p&gt;嬉しいことにDiscordで&lt;/p&gt;
+&lt;p&gt;&lt;br /&gt;
+&lt;b style="font-size: 120%"&gt;「開発者募集してますか？面白そうなのでコントリビュートしたいです」&lt;/b&gt;
+&lt;br /&gt;&lt;/p&gt;
+&lt;p&gt;とおっしゃってくださることが現れまして&lt;/p&gt;
+&lt;p&gt;&lt;br /&gt;
+&lt;b style="font-size: 120%"&gt;コントリビュートってのが何なのか分からないですけどマンモスうれぴーです！&lt;/b&gt;
+&lt;br /&gt;&lt;/p&gt;
+&lt;p&gt;そんな感じなのでポータルサイトをローカル（手元のパソコン）で動かす方法について簡単に書いていきます。&lt;/p&gt;
+&lt;p&gt;これは開発中のプロジェクトを走らせる方法なので、説明は最低限です。&lt;/p&gt;
+&lt;p&gt;ある程度ITの知識は必須な記事なのでご了承ください。&lt;/p&gt;
+&lt;h2&gt;事前にインストールしておくもの&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://www.python.org/downloads/release/python-367/"&gt;Python 3.6.7&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.postgresql.jp/"&gt;PostgreSQL&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;OSによってインストールの方法は違うと思います。&lt;/p&gt;
+&lt;p&gt;そこらへんは各自で調べてください。&lt;/p&gt;
+&lt;p&gt;Pythonに関してはHerokuというクラウド環境（後述）で動かしている関係で私が動作確認をしている 3.6.7 のバージョンを選んでください。&lt;/p&gt;
+&lt;p&gt;それぞれをインストールした後にターミナル（Windowsでいうところのコマンドプロンプト）を起動して&lt;/p&gt;
+&lt;pre&gt;
+python
+pip
+postgres
+createuser
+createdb
+&lt;/pre&gt;
+
+&lt;p&gt;このコマンドが叩ければ問題ないです。&lt;/p&gt;
+&lt;p&gt;python, pipコマンドはpythonをインストールしたら多分使えます。&lt;/p&gt;
+&lt;p&gt;postgres, createdb, createuserコマンドはPostgreSQLをインストールしたら多分使えます。&lt;/p&gt;
+&lt;p&gt;もしエラーが出る場合はパスを確認してみたりGoogle先生に聞いてみたりしてください。&lt;/p&gt;
+&lt;h2&gt;プロジェクトをダウンロード&lt;/h2&gt;
+&lt;p&gt;&lt;a href="https://github.com/EVEKatsu/portal-dev"&gt;https://github.com/EVEKatsu/portal-dev&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;このURLを開いて&lt;/p&gt;
+&lt;p&gt;&lt;img alt="新大陸でモンスターを狩ってたらポータルサイトを手伝ってくれる人が現れたので動かす方法について雑に書いてみる-2" src="https://evekatsu.github.io/news/images/新大陸でモンスターを狩ってたらポータルサイトを手伝ってくれる人が現れたので動かす方法について雑に書いてみる/新大陸でモンスターを狩ってたらポータルサイトを手伝ってくれる人が現れたので動かす方法について雑に書いてみる-2.jpg"&gt;&lt;/p&gt;
+&lt;p&gt;"Download ZIP …&lt;/p&gt;</summary><content type="html">&lt;p&gt;&lt;img alt="新大陸でモンスターを狩ってたらポータルサイトを手伝ってくれる人が現れたので動かす方法について雑に書いてみる-1" src="https://evekatsu.github.io/news/images/新大陸でモンスターを狩ってたらポータルサイトを手伝ってくれる人が現れたので動かす方法について雑に書いてみる/新大陸でモンスターを狩ってたらポータルサイトを手伝ってくれる人が現れたので動かす方法について雑に書いてみる-1.jpg"&gt;&lt;/p&gt;
+&lt;p&gt;嬉しいことにDiscordで&lt;/p&gt;
+&lt;p&gt;&lt;br /&gt;
+&lt;b style="font-size: 120%"&gt;「開発者募集してますか？面白そうなのでコントリビュートしたいです」&lt;/b&gt;
+&lt;br /&gt;&lt;/p&gt;
+&lt;p&gt;とおっしゃってくださることが現れまして&lt;/p&gt;
+&lt;p&gt;&lt;br /&gt;
+&lt;b style="font-size: 120%"&gt;コントリビュートってのが何なのか分からないですけどマンモスうれぴーです！&lt;/b&gt;
+&lt;br /&gt;&lt;/p&gt;
+&lt;p&gt;そんな感じなのでポータルサイトをローカル（手元のパソコン）で動かす方法について簡単に書いていきます。&lt;/p&gt;
+&lt;p&gt;これは開発中のプロジェクトを走らせる方法なので、説明は最低限です。&lt;/p&gt;
+&lt;p&gt;ある程度ITの知識は必須な記事なのでご了承ください。&lt;/p&gt;
+&lt;h2&gt;事前にインストールしておくもの&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://www.python.org/downloads/release/python-367/"&gt;Python 3.6.7&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.postgresql.jp/"&gt;PostgreSQL&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;OSによってインストールの方法は違うと思います。&lt;/p&gt;
+&lt;p&gt;そこらへんは各自で調べてください。&lt;/p&gt;
+&lt;p&gt;Pythonに関してはHerokuというクラウド環境（後述）で動かしている関係で私が動作確認をしている 3.6.7 のバージョンを選んでください。&lt;/p&gt;
+&lt;p&gt;それぞれをインストールした後にターミナル（Windowsでいうところのコマンドプロンプト）を起動して&lt;/p&gt;
+&lt;pre&gt;
+python
+pip
+postgres
+createuser
+createdb
+&lt;/pre&gt;
+
+&lt;p&gt;このコマンドが叩ければ問題ないです。&lt;/p&gt;
+&lt;p&gt;python, pipコマンドはpythonをインストールしたら多分使えます。&lt;/p&gt;
+&lt;p&gt;postgres, createdb, createuserコマンドはPostgreSQLをインストールしたら多分使えます。&lt;/p&gt;
+&lt;p&gt;もしエラーが出る場合はパスを確認してみたりGoogle先生に聞いてみたりしてください。&lt;/p&gt;
+&lt;h2&gt;プロジェクトをダウンロード&lt;/h2&gt;
+&lt;p&gt;&lt;a href="https://github.com/EVEKatsu/portal-dev"&gt;https://github.com/EVEKatsu/portal-dev&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;このURLを開いて&lt;/p&gt;
+&lt;p&gt;&lt;img alt="新大陸でモンスターを狩ってたらポータルサイトを手伝ってくれる人が現れたので動かす方法について雑に書いてみる-2" src="https://evekatsu.github.io/news/images/新大陸でモンスターを狩ってたらポータルサイトを手伝ってくれる人が現れたので動かす方法について雑に書いてみる/新大陸でモンスターを狩ってたらポータルサイトを手伝ってくれる人が現れたので動かす方法について雑に書いてみる-2.jpg"&gt;&lt;/p&gt;
+&lt;p&gt;"Download ZIP"をクリックします。もちろんgit cloneでも構いません。&lt;/p&gt;
+&lt;p&gt;ダウンロードしたファイルを解凍して、適当な作業フォルダに移します。&lt;/p&gt;
+&lt;h2&gt;ツイッター開発者登録&lt;/h2&gt;
+&lt;p&gt;&lt;a href="https://developer.twitter.com/en/apps"&gt;https://developer.twitter.com/en/apps&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;ツイッター開発者ページを開きます。ここでツイッターアプリの作成をしてください。&lt;/p&gt;
+&lt;p&gt;やり方についてはインターネッツに沢山記事があるので検索してください。&lt;/p&gt;
+&lt;p&gt;&lt;img alt="新大陸でモンスターを狩ってたらポータルサイトを手伝ってくれる人が現れたので動かす方法について雑に書いてみる-3" src="https://evekatsu.github.io/news/images/新大陸でモンスターを狩ってたらポータルサイトを手伝ってくれる人が現れたので動かす方法について雑に書いてみる/新大陸でモンスターを狩ってたらポータルサイトを手伝ってくれる人が現れたので動かす方法について雑に書いてみる-3.jpg"&gt;&lt;/p&gt;
+&lt;p&gt;こんな感じでトークンを4つ取得できたら成功です。このトークンは外部に漏洩しないようにしてください（Heroku上で動かす時に入力するのは大丈夫です）&lt;/p&gt;
+&lt;h2&gt;データベースの作成と環境変数の設定&lt;/h2&gt;
+&lt;p&gt;&lt;pre&gt;
+postgres -D /usr/local/var/postgres
+&lt;/pre&gt;
+ターミナルからPostgreSQLを起動します。このコマンドはmacOSで動かす時のもので、Windowsとか他の環境ではどうなのかは分かりません。&lt;/p&gt;
+&lt;p&gt;プロジェクトを走らせてる時は常にPostgreSQLが起動している必要がありますので、これは放置してもう一つ別のターミナルを起動します。&lt;/p&gt;
+&lt;p&gt;※もしかしたらWindowsとかではPostgreSQLを常駐できるツールみたいなのがあるかもです。&lt;/p&gt;
+&lt;p&gt;&lt;br /&gt;
+&lt;b style="font-size: 130%"&gt;ターミナルをプロジェクトのパスまで移動します。&lt;/b&gt;
+&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p&gt;これからの作業は全てプロジェクト上のパスで行っています。&lt;/p&gt;
+&lt;pre&gt;
+createuser -P ユーザー名
+createdb データベース名 -O ユーザー名
+&lt;/pre&gt;
+
+&lt;p&gt;まずはユーザーとデータベースを新しく作成します。名前とパスワードは適当なのでいいです（どうせ手元の環境で遊ぶだけなので）&lt;/p&gt;
+&lt;pre&gt;
+# PostgreSQLのURL（Herokuでは自動的に設定される）
+export DATABASE_URL=データベース名
+
+# ツイッターアプリを作成した時に取得できる4つのトークン
+export CONSUMER_KEY=xxxxxxxxxxxxxxx
+export CONSUMER_SECRET=xxxxxxxxxxxxxxx
+export ACCESS_TOKEN_KEY=xxxxxxxxxxxxxxx
+export ACCESS_TOKEN_SECRET= xxxxxxxxxxxxxxx
+
+# デバッグ用のフラグです
+# ローカルでサイトを立ち上げた後に
+# コードを書き換えた時に自動的にリロードしてくれます
+EVEKATSU_DEBUG=true
+&lt;/pre&gt;
+
+&lt;p&gt;こんな感じで環境変数を設定します（このサンプルは私が ~/.bash_profile に書いているものです）&lt;/p&gt;
+&lt;p&gt;環境変数を設定の仕方が分からない場合はGoogle先生に聞いてください。&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;postgresql+psycopg2://ユーザー名:ユーザーパスワード@127.0.0.1:5432/データベース名&lt;/b&gt;&lt;/p&gt;
+&lt;p&gt;データベースへのURLはPostgreSQLを通常起動してればこのようになります。もしかしたらホストとポートが違うかもですが各自で確認してください。&lt;/p&gt;
+&lt;p&gt;例えばユーザー名が evekatsu パスワードが evepass データベース名が evekatsu-db だとすればDATABASE_URLは&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;postgresql+psycopg2://evekatsu:evepass@127.0.0.1:5432/evekatsu-db&lt;/b&gt;&lt;/p&gt;
+&lt;p&gt;こんな感じになります。&lt;/p&gt;
+&lt;h2&gt;プロジェクト用の環境を構築（任意）&lt;/h2&gt;
+&lt;p&gt;※pyenvとvirtualenvで環境を分けている人向けです（環境を分けていない人は関係ありません）&lt;/p&gt;
+&lt;pre&gt;
+pyenv virtualenv 3.6.7 evekatsu-portal-dev
+pyenv local evekatsu-portal-dev
+&lt;/pre&gt;
+
+&lt;p&gt;私はこんな感じでpyenvを使って環境を分けて開発しています。&lt;/p&gt;
+&lt;h2&gt;データベースのマイグレーション&lt;/h2&gt;
+&lt;p&gt;&lt;pre&gt;
+pip install -r requirements.txt
+python manager.py db upgrade
+&lt;/pre&gt;&lt;/p&gt;
+&lt;p&gt;これでデータベースのテーブルが作成されます。&lt;/p&gt;
+&lt;p&gt;PostgreSQLの中身を確認できる人は見てみてください。&lt;/p&gt;
+&lt;pre&gt;
+python scheduler_by_every_10_minutes.py
+&lt;/pre&gt;
+
+&lt;p&gt;ツイートを収集してデータベースに格納します。&lt;/p&gt;
+&lt;pre&gt;
+python app.py
+&lt;/pre&gt;
+
+&lt;p&gt;これでWebサーバーが立ち上がります。&lt;/p&gt;
+&lt;p&gt;&lt;a href="http://localhost:8000"&gt;http://localhost:8000&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;ブラウザでlocalhostにアクセスしたら繋がります。&lt;/p&gt;
+&lt;p&gt;環境変数のEVEKATSU_DEBUGをtrueにしていなかった場合のデフォルトのポート番号は&lt;a href="http://localhost:3000"&gt;3000&lt;/a&gt;だったような気はします（忘れた）&lt;/p&gt;
+&lt;p&gt;これでローカル環境でサイトを立ち上げることができました。&lt;/p&gt;
+&lt;h2&gt;クラウド上で走らせる&lt;/h2&gt;
+&lt;p&gt;当然ですがローカル環境でサイトを立ち上げてもローカルネットワーク外の人からはアクセスできません。&lt;/p&gt;
+&lt;p&gt;そこで&lt;a href="https://jp.heroku.com/home"&gt;Heroku&lt;/a&gt;というクラウドサービスを使います。&lt;/p&gt;
+&lt;p&gt;ユーザー登録をした後にHerokuに操作するための何らかのツールをインストールしてください。&lt;/p&gt;
+&lt;p&gt;クレジットカードの登録はしなくてもいいですが、した場合は無料で使える容量が増えます（有料プランに変えない限り支払いは発生しません）&lt;/p&gt;
+&lt;p&gt;次に&lt;a href="https://git-scm.com/"&gt;Git&lt;/a&gt;というソフトウェアをインストールします。&lt;/p&gt;
+&lt;p&gt;gitを使う時は&lt;a href="https://ja.atlassian.com/software/sourcetree"&gt;Sourcetree&lt;/a&gt;というのがオススメです（確かSourcetreeにgitも付属されてたと思います）&lt;/p&gt;
+&lt;pre&gt;
+heroku
+git
+&lt;/pre&gt;
+
+&lt;p&gt;この2つのコマンドが叩ければ大丈夫です&lt;/p&gt;
+&lt;pre&gt;
+git init
+git add .
+git commit -m "Test commit"
+heroku create
+heroku addons:create scheduler:standard
+heroku addons:add heroku-postgresql
+git push heroku master
+heroku run python manager.py db upgrade
+&lt;/pre&gt;
+
+&lt;p&gt;これでデプロイは終わりです。次にデータベースの構築とツイートを自動取得するスケジューラーの設定をします。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://dashboard.heroku.com/apps"&gt;https://dashboard.heroku.com/apps&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;ダッシュボードからアプリ名を選択します。&lt;/p&gt;
+&lt;p&gt;&lt;img alt="新大陸でモンスターを狩ってたらポータルサイトを手伝ってくれる人が現れたので動かす方法について雑に書いてみる-4" src="https://evekatsu.github.io/news/images/新大陸でモンスターを狩ってたらポータルサイトを手伝ってくれる人が現れたので動かす方法について雑に書いてみる/新大陸でモンスターを狩ってたらポータルサイトを手伝ってくれる人が現れたので動かす方法について雑に書いてみる-4.jpg"&gt;&lt;/p&gt;
+&lt;p&gt;すると画像のようなページが表示されます。Overviewタブから『Heroku Scheduler』というリンクに飛んでください。&lt;/p&gt;
+&lt;p&gt;&lt;img alt="新大陸でモンスターを狩ってたらポータルサイトを手伝ってくれる人が現れたので動かす方法について雑に書いてみる-5" src="https://evekatsu.github.io/news/images/新大陸でモンスターを狩ってたらポータルサイトを手伝ってくれる人が現れたので動かす方法について雑に書いてみる/新大陸でモンスターを狩ってたらポータルサイトを手伝ってくれる人が現れたので動かす方法について雑に書いてみる-5.jpg"&gt;&lt;/p&gt;
+&lt;p&gt;このように定期的に自動でスクリプトを走らせれるように設定ができます。&lt;/p&gt;
+&lt;p&gt;・FREQUENCYをEvery 10 minutesに選択&lt;br&gt;
+&lt;b&gt;python scheduler_by_every_10_minutes.py&lt;/b&gt;&lt;/p&gt;
+&lt;p&gt;・FREQUENCYをDailyに選択&lt;br&gt;
+&lt;b&gt;python scheduler_by_daily.py&lt;/b&gt;&lt;/p&gt;
+&lt;p&gt;画像を参考にそれぞれ追加します。&lt;/p&gt;
+&lt;p&gt;&lt;img alt="新大陸でモンスターを狩ってたらポータルサイトを手伝ってくれる人が現れたので動かす方法について雑に書いてみる-6" src="https://evekatsu.github.io/news/images/新大陸でモンスターを狩ってたらポータルサイトを手伝ってくれる人が現れたので動かす方法について雑に書いてみる/新大陸でモンスターを狩ってたらポータルサイトを手伝ってくれる人が現れたので動かす方法について雑に書いてみる-6.jpg"&gt;&lt;/p&gt;
+&lt;p&gt;最後にSettingタブからHeroku上での環境変数を設定します。&lt;/p&gt;
+&lt;p&gt;DATABASE_URLはHeroku側が追加してくれているのでそのままでOKです。&lt;/p&gt;
+&lt;p&gt;ツイッターアプリを動かすために必要な4つのトークンをそれぞれ追加してください。&lt;/p&gt;
+&lt;pre&gt;
+heroku run python scheduler_by_every_10_minutes.py
+&lt;/pre&gt;
+
+&lt;p&gt;ツイートを収集するスクリプトは自動で走ってくれますが、こちらの任意のタイミングでスクリプトを走らせることもできます。&lt;/p&gt;
+&lt;p&gt;今回は動作確認のために1度走らせてみます。&lt;/p&gt;
+&lt;pre&gt;
+heroku open
+&lt;/pre&gt;
+
+&lt;p&gt;ブラウザが開いてサイトが表示されていればデプロイ成功です。おわり。&lt;/p&gt;
+&lt;p&gt;&lt;img alt="新大陸でモンスターを狩ってたらポータルサイトを手伝ってくれる人が現れたので動かす方法について雑に書いてみる-7" src="https://evekatsu.github.io/news/images/新大陸でモンスターを狩ってたらポータルサイトを手伝ってくれる人が現れたので動かす方法について雑に書いてみる/新大陸でモンスターを狩ってたらポータルサイトを手伝ってくれる人が現れたので動かす方法について雑に書いてみる-7.jpg"&gt;&lt;/p&gt;
+&lt;p&gt;なにか質問があれば&lt;a href="https://discord.gg/XK9A348"&gt;Discord&lt;/a&gt;の方へどうぞ。&lt;/p&gt;</content><category term="Development"></category></entry><entry><title>新大陸でハンターをやってるつもりが実は異世界に転生して誰でもお手軽に参加できるポータルサイトっぽいものが作ってた</title><link href="https://evekatsu.github.io/news/%E6%96%B0%E5%A4%A7%E9%99%B8%E3%81%A7%E3%83%8F%E3%83%B3%E3%82%BF%E3%83%BC%E3%82%92%E3%82%84%E3%81%A3%E3%81%A6%E3%82%8B%E3%81%A4%E3%82%82%E3%82%8A%E3%81%8C%E5%AE%9F%E3%81%AF%E7%95%B0%E4%B8%96%E7%95%8C%E3%81%AB%E8%BB%A2%E7%94%9F%E3%81%97%E3%81%A6%E8%AA%B0%E3%81%A7%E3%82%82%E3%81%8A%E6%89%8B%E8%BB%BD%E3%81%AB%E5%8F%82%E5%8A%A0%E3%81%A7%E3%81%8D%E3%82%8B%E3%83%9D%E3%83%BC%E3%82%BF%E3%83%AB%E3%82%B5%E3%82%A4%E3%83%88%E3%81%A3%E3%81%BD%E3%81%84%E3%82%82%E3%81%AE%E3%81%8C%E4%BD%9C%E3%81%A3%E3%81%A6%E3%81%9F.html" rel="alternate"></link><published>2019-02-27T00:00:00+09:00</published><updated>2019-02-27T00:00:00+09:00</updated><author><name>Administrator</name></author><id>tag:evekatsu.github.io,2019-02-27:/news/新大陸でハンターをやってるつもりが実は異世界に転生して誰でもお手軽に参加できるポータルサイトっぽいものが作ってた.html</id><summary type="html">&lt;p&gt;こんにちはこんばんは。今日も楽しく&lt;/p&gt;
 &lt;p&gt;&lt;br /&gt;&lt;br /&gt;
 &lt;b style="font-size: 200%"&gt;すくらっぷ☆あんど☆すくらっぷ&lt;/b&gt;
 &lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
