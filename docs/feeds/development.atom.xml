@@ -201,7 +201,9 @@ heroku open
 &lt;/pre&gt;
 
 &lt;p&gt;ブラウザが開いてサイトが表示されていればデプロイ成功です。&lt;/p&gt;
-&lt;p&gt;&lt;b style="font-size: 300%"&gt;おわり&lt;/b&gt;&lt;/p&gt;
+&lt;p&gt;&lt;br /&gt;&lt;br /&gt;
+&lt;b style="font-size: 300%"&gt;おわり&lt;/b&gt;
+&lt;br /&gt;&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
 &lt;p&gt;&lt;img alt="新大陸でモンスターを狩ってたらポータルサイトを手伝ってくれる人が現れたので動かす方法について雑に書いてみる-7" src="https://evekatsu.github.io/news/images/新大陸でモンスターを狩ってたらポータルサイトを手伝ってくれる人が現れたので動かす方法について雑に書いてみる/新大陸でモンスターを狩ってたらポータルサイトを手伝ってくれる人が現れたので動かす方法について雑に書いてみる-7.jpg"&gt;&lt;/p&gt;
 &lt;h2&gt;開発環境&lt;/h2&gt;
 &lt;ul&gt;
