@@ -26,7 +26,7 @@ Tags: Translation, Imperium News Network, mistwarden
 - [Redline XIII](https://zkillboard.com/character/2113754742/) - Goon所属のFleet commander（艦隊司令官、FCと略される）
 
 ### Redline XIIIによる分析
-Black LegionのリーダーであるElo Knightは『春休み』と彼が称する新たな計画を打ち出した。
+Black LegionのリーダーであるElo Knightは『春休み』と称する新たな計画を打ち出した。
 
 Black LegionのメインコーポレーションのOrigin.は少なくとも2ヶ月間はBlack Legionから抜け、Fraternity.の傘下に入る。
 
