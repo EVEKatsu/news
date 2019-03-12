@@ -11,6 +11,9 @@ Tags: Translation, Imperium News Network, mistwarden
 
 
 #### 訳注
+- コーポレーション - 他のMMOでいうギルト
+- アライアンス - コーポレーションの集まり
+- コアリション - アライアンスの集まり
 - [Black Legion](http://evemaps.dotlan.net/alliance/Black_Legion...) - 昔あった伝説のアライアンス。一度解散したけど最近復活した
 - [Origin.](http://evemaps.dotlan.net/corp/Origin.) - Black Legionの中核コーポレーション
 - [Elo Knight](https://zkillboard.com/character/1511725012/) - Black Legion及びOrigin.のリーダー
@@ -18,8 +21,8 @@ Tags: Translation, Imperium News Network, mistwarden
 - [Fraternity.](http://evemaps.dotlan.net/alliance/Fraternity.) - 中華系プレイヤーがメインのアライアンス
 - Winter Coalition - Fraternity.を中核としたコアリション
 - Legacy - Winter Coalitionに隣接するコアリション
-- [Test Alliance Please Ignore（Test)](http://evemaps.dotlan.net/alliance/Test_Alliance_Please_Ignore) - Legacyの中核アライアンス
-- [Goonswarm Federation(Goon)](http://evemaps.dotlan.net/alliance/Goonswarm_Federation) - Legacyの隣にいるアライアンス
+- Imperium - Legacyに隣接するコアリション
+- [Goonswarm Federation(Goon)](http://evemaps.dotlan.net/alliance/Goonswarm_Federation) - Imperiumの中核アライアンス
 - [Redline XIII](https://zkillboard.com/character/2113754742/) - Goon所属のFleet commander（艦隊司令官、FCと略される）
 
 ### Redline XIIIによる分析
