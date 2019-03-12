@@ -34,7 +34,7 @@ Black LegionのメインコーポレーションのOrigin.は少なくとも2ヶ
 
 ----
 
-Elo KnightはWinter CoalitionとLegacyとの間に締結されたNIPが3月22日に終結するの合わせてチャンスが到来すると見ている。
+Elo KnightはWinter CoalitionとLegacyとの間に締結されたNIPが3月22日に終結するのに合わせてチャンスが到来すると見ている。
 
 これは自分たちがわざわざHuntingしにいく必要なく、向こうからコンテンツが舞い降りてくるチャンスである。
 
@@ -54,7 +54,7 @@ Elo Knightは自らのアライアンスが次のメタを制すると信じて�
 
 ----
 
-Black LegionのメンバーへのPvEオプションとしてRattingやMiningが提供される。
+Black LegionのメンバーへのPvEオプションとしてはRattingやMiningが提供される。
 
 しかし「もし誰かがSupersやTitansを出したければ私（Elo Knight）の許可がいる」と彼は言っていた。
 
