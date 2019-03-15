@@ -58,7 +58,7 @@ Black LegionのメンバーへのPvEオプションとしてはRattingやMining�
 
 しかし「もし誰かがSupersやTitansを出したければ私（Elo Knight）の許可がいる」と彼は言っていた。
 
-Elo KnightはFraternity方面に全軍を配備させるために[Assah](http://evemaps.dotlan.net/map/Derelik/Assah)、[Sakht](http://evemaps.dotlan.net/map/Aridia/Sakht)、そして[FDZ4-A](http://evemaps.dotlan.net/map/Geminate/FDZ4-A)から撤収するように指示した。
+Elo KnightはFraternity.方面に全軍を配備させるために[Assah](http://evemaps.dotlan.net/map/Derelik/Assah)、[Sakht](http://evemaps.dotlan.net/map/Aridia/Sakht)、そして[FDZ4-A](http://evemaps.dotlan.net/map/Geminate/FDZ4-A)から撤収するように指示した。
 
 [Redditの記事](https://www.reddit.com/r/Eve/comments/aza2ma/origin_dropping_from_bl/ei6capk/)によると、Ragnaroksを含むMuninns艦隊は既に新たな配備が完了しているようだ。
 
