@@ -1,5 +1,54 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>いぶかつ☆にゅーす</title><link href="https://evekatsu.github.io/news/" rel="alternate"></link><link href="https://evekatsu.github.io/news/feeds/all.atom.xml" rel="self"></link><id>https://evekatsu.github.io/news/</id><updated>2019-03-16T00:00:00+09:00</updated><entry><title>イブカツ！動画投稿キャンペーン！</title><link href="https://evekatsu.github.io/news/%E3%82%A4%E3%83%96%E3%82%AB%E3%83%84%EF%BC%81%E5%8B%95%E7%94%BB%E6%8A%95%E7%A8%BF%E3%82%AD%E3%83%A3%E3%83%B3%E3%83%9A%E3%83%BC%E3%83%B3%EF%BC%81.html" rel="alternate"></link><published>2019-03-16T00:00:00+09:00</published><updated>2019-03-16T00:00:00+09:00</updated><author><name>Administrator</name></author><id>tag:evekatsu.github.io,2019-03-16:/news/イブカツ！動画投稿キャンペーン！.html</id><summary type="html">&lt;p&gt;2019年は「〜したら抽選で〜をプレゼントします！」みたいな月に行ってみる系が流行ってる（流行ってない）のでイブカツ！でもやってみようと思います！&lt;/p&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>いぶかつ☆にゅーす</title><link href="https://evekatsu.github.io/news/" rel="alternate"></link><link href="https://evekatsu.github.io/news/feeds/all.atom.xml" rel="self"></link><id>https://evekatsu.github.io/news/</id><updated>2019-03-23T00:00:00+09:00</updated><entry><title>50時間ぐらいESIを叩き続けたので記事を書いてみた</title><link href="https://evekatsu.github.io/news/50%E6%99%82%E9%96%93%E3%81%90%E3%82%89%E3%81%84ESI%E3%82%92%E5%8F%A9%E3%81%8D%E7%B6%9A%E3%81%91%E3%81%9F%E3%81%AE%E3%81%A7%E8%A8%98%E4%BA%8B%E3%82%92%E6%9B%B8%E3%81%84%E3%81%A6%E3%81%BF%E3%81%9F.html" rel="alternate"></link><published>2019-03-23T00:00:00+09:00</published><updated>2019-03-23T00:00:00+09:00</updated><author><name>Administrator</name></author><id>tag:evekatsu.github.io,2019-03-23:/news/50時間ぐらいESIを叩き続けたので記事を書いてみた.html</id><summary type="html">&lt;h1&gt;概要&lt;/h1&gt;
+&lt;p&gt;&lt;a href="https://developers.eveonline.com/resource/resources"&gt;Static Data Export(SDE)&lt;/a&gt;からアイテム名とシステム名のサポートしている言語で取得してJSONやCSV、HTMLに出力したものです。&lt;/p&gt;
+&lt;h3&gt;アイテム一覧&lt;/h3&gt;
+&lt;p&gt;&lt;img alt="50時間ぐらいESIを叩き続けたので記事を書いてみた-1" src="https://evekatsu.github.io/news/images/50時間ぐらいESIを叩き続けたので記事を書いてみた/50時間ぐらいESIを叩き続けたので記事を書いてみた-1.jpg"&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://evekatsu.github.io/data/types/"&gt;https://evekatsu.github.io/data/types/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://evekatsu.github.io/data/types.json"&gt;アイテム一覧のJSON&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://evekatsu.github.io/data/types.csv"&gt;アイテム一覧のCSV&lt;/a&gt;&lt;/p&gt;
+&lt;h3&gt;ソーラーシステム一覧&lt;/h3&gt;
+&lt;p&gt;&lt;img alt="50時間ぐらいESIを叩き続けたので記事を書いてみた-2" src="https://evekatsu.github.io/news/images/50時間ぐらいESIを叩き続けたので記事を書いてみた/50時間ぐらいESIを叩き続けたので記事を書いてみた-2.jpg"&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://evekatsu.github.io/data/universes/"&gt;https://evekatsu.github.io/data/universes/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://evekatsu.github.io/data/universes.json"&gt;ソーラーシステム一覧のJSON&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://evekatsu.github.io/data/universes.csv"&gt;ソーラーシステム一覧のCSV&lt;/a&gt;&lt;/p&gt;
+&lt;h1&gt;使い方&lt;/h1&gt;
+&lt;p&gt;まず最初にデータ構造を簡単に説明します。&lt;/p&gt;
+&lt;p&gt;"アイテム（タイプと呼ばれている）"にはその上の階層に"グループ"があり、その上には"カテゴリー"があります。&lt;/p&gt;
+&lt;p&gt;"ソーラーシステム"の上に階層には"コンステレーション"があり、その上に"リージョン"があり、更にその上には"ユニバーサル"があります。&lt;/p&gt;
+&lt;p&gt;このサイトはそれを閲覧できるようにしたものです。&lt;/p&gt;
+&lt;p&gt;このデータ構造さえ理解してれば適当にリンクをポチポチしていると何が表示されているか何となくは分かるとは思います。&lt;/p&gt;
+&lt;p&gt;右上にある"Download CSV …&lt;/p&gt;</summary><content type="html">&lt;h1&gt;概要&lt;/h1&gt;
+&lt;p&gt;&lt;a href="https://developers.eveonline.com/resource/resources"&gt;Static Data Export(SDE)&lt;/a&gt;からアイテム名とシステム名のサポートしている言語で取得してJSONやCSV、HTMLに出力したものです。&lt;/p&gt;
+&lt;h3&gt;アイテム一覧&lt;/h3&gt;
+&lt;p&gt;&lt;img alt="50時間ぐらいESIを叩き続けたので記事を書いてみた-1" src="https://evekatsu.github.io/news/images/50時間ぐらいESIを叩き続けたので記事を書いてみた/50時間ぐらいESIを叩き続けたので記事を書いてみた-1.jpg"&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://evekatsu.github.io/data/types/"&gt;https://evekatsu.github.io/data/types/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://evekatsu.github.io/data/types.json"&gt;アイテム一覧のJSON&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://evekatsu.github.io/data/types.csv"&gt;アイテム一覧のCSV&lt;/a&gt;&lt;/p&gt;
+&lt;h3&gt;ソーラーシステム一覧&lt;/h3&gt;
+&lt;p&gt;&lt;img alt="50時間ぐらいESIを叩き続けたので記事を書いてみた-2" src="https://evekatsu.github.io/news/images/50時間ぐらいESIを叩き続けたので記事を書いてみた/50時間ぐらいESIを叩き続けたので記事を書いてみた-2.jpg"&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://evekatsu.github.io/data/universes/"&gt;https://evekatsu.github.io/data/universes/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://evekatsu.github.io/data/universes.json"&gt;ソーラーシステム一覧のJSON&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://evekatsu.github.io/data/universes.csv"&gt;ソーラーシステム一覧のCSV&lt;/a&gt;&lt;/p&gt;
+&lt;h1&gt;使い方&lt;/h1&gt;
+&lt;p&gt;まず最初にデータ構造を簡単に説明します。&lt;/p&gt;
+&lt;p&gt;"アイテム（タイプと呼ばれている）"にはその上の階層に"グループ"があり、その上には"カテゴリー"があります。&lt;/p&gt;
+&lt;p&gt;"ソーラーシステム"の上に階層には"コンステレーション"があり、その上に"リージョン"があり、更にその上には"ユニバーサル"があります。&lt;/p&gt;
+&lt;p&gt;このサイトはそれを閲覧できるようにしたものです。&lt;/p&gt;
+&lt;p&gt;このデータ構造さえ理解してれば適当にリンクをポチポチしていると何が表示されているか何となくは分かるとは思います。&lt;/p&gt;
+&lt;p&gt;右上にある"Download CSV"のボタンは、今サイトに表示されている表をCSVの形式でダウンロードできます。&lt;/p&gt;
+&lt;h1&gt;ちょっと技術的なあれこれ&lt;/h1&gt;
+&lt;p&gt;それぞれのトップページからダウンロードできるJSONとCSVの違いは上の階層の情報も入ってるかどうかです。&lt;/p&gt;
+&lt;p&gt;例えばJSONの方はコンステレーションやリージョン、ユニバーサルの情報も入ってますが、CSVはソーラーシステムの一覧を表示しただけです。&lt;/p&gt;
+&lt;p&gt;とりまJSONの方は全て入っているので、エンジニアの方はJSONをダウンロードすればいいとは思います。&lt;/p&gt;
+&lt;p&gt;SDEの中にはアイテム一覧の（日本語も含めた）サポートされている言語の名称は入ってますが、実はソーラーシステム一覧は入ってないっぽいです。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://esi.evetech.net/latest/#/Universe"&gt;https://esi.evetech.net/latest/#/Universe&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;つまり全てここらへんのESIを叩く必要があります。&lt;/p&gt;
+&lt;p&gt;さくっと終わらせようと思ったんですが全てのリージョン、コンステレーション、ソーラーシステムに対して 'de', 'en', 'fr', 'ja', 'ru', 'zh' の名称を取得しようとしたらいつまで経っても終わらない＼(^o^)／&lt;/p&gt;
+&lt;p&gt;1日経っても終わらない！まさかの50時間ぐらいかかったしまった／(^o^)＼&lt;/p&gt;
+&lt;p&gt;その間は暇だったので天井のシミを数百回は数えました←&lt;/p&gt;
+&lt;p&gt;そんな感じで二度とやりたくないのでログというかサルベージがてら記事とソースコードとデータ(JSON, CSV, HTML)をコミュニティに共有していこうという感じです。&lt;/p&gt;
+&lt;p&gt;SDEのバージョン更新のスクリプトは差分の分だけを更新するみたいな処理していますので、アイテムが増えたりアビサルのように新しいユニバースが増えてもそこまで更新に時間はかからないとは思いますが、韓国語が対応した後にもし追加するならまた死ぬ思いをするんだろうなと言う感じです（白目）&lt;/p&gt;
+&lt;p&gt;日本語のサポートは既に終了しているので、CCPのデータベースから日本語が消えたらもう二度と手に入らないので割と貴重なデータ（かもしれない）&lt;/p&gt;</content><category term="Development"></category><category term="Static Data Export"></category></entry><entry><title>イブカツ！動画投稿キャンペーン！</title><link href="https://evekatsu.github.io/news/%E3%82%A4%E3%83%96%E3%82%AB%E3%83%84%EF%BC%81%E5%8B%95%E7%94%BB%E6%8A%95%E7%A8%BF%E3%82%AD%E3%83%A3%E3%83%B3%E3%83%9A%E3%83%BC%E3%83%B3%EF%BC%81.html" rel="alternate"></link><published>2019-03-16T00:00:00+09:00</published><updated>2019-03-16T00:00:00+09:00</updated><author><name>Administrator</name></author><id>tag:evekatsu.github.io,2019-03-16:/news/イブカツ！動画投稿キャンペーン！.html</id><summary type="html">&lt;p&gt;2019年は「〜したら抽選で〜をプレゼントします！」みたいな月に行ってみる系が流行ってる（流行ってない）のでイブカツ！でもやってみようと思います！&lt;/p&gt;
 &lt;p&gt;といってもこちらはリツイート＆フォローしたらとか、その中で抽選でとかではありません。今回のキャンペーンは&lt;/p&gt;
 &lt;p&gt;&lt;br /&gt;
 &lt;b style="font-size: 150%; color: #f26a3d"&gt;動画の再生数に応じてiskをプレゼント！&lt;/b&gt;
@@ -20,12 +69,14 @@
 &lt;/ol&gt;
 &lt;h1&gt;補足&lt;/h1&gt;
 &lt;h4&gt;1. キャンペーン期間は2019年3月16日から2019年12月31日まで&lt;/h4&gt;
-&lt;p&gt;過去に投稿した動画は対象外で、今日（2019年3月16日）から今年いっぱいまでです。&lt;/p&gt;
+&lt;p&gt;2019年3月15日以前に投稿した動画は対象外です。&lt;/p&gt;
+&lt;p&gt;応募の受付期間は2019年3月16日から今年いっぱいまでです。&lt;/p&gt;
+&lt;p&gt;投稿日が期間内であれば過去の投稿した動画の再投稿でも問題ありません。&lt;/p&gt;
 &lt;h4&gt;2. Youtubeに投稿した動画が対象&lt;/h4&gt;
 &lt;p&gt;「ニコニコ動画などの他の動画サービスは対象ではないのか？」&lt;/p&gt;
 &lt;p&gt;これに関してですが、再生数のカウント方法の仕様がサービス毎に異なると思うので、公平を期すためYoutubeのみを対象にします。&lt;/p&gt;
 &lt;p&gt;また世界中のEVE Onlineプレイヤーの殆どはおそらくYoutubeを利用していると思うので。&lt;/p&gt;
-&lt;h4&gt;3 …&lt;/h4&gt;</summary><content type="html">&lt;p&gt;2019年は「〜したら抽選で〜をプレゼントします！」みたいな月に行ってみる系が流行ってる（流行ってない）のでイブカツ！でもやってみようと思います！&lt;/p&gt;
+&lt;h4&gt;3. EVE …&lt;/h4&gt;</summary><content type="html">&lt;p&gt;2019年は「〜したら抽選で〜をプレゼントします！」みたいな月に行ってみる系が流行ってる（流行ってない）のでイブカツ！でもやってみようと思います！&lt;/p&gt;
 &lt;p&gt;といってもこちらはリツイート＆フォローしたらとか、その中で抽選でとかではありません。今回のキャンペーンは&lt;/p&gt;
 &lt;p&gt;&lt;br /&gt;
 &lt;b style="font-size: 150%; color: #f26a3d"&gt;動画の再生数に応じてiskをプレゼント！&lt;/b&gt;
@@ -46,7 +97,9 @@
 &lt;/ol&gt;
 &lt;h1&gt;補足&lt;/h1&gt;
 &lt;h4&gt;1. キャンペーン期間は2019年3月16日から2019年12月31日まで&lt;/h4&gt;
-&lt;p&gt;過去に投稿した動画は対象外で、今日（2019年3月16日）から今年いっぱいまでです。&lt;/p&gt;
+&lt;p&gt;2019年3月15日以前に投稿した動画は対象外です。&lt;/p&gt;
+&lt;p&gt;応募の受付期間は2019年3月16日から今年いっぱいまでです。&lt;/p&gt;
+&lt;p&gt;投稿日が期間内であれば過去の投稿した動画の再投稿でも問題ありません。&lt;/p&gt;
 &lt;h4&gt;2. Youtubeに投稿した動画が対象&lt;/h4&gt;
 &lt;p&gt;「ニコニコ動画などの他の動画サービスは対象ではないのか？」&lt;/p&gt;
 &lt;p&gt;これに関してですが、再生数のカウント方法の仕様がサービス毎に異なると思うので、公平を期すためYoutubeのみを対象にします。&lt;/p&gt;
@@ -841,7 +894,7 @@ export ACCESS_TOKEN_SECRET= xxxxxxxxxxxxxxx
 # デバッグ用のフラグです
 # ローカルでサイトを立ち上げた後に
 # コードを書き換えた時に自動的にリロードしてくれます
-EVEKATSU_DEBUG=true
+export EVEKATSU_DEBUG=true
 &lt;/pre&gt;
 
 &lt;p&gt;こんな感じで環境変数を設定します（このサンプルは私が ~/.bash_profile に書いているものです）&lt;/p&gt;
