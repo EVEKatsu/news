@@ -4,7 +4,7 @@ Slug: 50時間ぐらいESIを叩き続けたので記事を書いてみた
 Tags: Development, Static Data Export
 
 # 概要
-[Static Data Export(SDE)](https://developers.eveonline.com/resource/resources)からアイテム名とシステム名のサポートしている言語で取得してJSONやCSV、HTMLに出力したものです。
+CCPから提供されている公式のデータベースである[Static Data Export(SDE)](https://developers.eveonline.com/resource/resources)からアイテム一覧とソーラーシステム一覧のサポートされている言語の名称をJSONやCSV、HTMLに出力したものです。
 
 ### アイテム一覧
 ![50時間ぐらいESIを叩き続けたので記事を書いてみた-1]({static}/images/50時間ぐらいESIを叩き続けたので記事を書いてみた/50時間ぐらいESIを叩き続けたので記事を書いてみた-1.jpg)

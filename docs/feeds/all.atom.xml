@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom"><title>いぶかつ☆にゅーす</title><link href="https://evekatsu.github.io/news/" rel="alternate"></link><link href="https://evekatsu.github.io/news/feeds/all.atom.xml" rel="self"></link><id>https://evekatsu.github.io/news/</id><updated>2019-03-23T00:00:00+09:00</updated><entry><title>50時間ぐらいESIを叩き続けたので記事を書いてみた</title><link href="https://evekatsu.github.io/news/50%E6%99%82%E9%96%93%E3%81%90%E3%82%89%E3%81%84ESI%E3%82%92%E5%8F%A9%E3%81%8D%E7%B6%9A%E3%81%91%E3%81%9F%E3%81%AE%E3%81%A7%E8%A8%98%E4%BA%8B%E3%82%92%E6%9B%B8%E3%81%84%E3%81%A6%E3%81%BF%E3%81%9F.html" rel="alternate"></link><published>2019-03-23T00:00:00+09:00</published><updated>2019-03-23T00:00:00+09:00</updated><author><name>Administrator</name></author><id>tag:evekatsu.github.io,2019-03-23:/news/50時間ぐらいESIを叩き続けたので記事を書いてみた.html</id><summary type="html">&lt;h1&gt;概要&lt;/h1&gt;
-&lt;p&gt;&lt;a href="https://developers.eveonline.com/resource/resources"&gt;Static Data Export(SDE)&lt;/a&gt;からアイテム名とシステム名のサポートしている言語で取得してJSONやCSV、HTMLに出力したものです。&lt;/p&gt;
+&lt;p&gt;CCPから提供されている公式のデータベースである&lt;a href="https://developers.eveonline.com/resource/resources"&gt;Static Data Export(SDE)&lt;/a&gt;からアイテム一覧とソーラーシステム一覧のサポートされている言語の名称をJSONやCSV、HTMLに出力したものです。&lt;/p&gt;
 &lt;h3&gt;アイテム一覧&lt;/h3&gt;
 &lt;p&gt;&lt;img alt="50時間ぐらいESIを叩き続けたので記事を書いてみた-1" src="https://evekatsu.github.io/news/images/50時間ぐらいESIを叩き続けたので記事を書いてみた/50時間ぐらいESIを叩き続けたので記事を書いてみた-1.jpg"&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a href="https://evekatsu.github.io/data/types/"&gt;https://evekatsu.github.io/data/types/&lt;/a&gt;&lt;/p&gt;
@@ -17,8 +17,8 @@
 &lt;p&gt;"ソーラーシステム"の上に階層には"コンステレーション"があり、その上に"リージョン"があり、更にその上には"ユニバーサル"があります。&lt;/p&gt;
 &lt;p&gt;このサイトはそれを閲覧できるようにしたものです。&lt;/p&gt;
 &lt;p&gt;このデータ構造さえ理解してれば適当にリンクをポチポチしていると何が表示されているか何となくは分かるとは思います。&lt;/p&gt;
-&lt;p&gt;右上にある"Download CSV …&lt;/p&gt;</summary><content type="html">&lt;h1&gt;概要&lt;/h1&gt;
-&lt;p&gt;&lt;a href="https://developers.eveonline.com/resource/resources"&gt;Static Data Export(SDE)&lt;/a&gt;からアイテム名とシステム名のサポートしている言語で取得してJSONやCSV、HTMLに出力したものです。&lt;/p&gt;
+&lt;p&gt;右上にある"Download …&lt;/p&gt;</summary><content type="html">&lt;h1&gt;概要&lt;/h1&gt;
+&lt;p&gt;CCPから提供されている公式のデータベースである&lt;a href="https://developers.eveonline.com/resource/resources"&gt;Static Data Export(SDE)&lt;/a&gt;からアイテム一覧とソーラーシステム一覧のサポートされている言語の名称をJSONやCSV、HTMLに出力したものです。&lt;/p&gt;
 &lt;h3&gt;アイテム一覧&lt;/h3&gt;
 &lt;p&gt;&lt;img alt="50時間ぐらいESIを叩き続けたので記事を書いてみた-1" src="https://evekatsu.github.io/news/images/50時間ぐらいESIを叩き続けたので記事を書いてみた/50時間ぐらいESIを叩き続けたので記事を書いてみた-1.jpg"&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a href="https://evekatsu.github.io/data/types/"&gt;https://evekatsu.github.io/data/types/&lt;/a&gt;&lt;/p&gt;
