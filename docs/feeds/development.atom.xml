@@ -47,7 +47,7 @@
 &lt;p&gt;ただ、別の言語で書いたコードを走らせるのは一工夫必要です。&lt;/p&gt;
 &lt;p&gt;ここで&lt;a href="http://zeromq.org/"&gt;ZeroMQ&lt;/a&gt;というメッセージングライブラリを使います。親からサブプロセスとして子のコードを走らせて、そこでプロセス間通信をする感じです。&lt;/p&gt;
 &lt;p&gt;つまりZeroMQがサポートしている言語ならばGUIの画面の部分は完全にElectron任せにしてビジネスロジックの部分は自分の使い慣れた環境で開発ができます。&lt;/p&gt;
-&lt;p&gt;適当なスクリプトを書いて、後でそれを走らすためだけのおまえのGUIを付けるみたいな場合だと便利だと思います。&lt;/p&gt;
+&lt;p&gt;適当なスクリプトを書いて、後でそれを走らすためだけのおまけのGUIを付けるみたいな場合だと便利だと思います。&lt;/p&gt;
 &lt;h1&gt;Windowsでのビルド&lt;/h1&gt;
 &lt;p&gt;&lt;a href="https://github.com/fyears/electron-python-example"&gt;https://github.com/fyears/electron-python-example&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;今回はサンプルとしてこれをWin / Macの両方に向けてビルドしていきます。&lt;/p&gt;
