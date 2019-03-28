@@ -50,7 +50,7 @@
 &lt;p&gt;適当なスクリプトを書いて、後でそれを走らすためだけのおまけのGUIを付けるみたいな場合だと便利だと思います。&lt;/p&gt;
 &lt;h1&gt;Windowsでのビルド&lt;/h1&gt;
 &lt;p&gt;&lt;a href="https://github.com/fyears/electron-python-example"&gt;https://github.com/fyears/electron-python-example&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;今回はサンプルとしてこれをWin / Macの両方に向けてビルドしていきます。&lt;/p&gt;
+&lt;p&gt;今回はこのサンプルをWin / Macの両方に向けてビルドしていきます。&lt;/p&gt;
 &lt;p&gt;git cloneもしくは右上のDownload ZIPでダウンロードして解凍して適当な作業フォルダに置いてください。&lt;/p&gt;
 &lt;p&gt;ドキュメントも兼ねてるので、分からないところがあったらまずは上記の記事を読んでみてください（知りたいことは大体書いてあります）&lt;/p&gt;
 &lt;h4&gt;Git&lt;/h4&gt;

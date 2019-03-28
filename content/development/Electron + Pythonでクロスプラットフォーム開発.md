@@ -57,7 +57,7 @@ Electronというのは雑に言うとChromium(Chrome)のエンジンを使っ�
 
 [https://github.com/fyears/electron-python-example](https://github.com/fyears/electron-python-example)
 
-今回はサンプルとしてこれをWin / Macの両方に向けてビルドしていきます。
+今回はこのサンプルをWin / Macの両方に向けてビルドしていきます。
 
 git cloneもしくは右上のDownload ZIPでダウンロードして解凍して適当な作業フォルダに置いてください。
 
