@@ -136,7 +136,7 @@ npm install
 
 ![Electron + Pythonでクロスプラットフォーム開発-4]({static}/images/Electron + Pythonでクロスプラットフォーム開発/Electron + Pythonでクロスプラットフォーム開発-4.jpg)
 
-ZeroMQのビルドはPython 2.x系でないといけないので、npm installの前にPATHを追加しておきます。.¥node_modules¥.bin¥electronで最初のアプリが立ち上がったら成功です。
+ZeroMQのビルドはPython 2.x系でないといけないので、npm installの前にPATHを追加しておきます。.¥node_modules¥.bin¥electronで初期状態のアプリが立ち上がったら成功です。
 
 ### Virtualenv
 先程の状態だとPATHがpython 2.x系のままなのでpython 3.x系に戻すために一度コマンドプロンプトを終了して、もう一度起動します。こまめに "python -V" をして、今どのpythonが走っているのか確認すると安全です。
