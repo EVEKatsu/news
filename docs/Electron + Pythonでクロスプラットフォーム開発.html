@@ -1,0 +1,387 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+      <meta charset="utf-8">
+  <meta http-equiv="Content-Type" content="text/html" charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+
+
+  <title>Electron + Pythonでクロスプラットフォーム開発</title>
+
+
+  <meta name="HandheldFriendly" content="True" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="referrer" content="origin" />
+  <meta name="generator" content="Pelican" />
+  <link href="https://evekatsu.github.io/news" rel="canonical" />
+
+  <!-- Feed -->
+      <link href="feeds/all.atom.xml" type="application/atom+xml" rel="alternate" title="いぶかつ☆にゅーす Full Atom Feed" />
+
+  <link href="https://evekatsu.github.io/news/theme/css/style.css" type="text/css" rel="stylesheet" />
+  <link href="https://evekatsu.github.io/news/theme/css/main.css" type="text/css" rel="stylesheet" />
+  <link href="https://evekatsu.github.io/news/theme/css/jquery.fancybox.min.css" type="text/css" rel="stylesheet" />
+
+  <!-- Code highlight color scheme -->
+      <link href="https://evekatsu.github.io/news/theme/css/code_blocks/github.css" rel="stylesheet">
+
+
+  <!-- Custom fonts -->
+  <link href='https://fonts.googleapis.com/css?family=Montserrat:400,300' rel='stylesheet' type='text/css' />
+  <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet" type="text/css" />
+
+  <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+  <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+  <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+    <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+  <![endif]-->
+
+
+    <link href="https://evekatsu.github.io/news/Electron + Pythonでクロスプラットフォーム開発.html" rel="canonical" />
+
+        <meta name="description" content="これは学んだことを整理しただけの完全な技術メモです。 ITに興味ない方 読む必要ないです これから学習してみようという方 読む必要はないと思います。 https://nodejs.org/ja/...">
+
+        <meta name="author" content="Administrator">
+
+        <meta name="tags" content="Development">
+        <meta name="tags" content="Python">
+        <meta name="tags" content="Electron">
+
+  <meta property="og:type" content="article">
+            <meta property="article:author" content="https://evekatsu.github.io/news/author/administrator.html">
+  <meta property="og:url" content="https://evekatsu.github.io/news/Electron + Pythonでクロスプラットフォーム開発.html">
+  <meta property="og:title" content="Electron + Pythonでクロスプラットフォーム開発">
+  <meta property="article:published_time" content="2019-03-28 00:00:00+09:00">
+            <meta property="og:description" content="これは学んだことを整理しただけの完全な技術メモです。 ITに興味ない方 読む必要ないです これから学習してみようという方 読む必要はないと思います。 https://nodejs.org/ja/...">
+
+            <meta property="og:image" content="https://evekatsu.github.io/news/theme/images/post-bg.jpg">
+        <meta name="twitter:card" content="summary_large_image">
+        <meta name="twitter:site" content="@evekatsu">
+        <meta name="twitter:title" content="Electron + Pythonでクロスプラットフォーム開発">
+        <meta name="twitter:url" content="https://evekatsu.github.io/news/Electron + Pythonでクロスプラットフォーム開発.html">
+
+            <meta name="twitter:image:src" content="https://evekatsu.github.io/news/theme/images/post-bg.jpg">
+
+            <meta name="twitter:description" content="これは学んだことを整理しただけの完全な技術メモです。 ITに興味ない方 読む必要ないです これから学習してみようという方 読む必要はないと思います。 https://nodejs.org/ja/...">
+
+  <link rel="shortcut icon" href="https://evekatsu.github.io/news/favicon.jpg" type="image/jpg" />
+</head>
+<!-- TODO : Body class -->
+<body class="home-template">
+
+<nav id="menu">
+  <a class="close-button">Close</a>
+  <div class="nav-wrapper">
+    <p class="nav-label">Menu</p>
+    <ul>
+          <li><a href="https://twitter.com/evekatsu" role="presentation" target="_blank"><i class="ic ic-twitter"></i> Twitter</a></li>
+          <li><a href="https://evekatsu.github.io/ranking/" role="presentation" target="_blank"><i class="ic ic-star"></i> Ranking</a></li>
+          <li><a href="https://github.com/EVEKatsu" role="presentation" target="_blank"><i class="ic ic-link"></i> GitHub</a></li>
+
+
+        <li class="nav-rss"><a href="feeds/all.atom.xml" target="_blank"><i class="ic ic-rss"></i> Feed</a></li>
+    </ul>
+  </div>
+</nav>
+    <!-- Progressbar -->
+    <div class="progress-container">
+        <span class="progress-bar"></span>
+    </div>
+
+    <!-- Page Header -->
+    <!-- Set your background image for this header on the line below. -->
+    <header id="post-header" class="has-cover">
+      <div class="inner">
+        <nav id="navigation">
+            <span id="home-button" class="nav-button">
+                <a class="home-button" href="https://evekatsu.github.io/news" title="Home"><i class="ic ic-arrow-left"></i> Home</a>
+            </span>
+          <span id="menu-button" class="nav-button">
+            <a class="menu-button"><i class="ic ic-menu"></i> Menu</a>
+          </span>
+        </nav>
+        <h1 class="post-title">Electron + Pythonでクロスプラットフォーム開発</h1>
+        <!-- TODO : Proper class for headline -->
+        <span class="post-meta">
+                <a href="https://evekatsu.github.io/news/author/administrator.html">Administrator</a>
+            | <time datetime="2019年03月28日">2019年03月28日</time>
+        </span>
+        <!-- TODO : Modified check -->
+        
+            <div class="post-cover cover" style="background-image: url('https://evekatsu.github.io/news/theme/images/post-bg.jpg')">
+        
+      </div>
+    </header>    
+
+  <section id="wrapper">
+    <a class="hidden-close"></a>
+
+    <!-- Post content -->
+    <main class="content" role="main">
+
+        <!-- Post ad -->
+        <article class="post">
+        <div class="inner">
+            <section class="post-content">
+            <a href="https://evekatsu.github.io/ad/" class="evekatsu-ad" target="_blank"></a>
+            <script src="https://evekatsu.github.io/ad/widget.js"></script>
+            </section>
+        </div>
+        </article>
+
+        <article class="post">
+        <div class="inner">
+            <section class="post-content">
+                <p>これは学んだことを整理しただけの完全な技術メモです。</p>
+<h1>ITに興味ない方</h1>
+<p><br /><br />
+<b style="font-size: 250%; color: #f26a3d">読む必要ないです</b>
+<br /><br /><br /></p>
+<h1>これから学習してみようという方</h1>
+<p>読む必要はないと思います。</p>
+<p><a href="https://nodejs.org/ja/">https://nodejs.org/ja/</a></p>
+<p>PythonやRubyとかは遥か昔の太古の時代ではナウでヤングな最先端って感じでしたが、現代はNode.jsで何でもやっちゃう時代なので今から勉強するならNode.jsがいいと思います。</p>
+<p><img alt="Electron + Pythonでクロスプラットフォーム開発-1" src="https://evekatsu.github.io/news/images/Electron + Pythonでクロスプラットフォーム開発/Electron + Pythonでクロスプラットフォーム開発-1.jpg"></p>
+<p><b style="font-size: 150%; color: #f26a3d">世界的ですもんね 乗るしかない このNode.jsに</b></p>
+<p>ぜひともNode.jsのスペシャリストになって私に色々と教えてください（切実）</p>
+<h1>太古の技術しか使えない方</h1>
+<p>さて、ここで問題となるのは古の時代の技術しか使えない我々です。</p>
+<p>もちろん新しい技術（言語、フレームワーク、ライブラリ）を使うのが一番コスパがかからない場合は移行していくのがいいと思います。</p>
+<p>ただ 『便利なスクリプトを書いたけど、これを非エンジニア用に配布するために簡易GUIを付けてバイナリ化したい』みたいな時があるかもしれません（というか私がそんな感じでした）</p>
+<p>更に普段はWeb開発してる人が入力フォーム程度の簡単なものを用意するためだけに新しいGUIのAPIを学ぶのは割に合わないという時もあると思います（というか私がそんな感じでした）</p>
+<p>そんな時にDiscordで「Electronいいかもよ」って教えてもらったので試しに使ってみました。</p>
+<h1>アーキテクチャ</h1>
+<p><img alt="Electron + Pythonでクロスプラットフォーム開発-2" src="https://evekatsu.github.io/news/images/Electron + Pythonでクロスプラットフォーム開発/Electron + Pythonでクロスプラットフォーム開発-2.jpg"></p>
+<p>Electronというのは雑に言うとChromium(Chrome)のエンジンを使ってデスクトップアプリケーションを作れるという感じです。</p>
+<p>これはnode.jsで記述する感じなので、node.jsで全てを書くなら特に問題なく開発ができます。</p>
+<p>ただ、別の言語で書いたコードを走らせるのは一工夫必要です。</p>
+<p>ここで<a href="http://zeromq.org/">ZeroMQ</a>というメッセージングライブラリを使います。親からサブプロセスとして子のコードを走らせて、そこでプロセス間通信をする感じです。</p>
+<p>つまりZeroMQがサポートしている言語ならばGUIの画面の部分は完全にElectron任せにしてビジネスロジックの部分は自分の使い慣れた環境で開発ができます。</p>
+<p>適当なスクリプトを書いて、後でそれを走らすためだけのおまえのGUIを付けるみたいな場合だと便利だと思います。</p>
+<h1>Windowsでのビルド</h1>
+<p><a href="https://github.com/fyears/electron-python-example">https://github.com/fyears/electron-python-example</a></p>
+<p>今回はサンプルとしてこれをWin / Macの両方に向けてビルドしていきます。</p>
+<p>git cloneもしくは右上のDownload ZIPでダウンロードして解凍して適当な作業フォルダに置いてください。</p>
+<h4>Git</h4>
+<p><a href="https://git-scm.com/download/win">https://git-scm.com/download/win</a></p>
+<p>おそらく殆どの場合は "64-bit Git for Windows Setup" をインストールすれば大丈夫だと思います。</p>
+<pre>
+git
+</pre>
+
+<p>gitコマンドが使えるようになっていれば成功です。</p>
+<h4>Visual Studio</h4>
+<p><a href="http://d.hatena.ne.jp/mocotiti/20170504/1493868466">http://d.hatena.ne.jp/mocotiti/20170504/1493868466</a></p>
+<p><a href="http://download.microsoft.com/download/7/7/4/7746022b-8f4f-4ace-9c18-2b5a4406e3dc/vs2015.3.com_jpn.iso">Visual Studio Community 2015のイメージディスク</a></p>
+<p>ZeroMQ（詳しく言うとZeroMQのNode.js向けのライブラリのビルド）にはVisual C++ 2015が必要です。<a href="https://github.com/amishiro/AmiTemplate-PHP/issues/92">VS 2017でもできるらしいんですが</a>、私は上手くいかなかったので大人しくVS 2015を入れました。</p>
+<h4>Python</h4>
+<p><a href="https://www.python.org/downloads/">https://www.python.org/downloads/</a></p>
+<p>macOSでもそうですが、<a href="https://github.com/zeromq/zeromq.js/">ZeroMQにはpython 2.x系が必要です。</a></p>
+<p>しかしpython 2.x系が2020年にサポートが終了するオワコンレガシー言語なので、ビジネスロジックの部分はpython 3.x系で書きたいと思います。</p>
+<p>今回はpython <a href="https://www.python.org/downloads/release/python-2715/">2.7.15</a> と <a href="https://www.python.org/downloads/release/python-367/">3.6.7</a> の64bit版をインストールしました。</p>
+<p><img alt="Electron + Pythonでクロスプラットフォーム開発-3" src="https://evekatsu.github.io/news/images/Electron + Pythonでクロスプラットフォーム開発/Electron + Pythonでクロスプラットフォーム開発-3.jpg"></p>
+<p>先にPython 3.x系統を『Add Python 3.x to PATH』にチェックボックスを付けてインストールします。その後にPython 2.x系統をインストールして1度再起動します。</p>
+<pre>
+py -3 -V # Python 3のバージョン
+py -2 -V # Python 2のバージョン
+python -V # Python 3のバージョン
+</pre>
+
+<p>それぞれ正しい結果が表示されたら成功です。</p>
+<h3>Node.js</h3>
+<p><a href="https://github.com/nullivex/nodist/releases">https://github.com/nullivex/nodist/releases</a></p>
+<p>Windowsでnode.jsのバージョン管理にはnodistというのがいいらしいです。</p>
+<pre>
+nodist 10.11.0
+</pre>
+
+<p>新しいnode.jsを入れます。バージョンはElectronで走ってるのと同じバージョンがいいと思います。多分。</p>
+<pre>
+  "devDependencies": {
+    "electron": "*",
+    "electron-packager": "*",
+    "electron-rebuild": "*"
+  }
+</pre>
+
+<p>package.jsonをテキストエディタで開いて "devDependencies" の項目に "electron-rebuild" を追加します。</p>
+<pre>
+set PATH=C:¥Python27;%PATH%
+npm install
+.¥node_modules¥.bin¥electron-rebuild
+.¥node_modules¥.bin¥electron
+</pre>
+
+<p><img alt="Electron + Pythonでクロスプラットフォーム開発-4" src="https://evekatsu.github.io/news/images/Electron + Pythonでクロスプラットフォーム開発/Electron + Pythonでクロスプラットフォーム開発-4.jpg"></p>
+<p>ZeroMQのビルドはPython 2.x系でないといけないので、npm installの前にPATHを追加しておきます。.¥node_modules¥.bin¥electronで最初のアプリが立ち上がったら成功です。</p>
+<h3>Virtualenv</h3>
+<p>先程の状態だとPATHがpython 2.x系のままなのでpython 3.x系に戻すために一度コマンドプロンプトを終了して、もう一度起動します。こまめに "python -V" をして、今どのpythonが走っているのか確認すると安全です。</p>
+<p><a href="https://qiita.com/maisuto/items/91143d26b609d6cfc1ac">https://qiita.com/maisuto/items/91143d26b609d6cfc1ac</a></p>
+<pre>
+pip install virtualenvwrapper-win
+mkvirtualenv envname
+</pre>
+
+<p>こんな感じで仮想環境を構築します。ちなみに↑の記事になかったですが仮想環境を削除する時は "rmvirtualenv envname" らしいです。</p>
+<p>もし仮想環境に入ってない場合は "workon envname" をします。</p>
+<p><a href="https://qiita.com/akabei/items/da70ebf61cc413d5ff0d">https://qiita.com/akabei/items/da70ebf61cc413d5ff0d</a></p>
+<pre>
+chcp 65001
+</pre>
+
+<p>WindowsはShiftJISという未知の文字コードを使っているらしいので、人間が本来使うべき文字コードであるUTF-8に変更します。</p>
+<pre>
+pyinstaller pycalc¥api.py --distpath pycalcdist
+</pre>
+
+<p>これでpycalcdistというフォルダに新しいexeが作られていれば成功です</p>
+<h3>パッケージング</h3>
+<p>"build" というフォルダと "api.spec" というファイルを削除します。</p>
+<p><b>.¥node_modules¥.bin¥electron-packager . --overwrite --ignore="pycalc$" --ignore="¥.venv" --ignore="old-post-backup"</b></p>
+<p><img alt="Electron + Pythonでクロスプラットフォーム開発-5" src="https://evekatsu.github.io/news/images/Electron + Pythonでクロスプラットフォーム開発/Electron + Pythonでクロスプラットフォーム開発-5.jpg"></p>
+<p>pretty-calculator-win32-x64というフォルダが作られていて、中のexeを起動して電卓として使えれば成功です。</p>
+<h1>macOSでのビルド</h1>
+<p>macで開発している人は最低限のことは自分で調べれるはずなので、かなりガバく書きます。</p>
+<p>まずプロジェクトをダウンロードしてきて解凍して適当な作業ディレクトリに置きます。</p>
+<pre>
+  "devDependencies": {
+    "electron": "*",
+    "electron-packager": "*",
+    "electron-rebuild": "*"
+  }
+</pre>
+
+<p>Windowsと同じようにpackage.jsonをテキストエディタで開いて "devDependencies" の項目に "electron-rebuild" を追加します。</p>
+<h3>Anyenv</h3>
+<p>anyenvの入れ方は適当にググってください。</p>
+<pre>
+ndenv install v10.11.0
+ndenv global v10.11.0
+pyenv install 2.7.15
+pyenv install 3.6.7
+pyenv virtualenv 2.7.15 python2
+pyenv virtualenv 3.6.7 python3
+pyenv local python3 python2
+npm install --global npm
+pip install --upgrade pip
+</pre>
+
+<p>ここで大事なところは "pyenv local python3 python2" とpython3の仮想環境名を先に書くことです。</p>
+<pre>
+python2 -V # python2のバージョン
+python -V # python3のバージョン
+</pre>
+
+<p>これによって、python2のコマンドでは2.x系がpythonのコマンドでは3.x系が走ります。</p>
+<h3>パッケージング</h3>
+<pre>
+npm install
+./node_modules/.bin/electron-rebuild
+pip install zerorpc
+pip install pyinstaller
+pyinstaller pycalc/api.py --distpath pycalcdist
+rm -rf build/
+rm -rf api.spec
+</pre>
+
+<p><b>./node_modules/.bin/electron-packager . --overwrite --ignore="pycalc$" --ignore=".venv" --ignore="old-post-backup"</b></p>
+<p>pretty-calculator-darwin-x64というディレクトリが作成されていて中のアプリが起動できたら成功。</p>
+<h1>おわりに</h1>
+<p><br /><br />
+<b style="font-size: 150%; color: #f26a3d">Webの技術をWindowsで動かそうとしたら発狂しそうでした（血の涙）</b>
+<br /><br /></p>
+                <hr>
+                <h3>お問い合わせや質問など</h3>
+                <p>
+                    Discord: <a href="https://discord.gg/XK9A348">EVE Japanese IT</a><br>
+                    Twitter: <a href="https://twitter.com/evekatsu">@evekatsu</a>
+                </p><p>
+                    IT系に興味がある人はぜひDiscordの方に遊びにきてみてください。<br>
+                    また、面白いアイデアも随時募集しています！<br>
+                    Twitterの方はフォロー外にDMを解放しています。
+                </p>
+            </section>
+
+            <section class="post-info">
+                <div class="post-share">
+                    <a class="twitter" href="https://twitter.com/share?text=Electron + Pythonでクロスプラットフォーム開発&amp;url=https://evekatsu.github.io/news/Electron + Pythonでクロスプラットフォーム開発.html" onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;">
+                    <i class="ic ic-twitter"></i><span class="hidden">Twitter</span>
+                    </a>
+                    <a class="facebook" href="https://www.facebook.com/sharer/sharer.php?u=https://evekatsu.github.io/news/Electron + Pythonでクロスプラットフォーム開発.html" onclick="window.open(this.href, 'facebook-share','width=580,height=296');return false;">
+                    <i class="ic ic-facebook"></i><span class="hidden">Facebook</span>
+                    </a>
+                    <a class="googleplus" href="https://plus.google.com/share?url=https://evekatsu.github.io/news/Electron + Pythonでクロスプラットフォーム開発.html" onclick="window.open(this.href, 'google-plus-share', 'width=490,height=530');return false;">
+                    <i class="ic ic-googleplus"></i><span class="hidden">Google+</span>
+                    </a>
+                    <div class="clear"></div>
+                </div>
+
+                <aside class="post-tags">
+<a href="https://evekatsu.github.io/news/tag/development.html">Development</a><a href="https://evekatsu.github.io/news/tag/python.html">Python</a><a href="https://evekatsu.github.io/news/tag/electron.html">Electron</a>                </aside>
+
+                <div class="clear"></div>
+
+ 
+
+                </section>
+
+
+                <aside class="post-nav">
+                    <div class="clear"></div>
+                </aside>
+
+            </div>
+        </article>
+    </main>
+      <!-- TODO : Body class -->
+    <div id="body-class" style="display: none;" class=""></div>
+  
+    <footer id="footer">
+      <div class="inner">
+        <section class="credits">
+          <span class="credits-theme">Theme <a href="https://github.com/arulrajnet/attila" rel="nofollow">Attila</a></span>
+          <span class="credits-software">Published with <a href="https://github.com/getpelican/pelican" rel="nofollow">Pelican</a></span>
+        </section>
+      </div>
+    </footer>
+  </section>
+
+  <script type="text/javascript" src="https://evekatsu.github.io/news/theme/js/script.js"></script>
+
+
+  <style>
+    .center {
+      display: block !important;
+      margin-left: auto !important;
+      margin-right: auto !important;
+      max-width: 700px !important;
+    }
+  </style>
+  <script type="text/javascript" src="https://evekatsu.github.io/news/theme/js/jquery.fancybox.min.js"></script>
+  <script>
+    var images = document.getElementsByTagName("img");
+    for (var i = 0; i < images.length; i++) {
+        if (!images[i].parentNode || images[i].parentNode.tagName.toLowerCase() !== "p") {
+          continue;
+        }
+
+        if (!images[i].parentNode.parentNode || images[i].parentNode.parentNode.className.toLowerCase() !== "post-content") {
+          continue;
+        }
+
+        images[i].outerHTML = '<a href="' + images[i].src + '" data-fancybox="gallery"><img class="center" src="' + images[i].src + '" alt="' + images[i].alt + '"/></a>'
+    }
+
+    $('[data-fancybox]').fancybox();
+
+    var links = document.links;
+    for (var i = 0; i < links.length; i++) {
+      if (links[i].hostname != window.location.hostname) {
+        links[i].target = '_blank';
+      }
+    }
+</script>
+</body>
+</html>

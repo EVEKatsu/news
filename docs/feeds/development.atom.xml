@@ -1,5 +1,185 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>いぶかつ☆にゅーす - development</title><link href="https://evekatsu.github.io/news/" rel="alternate"></link><link href="https://evekatsu.github.io/news/feeds/development.atom.xml" rel="self"></link><id>https://evekatsu.github.io/news/</id><updated>2019-03-23T00:00:00+09:00</updated><entry><title>50時間ぐらいESIを叩き続けたので記事を書いてみた</title><link href="https://evekatsu.github.io/news/50%E6%99%82%E9%96%93%E3%81%90%E3%82%89%E3%81%84ESI%E3%82%92%E5%8F%A9%E3%81%8D%E7%B6%9A%E3%81%91%E3%81%9F%E3%81%AE%E3%81%A7%E8%A8%98%E4%BA%8B%E3%82%92%E6%9B%B8%E3%81%84%E3%81%A6%E3%81%BF%E3%81%9F.html" rel="alternate"></link><published>2019-03-23T00:00:00+09:00</published><updated>2019-03-23T00:00:00+09:00</updated><author><name>Administrator</name></author><id>tag:evekatsu.github.io,2019-03-23:/news/50時間ぐらいESIを叩き続けたので記事を書いてみた.html</id><summary type="html">&lt;h1&gt;概要&lt;/h1&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>いぶかつ☆にゅーす - development</title><link href="https://evekatsu.github.io/news/" rel="alternate"></link><link href="https://evekatsu.github.io/news/feeds/development.atom.xml" rel="self"></link><id>https://evekatsu.github.io/news/</id><updated>2019-03-28T00:00:00+09:00</updated><entry><title>Electron + Pythonでクロスプラットフォーム開発</title><link href="https://evekatsu.github.io/news/Electron%20+%20Python%E3%81%A7%E3%82%AF%E3%83%AD%E3%82%B9%E3%83%97%E3%83%A9%E3%83%83%E3%83%88%E3%83%95%E3%82%A9%E3%83%BC%E3%83%A0%E9%96%8B%E7%99%BA.html" rel="alternate"></link><published>2019-03-28T00:00:00+09:00</published><updated>2019-03-28T00:00:00+09:00</updated><author><name>Administrator</name></author><id>tag:evekatsu.github.io,2019-03-28:/news/Electron + Pythonでクロスプラットフォーム開発.html</id><summary type="html">&lt;p&gt;これは学んだことを整理しただけの完全な技術メモです。&lt;/p&gt;
+&lt;h1&gt;ITに興味ない方&lt;/h1&gt;
+&lt;p&gt;&lt;br /&gt;&lt;br /&gt;
+&lt;b style="font-size: 250%; color: #f26a3d"&gt;読む必要ないです&lt;/b&gt;
+&lt;br /&gt;&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;h1&gt;これから学習してみようという方&lt;/h1&gt;
+&lt;p&gt;読む必要はないと思います。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://nodejs.org/ja/"&gt;https://nodejs.org/ja/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;PythonやRubyとかは遥か昔の太古の時代ではナウでヤングな最先端って感じでしたが、現代はNode.jsで何でもやっちゃう時代なので今から勉強するならNode.jsがいいと思います。&lt;/p&gt;
+&lt;p&gt;&lt;img alt="Electron + Pythonでクロスプラットフォーム開発-1" src="https://evekatsu.github.io/news/images/Electron + Pythonでクロスプラットフォーム開発/Electron + Pythonでクロスプラットフォーム開発-1.jpg"&gt;&lt;/p&gt;
+&lt;p&gt;&lt;b style="font-size: 150%; color: #f26a3d"&gt;世界的ですもんね 乗るしかない このNode.jsに&lt;/b&gt;&lt;/p&gt;
+&lt;p&gt;ぜひともNode.jsのスペシャリストになって私に色々と教えてください（切実）&lt;/p&gt;
+&lt;h1&gt;太古の技術しか使えない方&lt;/h1&gt;
+&lt;p&gt;さて、ここで問題となるのは古の時代の技術しか使えない我々です。&lt;/p&gt;
+&lt;p&gt;もちろん新しい技術（言語、フレームワーク、ライブラリ）を使うのが一番コスパがかからない場合は移行していくのがいいと思います。&lt;/p&gt;
+&lt;p&gt;ただ 『便利なスクリプトを書いたけど、これを非エンジニア用に配布するために簡易GUIを付けてバイナリ化したい』みたいな時があるかもしれません（というか私がそんな感じでした）&lt;/p&gt;
+&lt;p&gt;更に普段はWeb開発してる人が入力フォーム程度の簡単なものを用意するためだけに新しいGUIのAPIを学ぶのは割に合わないという時もあると思います（というか私がそんな感じでした）&lt;/p&gt;
+&lt;p&gt;そんな時にDiscordで「Electronいいかもよ」って教えてもらったので試しに使ってみました。&lt;/p&gt;
+&lt;h1&gt;アーキテクチャ&lt;/h1&gt;
+&lt;p&gt;&lt;img alt="Electron + Pythonでクロスプラットフォーム開発-2" src="https://evekatsu.github.io/news/images/Electron + Pythonでクロスプラットフォーム開発/Electron + Pythonでクロスプラットフォーム開発-2.jpg"&gt;&lt;/p&gt;
+&lt;p&gt;Electronというのは雑に言うとChromium(Chrome)のエンジンを使ってデスクトップアプリケーションを作れるという感じです。&lt;/p&gt;
+&lt;p&gt;これはnode.jsで記述する感じなので、node.jsで全てを書くなら特に問題なく開発ができます。&lt;/p&gt;
+&lt;p&gt;ただ、別の言語で書いたコードを走らせるのは一工夫必要です。&lt;/p&gt;
+&lt;p&gt;ここで&lt;a href="http://zeromq.org/"&gt;ZeroMQ …&lt;/a&gt;&lt;/p&gt;</summary><content type="html">&lt;p&gt;これは学んだことを整理しただけの完全な技術メモです。&lt;/p&gt;
+&lt;h1&gt;ITに興味ない方&lt;/h1&gt;
+&lt;p&gt;&lt;br /&gt;&lt;br /&gt;
+&lt;b style="font-size: 250%; color: #f26a3d"&gt;読む必要ないです&lt;/b&gt;
+&lt;br /&gt;&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;h1&gt;これから学習してみようという方&lt;/h1&gt;
+&lt;p&gt;読む必要はないと思います。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://nodejs.org/ja/"&gt;https://nodejs.org/ja/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;PythonやRubyとかは遥か昔の太古の時代ではナウでヤングな最先端って感じでしたが、現代はNode.jsで何でもやっちゃう時代なので今から勉強するならNode.jsがいいと思います。&lt;/p&gt;
+&lt;p&gt;&lt;img alt="Electron + Pythonでクロスプラットフォーム開発-1" src="https://evekatsu.github.io/news/images/Electron + Pythonでクロスプラットフォーム開発/Electron + Pythonでクロスプラットフォーム開発-1.jpg"&gt;&lt;/p&gt;
+&lt;p&gt;&lt;b style="font-size: 150%; color: #f26a3d"&gt;世界的ですもんね 乗るしかない このNode.jsに&lt;/b&gt;&lt;/p&gt;
+&lt;p&gt;ぜひともNode.jsのスペシャリストになって私に色々と教えてください（切実）&lt;/p&gt;
+&lt;h1&gt;太古の技術しか使えない方&lt;/h1&gt;
+&lt;p&gt;さて、ここで問題となるのは古の時代の技術しか使えない我々です。&lt;/p&gt;
+&lt;p&gt;もちろん新しい技術（言語、フレームワーク、ライブラリ）を使うのが一番コスパがかからない場合は移行していくのがいいと思います。&lt;/p&gt;
+&lt;p&gt;ただ 『便利なスクリプトを書いたけど、これを非エンジニア用に配布するために簡易GUIを付けてバイナリ化したい』みたいな時があるかもしれません（というか私がそんな感じでした）&lt;/p&gt;
+&lt;p&gt;更に普段はWeb開発してる人が入力フォーム程度の簡単なものを用意するためだけに新しいGUIのAPIを学ぶのは割に合わないという時もあると思います（というか私がそんな感じでした）&lt;/p&gt;
+&lt;p&gt;そんな時にDiscordで「Electronいいかもよ」って教えてもらったので試しに使ってみました。&lt;/p&gt;
+&lt;h1&gt;アーキテクチャ&lt;/h1&gt;
+&lt;p&gt;&lt;img alt="Electron + Pythonでクロスプラットフォーム開発-2" src="https://evekatsu.github.io/news/images/Electron + Pythonでクロスプラットフォーム開発/Electron + Pythonでクロスプラットフォーム開発-2.jpg"&gt;&lt;/p&gt;
+&lt;p&gt;Electronというのは雑に言うとChromium(Chrome)のエンジンを使ってデスクトップアプリケーションを作れるという感じです。&lt;/p&gt;
+&lt;p&gt;これはnode.jsで記述する感じなので、node.jsで全てを書くなら特に問題なく開発ができます。&lt;/p&gt;
+&lt;p&gt;ただ、別の言語で書いたコードを走らせるのは一工夫必要です。&lt;/p&gt;
+&lt;p&gt;ここで&lt;a href="http://zeromq.org/"&gt;ZeroMQ&lt;/a&gt;というメッセージングライブラリを使います。親からサブプロセスとして子のコードを走らせて、そこでプロセス間通信をする感じです。&lt;/p&gt;
+&lt;p&gt;つまりZeroMQがサポートしている言語ならばGUIの画面の部分は完全にElectron任せにしてビジネスロジックの部分は自分の使い慣れた環境で開発ができます。&lt;/p&gt;
+&lt;p&gt;適当なスクリプトを書いて、後でそれを走らすためだけのおまえのGUIを付けるみたいな場合だと便利だと思います。&lt;/p&gt;
+&lt;h1&gt;Windowsでのビルド&lt;/h1&gt;
+&lt;p&gt;&lt;a href="https://github.com/fyears/electron-python-example"&gt;https://github.com/fyears/electron-python-example&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;今回はサンプルとしてこれをWin / Macの両方に向けてビルドしていきます。&lt;/p&gt;
+&lt;p&gt;git cloneもしくは右上のDownload ZIPでダウンロードして解凍して適当な作業フォルダに置いてください。&lt;/p&gt;
+&lt;h4&gt;Git&lt;/h4&gt;
+&lt;p&gt;&lt;a href="https://git-scm.com/download/win"&gt;https://git-scm.com/download/win&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;おそらく殆どの場合は "64-bit Git for Windows Setup" をインストールすれば大丈夫だと思います。&lt;/p&gt;
+&lt;pre&gt;
+git
+&lt;/pre&gt;
+
+&lt;p&gt;gitコマンドが使えるようになっていれば成功です。&lt;/p&gt;
+&lt;h4&gt;Visual Studio&lt;/h4&gt;
+&lt;p&gt;&lt;a href="http://d.hatena.ne.jp/mocotiti/20170504/1493868466"&gt;http://d.hatena.ne.jp/mocotiti/20170504/1493868466&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="http://download.microsoft.com/download/7/7/4/7746022b-8f4f-4ace-9c18-2b5a4406e3dc/vs2015.3.com_jpn.iso"&gt;Visual Studio Community 2015のイメージディスク&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;ZeroMQ（詳しく言うとZeroMQのNode.js向けのライブラリのビルド）にはVisual C++ 2015が必要です。&lt;a href="https://github.com/amishiro/AmiTemplate-PHP/issues/92"&gt;VS 2017でもできるらしいんですが&lt;/a&gt;、私は上手くいかなかったので大人しくVS 2015を入れました。&lt;/p&gt;
+&lt;h4&gt;Python&lt;/h4&gt;
+&lt;p&gt;&lt;a href="https://www.python.org/downloads/"&gt;https://www.python.org/downloads/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;macOSでもそうですが、&lt;a href="https://github.com/zeromq/zeromq.js/"&gt;ZeroMQにはpython 2.x系が必要です。&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;しかしpython 2.x系が2020年にサポートが終了するオワコンレガシー言語なので、ビジネスロジックの部分はpython 3.x系で書きたいと思います。&lt;/p&gt;
+&lt;p&gt;今回はpython &lt;a href="https://www.python.org/downloads/release/python-2715/"&gt;2.7.15&lt;/a&gt; と &lt;a href="https://www.python.org/downloads/release/python-367/"&gt;3.6.7&lt;/a&gt; の64bit版をインストールしました。&lt;/p&gt;
+&lt;p&gt;&lt;img alt="Electron + Pythonでクロスプラットフォーム開発-3" src="https://evekatsu.github.io/news/images/Electron + Pythonでクロスプラットフォーム開発/Electron + Pythonでクロスプラットフォーム開発-3.jpg"&gt;&lt;/p&gt;
+&lt;p&gt;先にPython 3.x系統を『Add Python 3.x to PATH』にチェックボックスを付けてインストールします。その後にPython 2.x系統をインストールして1度再起動します。&lt;/p&gt;
+&lt;pre&gt;
+py -3 -V # Python 3のバージョン
+py -2 -V # Python 2のバージョン
+python -V # Python 3のバージョン
+&lt;/pre&gt;
+
+&lt;p&gt;それぞれ正しい結果が表示されたら成功です。&lt;/p&gt;
+&lt;h3&gt;Node.js&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://github.com/nullivex/nodist/releases"&gt;https://github.com/nullivex/nodist/releases&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Windowsでnode.jsのバージョン管理にはnodistというのがいいらしいです。&lt;/p&gt;
+&lt;pre&gt;
+nodist 10.11.0
+&lt;/pre&gt;
+
+&lt;p&gt;新しいnode.jsを入れます。バージョンはElectronで走ってるのと同じバージョンがいいと思います。多分。&lt;/p&gt;
+&lt;pre&gt;
+  "devDependencies": {
+    "electron": "*",
+    "electron-packager": "*",
+    "electron-rebuild": "*"
+  }
+&lt;/pre&gt;
+
+&lt;p&gt;package.jsonをテキストエディタで開いて "devDependencies" の項目に "electron-rebuild" を追加します。&lt;/p&gt;
+&lt;pre&gt;
+set PATH=C:¥Python27;%PATH%
+npm install
+.¥node_modules¥.bin¥electron-rebuild
+.¥node_modules¥.bin¥electron
+&lt;/pre&gt;
+
+&lt;p&gt;&lt;img alt="Electron + Pythonでクロスプラットフォーム開発-4" src="https://evekatsu.github.io/news/images/Electron + Pythonでクロスプラットフォーム開発/Electron + Pythonでクロスプラットフォーム開発-4.jpg"&gt;&lt;/p&gt;
+&lt;p&gt;ZeroMQのビルドはPython 2.x系でないといけないので、npm installの前にPATHを追加しておきます。.¥node_modules¥.bin¥electronで最初のアプリが立ち上がったら成功です。&lt;/p&gt;
+&lt;h3&gt;Virtualenv&lt;/h3&gt;
+&lt;p&gt;先程の状態だとPATHがpython 2.x系のままなのでpython 3.x系に戻すために一度コマンドプロンプトを終了して、もう一度起動します。こまめに "python -V" をして、今どのpythonが走っているのか確認すると安全です。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://qiita.com/maisuto/items/91143d26b609d6cfc1ac"&gt;https://qiita.com/maisuto/items/91143d26b609d6cfc1ac&lt;/a&gt;&lt;/p&gt;
+&lt;pre&gt;
+pip install virtualenvwrapper-win
+mkvirtualenv envname
+&lt;/pre&gt;
+
+&lt;p&gt;こんな感じで仮想環境を構築します。ちなみに↑の記事になかったですが仮想環境を削除する時は "rmvirtualenv envname" らしいです。&lt;/p&gt;
+&lt;p&gt;もし仮想環境に入ってない場合は "workon envname" をします。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://qiita.com/akabei/items/da70ebf61cc413d5ff0d"&gt;https://qiita.com/akabei/items/da70ebf61cc413d5ff0d&lt;/a&gt;&lt;/p&gt;
+&lt;pre&gt;
+chcp 65001
+&lt;/pre&gt;
+
+&lt;p&gt;WindowsはShiftJISという未知の文字コードを使っているらしいので、人間が本来使うべき文字コードであるUTF-8に変更します。&lt;/p&gt;
+&lt;pre&gt;
+pyinstaller pycalc¥api.py --distpath pycalcdist
+&lt;/pre&gt;
+
+&lt;p&gt;これでpycalcdistというフォルダに新しいexeが作られていれば成功です&lt;/p&gt;
+&lt;h3&gt;パッケージング&lt;/h3&gt;
+&lt;p&gt;"build" というフォルダと "api.spec" というファイルを削除します。&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;.¥node_modules¥.bin¥electron-packager . --overwrite --ignore="pycalc$" --ignore="¥.venv" --ignore="old-post-backup"&lt;/b&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="Electron + Pythonでクロスプラットフォーム開発-5" src="https://evekatsu.github.io/news/images/Electron + Pythonでクロスプラットフォーム開発/Electron + Pythonでクロスプラットフォーム開発-5.jpg"&gt;&lt;/p&gt;
+&lt;p&gt;pretty-calculator-win32-x64というフォルダが作られていて、中のexeを起動して電卓として使えれば成功です。&lt;/p&gt;
+&lt;h1&gt;macOSでのビルド&lt;/h1&gt;
+&lt;p&gt;macで開発している人は最低限のことは自分で調べれるはずなので、かなりガバく書きます。&lt;/p&gt;
+&lt;p&gt;まずプロジェクトをダウンロードしてきて解凍して適当な作業ディレクトリに置きます。&lt;/p&gt;
+&lt;pre&gt;
+  "devDependencies": {
+    "electron": "*",
+    "electron-packager": "*",
+    "electron-rebuild": "*"
+  }
+&lt;/pre&gt;
+
+&lt;p&gt;Windowsと同じようにpackage.jsonをテキストエディタで開いて "devDependencies" の項目に "electron-rebuild" を追加します。&lt;/p&gt;
+&lt;h3&gt;Anyenv&lt;/h3&gt;
+&lt;p&gt;anyenvの入れ方は適当にググってください。&lt;/p&gt;
+&lt;pre&gt;
+ndenv install v10.11.0
+ndenv global v10.11.0
+pyenv install 2.7.15
+pyenv install 3.6.7
+pyenv virtualenv 2.7.15 python2
+pyenv virtualenv 3.6.7 python3
+pyenv local python3 python2
+npm install --global npm
+pip install --upgrade pip
+&lt;/pre&gt;
+
+&lt;p&gt;ここで大事なところは "pyenv local python3 python2" とpython3の仮想環境名を先に書くことです。&lt;/p&gt;
+&lt;pre&gt;
+python2 -V # python2のバージョン
+python -V # python3のバージョン
+&lt;/pre&gt;
+
+&lt;p&gt;これによって、python2のコマンドでは2.x系がpythonのコマンドでは3.x系が走ります。&lt;/p&gt;
+&lt;h3&gt;パッケージング&lt;/h3&gt;
+&lt;pre&gt;
+npm install
+./node_modules/.bin/electron-rebuild
+pip install zerorpc
+pip install pyinstaller
+pyinstaller pycalc/api.py --distpath pycalcdist
+rm -rf build/
+rm -rf api.spec
+&lt;/pre&gt;
+
+&lt;p&gt;&lt;b&gt;./node_modules/.bin/electron-packager . --overwrite --ignore="pycalc$" --ignore=".venv" --ignore="old-post-backup"&lt;/b&gt;&lt;/p&gt;
+&lt;p&gt;pretty-calculator-darwin-x64というディレクトリが作成されていて中のアプリが起動できたら成功。&lt;/p&gt;
+&lt;h1&gt;おわりに&lt;/h1&gt;
+&lt;p&gt;&lt;br /&gt;&lt;br /&gt;
+&lt;b style="font-size: 150%; color: #f26a3d"&gt;Webの技術をWindowsで動かそうとしたら発狂しそうでした（血の涙）&lt;/b&gt;
+&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;</content><category term="Development"></category><category term="Python"></category><category term="Electron"></category></entry><entry><title>50時間ぐらいESIを叩き続けたので記事を書いてみた</title><link href="https://evekatsu.github.io/news/50%E6%99%82%E9%96%93%E3%81%90%E3%82%89%E3%81%84ESI%E3%82%92%E5%8F%A9%E3%81%8D%E7%B6%9A%E3%81%91%E3%81%9F%E3%81%AE%E3%81%A7%E8%A8%98%E4%BA%8B%E3%82%92%E6%9B%B8%E3%81%84%E3%81%A6%E3%81%BF%E3%81%9F.html" rel="alternate"></link><published>2019-03-23T00:00:00+09:00</published><updated>2019-03-23T00:00:00+09:00</updated><author><name>Administrator</name></author><id>tag:evekatsu.github.io,2019-03-23:/news/50時間ぐらいESIを叩き続けたので記事を書いてみた.html</id><summary type="html">&lt;h1&gt;概要&lt;/h1&gt;
 &lt;p&gt;CCPから提供されている公式のデータベースである&lt;a href="https://developers.eveonline.com/resource/resources"&gt;Static Data Export(SDE)&lt;/a&gt;からアイテム一覧とソーラーシステム一覧のサポートされている言語の名称をJSONやCSV、HTMLに出力したものです。&lt;/p&gt;
 &lt;h3&gt;アイテム一覧&lt;/h3&gt;
 &lt;p&gt;&lt;img alt="50時間ぐらいESIを叩き続けたので記事を書いてみた-1" src="https://evekatsu.github.io/news/images/50時間ぐらいESIを叩き続けたので記事を書いてみた/50時間ぐらいESIを叩き続けたので記事を書いてみた-1.jpg"&gt;&lt;/p&gt;
@@ -14,7 +194,7 @@
 &lt;h1&gt;使い方&lt;/h1&gt;
 &lt;p&gt;まず最初にデータ構造を簡単に説明します。&lt;/p&gt;
 &lt;p&gt;"アイテム（タイプと呼ばれている）"にはその上の階層に"グループ"があり、その上には"カテゴリー"があります。&lt;/p&gt;
-&lt;p&gt;"ソーラーシステム"の上に階層には"コンステレーション"があり、その上に"リージョン"があり、更にその上には"ユニバーサル"があります。&lt;/p&gt;
+&lt;p&gt;"ソーラーシステム"の上の階層には"コンステレーション"があり、その上に"リージョン"があり、更にその上には"ユニバーサル"があります。&lt;/p&gt;
 &lt;p&gt;このサイトはそれを閲覧できるようにしたものです。&lt;/p&gt;
 &lt;p&gt;このデータ構造さえ理解してれば適当にリンクをポチポチしていると何が表示されているか何となくは分かるとは思います。&lt;/p&gt;
 &lt;p&gt;右上にある"Download …&lt;/p&gt;</summary><content type="html">&lt;h1&gt;概要&lt;/h1&gt;
@@ -32,7 +212,7 @@
 &lt;h1&gt;使い方&lt;/h1&gt;
 &lt;p&gt;まず最初にデータ構造を簡単に説明します。&lt;/p&gt;
 &lt;p&gt;"アイテム（タイプと呼ばれている）"にはその上の階層に"グループ"があり、その上には"カテゴリー"があります。&lt;/p&gt;
-&lt;p&gt;"ソーラーシステム"の上に階層には"コンステレーション"があり、その上に"リージョン"があり、更にその上には"ユニバーサル"があります。&lt;/p&gt;
+&lt;p&gt;"ソーラーシステム"の上の階層には"コンステレーション"があり、その上に"リージョン"があり、更にその上には"ユニバーサル"があります。&lt;/p&gt;
 &lt;p&gt;このサイトはそれを閲覧できるようにしたものです。&lt;/p&gt;
 &lt;p&gt;このデータ構造さえ理解してれば適当にリンクをポチポチしていると何が表示されているか何となくは分かるとは思います。&lt;/p&gt;
 &lt;p&gt;右上にある"Download CSV"のボタンは、今サイトに表示されている表をCSVの形式でダウンロードできます。&lt;/p&gt;
