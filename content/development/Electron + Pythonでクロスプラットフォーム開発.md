@@ -22,6 +22,8 @@ Tags: Development, Python, Electron
 
 PythonやRubyとかは遥か昔の太古の時代ではナウでヤングな最先端って感じでしたが、現代はNode.jsで何でもやっちゃう時代なので今から勉強するならNode.jsがいいと思います。
 
+ドキュメントも兼ねてるので、分からないところがあったらまずは上記の記事を読んでみてください（知りたいことは大体書いてあります）
+
 ![Electron + Pythonでクロスプラットフォーム開発-1]({static}/images/Electron + Pythonでクロスプラットフォーム開発/Electron + Pythonでクロスプラットフォーム開発-1.jpg)
 
 <b style="font-size: 150%; color: #f26a3d">世界的ですもんね 乗るしかない このNode.jsに</b>
