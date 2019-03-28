@@ -8,7 +8,6 @@
 &lt;p&gt;読む必要はないと思います。&lt;/p&gt;
 &lt;p&gt;&lt;a href="https://nodejs.org/ja/"&gt;https://nodejs.org/ja/&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;PythonやRubyとかは遥か昔の太古の時代ではナウでヤングな最先端って感じでしたが、現代はNode.jsで何でもやっちゃう時代なので今から勉強するならNode.jsがいいと思います。&lt;/p&gt;
-&lt;p&gt;ドキュメントも兼ねてるので、分からないところがあったらまずは上記の記事を読んでみてください（知りたいことは大体書いてあります）&lt;/p&gt;
 &lt;p&gt;&lt;img alt="Electron + Pythonでクロスプラットフォーム開発-1" src="https://evekatsu.github.io/news/images/Electron + Pythonでクロスプラットフォーム開発/Electron + Pythonでクロスプラットフォーム開発-1.jpg"&gt;&lt;/p&gt;
 &lt;p&gt;&lt;b style="font-size: 150%; color: #f26a3d"&gt;世界的ですもんね 乗るしかない このNode.jsに&lt;/b&gt;&lt;/p&gt;
 &lt;p&gt;ぜひともNode.jsのスペシャリストになって私に色々と教えてください（切実）&lt;/p&gt;
@@ -22,7 +21,8 @@
 &lt;p&gt;&lt;img alt="Electron + Pythonでクロスプラットフォーム開発-2" src="https://evekatsu.github.io/news/images/Electron + Pythonでクロスプラットフォーム開発/Electron + Pythonでクロスプラットフォーム開発-2.jpg"&gt;&lt;/p&gt;
 &lt;p&gt;Electronというのは雑に言うとChromium(Chrome)のエンジンを使ってデスクトップアプリケーションを作れるという感じです。&lt;/p&gt;
 &lt;p&gt;これはnode.jsで記述する感じなので、node.jsで全てを書くなら特に問題なく開発ができます。&lt;/p&gt;
-&lt;p&gt;ただ …&lt;/p&gt;</summary><content type="html">&lt;p&gt;これは学んだことを整理しただけの完全な技術メモです。&lt;/p&gt;
+&lt;p&gt;ただ、別の言語で書いたコードを走らせるのは一工夫必要です。&lt;/p&gt;
+&lt;p&gt;ここで&lt;a href="http://zeromq.org/"&gt;ZeroMQ …&lt;/a&gt;&lt;/p&gt;</summary><content type="html">&lt;p&gt;これは学んだことを整理しただけの完全な技術メモです。&lt;/p&gt;
 &lt;h1&gt;ITに興味ない方&lt;/h1&gt;
 &lt;p&gt;&lt;br /&gt;&lt;br /&gt;
 &lt;b style="font-size: 250%; color: #f26a3d"&gt;読む必要ないです&lt;/b&gt;
@@ -31,7 +31,6 @@
 &lt;p&gt;読む必要はないと思います。&lt;/p&gt;
 &lt;p&gt;&lt;a href="https://nodejs.org/ja/"&gt;https://nodejs.org/ja/&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;PythonやRubyとかは遥か昔の太古の時代ではナウでヤングな最先端って感じでしたが、現代はNode.jsで何でもやっちゃう時代なので今から勉強するならNode.jsがいいと思います。&lt;/p&gt;
-&lt;p&gt;ドキュメントも兼ねてるので、分からないところがあったらまずは上記の記事を読んでみてください（知りたいことは大体書いてあります）&lt;/p&gt;
 &lt;p&gt;&lt;img alt="Electron + Pythonでクロスプラットフォーム開発-1" src="https://evekatsu.github.io/news/images/Electron + Pythonでクロスプラットフォーム開発/Electron + Pythonでクロスプラットフォーム開発-1.jpg"&gt;&lt;/p&gt;
 &lt;p&gt;&lt;b style="font-size: 150%; color: #f26a3d"&gt;世界的ですもんね 乗るしかない このNode.jsに&lt;/b&gt;&lt;/p&gt;
 &lt;p&gt;ぜひともNode.jsのスペシャリストになって私に色々と教えてください（切実）&lt;/p&gt;
@@ -53,6 +52,7 @@
 &lt;p&gt;&lt;a href="https://github.com/fyears/electron-python-example"&gt;https://github.com/fyears/electron-python-example&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;今回はサンプルとしてこれをWin / Macの両方に向けてビルドしていきます。&lt;/p&gt;
 &lt;p&gt;git cloneもしくは右上のDownload ZIPでダウンロードして解凍して適当な作業フォルダに置いてください。&lt;/p&gt;
+&lt;p&gt;ドキュメントも兼ねてるので、分からないところがあったらまずは上記の記事を読んでみてください（知りたいことは大体書いてあります）&lt;/p&gt;
 &lt;h4&gt;Git&lt;/h4&gt;
 &lt;p&gt;&lt;a href="https://git-scm.com/download/win"&gt;https://git-scm.com/download/win&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;おそらく殆どの場合は "64-bit Git for Windows Setup" をインストールすれば大丈夫だと思います。&lt;/p&gt;
