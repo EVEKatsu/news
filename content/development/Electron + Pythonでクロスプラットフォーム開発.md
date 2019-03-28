@@ -232,6 +232,6 @@ pretty-calculator-darwin-x64というディレクトリが作成されていて�
 
 # おわりに
 
-<br /><br />
+<br />
 <b style="font-size: 150%; color: #f26a3d">Webの技術をWindowsで動かそうとしたら発狂しそうでした（血の涙）</b>
 <br /><br />
