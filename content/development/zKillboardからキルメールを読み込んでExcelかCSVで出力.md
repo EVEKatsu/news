@@ -31,7 +31,7 @@ Tags: Development, Python, zKillboard
 
 ![zKillboardからキルメールを読み込んでExcelかCSVで出力-2]({static}/images/zKillboardからキルメールを読み込んでExcelかCSVで出力/zKillboardからキルメールを読み込んでExcelかCSVで出力-2.jpg)
 
-<b style="font-size: 70%; color: gray">※ちなみに既に公式からサポートが終了している<strong style="color: #f26a3d">日本語</strong>という未知の言語ですが、サポートが切れる前の翻訳データなら対応しています（小声）</b>
+<b style="font-size: 70%; color: gray">※ちなみに既に公式からのサポートが終了している<strong style="color: #f26a3d">日本語</strong>という未知の言語ですが、サポートが切れる前の翻訳データなら対応しています（小声）</b>
 
 非エンジニアの方でも遊べるように[Electronを使ってGUIアプリケーション](https://evekatsu.github.io/news/Electron%20+%20Python%E3%81%A7%E3%82%AF%E3%83%AD%E3%82%B9%E3%83%97%E3%83%A9%E3%83%83%E3%83%88%E3%83%95%E3%82%A9%E3%83%BC%E3%83%A0%E9%96%8B%E7%99%BA.html)にして配布する形にしようと思ったんですが…………
 
