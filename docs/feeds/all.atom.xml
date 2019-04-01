@@ -187,10 +187,10 @@
 &lt;p&gt;デフォルトは '--limit=1'&lt;/p&gt;
 &lt;h1&gt;サンプル&lt;/h1&gt;
 &lt;p&gt;&amp;#60;url&amp;#62;はzKillboardのキルメールの一覧が表示されているページならどこでも大丈夫です。&lt;/p&gt;
-&lt;p&gt;&lt;b style="font-size: 80%; color: gray"&gt;python zkillboard2excel.py &amp;#60;url&amp;#62; --lang=ru&lt;/b&gt;&lt;br&gt;
-&amp;#60;url&amp;#62;に表示されるキルメールを読み込んで1ページ目から1ページ分をロシア語で取得しExcel形式で出力&lt;/p&gt;
-&lt;p&gt;&lt;b style="font-size: 80%; color: gray"&gt;python zkillboard2excel.py &amp;#60;url&amp;#62; --lang=zh --format=csv&lt;/b&gt;&lt;br&gt;
-&amp;#60;url&amp;#62;に表示されるキルメールを読み込んで1ページ目から1ページ分を中国語で取得しCSV形式で出力&lt;/p&gt;
+&lt;p&gt;&lt;b style="font-size: 80%; color: gray"&gt;python zkillboard2excel.py &amp;#60;url&amp;#62; --lang=ru --file-path=test1&lt;/b&gt;&lt;br&gt;
+&amp;#60;url&amp;#62;に表示されるキルメールを読み込んで1ページ目から1ページ分をロシア語で取得し 'test1.xlsx' というファイル名のExcel形式を出力&lt;/p&gt;
+&lt;p&gt;&lt;b style="font-size: 80%; color: gray"&gt;python zkillboard2excel.py &amp;#60;url&amp;#62; --lang=zh --file-path=test2 --format=csv&lt;/b&gt;&lt;br&gt;
+&amp;#60;url&amp;#62;に表示されるキルメールを読み込んで1ページ目から1ページ分を中国語で取得し 'test2.csv' というファイル名のCSV形式を出力&lt;/p&gt;
 &lt;p&gt;&lt;b style="font-size: 80%; color: gray"&gt;python zkillboard2excel.py &amp;#60;url&amp;#62; --lang=de --format=csv --page=2&lt;/b&gt;&lt;br&gt;
 &amp;#60;url&amp;#62;に表示されるキルメールを読み込んで2ページ目から1ページ分をドイツ語で取得しCSV形式で出力&lt;/p&gt;
 &lt;p&gt;&lt;b style="font-size: 80%; color: gray"&gt;python zkillboard2excel.py &amp;#60;url&amp;#62; --lang=ja --page=2 --limit=3&lt;/b&gt;&lt;br&gt;

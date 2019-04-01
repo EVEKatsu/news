@@ -177,11 +177,11 @@ ESIから読み込んできたキャラクター名などの情報はキャッ�
 
 &#60;url&#62;はzKillboardのキルメールの一覧が表示されているページならどこでも大丈夫です。
 
-<b style="font-size: 80%; color: gray">python zkillboard2excel.py &#60;url&#62; --lang=ru</b>  
-&#60;url&#62;に表示されるキルメールを読み込んで1ページ目から1ページ分をロシア語で取得しExcel形式で出力
+<b style="font-size: 80%; color: gray">python zkillboard2excel.py &#60;url&#62; --lang=ru --file-path=test1</b>  
+&#60;url&#62;に表示されるキルメールを読み込んで1ページ目から1ページ分をロシア語で取得し 'test1.xlsx' というファイル名のExcel形式を出力
 
-<b style="font-size: 80%; color: gray">python zkillboard2excel.py &#60;url&#62; --lang=zh --format=csv</b>  
-&#60;url&#62;に表示されるキルメールを読み込んで1ページ目から1ページ分を中国語で取得しCSV形式で出力
+<b style="font-size: 80%; color: gray">python zkillboard2excel.py &#60;url&#62; --lang=zh --file-path=test2 --format=csv</b>  
+&#60;url&#62;に表示されるキルメールを読み込んで1ページ目から1ページ分を中国語で取得し 'test2.csv' というファイル名のCSV形式を出力
 
 <b style="font-size: 80%; color: gray">python zkillboard2excel.py &#60;url&#62; --lang=de --format=csv --page=2</b>  
 &#60;url&#62;に表示されるキルメールを読み込んで2ページ目から1ページ分をドイツ語で取得しCSV形式で出力
