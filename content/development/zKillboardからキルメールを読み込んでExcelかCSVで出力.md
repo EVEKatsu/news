@@ -27,7 +27,7 @@ Tags: Development, Python, zKillboard
 <b style="font-size: 150%; color: #f26a3d">中国語で出力できるようなスクリプトを書きました！</b>
 <br /><br /><br />
 
-普段は中国語クライアントで遊んでる方もこれを機会にzKillboardで遊んでみてくてください！（暗黒微小）
+普段は中国語クライアントで遊んでる方もこれを機会にzKillboardで遊んでみてくてください！（暗黒微笑）
 
 ![zKillboardからキルメールを読み込んでExcelかCSVで出力-2]({static}/images/zKillboardからキルメールを読み込んでExcelかCSVで出力/zKillboardからキルメールを読み込んでExcelかCSVで出力-2.jpg)
 
