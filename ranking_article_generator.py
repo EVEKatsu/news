@@ -148,7 +148,8 @@ def main():
     format_dict['date_jp'] = datetime.date.today().strftime('%Y年%m月%d日')
 
     for filter_key, ranking_items in ranking.items():
-        text =  '| <span class="glyphicon glyphicon-sort-by-attributes-alt"></span> '
+        text =  '<div class="ranking-table">\n'
+        text += '| <span class="glyphicon glyphicon-sort-by-attributes-alt"></span> '
         text += '| %s | %s | %s ' %(
             '<span class="glyphicon glyphicon-user"></span>',
             '<span class="glyphicon glyphicon-plus"></span>',
@@ -157,6 +158,7 @@ def main():
         text += '| <span class="glyphicon glyphicon-tower"></span> '
         text += '| <span class="glyphicon glyphicon-star"></span> '
         text += '|\n| ---- | ---- | ---- | ---- | ---- | ---- |\n'
+        text += '</div>\n'
 
         for i, ranking_item in enumerate(ranking_items):
             character_information = players_information['character'][ranking_item['id']]

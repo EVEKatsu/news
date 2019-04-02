@@ -80,9 +80,11 @@ Tags: Development, Python, zKillboard
 <b style="font-size: 200%;">[zkillboard2excel](https://github.com/EVEKatsu/zkillboard2excel)</b>
 <br /><br />
 
+Python 3.6.7で書いています。Pythonの環境構築とかは適当にググってください。
+
 Githubのプロジェクトページの右上からDownload ZIPか git clone をします。
 
-Python 3.6.7で書いています。Pythonの環境構築とかは適当にググってください。
+適当な作業フォルダで解凍してターミナル（コマンドプロンプト）を起動して作業フォルダまで移動します。
 
 <b style="font-size: 80%; color: gray">pip install -r requirements.txt</b>  
 <b style="font-size: 80%; color: gray">python zkillboard2excel.py https://zkillboard.com/character/96069434/</b>
@@ -97,7 +99,7 @@ Python 3.6.7で書いています。Pythonの環境構築とかは適当にグ�
 |---|---|
 |--lang|使用する言語(de, en, fr, ja, ru, zh)|
 |--filepath|保存するファイル名（パス）|
-|--format|出力するファイル形式(excel OR csv)|
+|--format|出力するファイル形式(excel or csv)|
 |--clear-cache|キャッシュを削除するか|
 |--update-sde|SDEのアップデートをチェックするか|
 |--page|読み込む最初のページ|
@@ -141,7 +143,7 @@ ESIから読み込んできたキャラクター名などの情報はキャッ�
 
 '--clear-cache=true' をすればキャッシュが消えます。
 
-今はJSONに全部ぶっこんで保存してる感じなので1億件ぐらいキルメールを読むこむと多分動かないと思います。
+今はJSONに全部ぶっこんで保存してる感じなので1億件ぐらいキルメールを読み込むと多分動かないと思います。
 
 数十万件ぐらいのキルメールならキャッシュを消す必要はないと思います（自分の端末のスペックと空き容量に相談してください）
 

@@ -184,8 +184,9 @@
 <p><br /><br />
 <b style="font-size: 200%;"><a href="https://github.com/EVEKatsu/zkillboard2excel">zkillboard2excel</a></b>
 <br /><br /></p>
-<p>Githubのプロジェクトページの右上からDownload ZIPか git clone をします。</p>
 <p>Python 3.6.7で書いています。Pythonの環境構築とかは適当にググってください。</p>
+<p>Githubのプロジェクトページの右上からDownload ZIPか git clone をします。</p>
+<p>適当な作業フォルダで解凍してターミナル（コマンドプロンプト）を起動して作業フォルダまで移動します。</p>
 <p><b style="font-size: 80%; color: gray">pip install -r requirements.txt</b><br>
 <b style="font-size: 80%; color: gray">python zkillboard2excel.py https://zkillboard.com/character/96069434/</b></p>
 <p>こんな感じに zkillboard2excel.py の後にzKillboardのURLを入力するとexport.xlsxというExcel形式のファイルが出力されます。</p>
@@ -209,7 +210,7 @@
 </tr>
 <tr>
 <td>--format</td>
-<td>出力するファイル形式(excel OR csv)</td>
+<td>出力するファイル形式(excel or csv)</td>
 </tr>
 <tr>
 <td>--clear-cache</td>
@@ -253,7 +254,7 @@
 <h4>--clear-cache</h4>
 <p>ESIから読み込んできたキャラクター名などの情報はキャッシュしていますが、それを消すかどうかです。</p>
 <p>'--clear-cache=true' をすればキャッシュが消えます。</p>
-<p>今はJSONに全部ぶっこんで保存してる感じなので1億件ぐらいキルメールを読むこむと多分動かないと思います。</p>
+<p>今はJSONに全部ぶっこんで保存してる感じなので1億件ぐらいキルメールを読み込むと多分動かないと思います。</p>
 <p>数十万件ぐらいのキルメールならキャッシュを消す必要はないと思います（自分の端末のスペックと空き容量に相談してください）</p>
 <p>そのうちSQLiteとかを導入するといいかもです（誰かやってください）</p>
 <p>デフォルトは '--clear-cache=false'</p>
