@@ -18,7 +18,7 @@ Slug: {slug}
 Tags: Ranking
 Author: Bot
 
-今月もお疲れ様でした。  
+今月もお疲れ様でした。
 <a href="https://evekatsu.github.io/ranking/?date={year}-{month}" target="_blank">{year}年{month}月の日本人PvPランキングの発表です。</a>
 
 注意事項：これは{date_jp}に集計したものです。それ以降に投稿されたキルメールは集計対象外です。
@@ -59,7 +59,7 @@ Author: Bot
 {big_fighters_table}
 
 <br />
-毎月10日にその前の月のキルメールを集計します。  
+毎月10日にその前の月のキルメールを集計します。
 来月もよろしくお願いします。
 """
 
@@ -158,7 +158,7 @@ def main():
         text += '| <span class="glyphicon glyphicon-tower"></span> '
         text += '| <span class="glyphicon glyphicon-star"></span> '
         text += '|\n| ---- | ---- | ---- | ---- | ---- | ---- |\n'
-        text += '</div>\n'
+        text += '</div><!-- end of div.ranking-table -->\n'
 
         for i, ranking_item in enumerate(ranking_items):
             character_information = players_information['character'][ranking_item['id']]

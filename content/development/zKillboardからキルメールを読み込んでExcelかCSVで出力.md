@@ -98,7 +98,7 @@ Githubのプロジェクトページの右上からDownload ZIPか git clone を
 |オプション名|説明|
 |---|---|
 |--lang|使用する言語(de, en, fr, ja, ru, zh)|
-|--filepath|保存するファイル名（パス）|
+|--filepath|デスクトップ上に作られるファイル名（パス）|
 |--format|出力するファイル形式(excel or csv)|
 |--clear-cache|キャッシュを削除するか|
 |--update-sde|SDEのアップデートをチェックするか|
