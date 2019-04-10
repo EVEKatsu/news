@@ -97,7 +97,9 @@ ESIには検索するAPIがありまして [/search/](https://esi.evetech.net/la
 
 #### サンプル
 [https://evewho.com/api.php?type=character&name=Night%20Cap](https://evewho.com/api.php?type=character&name=Night%20Cap)
+
 [https://evewho.com/api.php?type=corporation&name=The%20Far%20East%20Starfleet%20Academy](https://evewho.com/api.php?type=corporation&name=The%20Far%20East%20Starfleet%20Academy)
+
 [https://evewho.com/api.php?type=alliance&name=Siege%20Green.](https://evewho.com/api.php?type=alliance&name=Siege%20Green.)
 
 こんな感じでキャラクター／コーポレーション／アライアンスの情報はEve WhoのAPIを使って取得するのもありかもしれません。

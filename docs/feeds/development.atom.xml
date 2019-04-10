@@ -82,9 +82,9 @@
 &lt;p&gt;&lt;a href="https://evewho.com/"&gt;Eve Who&lt;/a&gt;というキャラクターのコーポレーション履歴などが閲覧できるサイトがあります。&lt;/p&gt;
 &lt;p&gt;&lt;a href="https://evewho.com/faq/"&gt;Eve WhoもAPIを提供しています。&lt;/a&gt;詳しい使い方はFAQを読んでください。&lt;/p&gt;
 &lt;h4&gt;サンプル&lt;/h4&gt;
-&lt;p&gt;&lt;a href="https://evewho.com/api.php?type=character&amp;amp;name=Night%20Cap"&gt;https://evewho.com/api.php?type=character&amp;amp;name=Night%20Cap&lt;/a&gt;
-&lt;a href="https://evewho.com/api.php?type=corporation&amp;amp;name=The%20Far%20East%20Starfleet%20Academy"&gt;https://evewho.com/api.php?type=corporation&amp;amp;name=The%20Far%20East%20Starfleet%20Academy&lt;/a&gt;
-&lt;a href="https://evewho.com/api.php?type=alliance&amp;amp;name=Siege%20Green."&gt;https://evewho.com/api.php?type=alliance&amp;amp;name=Siege%20Green.&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://evewho.com/api.php?type=character&amp;amp;name=Night%20Cap"&gt;https://evewho.com/api.php?type=character&amp;amp;name=Night%20Cap&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://evewho.com/api.php?type=corporation&amp;amp;name=The%20Far%20East%20Starfleet%20Academy"&gt;https://evewho.com/api.php?type=corporation&amp;amp;name=The%20Far%20East%20Starfleet%20Academy&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://evewho.com/api.php?type=alliance&amp;amp;name=Siege%20Green."&gt;https://evewho.com/api.php?type=alliance&amp;amp;name=Siege%20Green.&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;こんな感じでキャラクター／コーポレーション／アライアンスの情報はEve WhoのAPIを使って取得するのもありかもしれません。&lt;/p&gt;
 &lt;h1&gt;ESI vs Eve Who&lt;/h1&gt;
 &lt;p&gt;さて、どっちを使うべきか？というのはあると思います。&lt;/p&gt;
