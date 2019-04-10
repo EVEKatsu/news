@@ -35,7 +35,7 @@ EVE Onlineのデータというか、この世にあるデータベースと呼�
 
 ESIには検索するAPIがありまして [/search/](https://esi.evetech.net/latest/#!/Search/get_search) がそれにあたります。
 
-[CCPのサードパーティ開発者向けBlogの記事](https://developers.eveonline.com/blog/article/simplify-esi-queries-by-using-search)で使い方が解説されています。
+[公式のサードパーティ開発者向けBlogの記事](https://developers.eveonline.com/blog/article/simplify-esi-queries-by-using-search)で使い方が解説されています。
 
 [https://esi.evetech.net/latest/search/?categories=character&search=Night%20Cap](https://esi.evetech.net/latest/search/?categories=character&search=Night%20Cap)
 
