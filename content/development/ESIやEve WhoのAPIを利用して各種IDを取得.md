@@ -13,7 +13,7 @@ Tags: Development, ESI
 
 今回の話は<b>「名前（ID以外の情報）からIDを取得するにはどうすればいいか？」</b>というものです。
 
-EVE Onlineのデータ（というかデータと呼べるもの全てに言えることですが）は全てにIDが割り振られています。
+EVE Onlineのデータ、というかこの世にあるデータベースと呼ばれるもの全てにはIDが割り振られています。
 
 「なぜか？」と問われても非エンジニアの人に説明をするのは難しいので「とにかくIDが割り振られていたほうが便利なのでそうなっている」というガバい感じの理解でお願いします。
 
@@ -95,11 +95,18 @@ ESIには検索するAPIがありまして [/search/](https://esi.evetech.net/la
 
 [Eve WhoもAPIを提供しています。](https://evewho.com/faq/)詳しい使い方はFAQを読んでください。
 
-#### サンプル
+### サンプル
+#### "Night Cap" という名前のキャラクター
 [https://evewho.com/api.php?type=character&name=Night%20Cap](https://evewho.com/api.php?type=character&name=Night%20Cap)
 
+<br />
+
+#### "The Far East Starfleet Academy" という名前のコーポレーション
 [https://evewho.com/api.php?type=corporation&name=The%20Far%20East%20Starfleet%20Academy](https://evewho.com/api.php?type=corporation&name=The%20Far%20East%20Starfleet%20Academy)
 
+<br />
+
+#### "Siege Green." という名前のアライアンス
 [https://evewho.com/api.php?type=alliance&name=Siege%20Green.](https://evewho.com/api.php?type=alliance&name=Siege%20Green.)
 
 こんな感じでキャラクター／コーポレーション／アライアンスの情報はEve WhoのAPIを使って取得するのもありかもしれません。
