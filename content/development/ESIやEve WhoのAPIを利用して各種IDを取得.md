@@ -13,7 +13,7 @@ Tags: Development, ESI
 
 今回の話は<b>「名前（ID以外の情報）からIDを取得するにはどうすればいいか？」</b>というものです。
 
-EVE Onlineのデータ、というかこの世にあるデータベースと呼ばれるもの全てにはIDが割り振られています。
+EVE Onlineのデータというか、この世にあるデータベースと呼ばれているもの全てにはIDが割り振られています。
 
 「なぜか？」と問われても非エンジニアの人に説明をするのは難しいので「とにかくIDが割り振られていたほうが便利なのでそうなっている」というガバい感じの理解でお願いします。
 
@@ -73,7 +73,7 @@ ESIには検索するAPIがありまして [/search/](https://esi.evetech.net/la
 
 このように名前に "Night Cap" という文字列を含んでいる全てのキャラクターが引っかかってしまいます。
 
-この検索方法の方が便利な場合もあるでしょうが名前が "Night Cap" という文字列と完全一致しているキャラクターを検索したい場合もあると思います。
+この検索方法が便利な場合もあるでしょうが、名前が "Night Cap" という文字列と完全一致しているキャラクターを検索したい場合もあると思います。
 
 そういう時はパラメーターに "strict=true" を付け足します。
 
@@ -99,12 +99,8 @@ ESIには検索するAPIがありまして [/search/](https://esi.evetech.net/la
 #### "Night Cap" という名前のキャラクター
 [https://evewho.com/api.php?type=character&name=Night%20Cap](https://evewho.com/api.php?type=character&name=Night%20Cap)
 
-<br />
-
 #### "The Far East Starfleet Academy" という名前のコーポレーション
 [https://evewho.com/api.php?type=corporation&name=The%20Far%20East%20Starfleet%20Academy](https://evewho.com/api.php?type=corporation&name=The%20Far%20East%20Starfleet%20Academy)
-
-<br />
 
 #### "Siege Green." という名前のアライアンス
 [https://evewho.com/api.php?type=alliance&name=Siege%20Green.](https://evewho.com/api.php?type=alliance&name=Siege%20Green.)

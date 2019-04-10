@@ -4,7 +4,7 @@
 &lt;p&gt;まぁDiscordに長文を投稿するぐらいなら記事にしてコミュニティ全体と共有したほうがいいかなと思って雑に書いた感じです。&lt;/p&gt;
 &lt;h1&gt;論点について&lt;/h1&gt;
 &lt;p&gt;今回の話は&lt;b&gt;「名前（ID以外の情報）からIDを取得するにはどうすればいいか？」&lt;/b&gt;というものです。&lt;/p&gt;
-&lt;p&gt;EVE Onlineのデータ、というかこの世にあるデータベースと呼ばれるもの全てにはIDが割り振られています。&lt;/p&gt;
+&lt;p&gt;EVE Onlineのデータというか、この世にあるデータベースと呼ばれているもの全てにはIDが割り振られています。&lt;/p&gt;
 &lt;p&gt;「なぜか？」と問われても非エンジニアの人に説明をするのは難しいので「とにかくIDが割り振られていたほうが便利なのでそうなっている」というガバい感じの理解でお願いします。&lt;/p&gt;
 &lt;p&gt;とにかくIDが分かっていれば後はどうとでもなります。IDとはそういうものです（ID万能説）&lt;/p&gt;
 &lt;p&gt;これは逆に考えると&lt;b&gt;「IDが分かっていない情報はまずは最初にIDを割り出さないといけない」&lt;/b&gt;ということです。&lt;/p&gt;
@@ -21,7 +21,7 @@
 &lt;p&gt;まぁDiscordに長文を投稿するぐらいなら記事にしてコミュニティ全体と共有したほうがいいかなと思って雑に書いた感じです。&lt;/p&gt;
 &lt;h1&gt;論点について&lt;/h1&gt;
 &lt;p&gt;今回の話は&lt;b&gt;「名前（ID以外の情報）からIDを取得するにはどうすればいいか？」&lt;/b&gt;というものです。&lt;/p&gt;
-&lt;p&gt;EVE Onlineのデータ、というかこの世にあるデータベースと呼ばれるもの全てにはIDが割り振られています。&lt;/p&gt;
+&lt;p&gt;EVE Onlineのデータというか、この世にあるデータベースと呼ばれているもの全てにはIDが割り振られています。&lt;/p&gt;
 &lt;p&gt;「なぜか？」と問われても非エンジニアの人に説明をするのは難しいので「とにかくIDが割り振られていたほうが便利なのでそうなっている」というガバい感じの理解でお願いします。&lt;/p&gt;
 &lt;p&gt;とにかくIDが分かっていれば後はどうとでもなります。IDとはそういうものです（ID万能説）&lt;/p&gt;
 &lt;p&gt;これは逆に考えると&lt;b&gt;「IDが分かっていない情報はまずは最初にIDを割り出さないといけない」&lt;/b&gt;ということです。&lt;/p&gt;
@@ -66,7 +66,7 @@
 &lt;/pre&gt;
 
 &lt;p&gt;このように名前に "Night Cap" という文字列を含んでいる全てのキャラクターが引っかかってしまいます。&lt;/p&gt;
-&lt;p&gt;この検索方法の方が便利な場合もあるでしょうが名前が "Night Cap" という文字列と完全一致しているキャラクターを検索したい場合もあると思います。&lt;/p&gt;
+&lt;p&gt;この検索方法が便利な場合もあるでしょうが、名前が "Night Cap" という文字列と完全一致しているキャラクターを検索したい場合もあると思います。&lt;/p&gt;
 &lt;p&gt;そういう時はパラメーターに "strict=true" を付け足します。&lt;/p&gt;
 &lt;p&gt;&lt;a href="https://esi.evetech.net/latest/search/?categories=character&amp;amp;search=Night%20Cap&amp;amp;strict=true"&gt;https://esi.evetech.net/latest/search/?categories=character&amp;amp;search=Night%20Cap&amp;amp;strict=true&lt;/a&gt;&lt;/p&gt;
 &lt;pre&gt;
@@ -84,10 +84,8 @@
 &lt;h3&gt;サンプル&lt;/h3&gt;
 &lt;h4&gt;"Night Cap" という名前のキャラクター&lt;/h4&gt;
 &lt;p&gt;&lt;a href="https://evewho.com/api.php?type=character&amp;amp;name=Night%20Cap"&gt;https://evewho.com/api.php?type=character&amp;amp;name=Night%20Cap&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 &lt;h4&gt;"The Far East Starfleet Academy" という名前のコーポレーション&lt;/h4&gt;
 &lt;p&gt;&lt;a href="https://evewho.com/api.php?type=corporation&amp;amp;name=The%20Far%20East%20Starfleet%20Academy"&gt;https://evewho.com/api.php?type=corporation&amp;amp;name=The%20Far%20East%20Starfleet%20Academy&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 &lt;h4&gt;"Siege Green." という名前のアライアンス&lt;/h4&gt;
 &lt;p&gt;&lt;a href="https://evewho.com/api.php?type=alliance&amp;amp;name=Siege%20Green."&gt;https://evewho.com/api.php?type=alliance&amp;amp;name=Siege%20Green.&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;こんな感じでキャラクター／コーポレーション／アライアンスの情報はEve WhoのAPIを使って取得するのもありかもしれません。&lt;/p&gt;

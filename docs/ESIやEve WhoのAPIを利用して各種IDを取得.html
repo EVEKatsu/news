@@ -138,7 +138,7 @@
 <p>まぁDiscordに長文を投稿するぐらいなら記事にしてコミュニティ全体と共有したほうがいいかなと思って雑に書いた感じです。</p>
 <h1>論点について</h1>
 <p>今回の話は<b>「名前（ID以外の情報）からIDを取得するにはどうすればいいか？」</b>というものです。</p>
-<p>EVE Onlineのデータ、というかこの世にあるデータベースと呼ばれるもの全てにはIDが割り振られています。</p>
+<p>EVE Onlineのデータというか、この世にあるデータベースと呼ばれているもの全てにはIDが割り振られています。</p>
 <p>「なぜか？」と問われても非エンジニアの人に説明をするのは難しいので「とにかくIDが割り振られていたほうが便利なのでそうなっている」というガバい感じの理解でお願いします。</p>
 <p>とにかくIDが分かっていれば後はどうとでもなります。IDとはそういうものです（ID万能説）</p>
 <p>これは逆に考えると<b>「IDが分かっていない情報はまずは最初にIDを割り出さないといけない」</b>ということです。</p>
@@ -183,7 +183,7 @@
 </pre>
 
 <p>このように名前に "Night Cap" という文字列を含んでいる全てのキャラクターが引っかかってしまいます。</p>
-<p>この検索方法の方が便利な場合もあるでしょうが名前が "Night Cap" という文字列と完全一致しているキャラクターを検索したい場合もあると思います。</p>
+<p>この検索方法が便利な場合もあるでしょうが、名前が "Night Cap" という文字列と完全一致しているキャラクターを検索したい場合もあると思います。</p>
 <p>そういう時はパラメーターに "strict=true" を付け足します。</p>
 <p><a href="https://esi.evetech.net/latest/search/?categories=character&amp;search=Night%20Cap&amp;strict=true">https://esi.evetech.net/latest/search/?categories=character&amp;search=Night%20Cap&amp;strict=true</a></p>
 <pre>
@@ -201,10 +201,8 @@
 <h3>サンプル</h3>
 <h4>"Night Cap" という名前のキャラクター</h4>
 <p><a href="https://evewho.com/api.php?type=character&amp;name=Night%20Cap">https://evewho.com/api.php?type=character&amp;name=Night%20Cap</a></p>
-<p><br /></p>
 <h4>"The Far East Starfleet Academy" という名前のコーポレーション</h4>
 <p><a href="https://evewho.com/api.php?type=corporation&amp;name=The%20Far%20East%20Starfleet%20Academy">https://evewho.com/api.php?type=corporation&amp;name=The%20Far%20East%20Starfleet%20Academy</a></p>
-<p><br /></p>
 <h4>"Siege Green." という名前のアライアンス</h4>
 <p><a href="https://evewho.com/api.php?type=alliance&amp;name=Siege%20Green.">https://evewho.com/api.php?type=alliance&amp;name=Siege%20Green.</a></p>
 <p>こんな感じでキャラクター／コーポレーション／アライアンスの情報はEve WhoのAPIを使って取得するのもありかもしれません。</p>
