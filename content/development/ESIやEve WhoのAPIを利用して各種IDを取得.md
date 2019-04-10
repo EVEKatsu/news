@@ -25,7 +25,7 @@ EVE Onlineのデータというか、この世にあるデータベースと呼�
 
 ![ESIやEve WhoのAPIを利用して各種IDを取得-1]({static}/images/ESIやEve WhoのAPIを利用して各種IDを取得/ESIやEve WhoのAPIを利用して各種IDを取得-1.jpg)
 
-ただコンピューターにとっては、これだけでは何なのか分かっていません。
+しかしコンピューターは、これだけでは何の情報であるのか理解できません。
 
 ![ESIやEve WhoのAPIを利用して各種IDを取得-2]({static}/images/ESIやEve WhoのAPIを利用して各種IDを取得/ESIやEve WhoのAPIを利用して各種IDを取得-2.jpg)
 

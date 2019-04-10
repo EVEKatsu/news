@@ -10,7 +10,7 @@
 &lt;p&gt;これは逆に考えると&lt;b&gt;「IDが分かっていない情報はまずは最初にIDを割り出さないといけない」&lt;/b&gt;ということです。&lt;/p&gt;
 &lt;p&gt;例えば "Night Cap" という文字列がここにあるとします。ここから色んな情報と紐づけができる人もいるかもしれません。&lt;/p&gt;
 &lt;p&gt;&lt;img alt="ESIやEve WhoのAPIを利用して各種IDを取得-1" src="https://evekatsu.github.io/news/images/ESIやEve WhoのAPIを利用して各種IDを取得/ESIやEve WhoのAPIを利用して各種IDを取得-1.jpg"&gt;&lt;/p&gt;
-&lt;p&gt;ただコンピューターにとっては、これだけでは何なのか分かっていません。&lt;/p&gt;
+&lt;p&gt;しかしコンピューターは、これだけでは何の情報であるのか理解できません。&lt;/p&gt;
 &lt;p&gt;&lt;img alt="ESIやEve WhoのAPIを利用して各種IDを取得-2" src="https://evekatsu.github.io/news/images/ESIやEve WhoのAPIを利用して各種IDを取得/ESIやEve WhoのAPIを利用して各種IDを取得-2.jpg"&gt;&lt;/p&gt;
 &lt;p&gt;情報はIDと紐づけをしなければいけません。IDから情報を取得するのは簡単ですが、情報からIDを割り出すのは結構ダルいという話です。&lt;/p&gt;
 &lt;h1&gt;ESI&lt;/h1&gt;
@@ -27,7 +27,7 @@
 &lt;p&gt;これは逆に考えると&lt;b&gt;「IDが分かっていない情報はまずは最初にIDを割り出さないといけない」&lt;/b&gt;ということです。&lt;/p&gt;
 &lt;p&gt;例えば "Night Cap" という文字列がここにあるとします。ここから色んな情報と紐づけができる人もいるかもしれません。&lt;/p&gt;
 &lt;p&gt;&lt;img alt="ESIやEve WhoのAPIを利用して各種IDを取得-1" src="https://evekatsu.github.io/news/images/ESIやEve WhoのAPIを利用して各種IDを取得/ESIやEve WhoのAPIを利用して各種IDを取得-1.jpg"&gt;&lt;/p&gt;
-&lt;p&gt;ただコンピューターにとっては、これだけでは何なのか分かっていません。&lt;/p&gt;
+&lt;p&gt;しかしコンピューターは、これだけでは何の情報であるのか理解できません。&lt;/p&gt;
 &lt;p&gt;&lt;img alt="ESIやEve WhoのAPIを利用して各種IDを取得-2" src="https://evekatsu.github.io/news/images/ESIやEve WhoのAPIを利用して各種IDを取得/ESIやEve WhoのAPIを利用して各種IDを取得-2.jpg"&gt;&lt;/p&gt;
 &lt;p&gt;情報はIDと紐づけをしなければいけません。IDから情報を取得するのは簡単ですが、情報からIDを割り出すのは結構ダルいという話です。&lt;/p&gt;
 &lt;h1&gt;ESI&lt;/h1&gt;
