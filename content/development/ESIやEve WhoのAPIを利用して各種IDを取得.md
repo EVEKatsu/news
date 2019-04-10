@@ -29,13 +29,13 @@ EVE Onlineのデータというか、この世にあるデータベースと呼�
 
 ![ESIやEve WhoのAPIを利用して各種IDを取得-2]({static}/images/ESIやEve WhoのAPIを利用して各種IDを取得/ESIやEve WhoのAPIを利用して各種IDを取得-2.jpg)
 
-情報はIDと紐づけをしないといけません。IDから情報を取得するのは簡単ですが、情報からIDを割り出すのは結構ダルいという話です。
+情報はIDと紐づけをしなければいけません。IDから情報を取得するのは簡単ですが、情報からIDを割り出すのは結構ダルいという話です。
 
 # ESI
 
 ESIには検索するAPIがありまして [/search/](https://esi.evetech.net/latest/#!/Search/get_search) がそれにあたります。
 
-[CCPの公式開発者向けBlogの記事](https://developers.eveonline.com/blog/article/simplify-esi-queries-by-using-search)で使い方が解説されています。
+[CCPのサードパーティ開発者向けBlogの記事](https://developers.eveonline.com/blog/article/simplify-esi-queries-by-using-search)で使い方が解説されています。
 
 [https://esi.evetech.net/latest/search/?categories=character&search=Night%20Cap](https://esi.evetech.net/latest/search/?categories=character&search=Night%20Cap)
 
