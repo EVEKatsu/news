@@ -32,9 +32,12 @@ AUTHOR_FEED_ATOM = None
 AUTHOR_FEED_RSS = None
 
 # Menu
-MENUITEMS = (('Twitter', 'ic-twitter', 'https://twitter.com/evekatsu'),
-          ('Ranking', 'ic-star', 'https://evekatsu.github.io/ranking/'),
-          ('GitHub', 'ic-link', 'https://github.com/EVEKatsu'))
+MENUITEMS = (
+    ('Twitter', 'ic-twitter', 'https://twitter.com/evekatsu'),
+    ('Archives', 'ic-posts', 'https://evekatsu.github.io/news/archives.html'),
+    ('Ranking', 'ic-star', 'https://evekatsu.github.io/ranking/'),
+    ('GitHub', 'ic-link', 'https://github.com/EVEKatsu'),
+)
 
 # Blogroll
 LINKS = (('Pelican', 'http://getpelican.com/'),
