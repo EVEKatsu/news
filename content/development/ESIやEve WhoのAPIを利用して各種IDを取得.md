@@ -3,7 +3,7 @@ Date: 2019-4-10
 Slug: ESIやEve WhoのAPIを利用して各種IDを取得
 Tags: Development, ESI
 
-[DiscordのIT chのほう](https://discord.gg/XK9A348)でESIのSearch APIについての話があったので検証してみました。
+[DiscordのIT ch](https://discord.gg/XK9A348)でESIのSearch APIについての話があったので検証してみました。
 
 といっても検証というほど色々なことはしてません。
 
