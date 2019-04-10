@@ -1,5 +1,105 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>いぶかつ☆にゅーす - development</title><link href="https://evekatsu.github.io/news/" rel="alternate"></link><link href="https://evekatsu.github.io/news/feeds/development.atom.xml" rel="self"></link><id>https://evekatsu.github.io/news/</id><updated>2019-04-05T00:00:00+09:00</updated><entry><title>新大陸でモンスターを狩る暇もなくポータルサイトを開発するわけでもなくエクセルを持ってすらいないカプセラが作ったキルボツールを公開してみる</title><link href="https://evekatsu.github.io/news/%E6%96%B0%E5%A4%A7%E9%99%B8%E3%81%A7%E3%83%A2%E3%83%B3%E3%82%B9%E3%82%BF%E3%83%BC%E3%82%92%E7%8B%A9%E3%82%8B%E6%9A%87%E3%82%82%E3%81%AA%E3%81%8F%E3%83%9D%E3%83%BC%E3%82%BF%E3%83%AB%E3%82%B5%E3%82%A4%E3%83%88%E3%82%92%E9%96%8B%E7%99%BA%E3%81%99%E3%82%8B%E3%82%8F%E3%81%91%E3%81%A7%E3%82%82%E3%81%AA%E3%81%8F%E3%82%A8%E3%82%AF%E3%82%BB%E3%83%AB%E3%82%92%E6%8C%81%E3%81%A3%E3%81%A6%E3%81%99%E3%82%89%E3%81%84%E3%81%AA%E3%81%84%E3%82%AB%E3%83%97%E3%82%BB%E3%83%A9%E3%81%8C%E4%BD%9C%E3%81%A3%E3%81%9F%E3%82%AD%E3%83%AB%E3%83%9C%E3%83%84%E3%83%BC%E3%83%AB%E3%82%92%E5%85%AC%E9%96%8B%E3%81%97%E3%81%A6%E3%81%BF%E3%82%8B.html" rel="alternate"></link><published>2019-04-05T00:00:00+09:00</published><updated>2019-04-05T00:00:00+09:00</updated><author><name>Administrator</name></author><id>tag:evekatsu.github.io,2019-04-05:/news/新大陸でモンスターを狩る暇もなくポータルサイトを開発するわけでもなくエクセルを持ってすらいないカプセラが作ったキルボツールを公開してみる.html</id><summary type="html">&lt;p&gt;みなさん？PvPはやっていますか？唐突ですがEVE Onlineには&lt;/p&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>いぶかつ☆にゅーす - development</title><link href="https://evekatsu.github.io/news/" rel="alternate"></link><link href="https://evekatsu.github.io/news/feeds/development.atom.xml" rel="self"></link><id>https://evekatsu.github.io/news/</id><updated>2019-04-10T00:00:00+09:00</updated><entry><title>ESIやEve WhoのAPIを利用して各種IDを取得</title><link href="https://evekatsu.github.io/news/ESI%E3%82%84Eve%20Who%E3%81%AEAPI%E3%82%92%E5%88%A9%E7%94%A8%E3%81%97%E3%81%A6%E5%90%84%E7%A8%AEID%E3%82%92%E5%8F%96%E5%BE%97.html" rel="alternate"></link><published>2019-04-10T00:00:00+09:00</published><updated>2019-04-10T00:00:00+09:00</updated><author><name>Administrator</name></author><id>tag:evekatsu.github.io,2019-04-10:/news/ESIやEve WhoのAPIを利用して各種IDを取得.html</id><summary type="html">&lt;p&gt;&lt;a href="https://discord.gg/XK9A348"&gt;DiscordのIT chのほう&lt;/a&gt;でESIのSearch APIについての話があったので検証してみました。&lt;/p&gt;
+&lt;p&gt;といっても検証というほど色々なことはしてません。&lt;/p&gt;
+&lt;p&gt;まぁDiscordに長文を投稿するぐらいなら記事にしてコミュニティ全体と共有したほうがいいかなと思って雑に書いた感じです。&lt;/p&gt;
+&lt;h1&gt;論点について&lt;/h1&gt;
+&lt;p&gt;今回の話で大事なのは&lt;b&gt;「名前（ID以外の情報）からIDを取得するにはどうすればいいか？」&lt;/b&gt;です。&lt;/p&gt;
+&lt;p&gt;EVE Onlineのデータ（というかデータと呼べるもの全てに言えることですが）は全てにIDが割り振られています。&lt;/p&gt;
+&lt;p&gt;「なぜか？」と問われても非エンジニアの人に説明をするのは難しいので「とにかくIDが割り振られていたほうが便利なのでそうなっている」というガバい感じの理解でお願いします。&lt;/p&gt;
+&lt;p&gt;とにかくIDが分かっていれば後はどうとでもなります。IDとはそういうものです（ID万能説）&lt;/p&gt;
+&lt;p&gt;これは逆に考えると&lt;b&gt;「IDが分かっていない情報はまずは最初にIDを割り出さないといけない」&lt;/b&gt;ということです。&lt;/p&gt;
+&lt;p&gt;例えば "Night Cap" という文字列がここにあるとします。ここから色んな情報と紐づけができる人もいるかもしれません。&lt;/p&gt;
+&lt;p&gt;&lt;img alt="ESIやEve WhoのAPIを利用して各種IDを取得-1" src="https://evekatsu.github.io/news/images/ESIやEve WhoのAPIを利用して各種IDを取得/ESIやEve WhoのAPIを利用して各種IDを取得-1.jpg"&gt;&lt;/p&gt;
+&lt;p&gt;ただコンピューターにとっては、これだけでは何なのか分かっていません。&lt;/p&gt;
+&lt;p&gt;&lt;img alt="ESIやEve WhoのAPIを利用して各種IDを取得-2" src="https://evekatsu.github.io/news/images/ESIやEve WhoのAPIを利用して各種IDを取得/ESIやEve WhoのAPIを利用して各種IDを取得-2.jpg"&gt;&lt;/p&gt;
+&lt;p&gt;情報はIDと紐づけをしないといけません。IDから情報を取得するのは簡単ですが、情報からIDを割り出すのは結構ダルいという話です。&lt;/p&gt;
+&lt;h1&gt;ESI&lt;/h1&gt;
+&lt;p&gt;ESIには検索するAPIがありまして &lt;a href="https://esi.evetech.net/latest/#!/Search/get_search"&gt;/search/&lt;/a&gt; がそれにあたります。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://developers.eveonline.com/blog/article/simplify-esi-queries-by-using-search"&gt;CCPの公式開発者向けBlogの記事&lt;/a&gt;で使い方が解説されています。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://esi.evetech.net/latest/search/?categories=character&amp;amp;search=Night%20Cap"&gt;https://esi.evetech.net/latest/search/?categories=character …&lt;/a&gt;&lt;/p&gt;</summary><content type="html">&lt;p&gt;&lt;a href="https://discord.gg/XK9A348"&gt;DiscordのIT chのほう&lt;/a&gt;でESIのSearch APIについての話があったので検証してみました。&lt;/p&gt;
+&lt;p&gt;といっても検証というほど色々なことはしてません。&lt;/p&gt;
+&lt;p&gt;まぁDiscordに長文を投稿するぐらいなら記事にしてコミュニティ全体と共有したほうがいいかなと思って雑に書いた感じです。&lt;/p&gt;
+&lt;h1&gt;論点について&lt;/h1&gt;
+&lt;p&gt;今回の話で大事なのは&lt;b&gt;「名前（ID以外の情報）からIDを取得するにはどうすればいいか？」&lt;/b&gt;です。&lt;/p&gt;
+&lt;p&gt;EVE Onlineのデータ（というかデータと呼べるもの全てに言えることですが）は全てにIDが割り振られています。&lt;/p&gt;
+&lt;p&gt;「なぜか？」と問われても非エンジニアの人に説明をするのは難しいので「とにかくIDが割り振られていたほうが便利なのでそうなっている」というガバい感じの理解でお願いします。&lt;/p&gt;
+&lt;p&gt;とにかくIDが分かっていれば後はどうとでもなります。IDとはそういうものです（ID万能説）&lt;/p&gt;
+&lt;p&gt;これは逆に考えると&lt;b&gt;「IDが分かっていない情報はまずは最初にIDを割り出さないといけない」&lt;/b&gt;ということです。&lt;/p&gt;
+&lt;p&gt;例えば "Night Cap" という文字列がここにあるとします。ここから色んな情報と紐づけができる人もいるかもしれません。&lt;/p&gt;
+&lt;p&gt;&lt;img alt="ESIやEve WhoのAPIを利用して各種IDを取得-1" src="https://evekatsu.github.io/news/images/ESIやEve WhoのAPIを利用して各種IDを取得/ESIやEve WhoのAPIを利用して各種IDを取得-1.jpg"&gt;&lt;/p&gt;
+&lt;p&gt;ただコンピューターにとっては、これだけでは何なのか分かっていません。&lt;/p&gt;
+&lt;p&gt;&lt;img alt="ESIやEve WhoのAPIを利用して各種IDを取得-2" src="https://evekatsu.github.io/news/images/ESIやEve WhoのAPIを利用して各種IDを取得/ESIやEve WhoのAPIを利用して各種IDを取得-2.jpg"&gt;&lt;/p&gt;
+&lt;p&gt;情報はIDと紐づけをしないといけません。IDから情報を取得するのは簡単ですが、情報からIDを割り出すのは結構ダルいという話です。&lt;/p&gt;
+&lt;h1&gt;ESI&lt;/h1&gt;
+&lt;p&gt;ESIには検索するAPIがありまして &lt;a href="https://esi.evetech.net/latest/#!/Search/get_search"&gt;/search/&lt;/a&gt; がそれにあたります。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://developers.eveonline.com/blog/article/simplify-esi-queries-by-using-search"&gt;CCPの公式開発者向けBlogの記事&lt;/a&gt;で使い方が解説されています。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://esi.evetech.net/latest/search/?categories=character&amp;amp;search=Night%20Cap"&gt;https://esi.evetech.net/latest/search/?categories=character&amp;amp;search=Night%20Cap&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;先程の例の "Nigh Cap" という文字列で試しに検索してみると&lt;/p&gt;
+&lt;pre&gt;
+{
+    "character": [
+        2112620395,
+        2113070022,
+        453954467,
+        286681539,
+        1393056887,
+        96167132,
+        90783527,
+        94388872,
+        93131175,
+        470939960,
+        878136238,
+        1731051979,
+        92708639,
+        92303139,
+        94127438,
+        1590832258,
+        91189808,
+        96156512,
+        360133039,
+        90764711,
+        2115025778,
+        90173298,
+        338440420
+    ]
+}
+&lt;/pre&gt;
+
+&lt;p&gt;このように名前に "Night Cap" という文字列を含んでいる全てのキャラクターが引っかかってしまいます。&lt;/p&gt;
+&lt;p&gt;この検索方法の方が便利な場合もあるでしょうが名前が "Night Cap" という文字列と完全一致しているキャラクターを検索したい場合もあると思います。&lt;/p&gt;
+&lt;p&gt;そういう時はパラメーターに "strict=true" を付け足します。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://esi.evetech.net/latest/search/?categories=character&amp;amp;search=Night%20Cap&amp;amp;strict=true"&gt;https://esi.evetech.net/latest/search/?categories=character&amp;amp;search=Night%20Cap&amp;amp;strict=true&lt;/a&gt;&lt;/p&gt;
+&lt;pre&gt;
+{
+    "character": [
+        94127438
+    ]
+}
+&lt;/pre&gt;
+
+&lt;p&gt;今度は検索条件と完全一致しているキャラクターのみを取得できました。&lt;/p&gt;
+&lt;h1&gt;Eve Who&lt;/h1&gt;
+&lt;p&gt;&lt;a href="https://evewho.com/"&gt;Eve Who&lt;/a&gt;というキャラクターのコーポレーション履歴などが閲覧できるサイトがあります。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://evewho.com/faq/"&gt;Eve WhoもAPIを提供しています。&lt;/a&gt;詳しい使い方はFAQを読んでください。&lt;/p&gt;
+&lt;h4&gt;サンプル&lt;/h4&gt;
+&lt;p&gt;&lt;a href="https://evewho.com/api.php?type=character&amp;amp;name=Night%20Cap"&gt;https://evewho.com/api.php?type=character&amp;amp;name=Night%20Cap&lt;/a&gt;
+&lt;a href="https://evewho.com/api.php?type=corporation&amp;amp;name=The%20Far%20East%20Starfleet%20Academy"&gt;https://evewho.com/api.php?type=corporation&amp;amp;name=The%20Far%20East%20Starfleet%20Academy&lt;/a&gt;
+&lt;a href="https://evewho.com/api.php?type=alliance&amp;amp;name=Siege%20Green."&gt;https://evewho.com/api.php?type=alliance&amp;amp;name=Siege%20Green.&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;こんな感じでキャラクター／コーポレーション／アライアンスの情報はEve WhoのAPIを使って取得するのもありかもしれません。&lt;/p&gt;
+&lt;h1&gt;ESI vs Eve Who&lt;/h1&gt;
+&lt;p&gt;さて、どっちを使うべきか？というのはあると思います。&lt;/p&gt;
+&lt;h3&gt;EVE WhoのAPIを使うメリット&lt;/h3&gt;
+&lt;p&gt;ESIの方はIDしか返って来ないので、例えばとあるキャラクターがどういうコーポレーションに所属しているか等の情報を取得したい時はAPIを複数回叩く書く必要があったりと手間がかかります。&lt;/p&gt;
+&lt;p&gt;Eve Whoは一度にID以外の色んな情報が取得できるので便利だという時もあるかもしれません。&lt;/p&gt;
+&lt;h3&gt;EVE WhoのAPIを使うデメリット&lt;/h3&gt;
+&lt;h4&gt;公式ではない&lt;/h4&gt;
+&lt;p&gt;サードパーティ製のサービスなのでやはり公式に比べると信頼性は劣ると思います。&lt;/p&gt;
+&lt;h4&gt;反映に時間がかかる&lt;/h4&gt;
+&lt;p&gt;新しいキャラクター、コーポレーション、アライアンスを作ってから反映されるまで時間がかかるっぽいです。&lt;/p&gt;
+&lt;p&gt;どうやらキルボをチェックしてるわけではないので今までキルメールを残したことがあるかどうかは関係ないっぽいです。&lt;/p&gt;
+&lt;p&gt;まぁなんかいつの間にかEVE Whoに拾われてるなみたいなイメージです。&lt;/p&gt;
+&lt;h1&gt;終わりに&lt;/h1&gt;
+&lt;p&gt;長期間メンテする予定のツールの場合は信頼性が高いESIを、簡単な使い捨てレベルの用途の場合は利便性が高いEVE Whoを使うのがいいかもしれません。&lt;/p&gt;</content><category term="Development"></category><category term="ESI"></category></entry><entry><title>新大陸でモンスターを狩る暇もなくポータルサイトを開発するわけでもなくエクセルを持ってすらいないカプセラが作ったキルボツールを公開してみる</title><link href="https://evekatsu.github.io/news/%E6%96%B0%E5%A4%A7%E9%99%B8%E3%81%A7%E3%83%A2%E3%83%B3%E3%82%B9%E3%82%BF%E3%83%BC%E3%82%92%E7%8B%A9%E3%82%8B%E6%9A%87%E3%82%82%E3%81%AA%E3%81%8F%E3%83%9D%E3%83%BC%E3%82%BF%E3%83%AB%E3%82%B5%E3%82%A4%E3%83%88%E3%82%92%E9%96%8B%E7%99%BA%E3%81%99%E3%82%8B%E3%82%8F%E3%81%91%E3%81%A7%E3%82%82%E3%81%AA%E3%81%8F%E3%82%A8%E3%82%AF%E3%82%BB%E3%83%AB%E3%82%92%E6%8C%81%E3%81%A3%E3%81%A6%E3%81%99%E3%82%89%E3%81%84%E3%81%AA%E3%81%84%E3%82%AB%E3%83%97%E3%82%BB%E3%83%A9%E3%81%8C%E4%BD%9C%E3%81%A3%E3%81%9F%E3%82%AD%E3%83%AB%E3%83%9C%E3%83%84%E3%83%BC%E3%83%AB%E3%82%92%E5%85%AC%E9%96%8B%E3%81%97%E3%81%A6%E3%81%BF%E3%82%8B.html" rel="alternate"></link><published>2019-04-05T00:00:00+09:00</published><updated>2019-04-05T00:00:00+09:00</updated><author><name>Administrator</name></author><id>tag:evekatsu.github.io,2019-04-05:/news/新大陸でモンスターを狩る暇もなくポータルサイトを開発するわけでもなくエクセルを持ってすらいないカプセラが作ったキルボツールを公開してみる.html</id><summary type="html">&lt;p&gt;みなさん？PvPはやっていますか？唐突ですがEVE Onlineには&lt;/p&gt;
 &lt;p&gt;&lt;br /&gt;&lt;br /&gt;
 &lt;b style="font-size: 300%;"&gt;&lt;a href="https://zkillboard.com/"&gt;zKillboard&lt;/a&gt;&lt;/b&gt;
 &lt;br /&gt;&lt;br /&gt;&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;

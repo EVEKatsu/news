@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+      <meta charset="utf-8">
+  <meta http-equiv="Content-Type" content="text/html" charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+
+
+  <title>ESIやEve WhoのAPIを利用して各種IDを取得</title>
+
+
+  <meta name="HandheldFriendly" content="True" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="referrer" content="origin" />
+  <meta name="generator" content="Pelican" />
+  <link href="https://evekatsu.github.io/news" rel="canonical" />
+
+  <!-- Feed -->
+      <link href="feeds/all.atom.xml" type="application/atom+xml" rel="alternate" title="いぶかつ☆にゅーす Full Atom Feed" />
+
+  <link href="https://evekatsu.github.io/news/theme/css/style.css" type="text/css" rel="stylesheet" />
+  <link href="https://evekatsu.github.io/news/theme/css/main.css" type="text/css" rel="stylesheet" />
+  <link href="https://evekatsu.github.io/news/theme/css/jquery.fancybox.min.css" type="text/css" rel="stylesheet" />
+
+  <!-- Code highlight color scheme -->
+      <link href="https://evekatsu.github.io/news/theme/css/code_blocks/github.css" rel="stylesheet">
+
+
+  <!-- Custom fonts -->
+  <link href='https://fonts.googleapis.com/css?family=Montserrat:400,300' rel='stylesheet' type='text/css' />
+  <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet" type="text/css" />
+
+  <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+  <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+  <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+    <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+  <![endif]-->
+
+
+    <link href="https://evekatsu.github.io/news/ESIやEve WhoのAPIを利用して各種IDを取得.html" rel="canonical" />
+
+        <meta name="description" content="DiscordのIT chのほうでESIのSearch APIについての話があったので検証してみました。 といっても検証というほど色々なことはしてません。...">
+
+        <meta name="author" content="Administrator">
+
+        <meta name="tags" content="Development">
+        <meta name="tags" content="ESI">
+
+  <meta property="og:type" content="article">
+            <meta property="article:author" content="https://evekatsu.github.io/news/author/administrator.html">
+  <meta property="og:url" content="https://evekatsu.github.io/news/ESIやEve WhoのAPIを利用して各種IDを取得.html">
+  <meta property="og:title" content="ESIやEve WhoのAPIを利用して各種IDを取得">
+  <meta property="article:published_time" content="2019-04-10 00:00:00+09:00">
+            <meta property="og:description" content="DiscordのIT chのほうでESIのSearch APIについての話があったので検証してみました。 といっても検証というほど色々なことはしてません。...">
+
+            <meta property="og:image" content="https://evekatsu.github.io/news/theme/images/post-bg.jpg">
+        <meta name="twitter:card" content="summary_large_image">
+        <meta name="twitter:site" content="@evekatsu">
+        <meta name="twitter:title" content="ESIやEve WhoのAPIを利用して各種IDを取得">
+        <meta name="twitter:url" content="https://evekatsu.github.io/news/ESIやEve WhoのAPIを利用して各種IDを取得.html">
+
+            <meta name="twitter:image:src" content="https://evekatsu.github.io/news/theme/images/post-bg.jpg">
+
+            <meta name="twitter:description" content="DiscordのIT chのほうでESIのSearch APIについての話があったので検証してみました。 といっても検証というほど色々なことはしてません。...">
+
+  <link rel="shortcut icon" href="https://evekatsu.github.io/news/favicon.jpg" type="image/jpg" />
+</head>
+<!-- TODO : Body class -->
+<body class="home-template">
+
+<nav id="menu">
+  <a class="close-button">Close</a>
+  <div class="nav-wrapper">
+    <p class="nav-label">Menu</p>
+    <ul>
+          <li><a href="https://twitter.com/evekatsu" role="presentation" target="_blank"><i class="ic ic-twitter"></i> Twitter</a></li>
+          <li><a href="https://evekatsu.github.io/ranking/" role="presentation" target="_blank"><i class="ic ic-star"></i> Ranking</a></li>
+          <li><a href="https://github.com/EVEKatsu" role="presentation" target="_blank"><i class="ic ic-link"></i> GitHub</a></li>
+
+
+        <li class="nav-rss"><a href="feeds/all.atom.xml" target="_blank"><i class="ic ic-rss"></i> Feed</a></li>
+    </ul>
+  </div>
+</nav>
+    <!-- Progressbar -->
+    <div class="progress-container">
+        <span class="progress-bar"></span>
+    </div>
+
+    <!-- Page Header -->
+    <!-- Set your background image for this header on the line below. -->
+    <header id="post-header" class="has-cover">
+      <div class="inner">
+        <nav id="navigation">
+            <span id="home-button" class="nav-button">
+                <a class="home-button" href="https://evekatsu.github.io/news" title="Home"><i class="ic ic-arrow-left"></i> Home</a>
+            </span>
+          <span id="menu-button" class="nav-button">
+            <a class="menu-button"><i class="ic ic-menu"></i> Menu</a>
+          </span>
+        </nav>
+        <h1 class="post-title">ESIやEve WhoのAPIを利用して各種IDを取得</h1>
+        <!-- TODO : Proper class for headline -->
+        <span class="post-meta">
+                <a href="https://evekatsu.github.io/news/author/administrator.html">Administrator</a>
+            | <time datetime="2019年04月10日">2019年04月10日</time>
+        </span>
+        <!-- TODO : Modified check -->
+        
+            <div class="post-cover cover" style="background-image: url('https://evekatsu.github.io/news/theme/images/post-bg.jpg')">
+        
+      </div>
+    </header>    
+
+  <section id="wrapper">
+    <a class="hidden-close"></a>
+
+    <!-- Post content -->
+    <main class="content" role="main">
+
+        <!-- Post ad -->
+        <article class="post">
+        <div class="inner">
+            <section class="post-content">
+            <a href="https://evekatsu.github.io/ad/" class="evekatsu-ad" target="_blank"></a>
+            <script src="https://evekatsu.github.io/ad/widget.js"></script>
+            </section>
+        </div>
+        </article>
+
+        <article class="post">
+        <div class="inner">
+            <section class="post-content">
+                <p><a href="https://discord.gg/XK9A348">DiscordのIT chのほう</a>でESIのSearch APIについての話があったので検証してみました。</p>
+<p>といっても検証というほど色々なことはしてません。</p>
+<p>まぁDiscordに長文を投稿するぐらいなら記事にしてコミュニティ全体と共有したほうがいいかなと思って雑に書いた感じです。</p>
+<h1>論点について</h1>
+<p>今回の話で大事なのは<b>「名前（ID以外の情報）からIDを取得するにはどうすればいいか？」</b>です。</p>
+<p>EVE Onlineのデータ（というかデータと呼べるもの全てに言えることですが）は全てにIDが割り振られています。</p>
+<p>「なぜか？」と問われても非エンジニアの人に説明をするのは難しいので「とにかくIDが割り振られていたほうが便利なのでそうなっている」というガバい感じの理解でお願いします。</p>
+<p>とにかくIDが分かっていれば後はどうとでもなります。IDとはそういうものです（ID万能説）</p>
+<p>これは逆に考えると<b>「IDが分かっていない情報はまずは最初にIDを割り出さないといけない」</b>ということです。</p>
+<p>例えば "Night Cap" という文字列がここにあるとします。ここから色んな情報と紐づけができる人もいるかもしれません。</p>
+<p><img alt="ESIやEve WhoのAPIを利用して各種IDを取得-1" src="https://evekatsu.github.io/news/images/ESIやEve WhoのAPIを利用して各種IDを取得/ESIやEve WhoのAPIを利用して各種IDを取得-1.jpg"></p>
+<p>ただコンピューターにとっては、これだけでは何なのか分かっていません。</p>
+<p><img alt="ESIやEve WhoのAPIを利用して各種IDを取得-2" src="https://evekatsu.github.io/news/images/ESIやEve WhoのAPIを利用して各種IDを取得/ESIやEve WhoのAPIを利用して各種IDを取得-2.jpg"></p>
+<p>情報はIDと紐づけをしないといけません。IDから情報を取得するのは簡単ですが、情報からIDを割り出すのは結構ダルいという話です。</p>
+<h1>ESI</h1>
+<p>ESIには検索するAPIがありまして <a href="https://esi.evetech.net/latest/#!/Search/get_search">/search/</a> がそれにあたります。</p>
+<p><a href="https://developers.eveonline.com/blog/article/simplify-esi-queries-by-using-search">CCPの公式開発者向けBlogの記事</a>で使い方が解説されています。</p>
+<p><a href="https://esi.evetech.net/latest/search/?categories=character&amp;search=Night%20Cap">https://esi.evetech.net/latest/search/?categories=character&amp;search=Night%20Cap</a></p>
+<p>先程の例の "Nigh Cap" という文字列で試しに検索してみると</p>
+<pre>
+{
+    "character": [
+        2112620395,
+        2113070022,
+        453954467,
+        286681539,
+        1393056887,
+        96167132,
+        90783527,
+        94388872,
+        93131175,
+        470939960,
+        878136238,
+        1731051979,
+        92708639,
+        92303139,
+        94127438,
+        1590832258,
+        91189808,
+        96156512,
+        360133039,
+        90764711,
+        2115025778,
+        90173298,
+        338440420
+    ]
+}
+</pre>
+
+<p>このように名前に "Night Cap" という文字列を含んでいる全てのキャラクターが引っかかってしまいます。</p>
+<p>この検索方法の方が便利な場合もあるでしょうが名前が "Night Cap" という文字列と完全一致しているキャラクターを検索したい場合もあると思います。</p>
+<p>そういう時はパラメーターに "strict=true" を付け足します。</p>
+<p><a href="https://esi.evetech.net/latest/search/?categories=character&amp;search=Night%20Cap&amp;strict=true">https://esi.evetech.net/latest/search/?categories=character&amp;search=Night%20Cap&amp;strict=true</a></p>
+<pre>
+{
+    "character": [
+        94127438
+    ]
+}
+</pre>
+
+<p>今度は検索条件と完全一致しているキャラクターのみを取得できました。</p>
+<h1>Eve Who</h1>
+<p><a href="https://evewho.com/">Eve Who</a>というキャラクターのコーポレーション履歴などが閲覧できるサイトがあります。</p>
+<p><a href="https://evewho.com/faq/">Eve WhoもAPIを提供しています。</a>詳しい使い方はFAQを読んでください。</p>
+<h4>サンプル</h4>
+<p><a href="https://evewho.com/api.php?type=character&amp;name=Night%20Cap">https://evewho.com/api.php?type=character&amp;name=Night%20Cap</a>
+<a href="https://evewho.com/api.php?type=corporation&amp;name=The%20Far%20East%20Starfleet%20Academy">https://evewho.com/api.php?type=corporation&amp;name=The%20Far%20East%20Starfleet%20Academy</a>
+<a href="https://evewho.com/api.php?type=alliance&amp;name=Siege%20Green.">https://evewho.com/api.php?type=alliance&amp;name=Siege%20Green.</a></p>
+<p>こんな感じでキャラクター／コーポレーション／アライアンスの情報はEve WhoのAPIを使って取得するのもありかもしれません。</p>
+<h1>ESI vs Eve Who</h1>
+<p>さて、どっちを使うべきか？というのはあると思います。</p>
+<h3>EVE WhoのAPIを使うメリット</h3>
+<p>ESIの方はIDしか返って来ないので、例えばとあるキャラクターがどういうコーポレーションに所属しているか等の情報を取得したい時はAPIを複数回叩く書く必要があったりと手間がかかります。</p>
+<p>Eve Whoは一度にID以外の色んな情報が取得できるので便利だという時もあるかもしれません。</p>
+<h3>EVE WhoのAPIを使うデメリット</h3>
+<h4>公式ではない</h4>
+<p>サードパーティ製のサービスなのでやはり公式に比べると信頼性は劣ると思います。</p>
+<h4>反映に時間がかかる</h4>
+<p>新しいキャラクター、コーポレーション、アライアンスを作ってから反映されるまで時間がかかるっぽいです。</p>
+<p>どうやらキルボをチェックしてるわけではないので今までキルメールを残したことがあるかどうかは関係ないっぽいです。</p>
+<p>まぁなんかいつの間にかEVE Whoに拾われてるなみたいなイメージです。</p>
+<h1>終わりに</h1>
+<p>長期間メンテする予定のツールの場合は信頼性が高いESIを、簡単な使い捨てレベルの用途の場合は利便性が高いEVE Whoを使うのがいいかもしれません。</p>
+                <hr>
+                <h3>お問い合わせや質問など</h3>
+                <p>
+                    Discord: <a href="https://discord.gg/XK9A348">EVE Japanese IT</a><br>
+                    Twitter: <a href="https://twitter.com/evekatsu">@evekatsu</a>
+                </p><p>
+                    IT系に興味がある人はぜひDiscordの方に遊びにきてみてください。<br>
+                    また、面白いアイデアも随時募集しています！<br>
+                    Twitterの方はフォロー外にDMを解放しています。
+                </p>
+            </section>
+
+            <section class="post-info">
+                <div class="post-share">
+                    <a class="twitter" href="https://twitter.com/share?text=ESIやEve WhoのAPIを利用して各種IDを取得&amp;url=https://evekatsu.github.io/news/ESIやEve WhoのAPIを利用して各種IDを取得.html" onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;">
+                    <i class="ic ic-twitter"></i><span class="hidden">Twitter</span>
+                    </a>
+                    <a class="facebook" href="https://www.facebook.com/sharer/sharer.php?u=https://evekatsu.github.io/news/ESIやEve WhoのAPIを利用して各種IDを取得.html" onclick="window.open(this.href, 'facebook-share','width=580,height=296');return false;">
+                    <i class="ic ic-facebook"></i><span class="hidden">Facebook</span>
+                    </a>
+                    <a class="googleplus" href="https://plus.google.com/share?url=https://evekatsu.github.io/news/ESIやEve WhoのAPIを利用して各種IDを取得.html" onclick="window.open(this.href, 'google-plus-share', 'width=490,height=530');return false;">
+                    <i class="ic ic-googleplus"></i><span class="hidden">Google+</span>
+                    </a>
+                    <div class="clear"></div>
+                </div>
+
+                <aside class="post-tags">
+<a href="https://evekatsu.github.io/news/tag/development.html">Development</a><a href="https://evekatsu.github.io/news/tag/esi.html">ESI</a>                </aside>
+
+                <div class="clear"></div>
+
+ 
+
+                </section>
+
+
+                <aside class="post-nav">
+                    <div class="clear"></div>
+                </aside>
+
+            </div>
+        </article>
+    </main>
+      <!-- TODO : Body class -->
+    <div id="body-class" style="display: none;" class=""></div>
+  
+    <footer id="footer">
+      <div class="inner">
+        <section class="credits">
+          <span class="credits-theme">Theme <a href="https://github.com/arulrajnet/attila" rel="nofollow">Attila</a></span>
+          <span class="credits-software">Published with <a href="https://github.com/getpelican/pelican" rel="nofollow">Pelican</a></span>
+        </section>
+      </div>
+    </footer>
+  </section>
+
+  <script type="text/javascript" src="https://evekatsu.github.io/news/theme/js/script.js"></script>
+
+
+  <style>
+    .center {
+      display: block !important;
+      margin-left: auto !important;
+      margin-right: auto !important;
+      max-width: 700px !important;
+    }
+  </style>
+  <script type="text/javascript" src="https://evekatsu.github.io/news/theme/js/jquery.fancybox.min.js"></script>
+  <script>
+    var images = document.getElementsByTagName("img");
+    for (var i = 0; i < images.length; i++) {
+        if (!images[i].parentNode || images[i].parentNode.tagName.toLowerCase() !== "p") {
+          continue;
+        }
+
+        if (!images[i].parentNode.parentNode || images[i].parentNode.parentNode.className.toLowerCase() !== "post-content") {
+          continue;
+        }
+
+        images[i].outerHTML = '<a href="' + images[i].src + '" data-fancybox="gallery"><img class="center" src="' + images[i].src + '" alt="' + images[i].alt + '"/></a>'
+    }
+
+    $('[data-fancybox]').fancybox();
+
+    var links = document.links;
+    for (var i = 0; i < links.length; i++) {
+      if (links[i].hostname != window.location.hostname) {
+        links[i].target = '_blank';
+      }
+    }
+</script>
+</body>
+</html>
