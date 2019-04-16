@@ -18,6 +18,8 @@ Slug: {slug}
 Tags: Ranking
 Author: Bot
 
+{style}
+
 今月もお疲れ様でした。
 <a href="https://evekatsu.github.io/ranking/?date={year}-{month}" target="_blank">{year}年{month}月の日本人PvPランキングの発表です。</a>
 
@@ -61,6 +63,27 @@ Author: Bot
 <br />
 毎月10日にその前の月のキルメールを集計します。
 来月もよろしくお願いします。
+
+"""
+
+STYLE = """
+<style>
+table th { text-align: center; }
+table td {
+  font-size: calc(60% + 0.3vw);
+}
+table th:nth-child(1) { width: 7%; }
+table td:nth-child(1) { text-align: center; }
+table th:nth-child(2) { width: 49%; }
+table th:nth-child(3) { width: 15%; }
+table td:nth-child(3) { text-align: right; }
+table th:nth-child(4) { width: 15%; }
+table td:nth-child(4) { text-align: right; }
+table th:nth-child(5) { width: 7%; }
+table td:nth-child(5) { text-align: center; }
+table th:nth-child(6) { width: 7%; }
+table td:nth-child(6) { text-align: center; }
+</style>
 """
 
 RANKING = OrderedDict([
@@ -140,6 +163,7 @@ def main():
     driver.close()
 
     format_dict = {}
+    format_dict['style'] = STYLE
     format_dict['title'] = '%s年%s月のランキング発表' % (year, month)
     format_dict["slug"] = filename
     format_dict['year'] = year
@@ -148,8 +172,7 @@ def main():
     format_dict['date_jp'] = datetime.date.today().strftime('%Y年%m月%d日')
 
     for filter_key, ranking_items in ranking.items():
-        text =  '<div class="ranking-table">\n'
-        text += '| <span class="glyphicon glyphicon-sort-by-attributes-alt"></span> '
+        text = '| <span class="glyphicon glyphicon-sort-by-attributes-alt"></span> '
         text += '| %s | %s | %s ' %(
             '<span class="glyphicon glyphicon-user"></span>',
             '<span class="glyphicon glyphicon-plus"></span>',
@@ -158,8 +181,6 @@ def main():
         text += '| <span class="glyphicon glyphicon-tower"></span> '
         text += '| <span class="glyphicon glyphicon-star"></span> '
         text += '|\n| ---- | ---- | ---- | ---- | ---- | ---- |\n'
-        text += '</div><!-- end of div.ranking-table -->\n'
-
         for i, ranking_item in enumerate(ranking_items):
             character_information = players_information['character'][ranking_item['id']]
             img_tag = '<img style="margin: 0px; width: 25px; display: inline; vertical-align:middle;" src="https://evekatsu.github.io/data/%s/%s_32%s">'
@@ -172,6 +193,7 @@ def main():
             if 'alliance_id' in character_information:
                 text += img_tag % ('alliance', character_information['alliance_id'], '.png')
             text += ' |\n'
+
         format_dict[filter_key + '_table'] = text
         format_dict[filter_key + '_header'] = '<h3><a href="%s" target="_blank">%s</a></h3>' % (
             base_url + RANKING[filter_key]['query'],

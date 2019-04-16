@@ -4,6 +4,26 @@ Slug: ranking-2019-2
 Tags: Ranking
 Author: Bot
 
+
+<style>
+table th { text-align: center; }
+table td {
+  font-size: calc(60% + 0.3vw);
+}
+table th:nth-child(1) { width: 7%; }
+table td:nth-child(1) { text-align: center; }
+table th:nth-child(2) { width: 49%; }
+table th:nth-child(3) { width: 15%; }
+table td:nth-child(3) { text-align: right; }
+table th:nth-child(4) { width: 15%; }
+table td:nth-child(4) { text-align: right; }
+table th:nth-child(5) { width: 7%; }
+table td:nth-child(5) { text-align: center; }
+table th:nth-child(6) { width: 7%; }
+table td:nth-child(6) { text-align: center; }
+</style>
+
+
 今月もお疲れ様でした。  
 <a href="https://evekatsu.github.io/ranking/?date=2019-2" target="_blank">2019年2月の日本人PvPランキングの発表です。</a>
 

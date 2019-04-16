@@ -4,6 +4,26 @@ Slug: ranking-2019-3
 Tags: Ranking
 Author: Bot
 
+
+<style>
+table th { text-align: center; }
+table td {
+  font-size: calc(60% + 0.3vw);
+}
+table th:nth-child(1) { width: 7%; }
+table td:nth-child(1) { text-align: center; }
+table th:nth-child(2) { width: 49%; }
+table th:nth-child(3) { width: 15%; }
+table td:nth-child(3) { text-align: right; }
+table th:nth-child(4) { width: 15%; }
+table td:nth-child(4) { text-align: right; }
+table th:nth-child(5) { width: 7%; }
+table td:nth-child(5) { text-align: center; }
+table th:nth-child(6) { width: 7%; }
+table td:nth-child(6) { text-align: center; }
+</style>
+
+
 今月もお疲れ様でした。
 <a href="https://evekatsu.github.io/ranking/?date=2019-3" target="_blank">2019年3月の日本人PvPランキングの発表です。</a>
 
@@ -14,10 +34,8 @@ Author: Bot
 
 対象：所属するコーポレーション、アライアンスを攻撃したキルメールを除く全て（キル順）
 
-<div class="ranking-table">
 | <span class="glyphicon glyphicon-sort-by-attributes-alt"></span> | <span class="glyphicon glyphicon-user"></span> | <span class="glyphicon glyphicon-plus"></span> | <span class="glyphicon glyphicon-minus"></span> | <span class="glyphicon glyphicon-tower"></span> | <span class="glyphicon glyphicon-star"></span> |
 | ---- | ---- | ---- | ---- | ---- | ---- |
-</div><!-- end of div.ranking-table -->
 | 1 |  <img style="margin: 0px; width: 25px; display: inline; vertical-align:middle;" src="https://evekatsu.github.io/data/character/95951870_32.jpg"> Mary Seagal |  461 |  18 |  <img style="margin: 0px; width: 25px; display: inline; vertical-align:middle;" src="https://evekatsu.github.io/data/corporation/98476559_32.png"> | <img style="margin: 0px; width: 25px; display: inline; vertical-align:middle;" src="https://evekatsu.github.io/data/alliance/1354830081_32.png"> |
 | 2 |  <img style="margin: 0px; width: 25px; display: inline; vertical-align:middle;" src="https://evekatsu.github.io/data/character/95235307_32.jpg"> Takuya Gogiko |  365 |  103 |  <img style="margin: 0px; width: 25px; display: inline; vertical-align:middle;" src="https://evekatsu.github.io/data/corporation/306830202_32.png"> | <img style="margin: 0px; width: 25px; display: inline; vertical-align:middle;" src="https://evekatsu.github.io/data/alliance/99004357_32.png"> |
 | 3 |  <img style="margin: 0px; width: 25px; display: inline; vertical-align:middle;" src="https://evekatsu.github.io/data/character/94127438_32.jpg"> Night Cap |  317 |  19 |  <img style="margin: 0px; width: 25px; display: inline; vertical-align:middle;" src="https://evekatsu.github.io/data/corporation/98217414_32.png"> | <img style="margin: 0px; width: 25px; display: inline; vertical-align:middle;" src="https://evekatsu.github.io/data/alliance/99006941_32.png"> |
@@ -35,10 +53,8 @@ Author: Bot
 
 対象：キルメールにソロキルのフラグが付いている（ポイント順）
 
-<div class="ranking-table">
 | <span class="glyphicon glyphicon-sort-by-attributes-alt"></span> | <span class="glyphicon glyphicon-user"></span> | <span class="glyphicon glyphicon-plus"></span> | <span class="glyphicon glyphicon-minus"></span> | <span class="glyphicon glyphicon-tower"></span> | <span class="glyphicon glyphicon-star"></span> |
 | ---- | ---- | ---- | ---- | ---- | ---- |
-</div><!-- end of div.ranking-table -->
 | 1 |  <img style="margin: 0px; width: 25px; display: inline; vertical-align:middle;" src="https://evekatsu.github.io/data/character/95235307_32.jpg"> Takuya Gogiko |  1124 |  50 |  <img style="margin: 0px; width: 25px; display: inline; vertical-align:middle;" src="https://evekatsu.github.io/data/corporation/306830202_32.png"> | <img style="margin: 0px; width: 25px; display: inline; vertical-align:middle;" src="https://evekatsu.github.io/data/alliance/99004357_32.png"> |
 | 2 |  <img style="margin: 0px; width: 25px; display: inline; vertical-align:middle;" src="https://evekatsu.github.io/data/character/93531438_32.jpg"> neibis rudus |  539 |  28 |  <img style="margin: 0px; width: 25px; display: inline; vertical-align:middle;" src="https://evekatsu.github.io/data/corporation/98574865_32.png"> |  |
 | 3 |  <img style="margin: 0px; width: 25px; display: inline; vertical-align:middle;" src="https://evekatsu.github.io/data/character/92760407_32.jpg"> Chad Ovaert |  267 |  333 |  <img style="margin: 0px; width: 25px; display: inline; vertical-align:middle;" src="https://evekatsu.github.io/data/corporation/98418839_32.png"> | <img style="margin: 0px; width: 25px; display: inline; vertical-align:middle;" src="https://evekatsu.github.io/data/alliance/99006941_32.png"> |
@@ -56,10 +72,8 @@ Author: Bot
 
 対象：ポイントが1より上の攻撃に参加した人数が100人未満（ポイント順）
 
-<div class="ranking-table">
 | <span class="glyphicon glyphicon-sort-by-attributes-alt"></span> | <span class="glyphicon glyphicon-user"></span> | <span class="glyphicon glyphicon-plus"></span> | <span class="glyphicon glyphicon-minus"></span> | <span class="glyphicon glyphicon-tower"></span> | <span class="glyphicon glyphicon-star"></span> |
 | ---- | ---- | ---- | ---- | ---- | ---- |
-</div><!-- end of div.ranking-table -->
 | 1 |  <img style="margin: 0px; width: 25px; display: inline; vertical-align:middle;" src="https://evekatsu.github.io/data/character/95235307_32.jpg"> Takuya Gogiko |  1431 |  172 |  <img style="margin: 0px; width: 25px; display: inline; vertical-align:middle;" src="https://evekatsu.github.io/data/corporation/306830202_32.png"> | <img style="margin: 0px; width: 25px; display: inline; vertical-align:middle;" src="https://evekatsu.github.io/data/alliance/99004357_32.png"> |
 | 2 |  <img style="margin: 0px; width: 25px; display: inline; vertical-align:middle;" src="https://evekatsu.github.io/data/character/94127438_32.jpg"> Night Cap |  960 |  27 |  <img style="margin: 0px; width: 25px; display: inline; vertical-align:middle;" src="https://evekatsu.github.io/data/corporation/98217414_32.png"> | <img style="margin: 0px; width: 25px; display: inline; vertical-align:middle;" src="https://evekatsu.github.io/data/alliance/99006941_32.png"> |
 | 3 |  <img style="margin: 0px; width: 25px; display: inline; vertical-align:middle;" src="https://evekatsu.github.io/data/character/94500364_32.jpg"> Kentlarquis |  811 |  67 |  <img style="margin: 0px; width: 25px; display: inline; vertical-align:middle;" src="https://evekatsu.github.io/data/corporation/98574865_32.png"> |  |
@@ -77,10 +91,8 @@ Author: Bot
 
 対象：ポイントが1の攻撃に参加した人数が100人未満（キル順）
 
-<div class="ranking-table">
 | <span class="glyphicon glyphicon-sort-by-attributes-alt"></span> | <span class="glyphicon glyphicon-user"></span> | <span class="glyphicon glyphicon-plus"></span> | <span class="glyphicon glyphicon-minus"></span> | <span class="glyphicon glyphicon-tower"></span> | <span class="glyphicon glyphicon-star"></span> |
 | ---- | ---- | ---- | ---- | ---- | ---- |
-</div><!-- end of div.ranking-table -->
 | 1 |  <img style="margin: 0px; width: 25px; display: inline; vertical-align:middle;" src="https://evekatsu.github.io/data/character/95951870_32.jpg"> Mary Seagal |  426 |  13 |  <img style="margin: 0px; width: 25px; display: inline; vertical-align:middle;" src="https://evekatsu.github.io/data/corporation/98476559_32.png"> | <img style="margin: 0px; width: 25px; display: inline; vertical-align:middle;" src="https://evekatsu.github.io/data/alliance/1354830081_32.png"> |
 | 2 |  <img style="margin: 0px; width: 25px; display: inline; vertical-align:middle;" src="https://evekatsu.github.io/data/character/95799510_32.jpg"> Ouki S |  247 |  10 |  <img style="margin: 0px; width: 25px; display: inline; vertical-align:middle;" src="https://evekatsu.github.io/data/corporation/98476559_32.png"> | <img style="margin: 0px; width: 25px; display: inline; vertical-align:middle;" src="https://evekatsu.github.io/data/alliance/1354830081_32.png"> |
 | 3 |  <img style="margin: 0px; width: 25px; display: inline; vertical-align:middle;" src="https://evekatsu.github.io/data/character/96224663_32.jpg"> Katana Masen |  232 |  16 |  <img style="margin: 0px; width: 25px; display: inline; vertical-align:middle;" src="https://evekatsu.github.io/data/corporation/98476559_32.png"> | <img style="margin: 0px; width: 25px; display: inline; vertical-align:middle;" src="https://evekatsu.github.io/data/alliance/1354830081_32.png"> |
@@ -98,10 +110,8 @@ Author: Bot
 
 対象：攻撃に参加した人数が100人以上（ISK順）
 
-<div class="ranking-table">
 | <span class="glyphicon glyphicon-sort-by-attributes-alt"></span> | <span class="glyphicon glyphicon-user"></span> | <span class="glyphicon glyphicon-plus"></span> | <span class="glyphicon glyphicon-minus"></span> | <span class="glyphicon glyphicon-tower"></span> | <span class="glyphicon glyphicon-star"></span> |
 | ---- | ---- | ---- | ---- | ---- | ---- |
-</div><!-- end of div.ranking-table -->
 | 1 |  <img style="margin: 0px; width: 25px; display: inline; vertical-align:middle;" src="https://evekatsu.github.io/data/character/95526304_32.jpg"> Winter Lewin |  44.6b |  0.0b |  <img style="margin: 0px; width: 25px; display: inline; vertical-align:middle;" src="https://evekatsu.github.io/data/corporation/98418839_32.png"> | <img style="margin: 0px; width: 25px; display: inline; vertical-align:middle;" src="https://evekatsu.github.io/data/alliance/99006941_32.png"> |
 | 2 |  <img style="margin: 0px; width: 25px; display: inline; vertical-align:middle;" src="https://evekatsu.github.io/data/character/95951870_32.jpg"> Mary Seagal |  26.5b |  0.5b |  <img style="margin: 0px; width: 25px; display: inline; vertical-align:middle;" src="https://evekatsu.github.io/data/corporation/98476559_32.png"> | <img style="margin: 0px; width: 25px; display: inline; vertical-align:middle;" src="https://evekatsu.github.io/data/alliance/1354830081_32.png"> |
 | 3 |  <img style="margin: 0px; width: 25px; display: inline; vertical-align:middle;" src="https://evekatsu.github.io/data/character/96144142_32.jpg"> onisan |  25.0b |  0.0b |  <img style="margin: 0px; width: 25px; display: inline; vertical-align:middle;" src="https://evekatsu.github.io/data/corporation/98476559_32.png"> | <img style="margin: 0px; width: 25px; display: inline; vertical-align:middle;" src="https://evekatsu.github.io/data/alliance/1354830081_32.png"> |
@@ -117,3 +127,4 @@ Author: Bot
 <br />
 毎月10日にその前の月のキルメールを集計します。
 来月もよろしくお願いします。
+
