@@ -18,8 +18,6 @@ Slug: {slug}
 Tags: Ranking
 Author: Bot
 
-{style}
-
 今月もお疲れ様でした。
 <a href="https://evekatsu.github.io/ranking/?date={year}-{month}" target="_blank">{year}年{month}月の日本人PvPランキングの発表です。</a>
 
@@ -64,6 +62,7 @@ Author: Bot
 毎月10日にその前の月のキルメールを集計します。
 来月もよろしくお願いします。
 
+{style}
 """
 
 STYLE = """

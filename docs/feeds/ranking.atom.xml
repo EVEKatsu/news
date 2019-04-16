@@ -1,34 +1,89 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>いぶかつ☆にゅーす - ranking</title><link href="https://evekatsu.github.io/news/" rel="alternate"></link><link href="https://evekatsu.github.io/news/feeds/ranking.atom.xml" rel="self"></link><id>https://evekatsu.github.io/news/</id><updated>2019-04-16T00:00:00+09:00</updated><entry><title>2019年3月のランキング発表</title><link href="https://evekatsu.github.io/news/ranking-2019-3.html" rel="alternate"></link><published>2019-04-16T00:00:00+09:00</published><updated>2019-04-16T00:00:00+09:00</updated><author><name>Bot</name></author><id>tag:evekatsu.github.io,2019-04-16:/news/ranking-2019-3.html</id><summary type="html">&lt;style&gt;
-table th { text-align: center; }
-table td {
-  font-size: calc(60% + 0.3vw);
-}
-table th:nth-child(1) { width: 7%; }
-table td:nth-child(1) { text-align: center; }
-table th:nth-child(2) { width: 49%; }
-table th:nth-child(3) { width: 15%; }
-table td:nth-child(3) { text-align: right; }
-table th:nth-child(4) { width: 15%; }
-table td:nth-child …&lt;/style&gt;</summary><content type="html">&lt;style&gt;
-table th { text-align: center; }
-table td {
-  font-size: calc(60% + 0.3vw);
-}
-table th:nth-child(1) { width: 7%; }
-table td:nth-child(1) { text-align: center; }
-table th:nth-child(2) { width: 49%; }
-table th:nth-child(3) { width: 15%; }
-table td:nth-child(3) { text-align: right; }
-table th:nth-child(4) { width: 15%; }
-table td:nth-child(4) { text-align: right; }
-table th:nth-child(5) { width: 7%; }
-table td:nth-child(5) { text-align: center; }
-table th:nth-child(6) { width: 7%; }
-table td:nth-child(6) { text-align: center; }
-&lt;/style&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>いぶかつ☆にゅーす - ranking</title><link href="https://evekatsu.github.io/news/" rel="alternate"></link><link href="https://evekatsu.github.io/news/feeds/ranking.atom.xml" rel="self"></link><id>https://evekatsu.github.io/news/</id><updated>2019-04-16T00:00:00+09:00</updated><entry><title>2019年3月のランキング発表</title><link href="https://evekatsu.github.io/news/ranking-2019-3.html" rel="alternate"></link><published>2019-04-16T00:00:00+09:00</published><updated>2019-04-16T00:00:00+09:00</updated><author><name>Bot</name></author><id>tag:evekatsu.github.io,2019-04-16:/news/ranking-2019-3.html</id><summary type="html">&lt;p&gt;今月もお疲れ様でした。
+&lt;a href="https://evekatsu.github.io/ranking/?date=2019-3" target="_blank"&gt;2019年3月の日本人PvPランキングの発表です。&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;注意事項：これは2019年04月16日に集計したものです。それ以降に投稿されたキルメールは集計対象外です。&lt;/p&gt;
+&lt;h3&gt;&lt;a href="https://evekatsu.github.io/ranking/?date=2019-3" target="_blank"&gt;トータル&lt;/a&gt;&lt;/h3&gt;
 
-&lt;p&gt;今月もお疲れ様でした。
+&lt;p&gt;対象：所属するコーポレーション、アライアンスを攻撃したキルメールを除く全て（キル順）&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;&lt;span class="glyphicon glyphicon-sort-by-attributes-alt"&gt;&lt;/span&gt;&lt;/th&gt;
+&lt;th&gt;&lt;span class="glyphicon glyphicon-user"&gt;&lt;/span&gt;&lt;/th&gt;
+&lt;th&gt;&lt;span class="glyphicon glyphicon-plus"&gt;&lt;/span&gt;&lt;/th&gt;
+&lt;th&gt;&lt;span class="glyphicon glyphicon-minus"&gt;&lt;/span&gt;&lt;/th&gt;
+&lt;th&gt;&lt;span class="glyphicon glyphicon-tower"&gt;&lt;/span&gt;&lt;/th&gt;
+&lt;th&gt;&lt;span class="glyphicon glyphicon-star"&gt;&lt;/span&gt;&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;1&lt;/td&gt;
+&lt;td&gt;&lt;img style="margin: 0px; width: 25px; display: inline; vertical-align:middle;" src="https://evekatsu.github.io/data/character/95951870_32.jpg"&gt; Mary Seagal&lt;/td&gt;
+&lt;td&gt;461&lt;/td&gt;
+&lt;td&gt;18&lt;/td&gt;
+&lt;td&gt;&lt;img style="margin: 0px; width: 25px; display: inline; vertical-align:middle;" src="https://evekatsu.github.io/data/corporation/98476559_32.png"&gt;&lt;/td&gt;
+&lt;td&gt;&lt;img style="margin: 0px; width: 25px; display: inline; vertical-align:middle;" src="https://evekatsu.github.io/data/alliance/1354830081_32.png"&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;2&lt;/td&gt;
+&lt;td&gt;&lt;img style="margin: 0px; width: 25px; display: inline; vertical-align:middle;" src="https://evekatsu.github.io/data/character/95235307_32.jpg"&gt; Takuya Gogiko&lt;/td&gt;
+&lt;td&gt;365&lt;/td&gt;
+&lt;td&gt;103&lt;/td&gt;
+&lt;td&gt;&lt;img style="margin: 0px; width: 25px; display: inline; vertical-align:middle;" src="https://evekatsu.github.io/data/corporation/306830202_32.png"&gt;&lt;/td&gt;
+&lt;td&gt;&lt;img style="margin: 0px; width: 25px; display: inline; vertical-align:middle;" src="https://evekatsu.github.io/data/alliance/99004357_32.png"&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;3&lt;/td&gt;
+&lt;td&gt;&lt;img style="margin: 0px; width: 25px; display: inline; vertical-align:middle;" src="https://evekatsu.github.io/data/character/94127438_32.jpg"&gt; Night Cap&lt;/td&gt;
+&lt;td&gt;317&lt;/td&gt;
+&lt;td&gt;19&lt;/td&gt;
+&lt;td&gt;&lt;img style="margin: 0px; width: 25px; display: inline; vertical-align:middle;" src="https://evekatsu.github.io/data/corporation/98217414_32.png"&gt;&lt;/td&gt;
+&lt;td&gt;&lt;img style="margin: 0px; width: 25px; display: inline; vertical-align:middle;" src="https://evekatsu.github.io/data/alliance/99006941_32.png"&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;4&lt;/td&gt;
+&lt;td&gt;&lt;img style="margin: 0px; width: 25px; display: inline; vertical-align:middle;" src="https://evekatsu.github.io/data/character/91546798_32.jpg"&gt; LTLBAZAAR&lt;/td&gt;
+&lt;td&gt;269&lt;/td&gt;
+&lt;td&gt;23&lt;/td&gt;
+&lt;td&gt;&lt;img style="margin: 0px; width: 25px; display: inline; vertical-align:middle;" src="https://evekatsu.github.io/data/corporation/98217414_32.png"&gt;&lt;/td&gt;
+&lt;td&gt;&lt;img style="margin: 0px; width: 25px; display: inline; vertical-align:middle;" src="https://evekatsu.github.io/data/alliance/99006941_32.png"&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;5&lt;/td&gt;
+&lt;td&gt;&lt;img style="margin: 0px; width: 25px; display: inline; vertical-align:middle;" src="https://evekatsu.github.io/data/character/95799510_32.jpg"&gt; Ouki S&lt;/td&gt;
+&lt;td&gt;259&lt;/td&gt;
+&lt;td&gt;13&lt;/td&gt;
+&lt;td&gt;&lt;img style="margin: 0px; width: 25px; display: inline; vertical-align:middle;" src="https://evekatsu.github.io/data/corporation/98476559_32.png"&gt;&lt;/td&gt;
+&lt;td&gt;&lt;img style="margin: 0px; width: 25px; display: inline; vertical-align:middle;" src="https://evekatsu.github.io/data/alliance/1354830081_32.png"&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;6&lt;/td&gt;
+&lt;td&gt;&lt;img style="margin: 0px; width: 25px; display: inline; vertical-align:middle;" src="https://evekatsu.github.io/data/character/95526304_32.jpg"&gt; Winter Lewin&lt;/td&gt;
+&lt;td&gt;254&lt;/td&gt;
+&lt;td&gt;12&lt;/td&gt;
+&lt;td&gt;&lt;img style="margin: 0px; width: 25px; display: inline; vertical-align:middle;" src="https://evekatsu.github.io/data/corporation/98418839_32.png"&gt;&lt;/td&gt;
+&lt;td&gt;&lt;img style="margin: 0px; width: 25px; display: inline; vertical-align:middle;" src="https://evekatsu.github.io/data/alliance/99006941_32.png"&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;7&lt;/td&gt;
+&lt;td&gt;&lt;img style="margin: 0px; width: 25px; display: inline; vertical-align:middle;" src="https://evekatsu.github.io/data/character/96224663_32.jpg"&gt; Katana Masen&lt;/td&gt;
+&lt;td&gt;239&lt;/td&gt;
+&lt;td&gt;18&lt;/td&gt;
+&lt;td&gt;&lt;img style="margin: 0px; width: 25px; display: inline; vertical-align:middle;" src="https://evekatsu.github.io/data/corporation/98476559_32.png"&gt;&lt;/td&gt;
+&lt;td&gt;&lt;img style="margin: 0px; width: 25px; display: inline; vertical-align:middle;" src="https://evekatsu.github.io/data/alliance/1354830081_32.png"&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;8&lt;/td&gt;
+&lt;td&gt;&lt;img style="margin: 0px; width: 25px; display: inline; vertical-align:middle;" src="https://evekatsu.github.io/data/character/94500364_32.jpg"&gt; Kentlarquis&lt;/td&gt;
+&lt;td&gt;205&lt;/td&gt;
+&lt;td&gt;21&lt;/td&gt;
+&lt;td&gt;&lt;img style="margin: 0px; width: 25px; display: inline; vertical-align:middle;" src="https://evekatsu.github.io/data/corporation/98574865_32.png"&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;9&lt;/td&gt;
+&lt;td&gt;&lt;img style="margin: 0px; width: 25px; display: inline; vertical-align:middle;" src="https://evekatsu.github.io/data/character/95922571_32.jpg"&gt; Marty …&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;</summary><content type="html">&lt;p&gt;今月もお疲れ様でした。
 &lt;a href="https://evekatsu.github.io/ranking/?date=2019-3" target="_blank"&gt;2019年3月の日本人PvPランキングの発表です。&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;注意事項：これは2019年04月16日に集計したものです。それ以降に投稿されたキルメールは集計対象外です。&lt;/p&gt;
 &lt;h3&gt;&lt;a href="https://evekatsu.github.io/ranking/?date=2019-3" target="_blank"&gt;トータル&lt;/a&gt;&lt;/h3&gt;
@@ -518,18 +573,8 @@ table td:nth-child(6) { text-align: center; }
 &lt;/table&gt;
 &lt;p&gt;&lt;br /&gt;
 毎月10日にその前の月のキルメールを集計します。
-来月もよろしくお願いします。&lt;/p&gt;</content><category term="Ranking"></category></entry><entry><title>2019年2月のランキング発表</title><link href="https://evekatsu.github.io/news/ranking-2019-2.html" rel="alternate"></link><published>2019-03-12T00:00:00+09:00</published><updated>2019-03-12T00:00:00+09:00</updated><author><name>Bot</name></author><id>tag:evekatsu.github.io,2019-03-12:/news/ranking-2019-2.html</id><summary type="html">&lt;style&gt;
-table th { text-align: center; }
-table td {
-  font-size: calc(60% + 0.3vw);
-}
-table th:nth-child(1) { width: 7%; }
-table td:nth-child(1) { text-align: center; }
-table th:nth-child(2) { width: 49%; }
-table th:nth-child(3) { width: 15%; }
-table td:nth-child(3) { text-align: right; }
-table th:nth-child(4) { width: 15%; }
-table td:nth-child …&lt;/style&gt;</summary><content type="html">&lt;style&gt;
+来月もよろしくお願いします。&lt;/p&gt;
+&lt;style&gt;
 table th { text-align: center; }
 table td {
   font-size: calc(60% + 0.3vw);
@@ -545,9 +590,90 @@ table th:nth-child(5) { width: 7%; }
 table td:nth-child(5) { text-align: center; }
 table th:nth-child(6) { width: 7%; }
 table td:nth-child(6) { text-align: center; }
-&lt;/style&gt;
+&lt;/style&gt;</content><category term="Ranking"></category></entry><entry><title>2019年2月のランキング発表</title><link href="https://evekatsu.github.io/news/ranking-2019-2.html" rel="alternate"></link><published>2019-03-12T00:00:00+09:00</published><updated>2019-03-12T00:00:00+09:00</updated><author><name>Bot</name></author><id>tag:evekatsu.github.io,2019-03-12:/news/ranking-2019-2.html</id><summary type="html">&lt;p&gt;今月もお疲れ様でした。&lt;br&gt;
+&lt;a href="https://evekatsu.github.io/ranking/?date=2019-2" target="_blank"&gt;2019年2月の日本人PvPランキングの発表です。&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;注意事項：これは2019年03月12日に集計したものです。それ以降に投稿されたキルメールは集計対象外です。&lt;/p&gt;
+&lt;h3&gt;&lt;a href="https://evekatsu.github.io/ranking/?date=2019-2" target="_blank"&gt;トータル&lt;/a&gt;&lt;/h3&gt;
 
-&lt;p&gt;今月もお疲れ様でした。&lt;br&gt;
+&lt;p&gt;対象：所属するコーポレーション、アライアンスを攻撃したキルメールを除く全て（キル順）&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;&lt;span class="glyphicon glyphicon-sort-by-attributes-alt"&gt;&lt;/span&gt;&lt;/th&gt;
+&lt;th&gt;&lt;span class="glyphicon glyphicon-user"&gt;&lt;/span&gt;&lt;/th&gt;
+&lt;th&gt;&lt;span class="glyphicon glyphicon-plus"&gt;&lt;/span&gt;&lt;/th&gt;
+&lt;th&gt;&lt;span class="glyphicon glyphicon-minus"&gt;&lt;/span&gt;&lt;/th&gt;
+&lt;th&gt;&lt;span class="glyphicon glyphicon-tower"&gt;&lt;/span&gt;&lt;/th&gt;
+&lt;th&gt;&lt;span class="glyphicon glyphicon-star"&gt;&lt;/span&gt;&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;1&lt;/td&gt;
+&lt;td&gt;&lt;img style="margin: 0px; width: 25px; display: inline; vertical-align:middle;" src="https://evekatsu.github.io/data/character/95526304_32.jpg"&gt; Winter Lewin&lt;/td&gt;
+&lt;td&gt;1285&lt;/td&gt;
+&lt;td&gt;35&lt;/td&gt;
+&lt;td&gt;&lt;img style="margin: 0px; width: 25px; display: inline; vertical-align:middle;" src="https://evekatsu.github.io/data/corporation/98418839_32.png"&gt;&lt;/td&gt;
+&lt;td&gt;&lt;img style="margin: 0px; width: 25px; display: inline; vertical-align:middle;" src="https://evekatsu.github.io/data/alliance/99006941_32.png"&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;2&lt;/td&gt;
+&lt;td&gt;&lt;img style="margin: 0px; width: 25px; display: inline; vertical-align:middle;" src="https://evekatsu.github.io/data/character/2112685569_32.jpg"&gt; Willis Virpio&lt;/td&gt;
+&lt;td&gt;400&lt;/td&gt;
+&lt;td&gt;12&lt;/td&gt;
+&lt;td&gt;&lt;img style="margin: 0px; width: 25px; display: inline; vertical-align:middle;" src="https://evekatsu.github.io/data/corporation/98476559_32.png"&gt;&lt;/td&gt;
+&lt;td&gt;&lt;img style="margin: 0px; width: 25px; display: inline; vertical-align:middle;" src="https://evekatsu.github.io/data/alliance/1354830081_32.png"&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;3&lt;/td&gt;
+&lt;td&gt;&lt;img style="margin: 0px; width: 25px; display: inline; vertical-align:middle;" src="https://evekatsu.github.io/data/character/95562357_32.jpg"&gt; Motizuki Alex&lt;/td&gt;
+&lt;td&gt;390&lt;/td&gt;
+&lt;td&gt;6&lt;/td&gt;
+&lt;td&gt;&lt;img style="margin: 0px; width: 25px; display: inline; vertical-align:middle;" src="https://evekatsu.github.io/data/corporation/98418839_32.png"&gt;&lt;/td&gt;
+&lt;td&gt;&lt;img style="margin: 0px; width: 25px; display: inline; vertical-align:middle;" src="https://evekatsu.github.io/data/alliance/99006941_32.png"&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;4&lt;/td&gt;
+&lt;td&gt;&lt;img style="margin: 0px; width: 25px; display: inline; vertical-align:middle;" src="https://evekatsu.github.io/data/character/95951870_32.jpg"&gt; Mary Seagal&lt;/td&gt;
+&lt;td&gt;305&lt;/td&gt;
+&lt;td&gt;13&lt;/td&gt;
+&lt;td&gt;&lt;img style="margin: 0px; width: 25px; display: inline; vertical-align:middle;" src="https://evekatsu.github.io/data/corporation/98476559_32.png"&gt;&lt;/td&gt;
+&lt;td&gt;&lt;img style="margin: 0px; width: 25px; display: inline; vertical-align:middle;" src="https://evekatsu.github.io/data/alliance/1354830081_32.png"&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;5&lt;/td&gt;
+&lt;td&gt;&lt;img style="margin: 0px; width: 25px; display: inline; vertical-align:middle;" src="https://evekatsu.github.io/data/character/94127438_32.jpg"&gt; Night Cap&lt;/td&gt;
+&lt;td&gt;285&lt;/td&gt;
+&lt;td&gt;9&lt;/td&gt;
+&lt;td&gt;&lt;img style="margin: 0px; width: 25px; display: inline; vertical-align:middle;" src="https://evekatsu.github.io/data/corporation/98572367_32.png"&gt;&lt;/td&gt;
+&lt;td&gt;&lt;img style="margin: 0px; width: 25px; display: inline; vertical-align:middle;" src="https://evekatsu.github.io/data/alliance/99006941_32.png"&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;6&lt;/td&gt;
+&lt;td&gt;&lt;img style="margin: 0px; width: 25px; display: inline; vertical-align:middle;" src="https://evekatsu.github.io/data/character/95799510_32.jpg"&gt; Ouki S&lt;/td&gt;
+&lt;td&gt;260&lt;/td&gt;
+&lt;td&gt;11&lt;/td&gt;
+&lt;td&gt;&lt;img style="margin: 0px; width: 25px; display: inline; vertical-align:middle;" src="https://evekatsu.github.io/data/corporation/98476559_32.png"&gt;&lt;/td&gt;
+&lt;td&gt;&lt;img style="margin: 0px; width: 25px; display: inline; vertical-align:middle;" src="https://evekatsu.github.io/data/alliance/1354830081_32.png"&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;7&lt;/td&gt;
+&lt;td&gt;&lt;img style="margin: 0px; width: 25px; display: inline; vertical-align:middle;" src="https://evekatsu.github.io/data/character/2113096235_32.jpg"&gt; chiva darkblue&lt;/td&gt;
+&lt;td&gt;256&lt;/td&gt;
+&lt;td&gt;3&lt;/td&gt;
+&lt;td&gt;&lt;img style="margin: 0px; width: 25px; display: inline; vertical-align:middle;" src="https://evekatsu.github.io/data/corporation/98476559_32.png"&gt;&lt;/td&gt;
+&lt;td&gt;&lt;img style="margin: 0px; width: 25px; display: inline; vertical-align:middle;" src="https://evekatsu.github.io/data/alliance/1354830081_32.png"&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;8&lt;/td&gt;
+&lt;td&gt;&lt;img style="margin: 0px; width: 25px; display: inline; vertical-align:middle;" src="https://evekatsu.github.io/data/character/91546798_32.jpg"&gt; LTLBAZAAR&lt;/td&gt;
+&lt;td&gt;192&lt;/td&gt;
+&lt;td&gt;7&lt;/td&gt;
+&lt;td&gt;&lt;img style="margin: 0px; width: 25px; display: inline; vertical-align:middle;" src="https://evekatsu.github.io/data/corporation/98217414_32.png"&gt;&lt;/td&gt;
+&lt;td&gt;&lt;img style="margin: 0px; width: 25px; display: inline; vertical-align:middle;" src="https://evekatsu.github.io/data/alliance/99006941_32.png"&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;9 …&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;</summary><content type="html">&lt;p&gt;今月もお疲れ様でした。&lt;br&gt;
 &lt;a href="https://evekatsu.github.io/ranking/?date=2019-2" target="_blank"&gt;2019年2月の日本人PvPランキングの発表です。&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;注意事項：これは2019年03月12日に集計したものです。それ以降に投稿されたキルメールは集計対象外です。&lt;/p&gt;
 &lt;h3&gt;&lt;a href="https://evekatsu.github.io/ranking/?date=2019-2" target="_blank"&gt;トータル&lt;/a&gt;&lt;/h3&gt;
@@ -1037,18 +1163,8 @@ table td:nth-child(6) { text-align: center; }
 &lt;/table&gt;
 &lt;p&gt;&lt;br /&gt;
 毎月10日にその前の月のキルメールを集計します。&lt;br&gt;
-来月もよろしくお願いします。&lt;/p&gt;</content><category term="Ranking"></category></entry><entry><title>2019年1月のランキング発表</title><link href="https://evekatsu.github.io/news/ranking-2019-1.html" rel="alternate"></link><published>2019-02-20T00:00:00+09:00</published><updated>2019-02-20T00:00:00+09:00</updated><author><name>Bot</name></author><id>tag:evekatsu.github.io,2019-02-20:/news/ranking-2019-1.html</id><summary type="html">&lt;style&gt;
-table th { text-align: center; }
-table td {
-  font-size: calc(60% + 0.3vw);
-}
-table th:nth-child(1) { width: 7%; }
-table td:nth-child(1) { text-align: center; }
-table th:nth-child(2) { width: 49%; }
-table th:nth-child(3) { width: 15%; }
-table td:nth-child(3) { text-align: right; }
-table th:nth-child(4) { width: 15%; }
-table td:nth-child …&lt;/style&gt;</summary><content type="html">&lt;style&gt;
+来月もよろしくお願いします。&lt;/p&gt;
+&lt;style&gt;
 table th { text-align: center; }
 table td {
   font-size: calc(60% + 0.3vw);
@@ -1064,9 +1180,91 @@ table th:nth-child(5) { width: 7%; }
 table td:nth-child(5) { text-align: center; }
 table th:nth-child(6) { width: 7%; }
 table td:nth-child(6) { text-align: center; }
-&lt;/style&gt;
+&lt;/style&gt;</content><category term="Ranking"></category></entry><entry><title>2019年1月のランキング発表</title><link href="https://evekatsu.github.io/news/ranking-2019-1.html" rel="alternate"></link><published>2019-02-20T00:00:00+09:00</published><updated>2019-02-20T00:00:00+09:00</updated><author><name>Bot</name></author><id>tag:evekatsu.github.io,2019-02-20:/news/ranking-2019-1.html</id><summary type="html">&lt;p&gt;今月もお疲れ様でした。&lt;br&gt;
+&lt;a href="https://evekatsu.github.io/ranking/?date=2019-1" target="_blank"&gt;2019年1月の日本人PvPランキングの発表です。&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;注意事項：これは2019年02月20日に集計したものです。それ以降に投稿されたキルメールは集計対象外です。&lt;/p&gt;
+&lt;h3&gt;&lt;a href="https://evekatsu.github.io/ranking/?date=2019-1" target="_blank"&gt;トータル&lt;/a&gt;&lt;/h3&gt;
 
-&lt;p&gt;今月もお疲れ様でした。&lt;br&gt;
+&lt;p&gt;対象：所属するコーポレーション、アライアンスを攻撃したキルメールを除く全て（キル順）&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;&lt;span class="glyphicon glyphicon-sort-by-attributes-alt"&gt;&lt;/span&gt;&lt;/th&gt;
+&lt;th&gt;&lt;span class="glyphicon glyphicon-user"&gt;&lt;/span&gt;&lt;/th&gt;
+&lt;th&gt;&lt;span class="glyphicon glyphicon-plus"&gt;&lt;/span&gt;&lt;/th&gt;
+&lt;th&gt;&lt;span class="glyphicon glyphicon-minus"&gt;&lt;/span&gt;&lt;/th&gt;
+&lt;th&gt;&lt;span class="glyphicon glyphicon-tower"&gt;&lt;/span&gt;&lt;/th&gt;
+&lt;th&gt;&lt;span class="glyphicon glyphicon-star"&gt;&lt;/span&gt;&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;1&lt;/td&gt;
+&lt;td&gt;&lt;img style="margin: 0px; width: 25px; display: inline; vertical-align:middle;" src="https://evekatsu.github.io/data/character/95235307_32.jpg"&gt; Takuya Gogiko&lt;/td&gt;
+&lt;td&gt;363&lt;/td&gt;
+&lt;td&gt;124&lt;/td&gt;
+&lt;td&gt;&lt;img style="margin: 0px; width: 25px; display: inline; vertical-align:middle;" src="https://evekatsu.github.io/data/corporation/306830202_32.png"&gt;&lt;/td&gt;
+&lt;td&gt;&lt;img style="margin: 0px; width: 25px; display: inline; vertical-align:middle;" src="https://evekatsu.github.io/data/alliance/99004357_32.png"&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;2&lt;/td&gt;
+&lt;td&gt;&lt;img style="margin: 0px; width: 25px; display: inline; vertical-align:middle;" src="https://evekatsu.github.io/data/character/95799510_32.jpg"&gt; Ouki S&lt;/td&gt;
+&lt;td&gt;311&lt;/td&gt;
+&lt;td&gt;17&lt;/td&gt;
+&lt;td&gt;&lt;img style="margin: 0px; width: 25px; display: inline; vertical-align:middle;" src="https://evekatsu.github.io/data/corporation/98476559_32.png"&gt;&lt;/td&gt;
+&lt;td&gt;&lt;img style="margin: 0px; width: 25px; display: inline; vertical-align:middle;" src="https://evekatsu.github.io/data/alliance/1354830081_32.png"&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;3&lt;/td&gt;
+&lt;td&gt;&lt;img style="margin: 0px; width: 25px; display: inline; vertical-align:middle;" src="https://evekatsu.github.io/data/character/2113036332_32.jpg"&gt; Estela Tekitsu&lt;/td&gt;
+&lt;td&gt;207&lt;/td&gt;
+&lt;td&gt;12&lt;/td&gt;
+&lt;td&gt;&lt;img style="margin: 0px; width: 25px; display: inline; vertical-align:middle;" src="https://evekatsu.github.io/data/corporation/98476559_32.png"&gt;&lt;/td&gt;
+&lt;td&gt;&lt;img style="margin: 0px; width: 25px; display: inline; vertical-align:middle;" src="https://evekatsu.github.io/data/alliance/1354830081_32.png"&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;4&lt;/td&gt;
+&lt;td&gt;&lt;img style="margin: 0px; width: 25px; display: inline; vertical-align:middle;" src="https://evekatsu.github.io/data/character/2112685569_32.jpg"&gt; Willis Virpio&lt;/td&gt;
+&lt;td&gt;199&lt;/td&gt;
+&lt;td&gt;1&lt;/td&gt;
+&lt;td&gt;&lt;img style="margin: 0px; width: 25px; display: inline; vertical-align:middle;" src="https://evekatsu.github.io/data/corporation/98476559_32.png"&gt;&lt;/td&gt;
+&lt;td&gt;&lt;img style="margin: 0px; width: 25px; display: inline; vertical-align:middle;" src="https://evekatsu.github.io/data/alliance/1354830081_32.png"&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;5&lt;/td&gt;
+&lt;td&gt;&lt;img style="margin: 0px; width: 25px; display: inline; vertical-align:middle;" src="https://evekatsu.github.io/data/character/95951870_32.jpg"&gt; Mary Seagal&lt;/td&gt;
+&lt;td&gt;188&lt;/td&gt;
+&lt;td&gt;8&lt;/td&gt;
+&lt;td&gt;&lt;img style="margin: 0px; width: 25px; display: inline; vertical-align:middle;" src="https://evekatsu.github.io/data/corporation/98476559_32.png"&gt;&lt;/td&gt;
+&lt;td&gt;&lt;img style="margin: 0px; width: 25px; display: inline; vertical-align:middle;" src="https://evekatsu.github.io/data/alliance/1354830081_32.png"&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;6&lt;/td&gt;
+&lt;td&gt;&lt;img style="margin: 0px; width: 25px; display: inline; vertical-align:middle;" src="https://evekatsu.github.io/data/character/2112017275_32.jpg"&gt; xkamox&lt;/td&gt;
+&lt;td&gt;173&lt;/td&gt;
+&lt;td&gt;5&lt;/td&gt;
+&lt;td&gt;&lt;img style="margin: 0px; width: 25px; display: inline; vertical-align:middle;" src="https://evekatsu.github.io/data/corporation/98055960_32.png"&gt;&lt;/td&gt;
+&lt;td&gt;&lt;img style="margin: 0px; width: 25px; display: inline; vertical-align:middle;" src="https://evekatsu.github.io/data/alliance/99001954_32.png"&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;7&lt;/td&gt;
+&lt;td&gt;&lt;img style="margin: 0px; width: 25px; display: inline; vertical-align:middle;" src="https://evekatsu.github.io/data/character/94127438_32.jpg"&gt; Night Cap&lt;/td&gt;
+&lt;td&gt;159&lt;/td&gt;
+&lt;td&gt;13&lt;/td&gt;
+&lt;td&gt;&lt;img style="margin: 0px; width: 25px; display: inline; vertical-align:middle;" src="https://evekatsu.github.io/data/corporation/98572367_32.png"&gt;&lt;/td&gt;
+&lt;td&gt;&lt;img style="margin: 0px; width: 25px; display: inline; vertical-align:middle;" src="https://evekatsu.github.io/data/alliance/99006941_32.png"&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;8&lt;/td&gt;
+&lt;td&gt;&lt;img style="margin: 0px; width: 25px; display: inline; vertical-align:middle;" src="https://evekatsu.github.io/data/character/94500364_32.jpg"&gt; Kentlarquis&lt;/td&gt;
+&lt;td&gt;146&lt;/td&gt;
+&lt;td&gt;12&lt;/td&gt;
+&lt;td&gt;&lt;img style="margin: 0px; width: 25px; display: inline; vertical-align:middle;" src="https://evekatsu.github.io/data/corporation/98574865_32.png"&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;9&lt;/td&gt;
+&lt;td&gt;&lt;img style="margin: 0px; width: 25px; display: inline; vertical-align:middle;" src="https://evekatsu.github.io/data/character/95562357_32.jpg"&gt; Motizuki …&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;</summary><content type="html">&lt;p&gt;今月もお疲れ様でした。&lt;br&gt;
 &lt;a href="https://evekatsu.github.io/ranking/?date=2019-1" target="_blank"&gt;2019年1月の日本人PvPランキングの発表です。&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;注意事項：これは2019年02月20日に集計したものです。それ以降に投稿されたキルメールは集計対象外です。&lt;/p&gt;
 &lt;h3&gt;&lt;a href="https://evekatsu.github.io/ranking/?date=2019-1" target="_blank"&gt;トータル&lt;/a&gt;&lt;/h3&gt;
@@ -1556,18 +1754,8 @@ table td:nth-child(6) { text-align: center; }
 &lt;/table&gt;
 &lt;p&gt;&lt;br /&gt;
 毎月10日にその前の月のキルメールを集計します。&lt;br&gt;
-来月もよろしくお願いします。&lt;/p&gt;</content><category term="Ranking"></category></entry><entry><title>2018年12月のランキング発表</title><link href="https://evekatsu.github.io/news/ranking-2018-12.html" rel="alternate"></link><published>2019-01-19T00:00:00+09:00</published><updated>2019-01-19T00:00:00+09:00</updated><author><name>Bot</name></author><id>tag:evekatsu.github.io,2019-01-19:/news/ranking-2018-12.html</id><summary type="html">&lt;style&gt;
-table th { text-align: center; }
-table td {
-  font-size: calc(60% + 0.3vw);
-}
-table th:nth-child(1) { width: 7%; }
-table td:nth-child(1) { text-align: center; }
-table th:nth-child(2) { width: 49%; }
-table th:nth-child(3) { width: 15%; }
-table td:nth-child(3) { text-align: right; }
-table th:nth-child(4) { width: 15%; }
-table td:nth-child …&lt;/style&gt;</summary><content type="html">&lt;style&gt;
+来月もよろしくお願いします。&lt;/p&gt;
+&lt;style&gt;
 table th { text-align: center; }
 table td {
   font-size: calc(60% + 0.3vw);
@@ -1583,9 +1771,85 @@ table th:nth-child(5) { width: 7%; }
 table td:nth-child(5) { text-align: center; }
 table th:nth-child(6) { width: 7%; }
 table td:nth-child(6) { text-align: center; }
-&lt;/style&gt;
+&lt;/style&gt;</content><category term="Ranking"></category></entry><entry><title>2018年12月のランキング発表</title><link href="https://evekatsu.github.io/news/ranking-2018-12.html" rel="alternate"></link><published>2019-01-19T00:00:00+09:00</published><updated>2019-01-19T00:00:00+09:00</updated><author><name>Bot</name></author><id>tag:evekatsu.github.io,2019-01-19:/news/ranking-2018-12.html</id><summary type="html">&lt;p&gt;今月もお疲れ様でした。&lt;br&gt;
+&lt;a href="https://evekatsu.github.io/ranking/?date=2018-12" target="_blank"&gt;2018年12月の日本人PvPランキングの発表です。&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;注意事項：これは2019年01月19日に集計したものです。それ以降に投稿されたキルメールは集計対象外です。&lt;/p&gt;
+&lt;h3&gt;&lt;a href="https://evekatsu.github.io/ranking/?date=2018-12" target="_blank"&gt;トータル&lt;/a&gt;&lt;/h3&gt;
 
-&lt;p&gt;今月もお疲れ様でした。&lt;br&gt;
+&lt;p&gt;対象：所属するコーポレーション、アライアンスを攻撃したキルメールを除く全て（キル順）&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;&lt;span class="glyphicon glyphicon-sort-by-attributes-alt"&gt;&lt;/span&gt;&lt;/th&gt;
+&lt;th&gt;&lt;span class="glyphicon glyphicon-user"&gt;&lt;/span&gt;&lt;/th&gt;
+&lt;th&gt;&lt;span class="glyphicon glyphicon-plus"&gt;&lt;/span&gt;&lt;/th&gt;
+&lt;th&gt;&lt;span class="glyphicon glyphicon-minus"&gt;&lt;/span&gt;&lt;/th&gt;
+&lt;th&gt;&lt;span class="glyphicon glyphicon-tower"&gt;&lt;/span&gt;&lt;/th&gt;
+&lt;th&gt;&lt;span class="glyphicon glyphicon-star"&gt;&lt;/span&gt;&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;1&lt;/td&gt;
+&lt;td&gt;&lt;img style="margin: 0px; width: 25px; display: inline; vertical-align:middle;" src="https://evekatsu.github.io/data/character/95951870_32.jpg"&gt; Mary Seagal&lt;/td&gt;
+&lt;td&gt;508&lt;/td&gt;
+&lt;td&gt;18&lt;/td&gt;
+&lt;td&gt;&lt;img style="margin: 0px; width: 25px; display: inline; vertical-align:middle;" src="https://evekatsu.github.io/data/corporation/98476559_32.png"&gt;&lt;/td&gt;
+&lt;td&gt;&lt;img style="margin: 0px; width: 25px; display: inline; vertical-align:middle;" src="https://evekatsu.github.io/data/alliance/1354830081_32.png"&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;2&lt;/td&gt;
+&lt;td&gt;&lt;img style="margin: 0px; width: 25px; display: inline; vertical-align:middle;" src="https://evekatsu.github.io/data/character/95799510_32.jpg"&gt; Ouki S&lt;/td&gt;
+&lt;td&gt;471&lt;/td&gt;
+&lt;td&gt;15&lt;/td&gt;
+&lt;td&gt;&lt;img style="margin: 0px; width: 25px; display: inline; vertical-align:middle;" src="https://evekatsu.github.io/data/corporation/98476559_32.png"&gt;&lt;/td&gt;
+&lt;td&gt;&lt;img style="margin: 0px; width: 25px; display: inline; vertical-align:middle;" src="https://evekatsu.github.io/data/alliance/1354830081_32.png"&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;3&lt;/td&gt;
+&lt;td&gt;&lt;img style="margin: 0px; width: 25px; display: inline; vertical-align:middle;" src="https://evekatsu.github.io/data/character/96342731_32.jpg"&gt; Draqolas Windfury&lt;/td&gt;
+&lt;td&gt;465&lt;/td&gt;
+&lt;td&gt;21&lt;/td&gt;
+&lt;td&gt;&lt;img style="margin: 0px; width: 25px; display: inline; vertical-align:middle;" src="https://evekatsu.github.io/data/corporation/98476559_32.png"&gt;&lt;/td&gt;
+&lt;td&gt;&lt;img style="margin: 0px; width: 25px; display: inline; vertical-align:middle;" src="https://evekatsu.github.io/data/alliance/1354830081_32.png"&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;4&lt;/td&gt;
+&lt;td&gt;&lt;img style="margin: 0px; width: 25px; display: inline; vertical-align:middle;" src="https://evekatsu.github.io/data/character/95526304_32.jpg"&gt; Winter Lewin&lt;/td&gt;
+&lt;td&gt;245&lt;/td&gt;
+&lt;td&gt;11&lt;/td&gt;
+&lt;td&gt;&lt;img style="margin: 0px; width: 25px; display: inline; vertical-align:middle;" src="https://evekatsu.github.io/data/corporation/98418839_32.png"&gt;&lt;/td&gt;
+&lt;td&gt;&lt;img style="margin: 0px; width: 25px; display: inline; vertical-align:middle;" src="https://evekatsu.github.io/data/alliance/99006941_32.png"&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;5&lt;/td&gt;
+&lt;td&gt;&lt;img style="margin: 0px; width: 25px; display: inline; vertical-align:middle;" src="https://evekatsu.github.io/data/character/95235307_32.jpg"&gt; Takuya Gogiko&lt;/td&gt;
+&lt;td&gt;210&lt;/td&gt;
+&lt;td&gt;95&lt;/td&gt;
+&lt;td&gt;&lt;img style="margin: 0px; width: 25px; display: inline; vertical-align:middle;" src="https://evekatsu.github.io/data/corporation/306830202_32.png"&gt;&lt;/td&gt;
+&lt;td&gt;&lt;img style="margin: 0px; width: 25px; display: inline; vertical-align:middle;" src="https://evekatsu.github.io/data/alliance/99004357_32.png"&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;6&lt;/td&gt;
+&lt;td&gt;&lt;img style="margin: 0px; width: 25px; display: inline; vertical-align:middle;" src="https://evekatsu.github.io/data/character/95451107_32.jpg"&gt; Degge Sfures&lt;/td&gt;
+&lt;td&gt;179&lt;/td&gt;
+&lt;td&gt;7&lt;/td&gt;
+&lt;td&gt;&lt;img style="margin: 0px; width: 25px; display: inline; vertical-align:middle;" src="https://evekatsu.github.io/data/corporation/98476559_32.png"&gt;&lt;/td&gt;
+&lt;td&gt;&lt;img style="margin: 0px; width: 25px; display: inline; vertical-align:middle;" src="https://evekatsu.github.io/data/alliance/1354830081_32.png"&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;7&lt;/td&gt;
+&lt;td&gt;&lt;img style="margin: 0px; width: 25px; display: inline; vertical-align:middle;" src="https://evekatsu.github.io/data/character/91971344_32.jpg"&gt; kinnp kyou&lt;/td&gt;
+&lt;td&gt;172&lt;/td&gt;
+&lt;td&gt;5&lt;/td&gt;
+&lt;td&gt;&lt;img style="margin: 0px; width: 25px; display: inline; vertical-align:middle;" src="https://evekatsu.github.io/data/corporation/98217414_32.png"&gt;&lt;/td&gt;
+&lt;td&gt;&lt;img style="margin: 0px; width: 25px; display: inline; vertical-align:middle;" src="https://evekatsu.github.io/data/alliance/99006941_32.png"&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;8&lt;/td&gt;
+&lt;td&gt;&lt;img style="margin: 0px; width: 25px; display: inline; vertical-align:middle;" src="https://evekatsu.github.io/data/character/2112685569_32.jpg"&gt; Willis Virpio&lt;/td&gt;
+&lt;td&gt;152&lt;/td&gt;
+&lt;td&gt;2 …&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;</summary><content type="html">&lt;p&gt;今月もお疲れ様でした。&lt;br&gt;
 &lt;a href="https://evekatsu.github.io/ranking/?date=2018-12" target="_blank"&gt;2018年12月の日本人PvPランキングの発表です。&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;注意事項：これは2019年01月19日に集計したものです。それ以降に投稿されたキルメールは集計対象外です。&lt;/p&gt;
 &lt;h3&gt;&lt;a href="https://evekatsu.github.io/ranking/?date=2018-12" target="_blank"&gt;トータル&lt;/a&gt;&lt;/h3&gt;
@@ -2075,18 +2339,8 @@ table td:nth-child(6) { text-align: center; }
 &lt;/table&gt;
 &lt;p&gt;&lt;br /&gt;
 毎月10日にその前の月のキルメールを集計します。&lt;br&gt;
-来月もよろしくお願いします。&lt;/p&gt;</content><category term="Ranking"></category></entry><entry><title>2018年11月のランキング発表</title><link href="https://evekatsu.github.io/news/ranking-2018-11.html" rel="alternate"></link><published>2018-12-11T00:00:00+09:00</published><updated>2018-12-11T00:00:00+09:00</updated><author><name>Bot</name></author><id>tag:evekatsu.github.io,2018-12-11:/news/ranking-2018-11.html</id><summary type="html">&lt;style&gt;
-table th { text-align: center; }
-table td {
-  font-size: calc(60% + 0.3vw);
-}
-table th:nth-child(1) { width: 7%; }
-table td:nth-child(1) { text-align: center; }
-table th:nth-child(2) { width: 49%; }
-table th:nth-child(3) { width: 15%; }
-table td:nth-child(3) { text-align: right; }
-table th:nth-child(4) { width: 15%; }
-table td:nth-child …&lt;/style&gt;</summary><content type="html">&lt;style&gt;
+来月もよろしくお願いします。&lt;/p&gt;
+&lt;style&gt;
 table th { text-align: center; }
 table td {
   font-size: calc(60% + 0.3vw);
@@ -2102,9 +2356,85 @@ table th:nth-child(5) { width: 7%; }
 table td:nth-child(5) { text-align: center; }
 table th:nth-child(6) { width: 7%; }
 table td:nth-child(6) { text-align: center; }
-&lt;/style&gt;
+&lt;/style&gt;</content><category term="Ranking"></category></entry><entry><title>2018年11月のランキング発表</title><link href="https://evekatsu.github.io/news/ranking-2018-11.html" rel="alternate"></link><published>2018-12-11T00:00:00+09:00</published><updated>2018-12-11T00:00:00+09:00</updated><author><name>Bot</name></author><id>tag:evekatsu.github.io,2018-12-11:/news/ranking-2018-11.html</id><summary type="html">&lt;p&gt;今月もお疲れ様でした。&lt;br&gt;
+&lt;a href="https://evekatsu.github.io/ranking/?date=2018-11" target="_blank"&gt;2018年11月の日本人PvPランキングの発表です。&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;注意事項：これは2018年12月11日に集計したものです。それ以降に投稿されたキルメールは集計対象外です。&lt;/p&gt;
+&lt;h3&gt;&lt;a href="https://evekatsu.github.io/ranking/?date=2018-11" target="_blank"&gt;トータル&lt;/a&gt;&lt;/h3&gt;
 
-&lt;p&gt;今月もお疲れ様でした。&lt;br&gt;
+&lt;p&gt;対象：所属するコーポレーション、アライアンスを攻撃したキルメールを除く全て（キル順）&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;&lt;span class="glyphicon glyphicon-sort-by-attributes-alt"&gt;&lt;/span&gt;&lt;/th&gt;
+&lt;th&gt;&lt;span class="glyphicon glyphicon-user"&gt;&lt;/span&gt;&lt;/th&gt;
+&lt;th&gt;&lt;span class="glyphicon glyphicon-plus"&gt;&lt;/span&gt;&lt;/th&gt;
+&lt;th&gt;&lt;span class="glyphicon glyphicon-minus"&gt;&lt;/span&gt;&lt;/th&gt;
+&lt;th&gt;&lt;span class="glyphicon glyphicon-tower"&gt;&lt;/span&gt;&lt;/th&gt;
+&lt;th&gt;&lt;span class="glyphicon glyphicon-star"&gt;&lt;/span&gt;&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;1&lt;/td&gt;
+&lt;td&gt;&lt;img style="margin: 0px; width: 25px; display: inline; vertical-align:middle;" src="https://evekatsu.github.io/data/character/95799510_32.jpg"&gt; Ouki S&lt;/td&gt;
+&lt;td&gt;563&lt;/td&gt;
+&lt;td&gt;23&lt;/td&gt;
+&lt;td&gt;&lt;img style="margin: 0px; width: 25px; display: inline; vertical-align:middle;" src="https://evekatsu.github.io/data/corporation/98476559_32.png"&gt;&lt;/td&gt;
+&lt;td&gt;&lt;img style="margin: 0px; width: 25px; display: inline; vertical-align:middle;" src="https://evekatsu.github.io/data/alliance/1354830081_32.png"&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;2&lt;/td&gt;
+&lt;td&gt;&lt;img style="margin: 0px; width: 25px; display: inline; vertical-align:middle;" src="https://evekatsu.github.io/data/character/95951870_32.jpg"&gt; Mary Seagal&lt;/td&gt;
+&lt;td&gt;396&lt;/td&gt;
+&lt;td&gt;11&lt;/td&gt;
+&lt;td&gt;&lt;img style="margin: 0px; width: 25px; display: inline; vertical-align:middle;" src="https://evekatsu.github.io/data/corporation/98476559_32.png"&gt;&lt;/td&gt;
+&lt;td&gt;&lt;img style="margin: 0px; width: 25px; display: inline; vertical-align:middle;" src="https://evekatsu.github.io/data/alliance/1354830081_32.png"&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;3&lt;/td&gt;
+&lt;td&gt;&lt;img style="margin: 0px; width: 25px; display: inline; vertical-align:middle;" src="https://evekatsu.github.io/data/character/90757686_32.jpg"&gt; Nendo Yama&lt;/td&gt;
+&lt;td&gt;346&lt;/td&gt;
+&lt;td&gt;1&lt;/td&gt;
+&lt;td&gt;&lt;img style="margin: 0px; width: 25px; display: inline; vertical-align:middle;" src="https://evekatsu.github.io/data/corporation/1431056470_32.png"&gt;&lt;/td&gt;
+&lt;td&gt;&lt;img style="margin: 0px; width: 25px; display: inline; vertical-align:middle;" src="https://evekatsu.github.io/data/alliance/99008244_32.png"&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;4&lt;/td&gt;
+&lt;td&gt;&lt;img style="margin: 0px; width: 25px; display: inline; vertical-align:middle;" src="https://evekatsu.github.io/data/character/95526304_32.jpg"&gt; Winter Lewin&lt;/td&gt;
+&lt;td&gt;334&lt;/td&gt;
+&lt;td&gt;10&lt;/td&gt;
+&lt;td&gt;&lt;img style="margin: 0px; width: 25px; display: inline; vertical-align:middle;" src="https://evekatsu.github.io/data/corporation/98418839_32.png"&gt;&lt;/td&gt;
+&lt;td&gt;&lt;img style="margin: 0px; width: 25px; display: inline; vertical-align:middle;" src="https://evekatsu.github.io/data/alliance/99006941_32.png"&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;5&lt;/td&gt;
+&lt;td&gt;&lt;img style="margin: 0px; width: 25px; display: inline; vertical-align:middle;" src="https://evekatsu.github.io/data/character/2112685569_32.jpg"&gt; Willis Virpio&lt;/td&gt;
+&lt;td&gt;328&lt;/td&gt;
+&lt;td&gt;3&lt;/td&gt;
+&lt;td&gt;&lt;img style="margin: 0px; width: 25px; display: inline; vertical-align:middle;" src="https://evekatsu.github.io/data/corporation/98476559_32.png"&gt;&lt;/td&gt;
+&lt;td&gt;&lt;img style="margin: 0px; width: 25px; display: inline; vertical-align:middle;" src="https://evekatsu.github.io/data/alliance/1354830081_32.png"&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;6&lt;/td&gt;
+&lt;td&gt;&lt;img style="margin: 0px; width: 25px; display: inline; vertical-align:middle;" src="https://evekatsu.github.io/data/character/95562357_32.jpg"&gt; Motizuki Alex&lt;/td&gt;
+&lt;td&gt;230&lt;/td&gt;
+&lt;td&gt;3&lt;/td&gt;
+&lt;td&gt;&lt;img style="margin: 0px; width: 25px; display: inline; vertical-align:middle;" src="https://evekatsu.github.io/data/corporation/98418839_32.png"&gt;&lt;/td&gt;
+&lt;td&gt;&lt;img style="margin: 0px; width: 25px; display: inline; vertical-align:middle;" src="https://evekatsu.github.io/data/alliance/99006941_32.png"&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;7&lt;/td&gt;
+&lt;td&gt;&lt;img style="margin: 0px; width: 25px; display: inline; vertical-align:middle;" src="https://evekatsu.github.io/data/character/95451107_32.jpg"&gt; Degge Sfures&lt;/td&gt;
+&lt;td&gt;205&lt;/td&gt;
+&lt;td&gt;11&lt;/td&gt;
+&lt;td&gt;&lt;img style="margin: 0px; width: 25px; display: inline; vertical-align:middle;" src="https://evekatsu.github.io/data/corporation/98476559_32.png"&gt;&lt;/td&gt;
+&lt;td&gt;&lt;img style="margin: 0px; width: 25px; display: inline; vertical-align:middle;" src="https://evekatsu.github.io/data/alliance/1354830081_32.png"&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;8&lt;/td&gt;
+&lt;td&gt;&lt;img style="margin: 0px; width: 25px; display: inline; vertical-align:middle;" src="https://evekatsu.github.io/data/character/2112455939_32.jpg"&gt; Oruoru 123&lt;/td&gt;
+&lt;td&gt;202&lt;/td&gt;
+&lt;td&gt;3 …&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;</summary><content type="html">&lt;p&gt;今月もお疲れ様でした。&lt;br&gt;
 &lt;a href="https://evekatsu.github.io/ranking/?date=2018-11" target="_blank"&gt;2018年11月の日本人PvPランキングの発表です。&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;注意事項：これは2018年12月11日に集計したものです。それ以降に投稿されたキルメールは集計対象外です。&lt;/p&gt;
 &lt;h3&gt;&lt;a href="https://evekatsu.github.io/ranking/?date=2018-11" target="_blank"&gt;トータル&lt;/a&gt;&lt;/h3&gt;
@@ -2594,18 +2924,8 @@ table td:nth-child(6) { text-align: center; }
 &lt;/table&gt;
 &lt;p&gt;&lt;br /&gt;
 毎月10日にその前の月のキルメールを集計します。&lt;br&gt;
-来月もよろしくお願いします。&lt;/p&gt;</content><category term="Ranking"></category></entry><entry><title>2018年10月のランキング発表</title><link href="https://evekatsu.github.io/news/ranking-2018-10.html" rel="alternate"></link><published>2018-11-13T00:00:00+09:00</published><updated>2018-11-13T00:00:00+09:00</updated><author><name>Bot</name></author><id>tag:evekatsu.github.io,2018-11-13:/news/ranking-2018-10.html</id><summary type="html">&lt;style&gt;
-table th { text-align: center; }
-table td {
-  font-size: calc(60% + 0.3vw);
-}
-table th:nth-child(1) { width: 7%; }
-table td:nth-child(1) { text-align: center; }
-table th:nth-child(2) { width: 49%; }
-table th:nth-child(3) { width: 15%; }
-table td:nth-child(3) { text-align: right; }
-table th:nth-child(4) { width: 15%; }
-table td:nth-child …&lt;/style&gt;</summary><content type="html">&lt;style&gt;
+来月もよろしくお願いします。&lt;/p&gt;
+&lt;style&gt;
 table th { text-align: center; }
 table td {
   font-size: calc(60% + 0.3vw);
@@ -2621,9 +2941,74 @@ table th:nth-child(5) { width: 7%; }
 table td:nth-child(5) { text-align: center; }
 table th:nth-child(6) { width: 7%; }
 table td:nth-child(6) { text-align: center; }
-&lt;/style&gt;
-
-&lt;p&gt;今月もお疲れ様でした。&lt;br&gt;
+&lt;/style&gt;</content><category term="Ranking"></category></entry><entry><title>2018年10月のランキング発表</title><link href="https://evekatsu.github.io/news/ranking-2018-10.html" rel="alternate"></link><published>2018-11-13T00:00:00+09:00</published><updated>2018-11-13T00:00:00+09:00</updated><author><name>Bot</name></author><id>tag:evekatsu.github.io,2018-11-13:/news/ranking-2018-10.html</id><summary type="html">&lt;p&gt;今月もお疲れ様でした。&lt;br&gt;
+&lt;a href="https://evekatsu.github.io/ranking/?date=2018-10" target="_blank"&gt;2018年10月の日本人PvPランキングの発表です。&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;注意事項：これは2018年11月13日に集計したものです。それ以降に投稿されたキルメールは集計対象外です。&lt;/p&gt;
+&lt;h3&gt;トータル&lt;/h3&gt;
+&lt;p&gt;対象：所属するコーポレーション、アライアンスを攻撃したキルメールを除く全て（キル順）&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;&lt;/th&gt;
+&lt;th&gt;&lt;a href="https://evekatsu.github.io/ranking/?date=2018-10" target="_blank"&gt;Player&lt;/a&gt;&lt;/th&gt;
+&lt;th&gt;&lt;a href="https://evekatsu.github.io/ranking/?date=2018-10&amp;p=1" target="_blank"&gt;Corp&lt;/a&gt;&lt;/th&gt;
+&lt;th&gt;&lt;a href="https://evekatsu.github.io/ranking/?date=2018-10&amp;p=2" target="_blank"&gt;Ally&lt;/a&gt;&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;1&lt;/td&gt;
+&lt;td&gt;&lt;img style="margin: 0px; width: 25px; display: inline; vertical-align:middle;" src="https://evekatsu.github.io/data/character/95951870_32.jpg"&gt; Mary Seagal&lt;/td&gt;
+&lt;td&gt;&lt;img style="margin: 0px; width: 25px; display: inline; vertical-align:middle;" src="https://evekatsu.github.io/data/corporation/98476559_32.png"&gt; ONCBN&lt;/td&gt;
+&lt;td&gt;&lt;img style="margin: 0px; width: 25px; display: inline; vertical-align:middle;" src="https://evekatsu.github.io/data/alliance/1354830081_32.png"&gt; CONDI&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;2&lt;/td&gt;
+&lt;td&gt;&lt;img style="margin: 0px; width: 25px; display: inline; vertical-align:middle;" src="https://evekatsu.github.io/data/character/90757686_32.jpg"&gt; Nendo Yama&lt;/td&gt;
+&lt;td&gt;&lt;img style="margin: 0px; width: 25px; display: inline; vertical-align:middle;" src="https://evekatsu.github.io/data/corporation/1431056470_32.png"&gt; 0RIGN&lt;/td&gt;
+&lt;td&gt;&lt;img style="margin: 0px; width: 25px; display: inline; vertical-align:middle;" src="https://evekatsu.github.io/data/alliance/99006941_32.png"&gt; SGGRN&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;3&lt;/td&gt;
+&lt;td&gt;&lt;img style="margin: 0px; width: 25px; display: inline; vertical-align:middle;" src="https://evekatsu.github.io/data/character/95799510_32.jpg"&gt; Ouki S&lt;/td&gt;
+&lt;td&gt;&lt;img style="margin: 0px; width: 25px; display: inline; vertical-align:middle;" src="https://evekatsu.github.io/data/corporation/98418839_32.png"&gt; B-PIX&lt;/td&gt;
+&lt;td&gt;&lt;img style="margin: 0px; width: 25px; display: inline; vertical-align:middle;" src="https://evekatsu.github.io/data/alliance/99008244_32.png"&gt; .MEN.&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;4&lt;/td&gt;
+&lt;td&gt;&lt;img style="margin: 0px; width: 25px; display: inline; vertical-align:middle;" src="https://evekatsu.github.io/data/character/95526304_32.jpg"&gt; Winter Lewin&lt;/td&gt;
+&lt;td&gt;&lt;img style="margin: 0px; width: 25px; display: inline; vertical-align:middle;" src="https://evekatsu.github.io/data/corporation/98217414_32.png"&gt; FESTA&lt;/td&gt;
+&lt;td&gt;&lt;img style="margin: 0px; width: 25px; display: inline; vertical-align:middle;" src="https://evekatsu.github.io/data/alliance/99001954_32.png"&gt; -000-&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;5&lt;/td&gt;
+&lt;td&gt;&lt;img style="margin: 0px; width: 25px; display: inline; vertical-align:middle;" src="https://evekatsu.github.io/data/character/96342731_32.jpg"&gt; Draqolas Windfury&lt;/td&gt;
+&lt;td&gt;&lt;img style="margin: 0px; width: 25px; display: inline; vertical-align:middle;" src="https://evekatsu.github.io/data/corporation/98572367_32.png"&gt; S-OWL&lt;/td&gt;
+&lt;td&gt;&lt;img style="margin: 0px; width: 25px; display: inline; vertical-align:middle;" src="https://evekatsu.github.io/data/alliance/99006138_32.png"&gt; KATNA&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;h3&gt;ソロ&lt;/h3&gt;
+&lt;p&gt;対象：キルメールにソロキルのフラグが付いている（ポイント順）&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;&lt;/th&gt;
+&lt;th&gt;&lt;a href="https://evekatsu.github.io/ranking/?date=2018-10&amp;k=0" target="_blank"&gt;Player&lt;/a&gt;&lt;/th&gt;
+&lt;th&gt;&lt;a href="https://evekatsu.github.io/ranking/?date=2018-10&amp;k=0&amp;p=1" target="_blank"&gt;Corp&lt;/a&gt;&lt;/th&gt;
+&lt;th&gt;&lt;a href="https://evekatsu.github.io/ranking/?date=2018-10&amp;k=0&amp;p=2" target="_blank"&gt;Ally&lt;/a&gt;&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;1&lt;/td&gt;
+&lt;td&gt;&lt;img style="margin: 0px; width: 25px; display: inline; vertical-align:middle;" src="https://evekatsu.github.io/data/character/94500364_32.jpg"&gt; Kentlarquis&lt;/td&gt;
+&lt;td&gt;&lt;img style="margin: 0px; width: 25px; display: inline; vertical-align:middle;" src="https://evekatsu.github.io/data/corporation/98418839_32.png"&gt; B-PIX&lt;/td&gt;
+&lt;td&gt;&lt;img style="margin: 0px; width: 25px; display: inline; vertical-align:middle;" src="https://evekatsu.github.io/data/alliance/99006941_32.png"&gt; SGGRN&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;2 …&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;</summary><content type="html">&lt;p&gt;今月もお疲れ様でした。&lt;br&gt;
 &lt;a href="https://evekatsu.github.io/ranking/?date=2018-10" target="_blank"&gt;2018年10月の日本人PvPランキングの発表です。&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;注意事項：これは2018年11月13日に集計したものです。それ以降に投稿されたキルメールは集計対象外です。&lt;/p&gt;
 &lt;h3&gt;トータル&lt;/h3&gt;
@@ -2853,18 +3238,8 @@ table td:nth-child(6) { text-align: center; }
 &lt;p&gt;&lt;br /&gt;
 &lt;br /&gt;
 毎月10日にその前の月のキルメールを集計します。&lt;br&gt;
-来月もよろしくお願いします。&lt;/p&gt;</content><category term="Ranking"></category></entry><entry><title>2018年9月のランキング発表</title><link href="https://evekatsu.github.io/news/ranking-2018-9.html" rel="alternate"></link><published>2018-10-17T00:00:00+09:00</published><updated>2018-10-17T00:00:00+09:00</updated><author><name>Bot</name></author><id>tag:evekatsu.github.io,2018-10-17:/news/ranking-2018-9.html</id><summary type="html">&lt;style&gt;
-table th { text-align: center; }
-table td {
-  font-size: calc(60% + 0.3vw);
-}
-table th:nth-child(1) { width: 7%; }
-table td:nth-child(1) { text-align: center; }
-table th:nth-child(2) { width: 49%; }
-table th:nth-child(3) { width: 15%; }
-table td:nth-child(3) { text-align: right; }
-table th:nth-child(4) { width: 15%; }
-table td:nth-child …&lt;/style&gt;</summary><content type="html">&lt;style&gt;
+来月もよろしくお願いします。&lt;/p&gt;
+&lt;style&gt;
 table th { text-align: center; }
 table td {
   font-size: calc(60% + 0.3vw);
@@ -2880,9 +3255,71 @@ table th:nth-child(5) { width: 7%; }
 table td:nth-child(5) { text-align: center; }
 table th:nth-child(6) { width: 7%; }
 table td:nth-child(6) { text-align: center; }
-&lt;/style&gt;
-
-&lt;p&gt;今月もお疲れ様でした。&lt;br&gt;
+&lt;/style&gt;</content><category term="Ranking"></category></entry><entry><title>2018年9月のランキング発表</title><link href="https://evekatsu.github.io/news/ranking-2018-9.html" rel="alternate"></link><published>2018-10-17T00:00:00+09:00</published><updated>2018-10-17T00:00:00+09:00</updated><author><name>Bot</name></author><id>tag:evekatsu.github.io,2018-10-17:/news/ranking-2018-9.html</id><summary type="html">&lt;p&gt;今月もお疲れ様でした。&lt;br&gt;
+&lt;a href="https://evekatsu.github.io/ranking/?date=2018-9" target="_blank"&gt;2018年9月の日本人PvPランキングの発表です。&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;注意事項：これは2018年10月17日に集計したものです。それ以降に投稿されたキルメールは集計対象外です。&lt;/p&gt;
+&lt;h3&gt;トータル&lt;/h3&gt;
+&lt;p&gt;対象：所属するコーポレーション、アライアンスを攻撃したキルメールを除く全て（キル順）&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;&lt;/th&gt;
+&lt;th&gt;&lt;a href="https://evekatsu.github.io/ranking/?date=2018-9" target="_blank"&gt;Player&lt;/a&gt;&lt;/th&gt;
+&lt;th&gt;&lt;a href="https://evekatsu.github.io/ranking/?date=2018-9&amp;p=1" target="_blank"&gt;Corp&lt;/a&gt;&lt;/th&gt;
+&lt;th&gt;&lt;a href="https://evekatsu.github.io/ranking/?date=2018-9&amp;p=2" target="_blank"&gt;Ally&lt;/a&gt;&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;1&lt;/td&gt;
+&lt;td&gt;&lt;img style="margin: 0px; width: 25px; display: inline; vertical-align:middle;" src="https://evekatsu.github.io/data/character/95799510_32.jpg"&gt; Ouki S&lt;/td&gt;
+&lt;td&gt;&lt;img style="margin: 0px; width: 25px; display: inline; vertical-align:middle;" src="https://evekatsu.github.io/data/corporation/98476559_32.png"&gt; ONCBN&lt;/td&gt;
+&lt;td&gt;&lt;img style="margin: 0px; width: 25px; display: inline; vertical-align:middle;" src="https://evekatsu.github.io/data/alliance/1354830081_32.png"&gt; CONDI&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;2&lt;/td&gt;
+&lt;td&gt;&lt;img style="margin: 0px; width: 25px; display: inline; vertical-align:middle;" src="https://evekatsu.github.io/data/character/95951870_32.jpg"&gt; Mary Seagal&lt;/td&gt;
+&lt;td&gt;&lt;img style="margin: 0px; width: 25px; display: inline; vertical-align:middle;" src="https://evekatsu.github.io/data/corporation/98418839_32.png"&gt; B-PIX&lt;/td&gt;
+&lt;td&gt;&lt;img style="margin: 0px; width: 25px; display: inline; vertical-align:middle;" src="https://evekatsu.github.io/data/alliance/99006941_32.png"&gt; SGGRN&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;3&lt;/td&gt;
+&lt;td&gt;&lt;img style="margin: 0px; width: 25px; display: inline; vertical-align:middle;" src="https://evekatsu.github.io/data/character/2112685569_32.jpg"&gt; Willis Virpio&lt;/td&gt;
+&lt;td&gt;&lt;img style="margin: 0px; width: 25px; display: inline; vertical-align:middle;" src="https://evekatsu.github.io/data/corporation/98217414_32.png"&gt; FESTA&lt;/td&gt;
+&lt;td&gt;&lt;img style="margin: 0px; width: 25px; display: inline; vertical-align:middle;" src="https://evekatsu.github.io/data/alliance/99001954_32.png"&gt; -000-&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;4&lt;/td&gt;
+&lt;td&gt;&lt;img style="margin: 0px; width: 25px; display: inline; vertical-align:middle;" src="https://evekatsu.github.io/data/character/95235307_32.jpg"&gt; Takuya Gogiko&lt;/td&gt;
+&lt;td&gt;&lt;img style="margin: 0px; width: 25px; display: inline; vertical-align:middle;" src="https://evekatsu.github.io/data/corporation/306830202_32.png"&gt; TSKRS&lt;/td&gt;
+&lt;td&gt;&lt;img style="margin: 0px; width: 25px; display: inline; vertical-align:middle;" src="https://evekatsu.github.io/data/alliance/99006138_32.png"&gt; KATNA&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;5&lt;/td&gt;
+&lt;td&gt;&lt;img style="margin: 0px; width: 25px; display: inline; vertical-align:middle;" src="https://evekatsu.github.io/data/character/95451107_32.jpg"&gt; Degge Sfures&lt;/td&gt;
+&lt;td&gt;&lt;img style="margin: 0px; width: 25px; display: inline; vertical-align:middle;" src="https://evekatsu.github.io/data/corporation/98106179_32.png"&gt; ESPM&lt;/td&gt;
+&lt;td&gt;&lt;img style="margin: 0px; width: 25px; display: inline; vertical-align:middle;" src="https://evekatsu.github.io/data/alliance/99004357_32.png"&gt; TUSK.&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;h3&gt;ソロ&lt;/h3&gt;
+&lt;p&gt;対象：キルメールにソロキルのフラグが付いている（ポイント順）&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;&lt;/th&gt;
+&lt;th&gt;&lt;a href="https://evekatsu.github.io/ranking/?date=2018-9&amp;k=0" target="_blank"&gt;Player&lt;/a&gt;&lt;/th&gt;
+&lt;th&gt;&lt;a href="https://evekatsu.github.io/ranking/?date=2018-9&amp;k=0&amp;p=1" target="_blank"&gt;Corp&lt;/a&gt;&lt;/th&gt;
+&lt;th&gt;&lt;a href="https://evekatsu.github.io/ranking/?date=2018-9&amp;k=0&amp;p=2" target="_blank"&gt;Ally&lt;/a&gt;&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;1&lt;/td&gt;
+&lt;td&gt;&lt;img style="margin: 0px; width: 25px; display: inline; vertical-align:middle;" src="https://evekatsu.github.io/data/character/95235307_32.jpg"&gt; Takuya Gogiko&lt;/td&gt;
+&lt;td&gt;&lt;img style="margin: 0px; width: 25px; display: inline; vertical-align:middle;" src="https://evekatsu.github.io/data/corporation/306830202_32.png"&gt; TSKRS&lt;/td&gt;
+&lt;td&gt;&lt;img style="margin: 0px; width: 25px; display: inline; vertical-align:middle;" src="https://evekatsu.github.io/data/alliance/99006941_32.png"&gt; SGGRN …&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;</summary><content type="html">&lt;p&gt;今月もお疲れ様でした。&lt;br&gt;
 &lt;a href="https://evekatsu.github.io/ranking/?date=2018-9" target="_blank"&gt;2018年9月の日本人PvPランキングの発表です。&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;注意事項：これは2018年10月17日に集計したものです。それ以降に投稿されたキルメールは集計対象外です。&lt;/p&gt;
 &lt;h3&gt;トータル&lt;/h3&gt;
@@ -3112,18 +3549,8 @@ table td:nth-child(6) { text-align: center; }
 &lt;p&gt;&lt;br /&gt;
 &lt;br /&gt;
 毎月10日にその前の月のキルメールを集計します。&lt;br&gt;
-来月もよろしくお願いします。&lt;/p&gt;</content><category term="Ranking"></category></entry><entry><title>2018年8月のランキング発表</title><link href="https://evekatsu.github.io/news/ranking-2018-8.html" rel="alternate"></link><published>2018-09-19T00:00:00+09:00</published><updated>2018-09-19T00:00:00+09:00</updated><author><name>Bot</name></author><id>tag:evekatsu.github.io,2018-09-19:/news/ranking-2018-8.html</id><summary type="html">&lt;style&gt;
-table th { text-align: center; }
-table td {
-  font-size: calc(60% + 0.3vw);
-}
-table th:nth-child(1) { width: 7%; }
-table td:nth-child(1) { text-align: center; }
-table th:nth-child(2) { width: 49%; }
-table th:nth-child(3) { width: 15%; }
-table td:nth-child(3) { text-align: right; }
-table th:nth-child(4) { width: 15%; }
-table td:nth-child …&lt;/style&gt;</summary><content type="html">&lt;style&gt;
+来月もよろしくお願いします。&lt;/p&gt;
+&lt;style&gt;
 table th { text-align: center; }
 table td {
   font-size: calc(60% + 0.3vw);
@@ -3139,9 +3566,48 @@ table th:nth-child(5) { width: 7%; }
 table td:nth-child(5) { text-align: center; }
 table th:nth-child(6) { width: 7%; }
 table td:nth-child(6) { text-align: center; }
-&lt;/style&gt;
-
-&lt;p&gt;今月もお疲れ様でした。&lt;br&gt;
+&lt;/style&gt;</content><category term="Ranking"></category></entry><entry><title>2018年8月のランキング発表</title><link href="https://evekatsu.github.io/news/ranking-2018-8.html" rel="alternate"></link><published>2018-09-19T00:00:00+09:00</published><updated>2018-09-19T00:00:00+09:00</updated><author><name>Bot</name></author><id>tag:evekatsu.github.io,2018-09-19:/news/ranking-2018-8.html</id><summary type="html">&lt;p&gt;今月もお疲れ様でした。&lt;br&gt;
+&lt;a href="https://evekatsu.github.io/ranking/?date=2018-8"&gt;2018年8月の日本人PvPランキングの発表です。&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;注意事項：これは2018年09月19日に集計したものです。それ以降に投稿されたキルメールは集計対象外です。&lt;/p&gt;
+&lt;h3&gt;トータル&lt;/h3&gt;
+&lt;p&gt;対象：所属するコーポレーション、アライアンスを攻撃したキルメールを除く全て（キル順）&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;順位&lt;/th&gt;
+&lt;th&gt;キャラクター&lt;/th&gt;
+&lt;th&gt;コーポレーション&lt;/th&gt;
+&lt;th&gt;アライアンス&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;1&lt;/td&gt;
+&lt;td&gt;&lt;img style="margin: 0px; width: auto; display: inline; vertical-align:middle;" src="https://evekatsu.github.io/data/character/95799510_32.jpg"&gt; Ouki S(402)&lt;/td&gt;
+&lt;td&gt;&lt;img style="margin: 0px; width: auto; display: inline; vertical-align:middle;" src="https://evekatsu.github.io/data/corporation/98476559_32.png"&gt; ONCBN(1955)&lt;/td&gt;
+&lt;td&gt;&lt;img style="margin: 0px; width: auto; display: inline; vertical-align:middle;" src="https://evekatsu.github.io/data/alliance/1354830081_32.png"&gt; CONDI(1955)&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;2&lt;/td&gt;
+&lt;td&gt;&lt;img style="margin: 0px; width: auto; display: inline; vertical-align:middle;" src="https://evekatsu.github.io/data/character/2114267065_32.jpg"&gt; mina sat(347)&lt;/td&gt;
+&lt;td&gt;&lt;img style="margin: 0px; width: auto; display: inline; vertical-align:middle;" src="https://evekatsu.github.io/data/corporation/98106179_32.png"&gt; ESPM(765)&lt;/td&gt;
+&lt;td&gt;&lt;img style="margin: 0px; width: auto; display: inline; vertical-align:middle;" src="https://evekatsu.github.io/data/alliance/99001954_32.png"&gt; -000-(1366)&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;3&lt;/td&gt;
+&lt;td&gt;&lt;img style="margin: 0px; width: auto; display: inline; vertical-align:middle;" src="https://evekatsu.github.io/data/character/2112685569_32.jpg"&gt; Willis Virpio(312)&lt;/td&gt;
+&lt;td&gt;&lt;img style="margin: 0px; width: auto; display: inline; vertical-align:middle;" src="https://evekatsu.github.io/data/corporation/98055960_32.png"&gt; SAKUM(539)&lt;/td&gt;
+&lt;td&gt;&lt;img style="margin: 0px; width: auto; display: inline; vertical-align:middle;" src="https://evekatsu.github.io/data/alliance/99006941_32.png"&gt; SGGRN(782)&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;4&lt;/td&gt;
+&lt;td&gt;&lt;img style="margin: 0px; width: auto; display: inline; vertical-align:middle;" src="https://evekatsu.github.io/data/character/90757686_32.jpg"&gt; Nendo Yama(298)&lt;/td&gt;
+&lt;td&gt;&lt;img style="margin: 0px; width: auto; display: inline; vertical-align:middle;" src="https://evekatsu.github.io/data/corporation/98418839_32.png"&gt; B-PIX(495)&lt;/td&gt;
+&lt;td&gt;&lt;img style="margin: 0px; width: auto; display: inline; vertical-align:middle;" src="https://evekatsu.github.io/data/alliance/99006138_32.png"&gt; KATNA(351)&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;5&lt;/td&gt;
+&lt;td&gt;&lt;img style="margin: 0px; width: auto; display: inline; vertical-align:middle;" src="https://evekatsu.github.io/data/character/95951870_32.jpg"&gt; Mary Seagal(254 …&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;</summary><content type="html">&lt;p&gt;今月もお疲れ様でした。&lt;br&gt;
 &lt;a href="https://evekatsu.github.io/ranking/?date=2018-8"&gt;2018年8月の日本人PvPランキングの発表です。&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;注意事項：これは2018年09月19日に集計したものです。それ以降に投稿されたキルメールは集計対象外です。&lt;/p&gt;
 &lt;h3&gt;トータル&lt;/h3&gt;
@@ -3371,4 +3837,21 @@ table td:nth-child(6) { text-align: center; }
 &lt;p&gt;&lt;br /&gt;
 &lt;br /&gt;
 毎月10日にその前の月のキルメールを集計します。&lt;br&gt;
-来月もよろしくお願いします。&lt;/p&gt;</content><category term="Ranking"></category></entry></feed>
+来月もよろしくお願いします。&lt;/p&gt;
+&lt;style&gt;
+table th { text-align: center; }
+table td {
+  font-size: calc(60% + 0.3vw);
+}
+table th:nth-child(1) { width: 7%; }
+table td:nth-child(1) { text-align: center; }
+table th:nth-child(2) { width: 49%; }
+table th:nth-child(3) { width: 15%; }
+table td:nth-child(3) { text-align: right; }
+table th:nth-child(4) { width: 15%; }
+table td:nth-child(4) { text-align: right; }
+table th:nth-child(5) { width: 7%; }
+table td:nth-child(5) { text-align: center; }
+table th:nth-child(6) { width: 7%; }
+table td:nth-child(6) { text-align: center; }
+&lt;/style&gt;</content><category term="Ranking"></category></entry></feed>
