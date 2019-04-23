@@ -58,7 +58,7 @@ Did he say JumpはAzbelを攻撃し始めた。
 
 しかし出撃の準備が完了するまで時間が必要であった。
 
-そのためAmarr義勇軍は未だに楽しそうにAzbelを殴るDid he say JumpのNaglfarに対抗するためにDreadnoughtsをPlex Me Now.から購入することにした。
+そのためAmarr義勇軍は未だに楽しそうにAzbelを殴っているDid he say JumpのNaglfarに対抗するためにDreadnoughtsをPlex Me Now.から購入することにした。
 
 ----
 
