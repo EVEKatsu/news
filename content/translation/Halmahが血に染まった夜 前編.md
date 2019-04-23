@@ -101,7 +101,7 @@ Plex Me Now.はDreadnought対決に勝つことはできたが、この艦隊に
 
 RCはDid he say Jumpを援護するため急いで20隻のGila艦隊を投入した。
 
-2つの艦隊はPlex Me NowのCapitalsをタックルを維持し続けた。
+2つの艦隊はPlex Me Now.のCapitalsをタックルを維持し続けた。
 
 攻撃し続けたもののCapitalsの火力がなければシールドやアーマーは少しずつしか削れない。
 
@@ -115,7 +115,7 @@ Siege Green.はサードパーティーとして参戦することを決定し�
 
 少人数の艦隊のためLogisticsとしてForce auxiliariesを、火力を支えるため高射角砲（対Sub Capital用の武装）を搭載したDreadnoughtsを随伴させた。
 
-丁度RCとDid he say Jumpが最後のPlex Me NowのDreadnoughtを破壊した時、グリッド上に一つのサイノビーコンが灯された。
+丁度RCとDid he say Jumpが最後のPlex Me Now.のDreadnoughtを破壊した時、グリッド上に一つのサイノビーコンが灯された。
 
 Siege Green.艦隊の登場である。
 
