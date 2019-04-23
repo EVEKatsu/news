@@ -51,7 +51,7 @@ Amarr義勇軍の艦隊は消滅した。
 
 Did he say JumpはAzbelを攻撃し始めた。
 
-破壊をするのを早めるためにNaglfarが持ち込まれた。
+破壊するのを早めるためにNaglfarが持ち込まれた。
 
 この時点でAmarr義勇軍から連絡を受けていた[Plex Me Now.[P2WIN]](http://evemaps.dotlan.net/alliance/Plex_Me_Now.)は救援することを決意する。
 
@@ -67,7 +67,7 @@ Did he say JumpはAzbelを攻撃し始めた。
 
 すぐさまシージサイクルに入りDid he say JumpのNaglfarを狙い始めた。
 
-Did he say Jumpはこれに即座に反応し、さらに5隻のDreadnoughtsを追加投入しました。
+Did he say Jumpはこれに即座に反応し、さらに5隻のDreadnoughtsを追加投入した。
 
 Did he say Jumpはなんとかして1隻のRevelationを撃破し、2隻目にターゲットを切り替えようとした時、それは突如として起こった。
 
@@ -79,7 +79,7 @@ Did he say Jumpはなんとかして1隻のRevelationを撃破し、2隻目に�
 
 Did he say JumpのDreadnoughtsの6隻のうちの4隻を撃破した。
 
-残った2隻はシージサイクルを中止し、ジャンプアウトするか破壊されるかのどちらか選択することを余儀なくされた。
+残った2隻はシージサイクルを中止し、ジャンプアウトするか破壊されるかどちらか選択するのを余儀なくされた。
 
 その後にAzbelのSelf Repairが完了し、多大なる犠牲を払ったもののAmarr義勇軍の勝利であった。
 
