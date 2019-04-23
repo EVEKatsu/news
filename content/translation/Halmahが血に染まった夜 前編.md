@@ -63,7 +63,7 @@ Did he say JumpはAzbelを攻撃し始めた。
 
 ----
 
-2隻のDreadnoughtであるRevelationが戦場に投入された。
+2隻のRevelationが戦場に投入された。
 
 すぐさまシージサイクルに入りDid he say JumpのNaglfarを狙い始めた。
 
