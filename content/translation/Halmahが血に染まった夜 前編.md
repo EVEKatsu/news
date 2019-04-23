@@ -85,9 +85,9 @@ Did he say JumpのDreadnoughtsの6隻のうちの4隻を撃破した。
 
 ----
 
-Plex Me Now.がDreadnought対決に勝つことはできたが、この艦隊にはSub Capitalsのサポートが足りていなかった。
+Plex Me Now.はDreadnought対決に勝つことはできたが、この艦隊にはSub Capitalsのサポートが足りていなかった。
 
-そのためこれらのCapital ShipsはDid he say Jumpによってタックルされていた。
+そのためCapitalsはDid he say Jumpによってタックルされていた。
 
 4隻のDreadnoughtsはワープオフし同じシステムにドックインした。
 
@@ -103,7 +103,7 @@ RCはDid he say Jumpを援護するため急いで20隻のGila艦隊を投入し
 
 2つの艦隊はPlex Me NowのCapitalsをタックルを維持し続けた。
 
-攻撃をし続けたがCapitalsの火力なしではシールドやアーマーは少しずつしか削れない。
+攻撃し続けたもののCapitalsの火力がなければシールドやアーマーは少しずつしか削れない。
 
 1隻のCapitalを倒し切るのに何十分もかかった。
 
