@@ -39,7 +39,7 @@ Amarr義勇軍はいくつかのBattleshipsを失ったのに対し、Did he say
 
 しなしながら、Did he say JumpのLogisticsが素早く反応し、それ以上の損失を抑えた。
 
-Amarr義勇軍が崩壊し始めたので、Guardian艦隊は生き残った。
+Amarr義勇軍が崩壊し始めたので、Did he say JumpのLogisticsを担うGuardian部隊は生き残った。
 
 Zealot艦隊が防衛艦隊を壊滅させるまでしばらく時間がかかった。
 
