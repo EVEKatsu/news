@@ -26,7 +26,6 @@ Final Reinforcementタイマーの終了に備えて、[Catastrophic Experiment[
 
 [Did he say Jump[DHSJ]](http://evemaps.dotlan.net/corp/Did_he_say_Jump)はこのタイマーに気づいていた。
 
-
 そして、コンテンツを求めて21隻のZealot艦隊で参戦した。
 
 Reinforcementタイマー終了とともにAzbelにワープし、防衛艦隊もまたアンドックして迎え撃った。両者は至近距離で砲火を交えた。
@@ -51,7 +50,7 @@ Amarr義勇軍の艦隊は消滅した。
 
 Did he say JumpはAzbelを攻撃し始めた。
 
-破壊するのを早めるためにNaglfarが持ち込まれた。
+早々に破壊するためにNaglfarが持ち込まれた。
 
 この時点でAmarr義勇軍から連絡を受けていた[Plex Me Now.[P2WIN]](http://evemaps.dotlan.net/alliance/Plex_Me_Now.)は救援することを決意する。
 
