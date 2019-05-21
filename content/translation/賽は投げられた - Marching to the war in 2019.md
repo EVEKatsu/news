@@ -23,7 +23,7 @@ Tags: Translation, Imperium News Network, Rhivre
 | [Pandemic Legion](http://evemaps.dotlan.net/alliance/Pandemic_Legion) | 北部に本拠地があるアライアンス |
 | [Northern Coalition.](http://evemaps.dotlan.net/alliance/Northern_Coalition.) | 同上 |
 | PanFam | Pandemic LegionとNorthern Coalition.を中核とするコアリション |
-| [Tribute](http://evemaps.dotlan.net/map/Tribute#sov) | 北部にあるリージョン。数年前にもThe ImperiumとPanFamはこの地を巡って戦争をしている。その時はThe Imperiumが北部から撤退して終了した。 |
+| [Tribute](http://evemaps.dotlan.net/map/Tribute#sov) | 北部にある地域。数年前にもThe ImperiumとPanFamはこの地を巡って戦争をしている。その時はThe Imperiumが北部から撤退して終了した。 |
 | [The Mittani](https://zkillboard.com/character/443630591/) | Goonswarm FederationおよびThe Imperiumのリーダー |
 | Fireside | The Mittaniが定期的にメンバーに対して演説をするためのThe ImperiumのMumble（ボイスチャットツール）にあるチャンネル。おそらく元ネタはルーズベルト大統領が行った[炉辺談話](https://kotobank.jp/word/%E7%82%89%E8%BE%BA%E8%AB%87%E8%A9%B1-153330)と思われる。 |
 | State of The Goonion | 最近になってよく見かける標語みたいなもの。直訳すると「Goonの進捗どうですか？」という感じだろうか？（ちがう） |
@@ -58,7 +58,7 @@ The Mittaniは今夜、[The Imperiumのメンバーに対して演説を行っ�
 
 我々は戦争に始めるにあたって3隻のRorqualsを生贄に捧げた（訳注：おそらく戦争が始まっているのにアホが呑気に掘ってて殺されたという皮肉）
 
-Imperium News NetworkはAdani Cethiel氏に艦隊の出撃が完了した時の写真を提供してもらった。
+Imperium News NetworkはAdani Cethiel氏に艦隊の出撃準備が完了した時の写真を提供してもらった。
 
 ![賽は投げられた - Marching to the war in 2019-3]({static}/images/賽は投げられた - Marching to the war in 2019/賽は投げられた - Marching to the war in 2019-3.jpg)
 
