@@ -225,8 +225,17 @@
           continue;
         }
 
-        images[i].outerHTML = '<a href="' + images[i].src + '" data-fancybox="gallery"><img class="center" src="' + images[i].src + '" alt="' + images[i].alt + '"/></a>'
-    }
+        var link = document.createElement("a");
+        link.setAttribute("href", images[i].src);
+        link.setAttribute("data-fancybox", "gallery");
+
+        var image = images[i].cloneNode(true);
+        image.classList.add("center")
+        link.appendChild(image);
+        images[i].parentNode.replaceChild(link, images[i]);
+
+        //images[i].outerHTML = '<a href="' + images[i].src + '" data-fancybox="gallery"><img class="center" style="' + images[i].style + '" src="' + images[i].src + '" alt="' + images[i].alt + '"/></a>'
+      }
 
     $('[data-fancybox]').fancybox();
 

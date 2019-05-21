@@ -95,6 +95,8 @@
   <article class="post">
     <div class="inner">
       <dl>
+          <dt>2019年05月21日</dt>
+          <dd><a href="https://evekatsu.github.io/news/賽は投げられた - Marching to the war in 2019.html">賽は投げられた - Marching to the war in 2019</a></dd>
           <dt>2019年05月17日</dt>
           <dd><a href="https://evekatsu.github.io/news/ranking-2019-4.html">2019年4月のランキング発表</a></dd>
           <dt>2019年04月25日</dt>
@@ -186,8 +188,17 @@
           continue;
         }
 
-        images[i].outerHTML = '<a href="' + images[i].src + '" data-fancybox="gallery"><img class="center" src="' + images[i].src + '" alt="' + images[i].alt + '"/></a>'
-    }
+        var link = document.createElement("a");
+        link.setAttribute("href", images[i].src);
+        link.setAttribute("data-fancybox", "gallery");
+
+        var image = images[i].cloneNode(true);
+        image.classList.add("center")
+        link.appendChild(image);
+        images[i].parentNode.replaceChild(link, images[i]);
+
+        //images[i].outerHTML = '<a href="' + images[i].src + '" data-fancybox="gallery"><img class="center" style="' + images[i].style + '" src="' + images[i].src + '" alt="' + images[i].alt + '"/></a>'
+      }
 
     $('[data-fancybox]').fancybox();
 

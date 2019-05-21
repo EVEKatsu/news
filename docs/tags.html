@@ -124,7 +124,7 @@
     </article>
     <article class="post">
       <div class="inner">
-        <a href="https://evekatsu.github.io/news/tag/imperium-news-network.html">Imperium News Network</a> (2)
+        <a href="https://evekatsu.github.io/news/tag/imperium-news-network.html">Imperium News Network</a> (3)
       </div>
     </article>
     <article class="post">
@@ -154,6 +154,11 @@
     </article>
     <article class="post">
       <div class="inner">
+        <a href="https://evekatsu.github.io/news/tag/rhivre.html">Rhivre</a> (1)
+      </div>
+    </article>
+    <article class="post">
+      <div class="inner">
         <a href="https://evekatsu.github.io/news/tag/salivan-harddin.html">Salivan Harddin</a> (1)
       </div>
     </article>
@@ -164,7 +169,7 @@
     </article>
     <article class="post">
       <div class="inner">
-        <a href="https://evekatsu.github.io/news/tag/translation.html">Translation</a> (3)
+        <a href="https://evekatsu.github.io/news/tag/translation.html">Translation</a> (4)
       </div>
     </article>
     <article class="post">
@@ -208,8 +213,17 @@
           continue;
         }
 
-        images[i].outerHTML = '<a href="' + images[i].src + '" data-fancybox="gallery"><img class="center" src="' + images[i].src + '" alt="' + images[i].alt + '"/></a>'
-    }
+        var link = document.createElement("a");
+        link.setAttribute("href", images[i].src);
+        link.setAttribute("data-fancybox", "gallery");
+
+        var image = images[i].cloneNode(true);
+        image.classList.add("center")
+        link.appendChild(image);
+        images[i].parentNode.replaceChild(link, images[i]);
+
+        //images[i].outerHTML = '<a href="' + images[i].src + '" data-fancybox="gallery"><img class="center" style="' + images[i].style + '" src="' + images[i].src + '" alt="' + images[i].alt + '"/></a>'
+      }
 
     $('[data-fancybox]').fancybox();
 
