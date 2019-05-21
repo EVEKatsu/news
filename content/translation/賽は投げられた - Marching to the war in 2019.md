@@ -5,7 +5,7 @@ Tags: Translation, Imperium News Network, Rhivre
 
 ## これは翻訳記事です
 
-<img class="center" style="margin-bottom: 0px" src="{static}/images/賽は投げられた - Marching to the war in 2019/賽は投げられた - Marching to the war in 2019-1.jpg" alt="賽は投げられた - Marching to the war in 2019-1">
+![賽は投げられた - Marching to the war in 2019-1]({static}/images/賽は投げられた - Marching to the war in 2019/賽は投げられた - Marching to the war in 2019-1.jpg)
 <b style="font-size: 80%">制作：Mintaki</b>
 
 メディア：[Imperium News Network](https://imperium.news/)  
